@@ -3,8 +3,7 @@ module.exports = {
   title2: "Unikname Docs",
   description:
     "Comprehensive guides and documentation to help you start working with the Unikname Solutions as quickly as possible. Let's go!",
-  description2:
-    "Official documentation for the Unikname solutions",
+  description2: "Official documentation for the Unikname solutions",
   plugins: {
     sitemap: {
       hostname: "https://docs.unik-name.com"
@@ -16,11 +15,15 @@ module.exports = {
       }
     },
     "@vuepress/back-to-top": {},
-    "tabs": {}
+    tabs: {}
   },
-  head: [["link", { rel: "icon", href: "/logo.png" }],
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }],
     // instantiate matomo.js
-    ["script", {}, `
+    [
+      "script",
+      {},
+      `
       var _paq = window._paq || [];
       (function() {
         var u="https://kpi.unik-name.com/";
@@ -29,7 +32,8 @@ module.exports = {
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
         g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
       })();
-    `]
+    `
+    ]
   ],
   themeConfig: {
     logo: "./logo.png",
@@ -40,9 +44,7 @@ module.exports = {
     docsDir: "docs",
     lastUpdated: true,
     activeHeaderLinks: true,
-    nav: [
-      { text: "Getting Started", link: "/getting-started/" }
-    ],
+    nav: [{ text: "Getting Started", link: "/getting-started/" }],
     sidebar: [
       "/",
       {
