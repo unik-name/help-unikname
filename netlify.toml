@@ -2,3 +2,10 @@
   command = "yarn docs:build"
   publish = "docs/.vuepress/dist"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
