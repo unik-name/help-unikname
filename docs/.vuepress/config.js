@@ -6,16 +6,16 @@ module.exports = {
   description2: "Official documentation for the Unikname solutions",
   plugins: {
     sitemap: {
-      hostname: "https://docs.unik-name.com"
+      hostname: "https://docs.unik-name.com",
     },
     "@vuepress/last-updated": {
       transformer: (timestamp, lang) => {
         // UTC date (without time) as ISO format: 2019-09-17
         return new Date(timestamp).toISOString().split("T")[0];
-      }
+      },
     },
     "@vuepress/back-to-top": {},
-    tabs: {}
+    tabs: {},
   },
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
@@ -32,8 +32,8 @@ module.exports = {
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
         g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
       })();
-    `
-    ]
+    `,
+    ],
   ],
   themeConfig: {
     logo: "./logo.png",
@@ -52,8 +52,8 @@ module.exports = {
         children: [
           ["/introduction/", "Understanding Unikname"],
           ["/introduction/unikname-solutions", "Unikname Solutions"],
-          ["/getting-started/", "Getting Started"]
-        ]
+          ["/getting-started/", "Getting Started"],
+        ],
       },
       {
         title: "How to use Unikname",
@@ -61,26 +61,36 @@ module.exports = {
           ["/how-to-use-unikname/", "Introduction"],
           ["/how-to-use-unikname/api", "API"],
           ["/how-to-use-unikname/sdk", "SDK"],
-          ["/how-to-use-unikname/app", "My Unikname App"]
-        ]
+          ["/how-to-use-unikname/app", "My Unikname App"],
+        ],
       },
-      ["/integration/", "Integrating Unikname"],
+      {
+        title: "Integrating Unikname Connect",
+        children: [
+          ["/integration/connect/", "Introduction"],
+          ["/integration/connect/auth0/", "Auth0"],
+          ["/integration/connect/discourse/", "Discourse"],
+          ["/integration/connect/nodejs/", "NodeJS"],
+          ["/integration/connect/office365/", "Office 365"],
+          ["/integration/connect/wordpress/", "Wordpress"],
+        ],
+      },
       ["/get-unikname/", "Getting a Unikname"],
       {
         title: "Security",
         children: [
           ["/security/", "Security & Hack Protections"],
-          ["/security/vulnerabilities", "Security & Vulnerabilities"]
-        ]
+          ["/security/vulnerabilities", "Security & Vulnerabilities"],
+        ],
       },
       {
         title: "More...",
         children: [
           ["/qna/", "Q&A"],
           ["/glossary/", "Glossary"],
-          ["/powered-by-ark-io/", "Powered by ARK"]
-        ]
-      }
-    ]
-  }
+          ["/powered-by-ark-io/", "Powered by ARK"],
+        ],
+      },
+    ],
+  },
 };

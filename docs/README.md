@@ -12,7 +12,7 @@ Welcome to the <unikname/> Developer Hub. You're are at the right place to find 
 
 ## [Using Unikname](/how-to-use-unikname/)
 
-## [Integrating Unikname Connect](/integration/)
+## [Integrating Unikname Connect](/integration/connect)
 
 ## [Secure by uns.network](/uns-network/])
 

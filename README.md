@@ -17,17 +17,17 @@ Then open http://localhost:8080/
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to security@unik-name.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to security@unikname.com. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
-- [Fabien Tréguer](https://github.com/ftreguer), from [@unik-name's team](https://www.unik-name.com)
-- [Guillaume Nicolas](https://github.com/Nigui), from [@unik-name's team](https://www.unik-name.com)
-- [Pierre Seznec](https://github.com/peterjah), from [@unik-name's team](https://www.unik-name.com)  
-- [Damien Lecan](https://github.com/dlecan), from [@unik-name's team](https://www.unik-name.com)
-- [Laurent Lourenco](https://www.linkedin.com/in/laurentlourenco/), from [@unik-name's team](https://www.unik-name.com)
+- [Fabien Tréguer](https://github.com/ftreguer), from [Unikname's team](https://www.unikname.com)
+- [Guillaume Nicolas](https://github.com/Nigui), from [Unikname's team](https://www.unikname.com)
+- [Pierre Seznec](https://github.com/peterjah), from [Unikname's team](https://www.unikname.com)  
+- [Damien Lecan](https://github.com/dlecan), from [Unikname's team](https://www.unikname.com)
+- [Laurent Lourenco](https://www.linkedin.com/in/laurentlourenco/), from [Unikname's team](https://www.unikname.com)
 - [All Contributors](../../../../contributors)
 
 ## License
 
-[MIT](LICENSE) © by [Unikname](https://www.unik-name.com) powered by [uns.network](https://www.uns.network).
+[MIT](LICENSE) © by [Unikname](https://www.unikname.com) powered by [uns.network](https://www.uns.network).
