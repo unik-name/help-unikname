@@ -1,3 +1,7 @@
+## Declare your @unikname as "verified"
+
+Coming soon...
+
 ## Troubleshooting
 
 If you’re having issues when connecting (access denied ...), first ensure the credentials (client id/secret) you are using to connect to <uniknameconnect/> server are the good one.

@@ -29,14 +29,14 @@ Go to the Discourse "burger" menu → admin → "Settings" tab → "Plugin" cate
   You can also go to `https://<your_discourse_forum_url>` `/admin/site_settings/category/plugins`
 
 | Attribut | Description |
-|:--------:|:-----------:|
+|--------|-----------|
 | `openid connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
 | `oidc discovery document` | <UncServerUrl/> |
 | `oidc client id` | the client id you have received from Unikname's support request |
 | `oidc client secret` | the client secret you have received from Unikname's support request |
 | `oidc authorize scope` |`openid` |
 
-## Final step
+## Check user login
 
 Your customers should now be able to use <uniknameconnect/> to connect to your website, and to see this kind of login screen:
 

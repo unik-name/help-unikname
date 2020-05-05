@@ -71,6 +71,7 @@ module.exports = {
           ["/how-to-use-unikname/app", "My Unikname App"],
         ],
       },
+      ["/get-unikname/", "Getting a Unikname"],
       {
         title: "Integrating Unikname Connect",
         children: [
@@ -89,7 +90,6 @@ module.exports = {
           },
         ],
       },
-      ["/get-unikname/", "Getting a Unikname"],
       {
         title: "Security",
         children: [
