@@ -10,14 +10,18 @@ home: false
 
 | <!-- -->    | <!-- -->    | <!-- -->    |
 |:-------------:|:-------------:|:-------------:|
-| [![Auth0][auth0-logo]](auth0)       | [![Discourse][discourse-logo]](discourse)        | [![Node JS][nodejs-logo]](nodejs) |
-| [![Microsoft Office 365][office365-logo]](office365) | [![Worpress][wordpress-logo]](wordpress) |
+| [![Auth0][auth0-logo]](apps/auth0/)       | [![Discourse][discourse-logo]](apps/discourse/)        | [![Node JS][nodejs-logo]](apps/nodejs/) |
+| [![Microsoft Office 365][office365-logo]](apps/office365/) | [![Worpress][wordpress-logo]](apps/wordpress/) |
 
-[auth0-logo]: ./auth0/auth0-logo.png "Auth0"
-[discourse-logo]: ./discourse/discourse-logo.png "Discourse"
-[nodejs-logo]: ./nodejs/nodejs-logo.png "Node JS"
-[office365-logo]: ./office365/office365-logo.png "Office 365"
-[wordpress-logo]: ./wordpress/wordpress-logo.png "Wordpress"
+[auth0-logo]: ./apps/auth0/auth0-logo.png "Auth0"
+[discourse-logo]: ./apps/discourse/discourse-logo.png "Discourse"
+[nodejs-logo]: ./apps/nodejs/nodejs-logo.png "Node JS"
+[office365-logo]: ./apps/office365/office365-logo.png "Office 365"
+[wordpress-logo]: ./apps/wordpress/wordpress-logo.png "Wordpress"
+
+## Unikname Connect Features
+
+Coming soon
 
 ## Unikname Connect Uses Cases
 
@@ -71,13 +75,13 @@ In this example, **platform102.net** demo website has been coded and setup to si
 
 [Our discussion forum website](https://forum.unik-name.com) is based on the famous open source Discourse solution. <unikname/> users are automaticaly signed-in for an optimal user experience.
 
-[<uniknameconnect/> can be used to access your Discourse accounts](/integration/connect/discourse).
+[<uniknameconnect/> can be used to access your Discourse accounts](/integration/connect/apps/discourse).
 
 ### Corporate cloud Integration
 
 <uniknameconnect/> provides SSO and SLI integration within cloud solutions.
 
-[<uniknameconnect/> can be used to access Microsoft Office 365 accounts](/integration/connect/office365).
+[<uniknameconnect/> can be used to access Microsoft Office 365 accounts](/integration/connect/apps/office365).
 
 ### Account management for Online platforms eg. eCommerce
 

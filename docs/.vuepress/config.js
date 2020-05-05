@@ -35,6 +35,13 @@ module.exports = {
     `,
     ],
   ],
+  markdown: {
+    extendMarkdown: (md) => {
+      md.use(require("markdown-it-include"), {
+        root: "./docs/",
+      });
+    },
+  },
   themeConfig: {
     logo: "./logo.png",
     repo: "unik-name/docs.unik-name.com",
@@ -68,11 +75,18 @@ module.exports = {
         title: "Integrating Unikname Connect",
         children: [
           ["/integration/connect/", "Introduction"],
-          ["/integration/connect/auth0/", "Auth0"],
-          ["/integration/connect/discourse/", "Discourse"],
-          ["/integration/connect/nodejs/", "NodeJS"],
-          ["/integration/connect/office365/", "Office 365"],
-          ["/integration/connect/wordpress/", "Wordpress"],
+          // ["/integration/connect/features", "Features"],
+          {
+            title: "Applications",
+            sidebarDepth: 0,
+            children: [
+              ["/integration/connect/apps/auth0/", "Auth0"],
+              ["/integration/connect/apps/discourse/", "Discourse"],
+              ["/integration/connect/apps/nodejs/", "NodeJS"],
+              ["/integration/connect/apps/office365/", "Office 365"],
+              ["/integration/connect/apps/wordpress/", "Wordpress"],
+            ],
+          },
         ],
       },
       ["/get-unikname/", "Getting a Unikname"],
