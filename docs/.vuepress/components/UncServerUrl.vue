@@ -1,5 +1,5 @@
 <template>
-  <code>https://connect.unikname.com/oicd/.well-known</code>
+  <code>https://connect.unikname.com/oidc/.well-known/openid-configuration</code>
 </template>
 
 <script>
