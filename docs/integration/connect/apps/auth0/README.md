@@ -35,10 +35,10 @@ For <uniknameconnect/> configuration fill-in those required fields:
 |--------|-----------|
 | `Connection name` | It's an internal name (Ex: `unikname-connect`) |
 | `Display name` | `your private @unikname`<br/>It will display `Continue with your private @nikname`, on the connection button |
-| `Logo url` | you can add 20x20 <uniknameconnect/> logo image url |
+| `Logo url` | Add this ![Unikname logo](https://cdn.unikname.com/logos/20/un-blue-nbt.png) as image to display to the user<br/>URL: `https://cdn.unikname.com/logos/20/un-blue-nbt.png` |
 | `Issuer URL` | <UncServerUrl/> |
-| `Client ID` | the client id you have received from Unikname's support request |
-| `Client Secret` | the client secret you have received from Unikname's support request |
+| `Client ID` | The client id you have received from Unikname's support request |
+| `Client Secret` | The client secret you have received from Unikname's support request |
 
 ## Enable your `Open ID Connect` Connection for your Auth0 application
 
