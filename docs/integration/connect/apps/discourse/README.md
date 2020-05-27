@@ -20,13 +20,16 @@ In this example, [our discussion forum website](https://forum.unik-name.com/) is
 
 ## Requirements
  
-- you must have [installed](https://meta.discourse.org/t/install-plugins-in-discourse/19157) the [oidc plugin](https://github.com/discourse/discourse-openid-connect)
+- you must have [installed](https://meta.discourse.org/t/install-plugins-in-discourse/19157) the [Unikname Connect plugin](https://github.com/discourse/discourse-openid-connect)
 - you must be connected as admin
 
 ## Setup
 
-Go to the Discourse "burger" menu → admin → "Settings" tab → "Plugin" category
-  You can also go to `https://<your_discourse_forum_url>` `/admin/site_settings/category/plugins`
+Go to the Discourse "burger" menu → admin → "Settings" tab → "Plugin" category.
+
+You can also go to `https://<your_discourse_forum_url>` `/admin/site_settings/category/plugins`
+
+Then, configure the following attributs:
 
 | Attribut | Description |
 |--------|-----------|
