@@ -25,6 +25,13 @@ module.exports = {
       {},
       `
       var _paq = window._paq || [];
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setDomains", ["*.unik-name.com", "*.unikname.com", "*.unikname.app",  "*.uns.network"]]);
+      _paq.push(["enableCrossDomainLinking"]);
+      _paq.push(["setDoNotTrack", true]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      _paq.push(['enableHeartBeatTimer', 15]);
       (function() {
         var u="https://kpi.unik-name.com/";
         _paq.push(['setTrackerUrl', u+'r.php']);
