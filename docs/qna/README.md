@@ -7,5 +7,5 @@ title: "Q&A Unikname"
 
 [[TOC]]
 
-If you have any comments or requests, please open a topic on our [forum](https://forum.unik-name.com/).
+If you have any comments or requests, please open a topic on our [forum](https://forum.unikname.com/).
 

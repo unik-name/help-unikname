@@ -33,7 +33,7 @@ module.exports = {
       _paq.push(['enableLinkTracking']);
       _paq.push(['enableHeartBeatTimer', 15]);
       (function() {
-        var u="https://kpi.unik-name.com/";
+        var u="https://kpi.unikname.com/";
         _paq.push(['setTrackerUrl', u+'r.php']);
         _paq.push(['setSiteId', '5']);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
