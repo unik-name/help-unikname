@@ -19,7 +19,7 @@ We're working very close with our community and our partners, specially ARK.IO, 
 
 ## Reporting
 
-Do not contact any individual <unikname/> team member, Network Player or community member if you suspect you have found a vulnerability. Contact us at [security@unik-name.com](mailto:security@unik-name.com) and include:
+Do not contact any individual <unikname/> team member, Network Player or community member if you suspect you have found a vulnerability. Contact us at [security@unikname.com](mailto:security@unikname.com) and include:
 
 1. An in-depth explanation of the vulnerability.
 2. A guide to reproduce the hack.

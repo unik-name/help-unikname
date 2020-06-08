@@ -10,9 +10,9 @@ home: false
 
 <uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth authorization protocol.
 
-In this example, [our discussion forum website](https://forum.unik-name.com/) is based on the famous open source [Discourse solution)[https://www.discourse.org]. <unikname/> users are automaticaly signed-in for an optimal user experience.
+In this example, [our discussion forum website](https://forum.unikname.com/) is based on the famous open source [Discourse solution)[https://www.discourse.org]. <unikname/> users are automaticaly signed-in for an optimal user experience.
 
-👉 [Run this example](https://forum.unik-name.com/)
+👉 [Run this example](https://forum.unikname.com/)
 
 [[TOC]]
 

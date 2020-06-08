@@ -9,3 +9,9 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
+
+[[redirects]]
+  from = "https://docs.unik-name.com/*"
+  to = "https://docs.unikname.com/:splat"
+  status = 301
+  force = true

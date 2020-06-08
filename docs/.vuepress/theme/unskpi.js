@@ -24,7 +24,7 @@ export default ({ router }) => {
         var u="https://kpi.unik-name.com/";
         window._paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
         window._paq.push(['setCustomUrl', to.fullPath]);
-        window._paq.push(["setDomains", ["*.uns.network", "*.unik-name.com"]]);
+        window._paq.push(["setDomains", ["*.uns.network", "*.unik-name.com", "*.unikname.com", "*.unikname.app"]]);
         window._paq.push(["enableCrossDomainLinking"]);
         window._paq.push(["setDoNotTrack", true]);
         window._paq.push(['trackPageView']);

@@ -55,7 +55,7 @@ platform101.net is a basic HTML5 and CSS3 website.
 
 <uniknameconnect/> can be used as a social authentication option.
 
-In this example, **platform101.net** demo website has been coded and setup to sign-in with social authentication. The user can choose between Facebook, Google, Twitter and @unik-name.
+In this example, **platform101.net** demo website has been coded and setup to sign-in with social authentication. The user can choose between Facebook, Google, Twitter and Unikname Connect.
 
 - [Run this example](https://www.platform101.net/)
 - [Show me the code](https://github.com/unik-name/platform10x.net/blob/35498f0b9bea3f62426f6c2a4346629df4f8c27b/server.js)
@@ -73,7 +73,7 @@ In this example, **platform102.net** demo website has been coded and setup to si
 
 <uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth 2.0 protocol.
 
-[Our discussion forum website](https://forum.unik-name.com) is based on the famous open source Discourse solution. <unikname/> users are automaticaly signed-in for an optimal user experience.
+[Our discussion forum website](https://forum.unikname.com) is based on the famous open source Discourse solution. <unikname/> users are automaticaly signed-in for an optimal user experience.
 
 [<uniknameconnect/> can be used to access your Discourse accounts](/integration/connect/apps/discourse).
 

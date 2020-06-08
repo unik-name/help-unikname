@@ -5,7 +5,7 @@ title: "uns.network Glossary"
 
 # Unikname Glossary 
 
-Our glossary contains key terminology specifically related to <unikname/> Ecosystem. If you have any comments or requests, please [open a topic on our forum](https://forum.unik-name.com).
+Our glossary contains key terminology specifically related to <unikname/> Ecosystem. If you have any comments or requests, please [open a topic on our forum](https://forum.unikname.com).
 
 [[toc]]
 
