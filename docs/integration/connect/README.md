@@ -11,13 +11,14 @@ home: false
 | <!-- -->    | <!-- -->    | <!-- -->    |
 |:-------------:|:-------------:|:-------------:|
 | [![Auth0][auth0-logo]](apps/auth0/)       | [![Discourse][discourse-logo]](apps/discourse/)        | [![Node JS][nodejs-logo]](apps/nodejs/) |
-| [![Microsoft Office 365][office365-logo]](apps/office365/) | [![Worpress][wordpress-logo]](apps/wordpress/) |
+| [![Microsoft Office 365][office365-logo]](apps/office365/) | [![Worpress][wordpress-logo]](apps/wordpress/) | [![WooCommerce][woocommerce-logo]](apps/wordpress/) | 
 
 [auth0-logo]: ./apps/auth0/auth0-logo.png "Auth0"
 [discourse-logo]: ./apps/discourse/discourse-logo.png "Discourse"
 [nodejs-logo]: ./apps/nodejs/nodejs-logo.png "Node JS"
 [office365-logo]: ./apps/office365/office365-logo.png "Office 365"
 [wordpress-logo]: ./apps/wordpress/wordpress-logo.png "Wordpress"
+[woocommerce-logo]: ./apps/wordpress/woocommerce-logo.png "WooCommerce"
 
 ## Unikname Connect Features
 

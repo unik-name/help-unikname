@@ -18,7 +18,7 @@ It’s an essential part of using <uns/>.
 
 *: you should then add `{TARBALL_EXTRACTION_FOLDER}/bin` into your `PATH` environment variable in order to be able to run `uns` command.
 
-[Alternate installation modes are also available in the CLI documentation](/uns-use-the-network/cli.html#download-and-installation).
+[Alternate installation modes are also available in the CLI documentation](https://docs.uns.network/uns-use-the-network/cli.html#download-and-installation).
 
 :::tip On Windows
 Execute the file downloaded to procede to installation.
@@ -100,7 +100,7 @@ Write somewhere your unikId (`id` here, with value `ccabe13311350a306d510c348488
 
 ### Checking the creation of the @unikname in the Explorer
 
-With the transaction id given into your command prompt, you can check the @unikname creation through [the explorer](https://explorer.uns.network/). Look for the @unikname by its unikId in the search bar on the top.
+With the transaction id given into your command prompt, you can check the @unikname creation through [the UNS Network explorer](https://explorer.uns.network/). Look for the @unikname by its unikId in the search bar on the top.
 
 You can also directly go to `https://explorer.uns.network/${unikid}` in your browser.
 For example, [https://explorer.uns.network/uniks/ccabe13311350a306d510c3484889a151eda9a1b61b5fe4d346fd3b1eeb42c25](https://explorer.uns.network/uniks/ccabe13311350a306d510c3484889a151eda9a1b61b5fe4d346fd3b1eeb42c25) for the @unikname `SpaceElephant`.

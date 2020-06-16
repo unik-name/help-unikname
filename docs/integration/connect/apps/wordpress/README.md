@@ -2,11 +2,11 @@
 home: false
 ---
 
-# Integrating Unikname Connect with WordPress
+# Integrating Unikname Connect with WordPress and WooCommerce
 
 !!!include(.vuepress/md-templates/unc-registering-process-what-is-unc.md)!!!
 
-## About WordPress
+## About WordPress and WooCommerce
 
 ![WordPress](./wordpress-logo-full.png)
 
@@ -15,14 +15,26 @@ home: false
 WordPress was originally created as a blog-publishing system but has evolved to support other types of web content including more traditional mailing lists and forums, media galleries, membership sites, learning management systems (LMS) and online stores.
 WordPress is used by more than 60 million websites, it is one of the most popular content management system solutions in use.
 
+![WooCommerce](./woocommerce-logo-full.png)
+
+[WooCommerce](https://woocommerce.com/) is an open-source e-commerce plugin for WordPress.
+It is designed for small to large-sized online merchants using WordPress.
+
 [[TOC]]
 
 ## Examples of integration with Unikname Connect
 
-Many Worpress websites are running with Unikname Connect, such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/), [Cryptomaniac](https://www.cryptomaniac.fr)...
+Many WordPress and WooCommerce websites are running with Unikname Connect, such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/), [Cryptomaniac](https://www.cryptomaniac.fr)...
 Look at them to see how they are using Unikname Connect to increase their business!
 
 !!!include(.vuepress/md-templates/unc-registering-process-start.partial.md)!!!
+
+## Features of the plugin
+
+- Add `Connect with your private @unikname` button in WordPress screens
+- Add `Connect with your private @unikname` button in WooCommerce screens
+
+This plugin can also be used without the WooCommerce extension.
 
 ## Installation of the plugin
 
@@ -82,5 +94,7 @@ Or manually add it to your `composer.json`:
 1. Configure `Unikname App Secret` with the information given from Unikname Team Support
 
 ![WordPress](./wordpress-config1.png)
+
+You can also configure some extra parameters in the `Advanced` tab of the plugin.
 
 !!!include(.vuepress/md-templates/unc-registering-process-end.partial.md)!!!

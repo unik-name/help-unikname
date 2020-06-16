@@ -3,7 +3,7 @@
 [After getting your individual @unikname](/get-unikname/creating-your-unikname-individual), to can try it out on our partner's websites, such as:
 
 - [https://forum.unikname.com](https://forum.unikname.com)
-- [https//www.demo.labandeducoin.com](https//www.labandeducoin.fr)
+- [https://www.demo.labandeducoin.com](https://www.labandeducoin.fr)
 - [https://privatememo.online](https://privatememo.online)
 
 ## Registering your service
