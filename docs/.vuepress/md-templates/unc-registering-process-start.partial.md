@@ -52,7 +52,7 @@ To setup your organization @unikname, [you first need to create it with the `vou
 
 Then go back here.
 
-### Disclose and validate your URL
+### Disclose your organization @unikname and varify the URL of your website
 
 As shown before, your users will be able to check and verify information about your service.
 So you need to disclose and reveal them to the world.
@@ -71,4 +71,4 @@ In these lines, you must replace:
 | `MyCompany`     |  The @unikname you want to show to your users           |
 | `https://www.mycompany.com`     | The URL of your website you have declared with the Unikname Team.<br/>**:warning: The URL verification will fail if your try with another URL.**  |
 
-You can check you information by searching for you organization @unikname in the [https://explorer.uns.network](UNS Explorer).
+You can check you information by looking for your organization @unikname in the [UNS Network Explorer](https://explorer.uns.network).
