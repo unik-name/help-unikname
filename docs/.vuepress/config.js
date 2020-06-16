@@ -78,7 +78,20 @@ module.exports = {
           ["/how-to-use-unikname/app", "My Unikname App"],
         ],
       },
-      ["/get-unikname/", "Getting a Unikname"],
+      {
+        title: "Getting a Unikname",
+        children: [
+          ["/get-unikname/", "Introduction"],
+          [
+            "/get-unikname/creating-unikname-organization",
+            "For an organization",
+          ],
+          [
+            "/get-unikname/creating-your-unikname-individual",
+            "For an individual",
+          ],
+        ],
+      },
       {
         title: "Integrating Unikname Connect",
         children: [

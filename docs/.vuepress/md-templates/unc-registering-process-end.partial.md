@@ -1,6 +1,8 @@
-## Declare your @unikname as "verified"
+## Testing the integration
 
-Coming soon...
+Just go to your service web site and click `Connect with your private @unikname`. You should the Unikname Login screen similar to this:
+
+![Unikname Login screen](/connect/connect-with-your-private-unikname-screen.png)
 
 ## Troubleshooting
 

@@ -4,6 +4,8 @@ home: false
 
 # Integrating Unikname Connect with Discourse
 
+!!!include(.vuepress/md-templates/unc-registering-process-what-is-unc.md)!!!
+
 ## About Discourse
 
 ![Discourse](./discourse-logo-full.png)

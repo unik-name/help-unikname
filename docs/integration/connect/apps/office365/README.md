@@ -4,6 +4,8 @@ home: false
 
 # Integrating Unikname Connect with Microsoft Office 365
 
+!!!include(.vuepress/md-templates/unc-registering-process-what-is-unc.md)!!!
+
 ## About Office 365
 
 ![Office 365](./office365-logo-full.png)

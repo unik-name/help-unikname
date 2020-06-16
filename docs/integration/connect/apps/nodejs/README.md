@@ -4,6 +4,8 @@ home: false
 
 # Integrating Unikname Connect with NodeJS applications
 
+!!!include(.vuepress/md-templates/unc-registering-process-what-is-unc.md)!!!
+
 ## About Node JS
 
 ![Node JS](./nodejs-logo-full.png)
