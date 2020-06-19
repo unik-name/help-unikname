@@ -21,7 +21,7 @@ After being contacted by the Unikname Team, you should have the following inform
 - your organization @unikname
 - the URL of the website you want to integrate with Unikname Connect
 - a pair of `client_id/client_secret` credentials to configure in your application
-- a `voucher` to get your organization @unikname
+- a `coupon` to get your organization @unikname
 
 They are necessary to setup your account to display a such login screen when your clients will connect:
 
@@ -42,13 +42,13 @@ For example, `https://forum.unikname.com` above.
 
 These credentials will be necessary to configure the link between your service and Unikname Connect.
 
-#### The UNIK `voucher`
+#### The UNIK `coupon`
 
 This information will be used to create your organization @unikname.
  
 ## Setup of your organization @unikname
 
-To setup your organization @unikname, [you first need to create it with the `voucher`](/get-unikname/creating-unikname-organization).
+To setup your organization @unikname, [you first need to create it with the `coupon,`](/get-unikname/creating-unikname-organization).
 
 Then go back here.
 

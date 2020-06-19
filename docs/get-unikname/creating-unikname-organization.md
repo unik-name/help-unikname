@@ -68,9 +68,16 @@ uns cryptoaccount:create
 **You have to copy and save preciously these informations! If you lost these informations, you'll also lost access to your cryptoaccount and your @unikname.**
 :::
 
+## Using a COUPON to create the organization @unikname 
+
+Creating an organization @unikname requires a COUPON. If you have one, you can continue. 
+Otherwise, it's time [to get in contact with the Unikname team](https://www.unikname.com/get-started/) to discuss about your Unikname Connect integration, your specific needs...
+
+You will get a COUPON in return.
+
 ## Create your @unikname
 
-Once you have your voucher, all you have to do is create your @unikname!
+Once you have your coupon, all you have to do is create your @unikname!
 
 **Don't forget to backup and secure your passphrase**, it will allow you to retrieve access to your @unikname in case you change your device.
 Neither <uns/>, nor Unikname will be able to give you back access to your @unikname.
@@ -81,10 +88,10 @@ With <uns/> CLI you can create your own UNIK token using [`unik:create`](/uns-us
 Choose the @unikname wisely. Indeed, it'll be disclosed to other people and they'll know you by this @unikname and once you've chosen a name, you won't be able to change it.
 :::
 
-As example, for creating the UNIK `organization` token `SpaceElephant` with the voucher you have received:
+As example, for creating the UNIK `organization` token `SpaceElephant` with the coupon you have received:
 
 ```bash
-$ uns unik:create --explicitValue "SpaceElephant" --type organization --unik-voucher "HERE_THE_VOUCHER"
+$ uns unik:create --explicitValue "SpaceElephant" --type organization --coupon "HERE_THE_COUPON"
 Enter your crypto account passphrase (12 words phrase): ***************************
 {
   "data": {
