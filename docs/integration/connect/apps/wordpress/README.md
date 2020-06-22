@@ -20,21 +20,25 @@ WordPress is used by more than 60 million websites, it is one of the most popula
 [WooCommerce](https://woocommerce.com/) is an open-source e-commerce plugin for WordPress.
 It is designed for small to large-sized online merchants using WordPress.
 
+**Table of Content**
+
 [[TOC]]
 
 ## Examples of integration with Unikname Connect
 
 Many WordPress and WooCommerce websites are running with Unikname Connect, such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/), [Cryptomaniac](https://www.cryptomaniac.fr)...
-Look at them to see how they are using Unikname Connect to increase their business!
 
-!!!include(.vuepress/md-templates/unc-registering-process-start.partial.md)!!!
+Look at them to see how they are using Unikname Connect to increase their business!
 
 ## Features of the plugin
 
-- Add `Connect with your private @unikname` button in WordPress screens
-- Add `Connect with your private @unikname` button in WooCommerce screens
+- Add `Connect with your private @unikname` button in WordPress screens: login, register, comment
+- Add `Connect with your private @unikname` button in WooCommerce screens: login, register, checkout
+
 
 This plugin can also be used without the WooCommerce extension.
+
+!!!include(.vuepress/md-templates/unc-registering-process-start.partial.md)!!!
 
 ## Installation of the plugin
 

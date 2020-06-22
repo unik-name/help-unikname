@@ -48,7 +48,7 @@ This information will be used to create your organization @unikname.
  
 ## Setup of your organization @unikname
 
-To setup your organization @unikname, [you first need to create it with the `coupon,`](/get-unikname/creating-unikname-organization).
+To setup your organization @unikname, [you first need to create it with the `coupon`](/get-unikname/creating-unikname-organization).
 
 Then go back here.
 

@@ -16,6 +16,8 @@ In this example, [our discussion forum website](https://forum.unikname.com/) is 
 
 👉 [Run this example](https://forum.unikname.com/)
 
+**Table of Content**
+
 [[TOC]]
 
 !!!include(.vuepress/md-templates/unc-registering-process-start.partial.md)!!!

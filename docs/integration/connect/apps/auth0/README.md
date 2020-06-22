@@ -14,6 +14,8 @@ home: false
 
 You can connect any application (written in any language or on any stack) to Auth0 and define the identity providers you want to use (how you want your users to log in).
 
+**Table of Content**
+
 [[TOC]]
 
 ## Example
