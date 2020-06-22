@@ -52,7 +52,7 @@ To setup your organization @unikname, [you first need to create it with the `cou
 
 Then go back here.
 
-### Disclose your organization @unikname and varify the URL of your website
+### Disclose your organization @unikname and verify the URL of your website
 
 As shown before, your users will be able to check and verify information about your service.
 So you need to disclose and reveal them to the world.
