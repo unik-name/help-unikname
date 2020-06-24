@@ -93,12 +93,18 @@ Or manually add it to your `composer.json`:
 
 ## Configuring your service
 
-1. Enable the `Enable Social Login`
-1. Configure `Unikname App @unikname` with the information given from Unikname Team Support
-1. Configure `Unikname App Secret` with the information given from Unikname Team Support
+### Basic configuration
 
-![WordPress](./wordpress-config1.png)
+1. Enable the `Enable Unikname Connect`
+1. Configure `Unikname Connect @unikname` with the information given from Unikname Team Support
+1. Configure `Unikname Connect Secret` with the information given from Unikname Team Support
 
-You can also configure some extra parameters in the `Advanced` tab of the plugin.
+![Unikname Connect for WordPress basic configuration](./wordpress-config1.png)
+
+### Advanced configuration
+
+You can also configure some extra parameters in the `Advanced` tab of the plugin, such as displaying the `Unikname Connect` button on WooCommerce pages (see below).
+
+![Unikname Connect for WordPress advanced configuration, with configurations for WooCommerce](./wordpress-config2.png)
 
 !!!include(.vuepress/md-templates/unc-registering-process-end.partial.md)!!!
