@@ -11,4 +11,4 @@ If you’re having issues when connecting (access denied ...), first ensure the 
 
 Then, check that you’re using the latest version of all OpenID Connect SDK, library, plugin or service embedded in your application.
 
-After that, if still you need help to integrate with Unikname Connect, you can get support on [the Unikname Forum](https://forum.unikname.com/c/un-business/support/14).
+After that, if still you need help to integrate with Unikname Connect, you can get support on [the Unikname Forum](https://forum.unikname.com/c/support/15).
