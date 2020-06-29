@@ -105,7 +105,14 @@ module.exports = {
               ["/integration/connect/apps/discourse/", "Discourse"],
               ["/integration/connect/apps/nodejs/", "NodeJS"],
               ["/integration/connect/apps/office365/", "Office 365"],
-              ["/integration/connect/apps/wordpress/", "Wordpress"],
+              [
+                "/integration/connect/apps/wordpress/",
+                "Wordpress / WooCommerce",
+              ],
+              [
+                "/integration/connect/apps/auth2.0-openidconnect/",
+                "Auth 2.0 / OpenID Connect",
+              ],
             ],
           },
         ],

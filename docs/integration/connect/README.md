@@ -10,19 +10,17 @@ home: false
 
 | <!-- -->    | <!-- -->    | <!-- -->    |
 |:-------------:|:-------------:|:-------------:|
-| [![Auth0][auth0-logo]](apps/auth0/)       | [![Discourse][discourse-logo]](apps/discourse/)        | [![Node JS][nodejs-logo]](apps/nodejs/) |
-| [![Microsoft Office 365][office365-logo]](apps/office365/) | [![Worpress][wordpress-logo]](apps/wordpress/) | [![WooCommerce][woocommerce-logo]](apps/wordpress/) | 
+| [![][auth0-logo]](apps/auth0/)       | [![][discourse-logo]](apps/discourse/)        | [![][nodejs-logo]](apps/nodejs/) |
+| [![][office365-logo]](apps/office365/) | [![][wordpress-logo]](apps/wordpress/) | [![][woocommerce-logo]](apps/wordpress/) | 
+| [![][auth2.0-oidc-logo]](apps/auth2.0-openidconnect/) | | |
 
-[auth0-logo]: ./apps/auth0/auth0-logo.png "Auth0"
-[discourse-logo]: ./apps/discourse/discourse-logo.png "Discourse"
-[nodejs-logo]: ./apps/nodejs/nodejs-logo.png "Node JS"
-[office365-logo]: ./apps/office365/office365-logo.png "Office 365"
-[wordpress-logo]: ./apps/wordpress/wordpress-logo.png "Wordpress"
-[woocommerce-logo]: ./apps/wordpress/woocommerce-logo.png "WooCommerce"
-
-## Unikname Connect Features
-
-Coming soon
+[auth0-logo]: ./apps/auth0/auth0-logo.png "Unikname Connect for Auth0"
+[discourse-logo]: ./apps/discourse/discourse-logo.png "Unikname Connect for Discourse"
+[nodejs-logo]: ./apps/nodejs/nodejs-logo.png "Unikname Connect for Node JS"
+[office365-logo]: ./apps/office365/office365-logo.png "Unikname Connect for Microsoft Office 365"
+[wordpress-logo]: ./apps/wordpress/wordpress-logo.png "Unikname Connect for Worpress"
+[woocommerce-logo]: ./apps/wordpress/woocommerce-logo.png "Unikname Connect for WooCommerce"
+[auth2.0-oidc-logo]: ./apps/auth2.0-openidconnect/auth2.0-openidconnect-logo.png "Unikname Connect for any Auth 2.0 or OpenID Connect solution"
 
 ## Unikname Connect Uses Cases
 
