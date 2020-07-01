@@ -42,9 +42,24 @@ This plugin can also be used without the WooCommerce extension.
 
 ## Installation of the plugin
 
+Unikname Connect plugin is available **for free** [on the official WordPress plugins repository](https://wordpress.org/plugins/unikname-connect/).
+
+There are various ways of installing the plugin, so choose the one adapted to your installation:
+
+- From your WordPress Dashboard
+- From the Github repository
+- With Composer
+
 ### From your WordPress dashboard
 
-The plugin is not available through WordPress dashboard yes, but it will be soon!
+You can install Unikname Connect from your WordPress Dashboard.
+
+1. Go to your WordPress Dashboard
+1. Go to the extensions/plugins manager
+1. Add a new one
+1. Look for `unikname connect` in the search box on right
+1. Install `Unikname Connect` plugin
+1. Then `enable` it
 
 ### From Github plugin repository
 
@@ -55,40 +70,12 @@ The plugin is not available through WordPress dashboard yes, but it will be soon
 
 ### With Composer
 
-If you're using Composer to manage WordPress, add WordPress-Unikname-Connect to your project's dependencies.
-As the plugin is still evoling, you are advice to install the lastest version provided from our [Git repository](https://github.com/unik-name/wordpress-unikname-connect).
+If you're using Composer to manage WordPress, add WordPress-Unikname-Connect to your project's dependencies through the [WordPress Packagist repository](https://wpackagist.org/search?q=unikname+connect).
 
-Edit your `composer.json` and add:
-
-```json
-{
-  ...
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/unik-name/wordpress-unikname-connect"
-    }
-  ],
-  ...
-}
-```
-
-Then, run:
+Run:
 
 ```
-$ composer require unikname/unikname-connect dev-master composer
-```
-
-Or manually add it to your `composer.json`:
-
-```json
-{
-  ...
-  "require": {
-    "unikname/unikname-connect": "dev-master"
-  }
-  ...
-}
+$ composer require wpackagist-plugin/unikname-connect
 ```
 
 ## Configuring your service
