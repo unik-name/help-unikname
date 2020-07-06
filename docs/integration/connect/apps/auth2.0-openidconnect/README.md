@@ -22,14 +22,32 @@ In this example, [our discussion forum website](https://forum.unikname.com/) is 
 
 !!!include(.vuepress/md-templates/unc-registering-process-start.partial.md)!!!
 
+## Features
+
+The current implementation of Unikname Connect provides support for:
+
+- Authorization Code Flow
+- Implicit Flow
+- Standard Auth2.0 and OIDC endpoints
+
 ## Setup
+
 
 | Attribut | Description |
 |--------|-----------|
 | OIDC discovery document | <UncServerUrl/> |
 | OIDC client id | The client id you have received from Unikname's support request |
 | OIDC client secret | The client secret you have received from Unikname's support request |
-| OIDC authorize scopes |`openid` by default |
+| OIDC authorize scopes |`openid` by default.<br/>But you request for more, such as `profile` or `email` (which may be verified or not) |
+
+### Detailed Auth 2.0 / OIDC Endpoints
+
+|  Endpoint |                  URL                 |
+|:---------:|:------------------------------------:|
+| Authorize | `https://connect.unikname.com/oidc/authorize` |
+| Token     | `https://connect.unikname.com/oidc/accessToken`    |
+| Userinfo  | `https://connect.unikname.com/oidc/profile`    |
+
 
 ## Check user login
 
