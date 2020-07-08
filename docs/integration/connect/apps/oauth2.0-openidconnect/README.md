@@ -6,9 +6,9 @@ home: false
 
 !!!include(.vuepress/md-templates/unc-registering-process-what-is-unc.md)!!!
 
-## About Auth2.0 or OpenID Connect solution
+## About OAuth2.0 or OpenID Connect solution
 
-![Discourse](./auth2.0-openidconnect-logo-full.png)
+![OAuth2.0 / OpenID Connect solution](./oauth2.0-openidconnect-logo-full.png)
 
 <uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth authorization protocol.
 
@@ -28,7 +28,7 @@ The current implementation of Unikname Connect provides support for:
 
 - Authorization Code Flow
 - Implicit Flow
-- Standard Auth2.0 and OIDC endpoints
+- Standard OAuth2.0 and OIDC endpoints
 
 ## Setup
 
@@ -40,7 +40,7 @@ The current implementation of Unikname Connect provides support for:
 | OIDC client secret | The client secret you have received from Unikname's support request |
 | OIDC authorize scopes |`openid` by default.<br/>But you request for more, such as `profile` or `email` (which may be verified or not) |
 
-### Detailed Auth 2.0 / OIDC Endpoints
+### Detailed OAuth 2.0 / OIDC Endpoints
 
 |  Endpoint |                  URL                 |
 |:---------:|:------------------------------------:|
@@ -48,9 +48,5 @@ The current implementation of Unikname Connect provides support for:
 | Token     | `https://connect.unikname.com/oidc/accessToken`    |
 | Userinfo  | `https://connect.unikname.com/oidc/profile`    |
 
-
-## Check user login
-
-Your customers should now be able to use <uniknameconnect/> to connect to your website.
 
 !!!include(.vuepress/md-templates/unc-registering-process-end.partial.md)!!!

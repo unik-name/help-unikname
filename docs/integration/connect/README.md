@@ -12,7 +12,7 @@ home: false
 |:-------------:|:-------------:|:-------------:|
 | [![][auth0-logo]](apps/auth0/)       | [![][discourse-logo]](apps/discourse/)        | [![][nodejs-logo]](apps/nodejs/) |
 | [![][office365-logo]](apps/office365/) | [![][wordpress-logo]](apps/wordpress/) | [![][woocommerce-logo]](apps/wordpress/) | 
-| [![][auth2.0-oidc-logo]](apps/auth2.0-openidconnect/) | | |
+| [![][oauth2.0-oidc-logo]](apps/oauth2.0-openidconnect/) | | |
 
 [auth0-logo]: ./apps/auth0/auth0-logo.png "Unikname Connect for Auth0"
 [discourse-logo]: ./apps/discourse/discourse-logo.png "Unikname Connect for Discourse"
@@ -20,7 +20,7 @@ home: false
 [office365-logo]: ./apps/office365/office365-logo.png "Unikname Connect for Microsoft Office 365"
 [wordpress-logo]: ./apps/wordpress/wordpress-logo.png "Unikname Connect for Worpress"
 [woocommerce-logo]: ./apps/wordpress/woocommerce-logo.png "Unikname Connect for WooCommerce"
-[auth2.0-oidc-logo]: ./apps/auth2.0-openidconnect/auth2.0-openidconnect-logo.png "Unikname Connect for any Auth 2.0 or OpenID Connect solution"
+[oauth2.0-oidc-logo]: ./apps/oauth2.0-openidconnect/oauth2.0-openidconnect-logo.png "Unikname Connect for any OAuth 2.0 or OpenID Connect solution"
 
 ## Unikname Connect Uses Cases
 

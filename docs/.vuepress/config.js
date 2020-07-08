@@ -110,7 +110,7 @@ module.exports = {
                 "Wordpress / WooCommerce",
               ],
               [
-                "/integration/connect/apps/auth2.0-openidconnect/",
+                "/integration/connect/apps/oauth2.0-openidconnect/",
                 "Auth 2.0 / OpenID Connect",
               ],
             ],
