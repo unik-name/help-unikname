@@ -4,7 +4,6 @@
 
 - [https://forum.unikname.com](https://forum.unikname.com)
 - [https://www.labandeducoin.com](https://www.demo.labandeducoin.fr)
-- [https://privatememo.online](https://privatememo.online)
 - [https://www.cryptomaniac.fr](https://www.cryptomaniac.fr)
 - [https://kover.link](https://kover.link)
 
