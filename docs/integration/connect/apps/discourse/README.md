@@ -24,7 +24,7 @@ In this example, [our discussion forum website](https://forum.unikname.com/) is 
 
 ## Requirements
  
-- you must have [installed](https://meta.discourse.org/t/install-plugins-in-discourse/19157) the [Unikname Connect plugin](https://github.com/discourse/discourse-openid-connect)
+- you must have [installed](https://meta.discourse.org/t/install-plugins-in-discourse/19157) the [Unikname Connect plugin](https://github.com/unik-name/discourse-unikname)
 - you must be connected as admin
 
 ## Setup
@@ -37,11 +37,11 @@ Then, configure the following attributs:
 
 | Attribut | Description |
 |--------|-----------|
-| `openid connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
-| `oidc discovery document` | <UncServerUrl/> |
-| `oidc client id` | the client id you have received from Unikname's support request |
-| `oidc client secret` | the client secret you have received from Unikname's support request |
-| `oidc authorize scope` |`openid` |
+| `unikname connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
+| `unikname connect discovery document` | <UncServerUrl/> |
+| `unikname connect client id` | the client id you have received from Unikname's support request |
+| `unikname connect client secret` | the client secret you have received from Unikname's support request |
+| `unikname connect authorize scope` |`openid` |
 
 ## Check user login
 
