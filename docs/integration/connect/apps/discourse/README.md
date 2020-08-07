@@ -22,30 +22,53 @@ In this example, [our discussion forum website](https://forum.unikname.com/) is 
 
 !!!include(.vuepress/md-templates/unc-registering-process-start.partial.md)!!!
 
-## Requirements
- 
-- you must have [installed](https://meta.discourse.org/t/install-plugins-in-discourse/19157) the [Unikname Connect plugin](https://github.com/discourse/discourse-openid-connect)
-- you must be connected as admin
+## Installation
+
+- Connect to your Discourse server (sorry, you can't install a plugin from the admin panel 😞)
+- Access your container’s `app.yml` file (it should be present in `/var/discourse/containers/`)
+
+    cd /var/discourse
+    nano containers/app.yml
+
+Add the Discourse Unikname Connect plugin’s repository URL to your container’s `app.yml` file:
+
+```
+hooks:
+  after_code:
+    - exec:
+        cd: $home/plugins
+        cmd:
+          - ...
+          - sudo -E -u discourse git clone https://github.com/unik-name/discourse-unikname
+```
+
+(Add the plugin’s `git clone` url just below `sudo -E -u discourse git clone https://github.com/discourse/docker_manager.git`)
+
+Rebuild the container:
+
+    cd /var/discourse
+    ./launcher rebuild app
+
+That’s it, you’ve successfully installed the Unikname Connect plugin on your Discourse instance!
 
 ## Setup
 
-Go to the Discourse "burger" menu → admin → "Settings" tab → "Plugin" category.
+A an admin, go to the Discourse "burger" menu → admin → "Settings" tab → "Plugin" category.
 
-You can also go to `https://<your_discourse_forum_url>` `/admin/site_settings/category/plugins`
+You can also go to `https://<your_discourse_forum_url>` `/admin/site_settings/category/plugins?filter=plugin%3Adiscourse-unikname`
 
-Then, configure the following attributs:
+Then, configure the following attributes:
 
 | Attribut | Description |
 |--------|-----------|
-| `openid connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
-| `oidc discovery document` | <UncServerUrl/> |
-| `oidc client id` | the client id you have received from Unikname's support request |
-| `oidc client secret` | the client secret you have received from Unikname's support request |
-| `oidc authorize scope` |`openid` |
+| `unikname connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
+| `unikname connect client id` | The client id you have received from Unikname's support request |
+| `unikname connect client secret` | The client secret you have received from Unikname's support request |
+| `unikname connect authorize scope` | `openid` by default, or `openid email` if you want to ask for the user to share his email address |
 
 ## Check user login
 
-Your customers should now be able to use <uniknameconnect/> to connect to your website, and to see this kind of login screen:
+Your users should now be able to use <uniknameconnect/> to connect to your website and to see this kind of login screen:
 
 ![Discourse with Unikname Connect](./discourse-login-screen-with-unc.png)
 
