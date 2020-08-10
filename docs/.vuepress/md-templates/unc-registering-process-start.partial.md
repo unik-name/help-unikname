@@ -60,16 +60,47 @@ So you need to disclose and reveal them to the world.
 
 They will be publicly readable in the UNS.network.
 
-The CLI installed before to create your organization @unikname, disclose and verify your information:
+Use the uns CLI installed before to create your organization @unikname to disclose and verify your information:
+
+#### Disclose your @unikname
 
     $ uns unik:disclose "@organization:MyCompany" -e "MyCompany"
-    $ uns unik:verify-url "@organization:MyCompany" --url "https://www.mycompany.com" --url-name "corp-website"
-
-In these lines, you must replace:
 
 | Data to replace | Explanation |
 |:----:|:-----------:|
 | `MyCompany`     |  The @unikname you want to show to your users           |
-| `https://www.mycompany.com`     | The URL of your website you have declared with the Unikname Team.<br/>**:warning: The URL verification will fail if your try with another URL.**  |
 
-You can check you information by looking for your organization @unikname in the [UNS Network Explorer](https://explorer.uns.network).
+#### Verify your domain URL
+
+Your domain URL will be verified in three steps:
+1. Generate a verification package.
+
+    $ uns properties:register "@organization:MyCompany" --value "www.mycompany.com"
+
+| Data to replace | Explanation |
+|:----:|:-----------:|
+| `www.mycompany.com`     | The URL of your website to verify.<br/>**:warning: Do not include protocol. https will be used by default.**  |
+
+
+This command provides a `verificationKey` and write a verification package in `uns-verification.txt` file. It will be used in next steps.
+
+2. Expose the proof of ownership in your website:
+
+In order to prove that you own your domain name, you will need to expose the generated verification package using one of the followings methods:
+ - Html mode:
+
+    Include the `verificationKey` in the HTML DOM of your website's landing page "https://www.mycompany.com/". The `verificationKey` can be placed in any html tag or in html source comments.
+ - File mode:
+
+    Upload the `uns-verification.txt` file to the following route of your website: "https://www.mycompany.com/.well-known/uns-verification.txt"
+
+3. Finalize the verification process:
+
+Use the following command according chosen verification method. The `uns-verification.txt` file should be located in the directory of the command execution.
+
+    $ uns properties:verify "@organization:MyCompany" --url-channel {html, file}
+
+This will add the "Verified/URL" property to your unik.
+
+
+Thats it! You can check you information by looking for your organization @unikname in the [UNS Network Explorer](https://explorer.uns.network).
