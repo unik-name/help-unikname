@@ -12,7 +12,7 @@ home: false
 
 <uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth authorization protocol.
 
-In this example, [our discussion forum website](https://forum.unikname.com/) is based on the famous open source [Discourse solution)[https://www.discourse.org]. <unikname/> users are automaticaly signed-in for an optimal user experience.
+In this example, [our discussion forum website](https://forum.unikname.com/) is based on the famous open source (Discourse solution)[https://www.discourse.org]. <unikname/> users are automaticaly signed-in for an optimal user experience.
 
 👉 [Run this example](https://forum.unikname.com/)
 
@@ -62,8 +62,8 @@ Then, configure the following attributes:
 | Attribut | Description |
 |--------|-----------|
 | `unikname connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
-| `unikname connect client id` | The client id you have received from Unikname's support request |
-| `unikname connect client secret` | The client secret you have received from Unikname's support request |
+| `unikname connect unikname key` | The key you have received from Unikname's support request |
+| `unikname connect secret` | The secret you have received from Unikname's support request |
 | `unikname connect authorize scope` | `openid` by default, or `openid email` if you want to ask for the user to share his email address |
 
 ## Check user login
