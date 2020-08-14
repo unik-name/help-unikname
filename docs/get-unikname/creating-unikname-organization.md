@@ -46,12 +46,11 @@ COMMANDS
 If you want more details about the CLI and tips to use it, check the [CLI documentation](/uns-use-the-network/cli).
 You are now ready for the next step !
 
-## Creating your cryptoaccount
+### Creating and saving the cryptoaccount information
 
-### Creating and saving your cryptoaccount informations
-
-Your cryptoaccount is required for all the following steps. To create it, just execute the following command: `cryptoaccount:create`.
+A cryptoaccount is required for all the following steps. To create it, just execute the following command: `cryptoaccount:create`.
 Here is an example of what you are supposed to see on your command prompt.
+
 ```bash
 uns cryptoaccount:create
 » :warn: This information is not saved anywhere. You need to copy and save it by your own.;
@@ -65,30 +64,32 @@ uns cryptoaccount:create
 ```
 
 :::warning
-**You have to copy and save preciously these informations! If you lost these informations, you'll also lost access to your cryptoaccount and your @unikname.**
+**You have to copy and save preciously these informations! If you lost these informations, you'll also lost access to this cryptoaccount and its @unikname.**
 :::
 
 ## Using a COUPON to create the organization @unikname 
 
-Creating an organization @unikname requires a COUPON. If you have one, you can continue. 
+Creating an organization @unikname requires a COUPON.
+If you have one, you can continue. 
 Otherwise, it's time [to get in contact with the Unikname team](https://www.unikname.com/get-started/) to discuss about your Unikname Connect integration, your specific needs...
 
 You will get a COUPON in return.
 
-## Create your @unikname
+## Create the organization @unikname
 
-Once you have your coupon, all you have to do is create your @unikname!
+Once you have a coupon, all you have to do is to create the @unikname!
 
-**Don't forget to backup and secure your passphrase**, it will allow you to retrieve access to your @unikname in case you change your device.
+**Don't forget to backup and secure the passphrase**, it will allow you to retrieve access to your @unikname in case you change your device.
 Neither <uns/>, nor Unikname will be able to give you back access to your @unikname.
 
-With <uns/> CLI you can create your own UNIK token using [`unik:create`](/uns-use-the-network/cli.html#unik-create) command.
+With <uns/> CLI you can create the @unikname using [`unik:create`](https://docs.uns.network/uns-use-the-network/cli.html#unik-create) command.
 
 :::warning Choosing the @unikname
-Choose the @unikname wisely. Indeed, it'll be disclosed to other people and they'll know you by this @unikname and once you've chosen a name, you won't be able to change it.
+Choose the @unikname wisely.
+Indeed, it'll be disclosed to other people and they'll know your business by this @unikname and once you've chosen a name, you won't be able to change it.
 :::
 
-As example, for creating the UNIK `organization` token `SpaceElephant` with the coupon you have received:
+As example, for creating the `organization` @unikname `SpaceElephant` with a received coupon:
 
 ```bash
 $ uns unik:create --explicitValue "SpaceElephant" --type organization --coupon "HERE_THE_COUPON"
@@ -101,13 +102,9 @@ Enter your crypto account passphrase (12 words phrase): ************************
   }
 }
 ```
-::: tip UnikId
-Write somewhere your unikId (`id` here, with value `ccabe13311350a306d510c3484889a151eda9a1b61b5fe4d346fd3b1eeb42c25`)! You need it in the following instructions.
-:::
 
 ### Checking the creation of the @unikname in the Explorer
 
-With the transaction id given into your command prompt, you can check the @unikname creation through [the UNS Network explorer](https://explorer.uns.network/). Look for the @unikname by its unikId in the search bar on the top.
-
-You can also directly go to `https://explorer.uns.network/uniks/${unikid}` in your browser.
-For example, [https://explorer.uns.network/uniks/ccabe13311350a306d510c3484889a151eda9a1b61b5fe4d346fd3b1eeb42c25](https://explorer.uns.network/uniks/ccabe13311350a306d510c3484889a151eda9a1b61b5fe4d346fd3b1eeb42c25) for the @unikname `SpaceElephant`.
+With the blockchain transaction id given into your command prompt, you can check the @unikname creation through [the UNS Network explorer](https://explorer.uns.network/).
+Look for the @unikname by its value in the search bar on the top.
+Just it `@my-unikname` - don't forget to replace `my-unikname` by the @unikname value you are looking for 😀.
