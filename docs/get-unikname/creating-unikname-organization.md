@@ -109,5 +109,5 @@ Write somewhere your unikId (`id` here, with value `ccabe13311350a306d510c348488
 
 With the transaction id given into your command prompt, you can check the @unikname creation through [the UNS Network explorer](https://explorer.uns.network/). Look for the @unikname by its unikId in the search bar on the top.
 
-You can also directly go to `https://explorer.uns.network/${unikid}` in your browser.
+You can also directly go to `https://explorer.uns.network/uniks/${unikid}` in your browser.
 For example, [https://explorer.uns.network/uniks/ccabe13311350a306d510c3484889a151eda9a1b61b5fe4d346fd3b1eeb42c25](https://explorer.uns.network/uniks/ccabe13311350a306d510c3484889a151eda9a1b61b5fe4d346fd3b1eeb42c25) for the @unikname `SpaceElephant`.
