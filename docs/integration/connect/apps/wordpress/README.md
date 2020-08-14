@@ -10,7 +10,7 @@ home: false
 
 ![WordPress](./wordpress-logo-full.png)
 
-[WordPress (WordPress.org)](https://en.wikipedia.org/wiki/WordPress) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
+[WordPress](https://wordpress.org) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
 
 WordPress was originally created as a blog-publishing system but has evolved to support other types of web content including more traditional mailing lists and forums, media galleries, membership sites, learning management systems (LMS) and online stores.
 WordPress is used by more than 60 million websites, it is one of the most popular content management system solutions in use.
