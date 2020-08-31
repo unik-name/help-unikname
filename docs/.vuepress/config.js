@@ -79,24 +79,19 @@ module.exports = {
         ],
       },
       {
-        title: "Getting a Unikname",
+        title: "Setting up business account",
         children: [
-          ["/get-unikname/", "Introduction"],
-          [
-            "/get-unikname/creating-unikname-organization",
-            "For an organization",
-          ],
-          [
-            "/get-unikname/creating-your-unikname-individual",
-            "For an individual",
-          ],
+          "/business-account/",
+          "/business-account/creating-your-unikname-individual",
+          "/business-account/creating-unikname-organization",
+          "/business-account/configuring-organization-unikname",
         ],
       },
       {
         title: "Integrating Unikname Connect",
         children: [
-          ["/integration/connect/", "Introduction"],
-          // ["/integration/connect/features", "Features"],
+          "/integration/connect/",
+          // "/integration/connect/features",
           {
             title: "Applications",
             sidebarDepth: 0,

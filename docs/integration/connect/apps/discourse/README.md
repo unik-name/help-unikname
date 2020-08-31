@@ -12,8 +12,8 @@ home: false
 
 <uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth authorization protocol.
 
-In this example, [our discussion forum website](https://forum.unikname.com/) is based on the famous open source [Discourse forum solution](https://www.discourse.org.
-<unikname/> users are automaticaly signed-in for an optimal user experience.
+In this example, [our discussion forum website](https://forum.unikname.com/) is based on the famous open source [Discourse forum solution](https://www.discourse.org).
+<unikname/> users are automatically signed in for an optimal user experience.
 
 👉 [Run this example](https://forum.unikname.com/)
 
@@ -23,7 +23,7 @@ In this example, [our discussion forum website](https://forum.unikname.com/) is 
 
 !!!include(.vuepress/md-templates/unc-registering-process-start.partial.md)!!!
 
-## Installation
+## Discourse plugin installation
 
 - Connect to your Discourse server (sorry, you can't install a plugin from the admin panel 😞)
 - Access your container’s `app.yml` file (it should be present in `/var/discourse/containers/`)
@@ -52,7 +52,7 @@ Rebuild the container:
 
 That’s it, you’ve successfully installed the Unikname Connect plugin on your Discourse instance!
 
-## Setup
+## Discourse setup
 
 A an admin, go to the Discourse "burger" menu → admin → "Settings" tab → "Plugin" category.
 
@@ -67,7 +67,7 @@ Then, configure the following attributes:
 | `unikname connect secret` | The secret you have received from Unikname's support request |
 | `unikname connect authorize scope` | `openid` by default, or `openid email` if you want to ask for the user to share his email address |
 
-## Check user login
+## Discourse check user login
 
 Your users should now be able to use <uniknameconnect/> to connect to your website and to see this kind of login screen:
 
