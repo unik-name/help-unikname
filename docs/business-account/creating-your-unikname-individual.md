@@ -1,8 +1,7 @@
----
-home: false
----
+# Creating your individual @unikname
 
-# Creating @unikname as an individual
+In this guide, you will acquire an individual @unikname.
+If you already own one (or more 😉), you can skip it and [go to the next step of the setup](creating-unikname-organization).
 
 [[toc]]
 
@@ -45,3 +44,5 @@ After you choose your option, you should arrive on a page to create your @unikna
 
 Don't forget to backup and secure your passphrase, it will allow you to retrieve access to your @unikname in case you change your device.
 Neither <uns/>, nor Unikname will be able to give you back access to your @unikname.
+
+Now you have an individual @unikname, let's go creating your organization @unikname.

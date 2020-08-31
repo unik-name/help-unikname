@@ -1,6 +1,7 @@
 ## Testing the integration
 
 Just go to your service web site and click `Connect with your private @unikname` or `Use your private @unikname`.
+
 You should see the Unikname Login screen similar to this:
 
 ![Unikname Login screen](/connect/connect-with-your-private-unikname-screen.png)

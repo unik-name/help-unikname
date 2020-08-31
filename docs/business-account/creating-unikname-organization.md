@@ -1,11 +1,9 @@
----
-home: false
----
+#  Creating your organization @unikname
 
-#  Creating @unikname for an organization
+This step is about creating your organization @unikname.
+It will require to install a dedicated tool, named "UNS CLI".
 
 [[toc]]
-
 
 ## Installing the <uns/> CLI
 
@@ -63,19 +61,20 @@ uns cryptoaccount:create
 }
 ```
 
-:::warning
-**You have to copy and save preciously these informations! If you lost these informations, you'll also lost access to this cryptoaccount and its @unikname.**
+:::warning Backup these informations
+**You have to copy and save preciously these informations! If you lose these informations, you also lose access to this cryptoaccount and its @unikname.**
 :::
 
 ## Using a COUPON to create the organization @unikname 
 
 Creating an organization @unikname requires a COUPON.
-If you have one, you can continue. 
+If you have one, you can continue.
+
 Otherwise, it's time [to get in contact with the Unikname team](https://www.unikname.com/get-started/) to discuss about your Unikname Connect integration, your specific needs...
 
 You will get a COUPON in return.
 
-## Create the organization @unikname
+## Creating the organization @unikname
 
 Once you have a coupon, all you have to do is to create the @unikname!
 
@@ -89,10 +88,10 @@ Choose the @unikname wisely.
 Indeed, it'll be disclosed to other people and they'll know your business by this @unikname and once you've chosen a name, you won't be able to change it.
 :::
 
-As example, for creating the `organization` @unikname `SpaceElephant` with a received coupon:
+As example, for creating the `organization` @unikname `mycompany` with a received coupon:
 
 ```bash
-$ uns unik:create --explicitValue "SpaceElephant" --type organization --coupon "HERE_THE_COUPON"
+$ uns unik:create --explicitValue "mycompany" --type organization --coupon "HERE_THE_COUPON"
 Enter your crypto account passphrase (12 words phrase): ***************************
 {
   "data": {
@@ -103,8 +102,19 @@ Enter your crypto account passphrase (12 words phrase): ************************
 }
 ```
 
-### Checking the creation of the @unikname in the Explorer
+## Checking the creation of the @unikname in the Explorer
 
-With the blockchain transaction id given into your command prompt, you can check the @unikname creation through [the UNS Network explorer](https://explorer.uns.network/).
-Look for the @unikname by its value in the search bar on the top.
-Just it `@my-unikname` - don't forget to replace `my-unikname` by the @unikname value you are looking for 😀.
+You can check the @unikname creation through [UNS Network explorer](https://explorer.uns.network/), where all data of @unikname are recorded forever.
+
+:::tip 💡
+
+When browsing the [UNS Network explorer](https://explorer.uns.network/), just hit the @unikname of your organization by its value in the search bar on the top.
+
+![fqsf](./images/explorer-search-@organization_mycompany.png)
+
+:warning: Don't forget:
+- to specify the `organization` type of this @unikname: `@organization:mycompany`
+- to replace `mycompany` by the @unikname value you are looking for 😀
+:::
+
+In the next and final section, you will configure the @unikname.

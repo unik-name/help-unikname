@@ -72,7 +72,7 @@ In this example, **platform102.net** demo website has been coded and setup to si
 
 <uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth 2.0 protocol.
 
-[Our discussion forum website](https://forum.unikname.com) is based on the famous open source Discourse solution. <unikname/> users are automaticaly signed-in for an optimal user experience.
+[Our discussion forum website](https://forum.unikname.com) is based on the famous open source Discourse solution. <unikname/> users are automatically signed-in for an optimal user experience.
 
 [<uniknameconnect/> can be used to access your Discourse accounts](/integration/connect/apps/discourse).
 

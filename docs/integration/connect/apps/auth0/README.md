@@ -14,26 +14,24 @@ home: false
 
 You can connect any application (written in any language or on any stack) to Auth0 and define the identity providers you want to use (how you want your users to log in).
 
-**Table of Content**
-
-[[TOC]]
-
-## Example
-
-We are running a live example of integrating Unikname Connect with Auth0, [**platform103.net**](https://www.platform103.net)
+We are running a live example of integrating Unikname Connect with Auth0, [**platform103.net**](https://www.platform103.net).
 This demo website has been coded and setup to sign-in with Automatic Connect.
 
 👉 [Run this example](https://www.platform103.net)
 
+**Table of Content**
+
+[[TOC]]
+
 !!!include(.vuepress/md-templates/unc-registering-process-start.partial.md)!!!
 
-## Configuring your service
+## Auth0 - Configure your service
 
 If you not have auth0 application yet, please follow the [Get Started](https://auth0.com/docs/quickstarts) Auth0 tutorial to create one.
 
 Once your application is created, you can add an `Enterprise Connection`. Use `Open Id Connect` link.
 
-For <uniknameconnect/> configuration fill-in those required fields:
+For <uniknameconnect/> configuration, fill-in these required fields:
 
 | Attribut | Value / Description |
 |--------|-----------|
@@ -44,11 +42,11 @@ For <uniknameconnect/> configuration fill-in those required fields:
 | `Client ID` | The client id you have received from Unikname's support request |
 | `Client Secret` | The client secret you have received from Unikname's support request |
 
-## Enable your `Open ID Connect` Connection for your Auth0 application
+## Auth0 - Enable your `Open ID Connect` Connection for your Auth0 application
 
 Go to your application connections list and enable the `unikname-connect` `Open ID Connect` connection.
 
-## Check user login
+## Auth0 - Check user login
 
 Your customers should now be able to use <uniknameconnect/> to connect to your website, and to see this kind of login screen:
 
