@@ -40,7 +40,7 @@ export default {
       const {
         repo,
         docsDir = '',
-        docsBranch = 'master',
+        docsBranch = 'tp_2866_url_checker',
         docsRepo = repo
       } = this.$site.themeConfig
 
