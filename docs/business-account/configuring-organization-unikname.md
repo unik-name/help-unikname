@@ -30,6 +30,14 @@ It can be done with the following steps:
 1. Publish this verification package to the web site of your service
 1. Claim the verification of the address of your service by asking to a UNS URL Checker to check the verification package
 
+:::warning UNC CLI version
+
+The verification of the web address of your service requires the UNS CLI at least version 4.2.0.
+
+You can check the version of your installed UNS CLI with `uns version ` command and update with `uns update` command to update it if necessary ([more information](https://docs.uns.network/uns-use-the-network/cli.html#staying-up-to-date)).
+
+:::
+
 ### Generate a verification package
 
 You must generate a verification package with the following command:
