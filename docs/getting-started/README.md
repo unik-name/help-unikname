@@ -1,9 +1,9 @@
 ---
 home: false
-title: "Getting Started with Unikname "
+title: "Getting Started with Unikname Connect"
 ---
 
-# Getting Started with Unikname
+# Getting Started with Unikname Connect
 
  ## What is Unikname Connect? 
 A single and personal login, multiple connections. 

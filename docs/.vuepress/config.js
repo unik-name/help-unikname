@@ -58,66 +58,55 @@ module.exports = {
     docsDir: "docs",
     lastUpdated: true,
     activeHeaderLinks: true,
-    nav: [{ text: "Getting Started", link: "/getting-started/" }],
+    nav: [{ text: "Getting Started", link: "/getting-started-with/" }],
     sidebar: [
       "/",
+      ["/getting-started/", "Getting Started"],
       {
-        title: "Introduction",
+        title: "What is Unikname?",
         children: [
-          ["/introduction/", "Understanding Unikname"],
-          ["/introduction/unikname-solutions", "Unikname Solutions"],
-          ["/getting-started/", "Getting Started"],
-        ],
+          ["/what-is-unikname/", "What is Unikname?"],
+          ["/what-is-unikname/unikname-solutions", "Unikname Solutions"]
+        ]
       },
+      ["/integration-guides/", "Integrating Unikname Connect"],
       {
-        title: "How to use Unikname",
+        title: "Integration Environments",
+        sidebarDepth: 0,
         children: [
-          ["/how-to-use-unikname/", "Introduction"],
-          ["/how-to-use-unikname/api", "API"],
-          ["/how-to-use-unikname/sdk", "SDK"],
-          ["/how-to-use-unikname/app", "My Unikname App"],
-        ],
+          ["/integration-guides/environments/auth0/", "Auth0"],
+          ["/integration-guides/environments/discourse/", "Discourse"],
+          ["/integration-guides/environments/nodejs/", "NodeJS"],
+          ["/integration-guides/environments/oauth2.0-openidconnect/", "OAuth 2.0 / OpenID Connect"],
+          ["/integration-guides/environments/office365/", "Office 365"],
+          ["/integration-guides/environments/wordpress/", "Wordpress / WooCommerce"]
+        ]
       },
       {
         title: "Setting up business account",
         children: [
-          "/business-account/",
-          "/business-account/creating-your-unikname-individual",
-          "/business-account/creating-unikname-organization",
-          "/business-account/configuring-organization-unikname",
-        ],
+          "/integration-guides/business-account/",
+          "/integration-guides/business-account/creating-your-unikname-individual",
+          "/integration-guides/business-account/creating-unikname-organization",
+          "/integration-guides/business-account/configuring-organization-unikname"
+        ]
+      },
+      ["/ux-design-user-guide", "UX Design User Guide"],
+      {
+        title: "How to use my @unikname",
+        children: [
+          ["/how-to-use-my-unikname/", "How to use my @unikname"],
+        ]
       },
       {
-        title: "Integrating Unikname Connect",
+        title: "Key Concepts",
         children: [
-          "/integration/connect/",
-          // "/integration/connect/features",
-          {
-            title: "Applications",
-            sidebarDepth: 0,
-            children: [
-              ["/integration/connect/apps/auth0/", "Auth0"],
-              ["/integration/connect/apps/discourse/", "Discourse"],
-              ["/integration/connect/apps/nodejs/", "NodeJS"],
-              [
-                "/integration/connect/apps/oauth2.0-openidconnect/",
-                "OAuth 2.0 / OpenID Connect",
-              ],
-              ["/integration/connect/apps/office365/", "Office 365"],
-              [
-                "/integration/connect/apps/wordpress/",
-                "Wordpress / WooCommerce",
-              ],
-            ],
-          },
-        ],
-      },
-      {
-        title: "Security",
-        children: [
-          ["/security/", "Security & Hack Protections"],
-          ["/security/vulnerabilities", "Security & Vulnerabilities"],
-        ],
+          ["/key-concepts/uns-network", "Secured by uns.network"],
+          ["/key-concepts/openidconnect", "Open ID Connect"],
+          ["/key-concepts/safetypo", "SafeTypo"],
+          ["/key-concepts/security/", "Security & Hack Protections"],
+          ["/key-concepts/vulnerabilities", "Vulnerabilities"],
+        ]
       },
       {
         title: "More...",
@@ -125,8 +114,8 @@ module.exports = {
           ["/qna/", "Q&A"],
           ["/glossary/", "Glossary"],
           ["/powered-by-ark-io/", "Powered by ARK"],
-        ],
-      },
-    ],
-  },
+        ]
+      }
+    ]
+  }
 };

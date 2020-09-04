@@ -8,17 +8,13 @@ Welcome to the <unikname/> Developer Hub.
 
 You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
 
-## [Understanding Unikname](/introduction/)
+## [What is Unikname?](/what-is-unikname/)
 
-## [Using Unikname](/how-to-use-unikname/)
+## [How to integrate Unikname Connect](/integration-guides)
 
-## [Setting up a Unikname Business account](/business-account/)
+## [How to use my @unikname](/how-to-use-my-unikname)
 
-## [Integrating Unikname Connect](/integration/connect)
-
-## [Secure by uns.network](/uns-network/])
-
-## [Security](/security/)
+## [Key Concepts](/key-concepts/])
 
 ## [Q&A](/qna/)
 

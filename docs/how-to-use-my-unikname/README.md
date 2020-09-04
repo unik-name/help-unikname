@@ -1,9 +1,9 @@
 ---
 home: false
-title: "My Unikname App"
+title: "How to use my @Unikname"
 ---
 
-# My Unikname App
+# How to use my @unikname
 
 [My Unikname App](https://my.unikname.app/) is not only an app to manage your owns @unikname and its properties. [My Unikname App](https://my.unikname.app/) is also, and before all, a wallet. This app embed cryptographic and secured features like handling pass phrase, handling private keys and calculating public addresses. 
 

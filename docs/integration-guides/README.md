@@ -2,7 +2,7 @@
 home: false
 ---
 
-# Integrating Unikname Connect
+# How to integrate Unikname Connect
 
 [[TOC]]
 
