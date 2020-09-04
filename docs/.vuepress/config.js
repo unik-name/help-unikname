@@ -91,7 +91,7 @@ module.exports = {
           "/integration-guides/business-account/configuring-organization-unikname"
         ]
       },
-      ["/ux-design-user-guide", "UX Design User Guide"],
+      ["/integration-guides/ux-design-user-guide", "UX Design User Guide"],
       {
         title: "How to use my @unikname",
         children: [
@@ -104,7 +104,7 @@ module.exports = {
           ["/key-concepts/uns-network", "Secured by uns.network"],
           ["/key-concepts/openidconnect", "Open ID Connect"],
           ["/key-concepts/safetypo", "SafeTypo"],
-          ["/key-concepts/security/", "Security & Hack Protections"],
+          ["/key-concepts/security", "Security & Hack Protections"],
           ["/key-concepts/vulnerabilities", "Vulnerabilities"],
         ]
       },
