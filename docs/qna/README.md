@@ -10,11 +10,10 @@ title: "Q&A Unikname"
 ### Why do I have to pay for a Unikname shorter than 15 characters?
 
 It is easy to counterfeit or to create two similar identifiers, especially if they are short. (exemaple: @cecile and @cec1le).
+To prevent this issue, we created the Safetypo technology (see [Key Concepts > Safetypo](safetypo). 
+The Safetypo technology is an algorithm that prevents the creation of similar, confusing or counterfeited identifiers. 
 
-That is why we created the Safetypo technology (see [Key Concepts > Safetypo](safetypo). 
-The Safetypo technology is an algorithm that prevents users from creating similar, confusing or counterfeited identifiers. 
-
-On the contrary, it is difficult to create similar long identifiers or to counterfeit them. However, idenfiers longer than 15 characters are everlasting and you can create one for free. 
+On the contrary, it is difficult to squat/counterfeit/create unvolontary similar and long identifiers (15 characters or more). That is why long uniknames are free. A protection against squatting: uneasy to squat a 15-characters identifier. Moreover, long @unikname idenfiers are also everlasting. 
 
 ### What is Safetypo?
 See [Key Concepts > Safetypo](safetypo).
