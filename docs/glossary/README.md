@@ -66,3 +66,11 @@ The mobile app used to manage user's @unikname. These app is also a fully featur
 ### UNIPs, Uns.Network Improvement Proposals
 
 A curated list of improvement proposals. Breaking changes are first formulated as AIPs, discussed and reviewed by the community before being implemented.
+
+# Abbreviations (Keep?) 
+
+### Mun
+
+### Muc
+
+### unikid
