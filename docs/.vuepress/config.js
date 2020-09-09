@@ -16,6 +16,7 @@ module.exports = {
     },
     "@vuepress/back-to-top": {},
     tabs: {},
+    "@goy/svg-icons": {},
   },
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],

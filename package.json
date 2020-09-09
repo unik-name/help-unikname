@@ -40,6 +40,7 @@
     "build": "yarn docs:build"
   },
   "devDependencies": {
+    "@goy/vuepress-plugin-svg-icons": "^4.2.1",
     "@vuepress/plugin-back-to-top": "^1.2.0",
     "highlight.js": "^9.16.2",
     "markdown-it-include": "^1.1.0",
