@@ -14,11 +14,14 @@ Why?
 The SafeTypo© technology prevents users from creating similar and confusing identifiers.
 No errors due to confusing characters, accents, homonyms, separators or not, character inversion, international charset…
 
-
 **Example**
-If you create @cecilia as a @unikname, nobody can create something similar:
-- cecilee
+If you create @cecile as a @unikname, nobody can create something similar for typosquatting purposes:
+- cecile
 - no confusing characters or characters inversion: cec1le, cicele
 - no accent: cécile
 - case-insensitive: Cecile
 - ceci-lia 
+
+cecilee can be created ; c1cile can be created either.
+
+If you can't create a @unikname, refer to our Safetypo Alphabet (link)
