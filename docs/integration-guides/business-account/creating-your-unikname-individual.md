@@ -1,29 +1,19 @@
 # Creating your individual @unikname
 
-In this guide, you will acquire an individual @unikname.
-If you already own one (or more 😉), you can skip it and [go to the next step of the setup](creating-unikname-organization).
+This guide explains how to install Unikname Connect, in order to acquire an individual @unikname. If you already have an individual @unikname (or more ;)) and need to create one for your organization, you can skip it and [go to the next step of the setup](creating-unikname-organization).
 
 [[toc]]
 
-## Coupon
+## 1.Install the "My Unikname App" on Your Smartphone/tablet
 
-You can create @unikname with a minium of 15 characters for free.
-
-If you want to create special @unikname with less than 15 charaters, it requires a coupon. and if you have one, you can continue. 
-
-Otherwise, contact us on [contact@unikname.com](mailto:contact@unikname.com) to request one.
-
-## Install the "My Unikname App" on Your Smartphone/tablet
+To get an individual @unikname, you need to install "My unikname App" on your smartphone/tablet.
 ::: **Important**
-Unikname is available on your Android or iOS devices. 
-You must use one of the following browsers: GoogleChrome/Safari/Brave
-:::You can't get Unikname Connect via the Google Store, F-Droid.
+- Unikname is available on your Android or iOS devices. 
+- You must use one of the following browsers: GoogleChrome/Safari/Brave
+- You can only get our Unikname Connect application via [My Unikname App](https://my.unikname.app/). It is not available on Google Play/Apple Store/F-Droid.
 
 
-The creation of your @unikname is done through [My Unikname App](https://my.unikname.app/).
-To launch the application, follow this link with your **Android smartphone or iPhone** (**and your phone only**):
-
-👉 [https://my.unikname.app/](https://my.unikname.app/).
+1. On your smartphone, type this link onto your browser: [My Unikname App](https://my.unikname.app/).
 
 Once the application is installed on your home screen, launch the application and follow the steps displayed on your screen.
 
@@ -31,6 +21,13 @@ One of the first steps you will be asked is to create your pin code.
 This pin code will be required everytime you need to access the application later and manage your @unikname.
 
 ![pin-code](./images/pin-code.png)
+## Coupon
+
+You can create @unikname with a minium of 15 characters for free.
+
+If you want to create special @unikname with less than 15 charaters, it requires a coupon. and if you have one, you can continue. 
+
+Otherwise, contact us on [contact@unikname.com](mailto:contact@unikname.com) to request one.
 
 ## Subscribing to the Unikname newsletter
 
