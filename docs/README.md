@@ -1,21 +1,18 @@
 ---
 home: true
-actionText: Getting Started
-actionLink: /getting-started/
 ---
 
 Welcome to the <unikname/> Developer Hub.
 
 You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
 
-## [What is Unikname?](/introduction)
+## [What is Unikname?](/1-introduction)
 
-## [Key Concepts](/key-concepts)
+## [My @unikname](/2-my-unikname)
 
-## [How to integrate Unikname Connect](/unikname-connect) 
+## [Unikname Connect](/3-unikname-connect)
 
-## [How to use my @unikname](/my-unikname) 
+## [Key Concepts](/4-key-concepts)
 
-## [Q&A](/support/qna)
+## [Support](/5-support)
 
-## [Glossary](/support/glossary)

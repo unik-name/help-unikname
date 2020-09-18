@@ -60,156 +60,60 @@ module.exports = {
     activeHeaderLinks: true,
     sidebarDepth: 1,
     nav: [{ text: "Get the App", link: "https://my.unikname.app" }],
-    sidebar: {
-      // First Sidebar, enabled for content related with my-unikname pages
-      '/my-unikname/': [ 
+    sidebar:
+      [
         // Introduction group
         {
-          title: "Introduction",
-          path: "/introduction/",
+          title: "What is unikname?",
+          path: "/1-introduction/",
           sidebarDepth: 0,
           children: [
-            ["/introduction/unikname-solutions", "Unikname Solutions"],
+            ["/1-introduction/unikname-solutions", "Unikname Solutions"],
           ]
         },
-        // Key Concepts group
+        // my @unikname
         {
-          title: "Key Concepts",
-          path: "/key-concepts/",
-          sidebarDepth: 0,
+          title: "My @unikname",
+          path: "/2-my-unikname/",
+          sidebarDepth: 1,
           children: [
-            ["/key-concepts/openidconnect", "Open ID Connect"],
-            ["/key-concepts/uns-network", "uns.network blockchain"],
-            ["/key-concepts/safetypo", "Safe Typo"],
-            ["/key-concepts/security", "Security"],
+            ["/2-my-unikname/howto-install-my-unikname-app", "How to install my Unikname App?"],
+            ["/2-my-unikname/howto-get-individual-unikname", "How to get my own @unikname?"],
+            ["/2-my-unikname/howto-login", "How to use my @unikname to log in?"],
+            ["/2-my-unikname/using-uns-tokens", "Using UNS tokens"],
+            ["/2-my-unikname/using-recovery-keys", "Using Recovey keys"],
           ]
         },
-        // Main group
-        {
-          title: "My Unikname",
-          path: "/my-unikname/",
-          sidebarDepth: 2,
-          children: [
-            ["1.GettingStartedWithMyUnikname", "Getting started with my @unikname"],
-            ["2.creating-your-unikname-individual", "Creating your own unikname"],
-            ["3.HowToUseMyUniknameWebsite", "How To Use My Unikname Website"],
-            ["4.HowToUseMyUniknameUNS", "How To Use My UNS tokens"],
-          ]
-        },
-        // quick jump to content summary for Unikname Connect
-        ["/unikname-connect/", "Unikname Connect"],
-        // extra group
-        {
-          title: "More...",
-          children: [
-            ["/support/qna", "Q&A"],
-            ["/support/glossary", "Glossary"],
-            ["/support/vulnerabilities", "Vulnerabilities"],
-            ["/support/powered-by-ark-io", "Powered by ARK.io"],
-            ["https://forum.unikname.com/", "Forum uns.network"],
-          ]
-        } 
-      ],
-
-      // Second Sidebar, enabled for content related with Unikname-Connect pages
-      '/unikname-connect/': [
-        // Introduction group
-        {
-          title: "Introduction",
-          path: "/introduction/",
-          sidebarDepth: 0,
-          children: [
-            ["/introduction/unikname-solutions", "Unikname Solutions"],
-          ]
-        },
-        // Key Concepts group
-        {
-          title: "Key Concepts",
-          path: "/key-concepts/",
-          sidebarDepth: 0,
-          children: [
-            ["/key-concepts/openidconnect", "Open ID Connect"],
-            ["/key-concepts/uns-network", "uns.network blockchain"],
-            ["/key-concepts/safetypo", "Safe Typo"],
-            ["/key-concepts/security", "Security"],
-          ]
-        },
-        // quick jump to content summary for My Unikname
-        ["/my-unikname/", "My Unikname"],
-        // Main group
         {
           title: "Unikname Connect",
-          path: "/unikname-connect/",
+          path: "/3-unikname-connect/",
           children: [
-            ["0.GettingStarted-unikname-connect-installation", "Getting Started installation"],
-            ["1.CreateAnIndividualUniknameForBusiness", "Create An Individual Unikname For Business"],
-            ["2.creating-unikname-organization", "Creating unikname organization"],
-            ["3.configuring-organization-unikname", "Configuring organization unikname"],
-            ["4.HowToIntegrateUniknameConnect", "How To Integrate Unikname Connect"],
+            ["/3-unikname-connect/0-howto-install-unikname-connect", "How to install Unikname Connect"],
           ]
         },
-        // environment group 
-        { 
-          title: "Integration Technologies",
-          path: "/unikname-connect/environments/",
+        // Key Concepts group
+        {
+          title: "Key Concepts",
+          path: "/4-key-concepts/",
+          sidebarDepth: 0,
           children: [
-            ["/unikname-connect/environments/auth0/", "authO"],
-            ["/unikname-connect/environments/discourse/", "Discourse"],
-            ["/unikname-connect/environments/nodejs/", "nodejs"],
-            ["/unikname-connect/environments/oauth2.0-openidconnect/", "OAuth2.0 / Open ID Connect"],
-            ["/unikname-connect/environments/office365/", "Office 365"],
-            ["/unikname-connect/environments/wordpress/", "Wordpress"],
+            ["/4-key-concepts/openidconnect", "Open ID Connect"],
+            ["/4-key-concepts/uns-network", "uns.network blockchain"],
+            ["/4-key-concepts/safetypo", "Safe Typo"],
+            ["/4-key-concepts/security", "Security"],
           ]
         },
         // extra group
         {
           title: "Support",
           children: [
-            ["/support/qna", "Q&A"],
-            ["/support/glossary", "Glossary"],
-            ["/support/vulnerabilities", "Vulnerabilities"],
-            ["/support/powered-by-ark-io", "Powered by ARK.io"],
-            ["https://forum.unikname.com/", "Forum uns.network"],
-          ]
-        } 
-      ],
-
-      // Default Sidebar, enabled for all other pages 
-      '/': [
-        // Introduction group
-        {
-          title: "Introduction",
-          path: "/introduction/",
-          sidebarDepth: 0,
-          children: [
-            ["/introduction/unikname-solutions", "Unikname Solutions"],
-          ]
-        },
-        // Key Concepts group
-        {
-          title: "Key Concepts",
-          path: "/key-concepts/",
-          sidebarDepth: 0,
-          children: [
-            ["/key-concepts/openidconnect", "Open ID Connect"],
-            ["/key-concepts/uns-network", "uns.network blockchain"],
-            ["/key-concepts/safetypo", "Safe Typo"],
-            ["/key-concepts/security", "Security"],
-          ]
-        },
-        ["/my-unikname/", "My Unikname"],
-        ["/unikname-connect/", "Unikname Connect"],
-        {
-          title: "Support",
-          children: [
-            ["/support/qna", "Q&A"],
-            ["/support/glossary", "Glossary"],
-            ["/support/vulnerabilities", "Vulnerabilities"],
-            ["/support/powered-by-ark-io", "Powered by ARK"],
+            ["/5-support/qna", "Q&A"],
+            ["/5-support/glossary", "Glossary"],
+            ["/5-support/vulnerabilities", "Vulnerabilities"],
+            ["/5-support/powered-by-ark-io", "Powered by ARK.io"],
             ["https://forum.unikname.com/", "Forum uns.network"],
           ]
         } 
       ]
-    }
   }
 };
