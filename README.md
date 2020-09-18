@@ -1,4 +1,4 @@
-# Unikname Developper Hub
+# Unikname Solutions Hub
 
 **Unikname Solutions** secure your web and mobile apps against hacks and data theft.
 
