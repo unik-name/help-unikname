@@ -8,14 +8,14 @@ Welcome to the <unikname/> Developer Hub.
 
 You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
 
-## [What is Unikname?](/what-is-unikname/)
+## [What is Unikname?](/introduction)
 
-## [How to integrate Unikname Connect](/integration-guides)
+## [Key Concepts](/key-concepts)
 
-## [How to use my @unikname](/how-to-use-my-unikname)
+## [How to integrate Unikname Connect](/unikname-connect) 
 
-## [Key Concepts](/key-concepts/])
+## [How to use my @unikname](/my-unikname) 
 
-## [Q&A](/qna/)
+## [Q&A](/support/qna)
 
-## [Glossary](/glossary/)
+## [Glossary](/support/glossary)
