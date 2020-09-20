@@ -9,27 +9,29 @@ title: "How to install my Unikname App"
 
 To get a personal @unikname identifier, you need to install **My unikname App** on your smartphone/tablet.
 
-:::📝 
+:::tip 
 - Unikname is available on your Android or iOS devices. 
 - You must use one of the following browsers: GoogleChrome/Safari/Brave.
-- You can only get **My unikname App** via [My Unikname App](https://my.unikname.app/). It is not available on Google Play/Apple Store/F-Droid:::
+- You can only get **My unikname App** via [My Unikname App](https://my.unikname.app/). It is not available on Google Play/Apple Store/F-Droid
+:::
 
 1. On your smartphone, enter [My Unikname App](https://my.unikname.app/) into your web browser.
 
-![InstallMyUniknameApp](./images/InstallMyUniknameApp.jpg)
+<copyscreen caption="Mon image" >![InstallMyUniknameApp](./images/InstallMyUniknameApp.jpg)</copyscreen>
 
 2. Click **Install now!**.
 3. Launch **My Unikname App**.
 
 ## 2. Define a PIN code
-:::📝 Before creating a @unikname identifier, you have to define a PIN code. This PIN code secures the access to the application on your smartphone. You'll be required to enter this PIN code everytime you launch **My Unikname App**.:::
+:::tip
+Before creating a @unikname identifier, you have to define a PIN code. This PIN code secures the access to the application on your smartphone. You'll be required to enter this PIN code everytime you launch **My Unikname App**.
+:::
 
 ![CreatePINCode](./images/CreatePINCode.jpg)
 
-
 ## 3. Create your personal @unikname identifier
 
-:::⚠️**Tip**
+:::warning
 **Choose your @unikname identifier carefully. Your @unikname identifier is permanent and personal. Once it is created, you can't edit it or give it to another user**.
 :::
 
