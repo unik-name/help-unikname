@@ -27,7 +27,7 @@ To get a personal @unikname identifier, you need to install **My unikname App** 
 ## 2. Define a PIN code
 Before creating a @unikname identifier, you have to define a PIN code. This PIN code secures the access to the application on your smartphone. 
 
-You'll be required to enter this PIN code everytime you launch **My Unikname App**.:::
+You'll be required to enter this PIN code everytime you launch **My Unikname App**.
 
 ![CreatePINCode](./images/CreatePINCode.jpg)
 
