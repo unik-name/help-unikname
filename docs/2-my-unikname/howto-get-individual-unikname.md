@@ -1,8 +1,8 @@
 ---
 home: false
-Title: "How to Get My Individual @unikname identifier?"
+Title: "How to Get My Own Individual @unikname Identifier?"
 ---
-# How to Get My Onw Individual @unikname Identifier?
+# How to Get My Own Individual @unikname Identifier?
 
 This guide explains how to configure **My Unikname App**, on your smartphone or tablet, in order to acquire a personal @unikname identifier, for your personal use. 
 
@@ -34,7 +34,7 @@ Short @unikname identifiers are protected by our Safetypo algorithm. It prevents
 ### Creating a free @unikname identifier
 You can create a @unikname identifier for free, only if it is longer than 15 characters. 
 
-If you wish to create a shorter @unikname identifier, contact us on [contact@unikname.com](mailto:contact@unikname.com).
+If you wish to create a shorter @unikname identifier, contact us on [contact@unikname.com](mailto:contact@unikname.com)
 
 ## 3. Backup your recovery key
 Your @unikname identifier and all associated data (PIN code, recovery key) are strictly personal and confidential. We can't help you retrieve or restore it if you lose them or change your device. This is why **you must backup your recovery key immediately**. 
@@ -43,12 +43,12 @@ Your @unikname identifier and all associated data (PIN code, recovery key) are s
 
 Your recovery key is composed of 12 secret words.
 
-1. Click **Secure now**.
+1. Tap **Secure now**.
 2. Keep pressing **Show recovery key** and write down your recovery key in a safe place.
   
 <copyscreen caption="Recovery key backup">![uniknameRecoveryKey](./images/uniknameRecoveryKey.jpg)</copyscreen>
 
-3. Click **Check** to test your recovery key backup.
+3. Tap **Check** to test your recovery key backup.
 4. Enter the secret words of your recovery key.
 
 Your recovery key has been safely backed up!
@@ -57,18 +57,24 @@ Your recovery key has been safely backed up!
 
 To get some fresh news from Unikname, you can subscribe to our monthly newsletter. 
 
-:::**Important**
+**Important**
 
-Because confidentiality and privacy are very important for us, we don't link your e-mail address or any other personal data to your @unikname identifier. We don't share your personal information with any third-party. We use a self-hosted app, stored on our own secured and private server. :::  
+Because confidentiality and privacy are very important for us, we don't link your e-mail address or any other personal data to your @unikname identifier. We don't share your personal information with any third-party. We use a self-hosted app, stored on our own secured and private server.   
 
-- To subscribe to our newsletter, from the **Home** menu, click **Settings** > **Contact**.
+- To subscribe to our newsletter, from the **Home** menu, press **Settings** > **Contact**.
 - Enter your e-mail address.
 
 **All done!** 
 
-:::**NOTE** To create new @unikname identifiers or to restore your @unikname with your recovery key:
-- Click the **@unikname** menu.
-- Click the top-left menu.
+## How to create a new @unikname identifier?
+
+To create new @unikname identifiers or to restore your @unikname with your recovery key:
+- Tap the **@unikname** menu.
+- Tap the top-left menu.
  The @unikname menu is displayed.
 
 <copyscreen>![UniknameMenus](./images/UniknameMenus.png)</copyscreen>
+
+## Where to find your @unikname properties? 
+
+Refer to [How to Manage my UNS Tokens with My Unikname App?](./using-uns-tokens)

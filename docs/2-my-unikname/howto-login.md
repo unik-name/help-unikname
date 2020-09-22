@@ -10,7 +10,7 @@ You're logged in!
 
 **If you don't have an account on a website, you have to:** 
 
- 1. Click the  **Unikname Connect** button.
+ 1. Tap the  **Unikname Connect** button.
  
  <copyscreen caption="First-time sign-up on kover.link website">![1.ConnectWebsite](./images/1.ConnectWebsite.png)</copyscreen>
 

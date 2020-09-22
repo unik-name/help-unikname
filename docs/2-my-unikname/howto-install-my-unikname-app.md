@@ -1,9 +1,9 @@
 ---
 home: false
-title: "How to install my Unikname App"
+title: "How to install my Unikname App?"
 ---
 
-# How to install My Unikname App
+# How to install My Unikname App?
 
 ## Install the "My Unikname App" on Your Smartphone/tablet
 
@@ -19,7 +19,7 @@ To get a personal @unikname identifier, you need to install **My unikname App** 
 
 <copyscreen caption="Installing My Unikname App" >![InstallMyUniknameApp](./images/InstallMyUniknameApp.jpg)</copyscreen>
 
-2. Click **Install now!**.
+2. Tap **Install now!**.
 3. Launch **My Unikname App**.
 
 
