@@ -15,15 +15,19 @@ $ uns properties:register "@organization:mycompany" --value "www.mycompany.com"
 ```
 2. Replace `www.mycompany.com` by the URL of your website.
 
-⚠️ Do not include the `https` protocol. It is added by default to the URL.
+:::warning
+ Do not include the `https` protocol. It is added by default to the URL.
+:::
 
- 💡 This command provides a `verificationKey` and writes a verification package in `uns-verification.txt` file. These data will be used in the next steps.
+:::tip 
+This command provides a `verificationKey` and writes a verification package in `uns-verification.txt` file. These data will be used in the next steps.
+:::
 
  ## 2. Upload the `uns-verification.txt` file to your website
 
 1. Upload the `uns-verification.txt` file to a place where the URL Checker can download it, using the following URL: `https://www.mycompany.com/.well-known/uns-verification.txt`
 
-⚠️ Store the `uns-verification.txt` file in the **.well-known** directory.
+⚠️ Make sure you store the `uns-verification.txt` file in the **.well-known** directory.
 
 2. In UNS CLI, type the following command to finish the verification process:
 ```bash
@@ -34,7 +38,9 @@ $ uns properties:register "@organization:mycompany" --value "www.mycompany.com"
 
 A **UNS URL Checker** will crawl your website, within 72 hours, to check the verification package and HTML tag/file upload.
 
-⚠️ Keep the file on your website as long as possible. An URL Checker may need up to 72 hours to check your website. Removing this verification file too soon from your site will cause you to lose verification for the site.
+:::warning
+ Keep the file on your website as long as possible. An URL Checker may need up to 72 hours to check your website. Removing this verification file too soon from your site will cause you to lose verification for the site.
+:::
 
 ## 3. Check your organization @unikname configuration information with the UNS Network explorer
 Refer to [Check the creation of your organization @unikname identifier with the UNS explorer](creating-unikname-organization.html#checking-the-creation-of-the-unikname-in-the-explorer).

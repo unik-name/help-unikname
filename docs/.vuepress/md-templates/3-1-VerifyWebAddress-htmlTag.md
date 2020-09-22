@@ -27,7 +27,9 @@ Here, we can see that the `meta` tag  `<meta name="uns-url-checker-verification"
 ```
 A **UNS URL Checker** will crawl your website, within 72 hours, to check the verification package and HTML tag/file upload.
 
-⚠️ Keep the HTML tag into the webpage as long as possible. An URL Checker may need up to 72 hours to check your website. Removing this HTML tag too soon from your site will cause you to lose verification for the site.
+:::warning
+Keep the HTML tag into the webpage as long as possible. An URL Checker may need up to 72 hours to check your website. Removing this HTML tag too soon from your site will cause you to lose verification for the site.
+:::
  
 ## 2. Check your organization @unikname configuration information with the UNS Network explorer
 Refer to [Check the creation of your organization @unikname identifier with the UNS explorer](creating-unikname-organization.html#checking-the-creation-of-the-unikname-in-the-explorer).

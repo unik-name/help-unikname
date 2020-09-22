@@ -1,11 +1,11 @@
 ---
 home: false
-Title: "My @unikname"
+Title: "My @unikname?"
 ---
 
-# What is my @unikname?
+# What is My @unikname?
 
-My @unikname is a new generation of universal and secure identifiers. 
+**My @unikname** is a new generation of universal and secure identifiers. 
 
 To create a @unikname identifier, you just have to download **My Unikname App**, follow the process to create your @unikname identifier. @unikname identifiers don't require any password!
 Once your @unikname identifier is created, you can login/sign up on any website that embeds our solution. 

@@ -1,10 +1,10 @@
 ---
 home: false
-title: "How to Configure Your Organization @unikname Identifier"
+title: "How to Configure Your Organization @unikname Identifier?"
 ---
  
 
-# How to Configure Your Organization @unikname Identifier
+# How to Configure Your Organization @unikname Identifier?
 
 Your users must be able to check and verify information about your service, especially your business name and its web address. Let's configure your organization @unikname identifier. It will reveal, to the uns.network [UNS.network](https://explorer.uns.network) community, your business name and associated data.
 
@@ -24,7 +24,7 @@ By default, all @unikname values are obfuscated and hidden for all. The action o
 2. Replace the value `mycompany` by the organization @unikname identifier you want to disclose, internally in [UNS.network](https://explorer.uns.network).
 3. Replace `My-Company` by the "official/public" value you want to show to your users for your organization @unikname identifier.<br/>
 
-:::📝
+:::tip
 Refer to the [@unikname naming schema](soon) to ensure that you entered the @unikname value properly.::: 
 
 ## 2. Verify the web address of your service

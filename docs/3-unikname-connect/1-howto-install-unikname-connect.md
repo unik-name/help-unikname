@@ -3,14 +3,13 @@ home: false
 Title: "How to Install Unikname Connect on a Website?"
 ---
 
-# How to Install Unikname Connect on a Website? (for developers only)
+# How to Install Unikname Connect on a Website?
 
 Most of the Unikname solutions require a Unikname Business account. It allows you to manage your organization @unikname, to enable new services, to configure the billing information...
 
 To install Unikname Connect on your website, you must first: 
-1. Create a business account (a personal @unikname identifier + an organization @unikname identifier).
-2. Configure your business account.
-3. Integrate Unikname Connect on your website.
+- Create a business account (a personal @unikname identifier + an organization @unikname identifier).
+- Configure your business account.
 
 👉 Let's go
 
@@ -18,7 +17,7 @@ To install Unikname Connect on your website, you must first:
 
 ## Get Started with Discourse Forum
 
-## Get Started with Worpress or Woocommerce
+## Get Started with WordPress or Woocommerce
 
 ## Get Started with nodejs SDK
 

@@ -81,15 +81,17 @@ module.exports = {
             ["/2-my-unikname/howto-get-individual-unikname", "How to get my own @unikname?"],
             ["/2-my-unikname/howto-login", "How to use my @unikname to log in?"],
             ["/2-my-unikname/using-uns-tokens", "Using UNS tokens"],
-            ["/2-my-unikname/using-recovery-keys", "Using Recovey keys"],
+            ["/2-my-unikname/using-recovery-keys", "Using Recovery keys"],
           ]
         },
+        // Unikname Connect
         {
           title: "Unikname Connect",
           path: "/3-unikname-connect/",
+          sidebarDepth: 0,
           children: [
-            ["/3-unikname-connect/0-howto-install-unikname-connect", "How to install Unikname Connect"],
-          ]
+            ["/3-unikname-connect/1-howto-install-unikname-connect", "How to Install Unikname Connect on a Website?"],
+           ]
         },
         // Key Concepts group
         {

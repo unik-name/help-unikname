@@ -46,7 +46,9 @@ COMMANDS
 ```
 You are now ready for the next step!
 
-:::📝 If you want more details about the CLI and tips to use it, refer to the [CLI documentation](/uns-use-the-network/cli).
+ 
+:::tip
+If you want more details about the CLI and tips to use it, refer to the [CLI documentation](/uns-use-the-network/cli).
 :::
 
 ## 2. Creating and saving your cryptoaccount information
@@ -77,7 +79,8 @@ uns cryptoaccount:create
 ```
 4. Backup your cryptoaccount information immediately, in a secure place. 
 
-:::⚠️ If you lose your cryptoaccount information and your @unikname identifier, this backup file will help you to recover your cryptoaccount. Note that we can't retrieve your cryptoaccount information for you!
+:::tip
+If you lose your cryptoaccount information and your @unikname identifier, this backup file will help you to recover your cryptoaccount. Note that we can't retrieve your cryptoaccount information for you!
 :::
 
 ## 3. Using a COUPON to create the organization @unikname identifier
@@ -91,14 +94,14 @@ Otherwise, it's time [to get in contact with the Unikname team](https://www.unik
 
 Once you have a coupon, all you have to do is to create the @unikname identifier!
 
-:::⚠️⚠️ 
+:::warning
+For security and confidentiality reasons, neither <uns/> nor Unikname can retrieve your @unikname identifier for you, in the event you lose it. That is why **you must save the passphrase, associated to your @unikname identifier**.
+:::
 
-For security and confidentiality reasons, neither <uns/> nor Unikname can retrieve your @unikname identifier for you, in the event you lose it. That is why **you must save the passphrase, associated to your @unikname identifier**.:::
-
-:::⚠️ **Choosing the @unikname identifier**
-
+:::warning
 Choose your organization @unikname identifier wisely.
-Keep in mind that once created, this @unikname identifier will be permanently associated to your business and disclosed to the other users. You can't change your organization @unikname identifier at any time. :::
+Keep in mind that once created, this @unikname identifier will be permanently associated to your business and disclosed to the other users. You can't change your organization @unikname identifier at any time. 
+:::
 
 1. **Backup the passphrase in a secure file**. 
 2. In CLI, copy and paste the following piece of code, to create your organization @unikname identifier: 
@@ -136,7 +139,7 @@ To check that your organization @unikname identifier has been created correctly:
 2. In the search bar, type **@organization:mycompany**
 3. Replace **mycompany** by your organization @unikname identifier.
 
-![explorer-search-@organization_mycompany](./../images/explorer-search-@organization_mycompany.png)
+![explorer-search-@organization_mycompany](./images/explorer-search-organization_mycompany.png)
 
 You can access the information associated to the cryptoaccount of your organization @unikname identifier (address, UNS token amount, public key).
 

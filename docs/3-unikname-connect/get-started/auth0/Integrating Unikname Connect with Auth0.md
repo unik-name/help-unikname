@@ -5,9 +5,6 @@ title: "Auth0"
 
 # Integrating Unikname Connect with Auth0
 
-[What is](.vuepress/md-templates/unc-registering-process-what-is-unc.md)
-
-
 ## About Auth0
 
 ![Auth0](./auth0-logo-full.png)

@@ -27,8 +27,8 @@ It a natural anti-phishing solution as you don't create any password and as we d
 It is a natural anti-spoofing solution because your @unikname is not linked to your e-mail address in any way.
 
 ## How Does Unikname Connect Work? A Quick Overview
-1. Once you have downloaded **"My Unikname App"** on your smartphone, and created your @unikname identifier, you can can create a business account and install Unikname Connect on your website.
+Once you have downloaded **"My Unikname App"** on your smartphone, and created your @unikname identifier, you can can create a business account and install Unikname Connect on your website.
 
 To go further, click the following links:
 
-- [How to install Unikname Connect on a website (for developers)](/0.GettingStarted-unikname-connect-installation)
+- [How to install Unikname Connect on a website](/1-howto-install-unikname-connect)
