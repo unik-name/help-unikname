@@ -12,7 +12,7 @@ You're logged in!
 
  1. Click the  **Unikname Connect** button.
  
- <copyscreen caption="First-time sign-up on kover.link websiteMon image" >![1.ConnectWebsite](./images/1.ConnectWebsite.png)</copyscreen>
+ <copyscreen caption="First-time sign-up on kover.link website">![1.ConnectWebsite](./images/1.ConnectWebsite.png)</copyscreen>
 
 2. Enter your @unikname, as requested.
 
