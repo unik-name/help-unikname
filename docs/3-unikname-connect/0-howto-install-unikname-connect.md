@@ -12,7 +12,7 @@ To install Unikname Connect on your website, you must first:
 2. Configure your business account.
 3. Integrate Unikname Connect on your website.
 
-👉 [Let's go](/1.CreateAnIndividualUniknameForBusiness)!
+👉 Let's go
 
 ## Get Started with Auth0
 
