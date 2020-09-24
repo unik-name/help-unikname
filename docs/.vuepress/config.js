@@ -66,10 +66,7 @@ module.exports = {
         {
           title: "What is unikname?",
           path: "/1-introduction/",
-          sidebarDepth: 0,
-          children: [
-            ["/1-introduction/unikname-solutions", "Unikname Solutions"],
-          ]
+          sidebarDepth: 1
         },
         // my @unikname
         {
