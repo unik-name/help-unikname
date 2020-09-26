@@ -5,57 +5,51 @@ title: "What is Unikname"
 
 # What is Unikname?
 
-:::tip Unikname makes the internet safer and protect user's privacy.
-Unikname is a set of user friendly cyber-solutions aiming of securing internet platforms and protecting user's privacy. 
+:::tip Unikname is a set of user friendly cyber-solutions aiming of securing internet platforms and protecting user's privacy. 
+Unikname is intended for whose who wish to participates and contributes to make the internet more trustful. 
 :::
+
+Unikname makes the internet safer and protect user's privacy thanks to Self-Sovereign Identifiers and blockchain technologies.
+
+Discover Unikname solutions: 
 
 [[TOC]]
 
-## Unikname Connect
+## Unikname Connect: The next-generation authentication solution
 
-### For end users
+Unikname Connect is a very simple strong authentication and privacy-by-design login solution, rewarding users.
 
-:::tip Unikname Connect is a next-generation authentication solution
-Unikname Connect is a next-generation authentication solution, privacy centric, rewarding users.
-:::
+### Privacy-by-design
 
-Users are encouraged to maximize use of their @unikname to log in. They're not tracked and they receive rewards (UNS token) for every authentication. These rewards can be exchanged against vouchers or promotional coupons to be redeemed on any partner platforms using Unikname Connect.
+**User privacy comes first.** Unikname Connect is entirely built with the idea to keep user's connections private. Unikname does not collect any personal data (name, phone number, address, connection history...) at any time. The system will never use your @unikname identifier to trace your habits and behaviors on the Internet. 
 
-Unikname is intended for whose who wish to simplify day to day use of internet, while protecting their privacy.
+Our technology makes it possible to customized user experience and services without collecting user data. Most of data are stored on user's smartphone and fully controlled by the user himself, and no one else. 
 
-> With unikname every user participates and contributes to make the internet more trustful.
+**Unikname Connect protects internet businesses from espionage**. User's connections are not traceable by third parties tracking tools. Only the user himself and the platform know their relationship.
 
-#### Benefits
+### Unikname rewards its users
 
-**Simplest authentication:** Unikname Connect provides a disruptive UX User Experience with no more password to remember, allowing instant login and frictionless sign-up to any websites.
+**Thanks to UNS Tokens,** Unikname users are encouraged to maximize use of their @unikname to log in any websites by rewarding them. Every unikname user who sign-up and login to a website receives rewards. These rewards are digital tokens called _UNS Tokens_. 
 
-**Privacy-by-design:** Privacy comes first. Our solution is entirely built with the idea to keep user's connections private. Unikname doesn't collect any personal data (name, phone number, address, connection history...) at any time. The system will never use your @unikname identifier to trace your habits and behaviors on the Internet. Most of data are stored on user's smartphone and fully controlled by himself, and no one else. There's no database containing user's data.
+**Partner platforms using Unikname Connect offer promotional coupons for Unikname users.** UNS Tokens can be exchanged against vouchers or promotional coupons to be redeemed on any partner platforms.
 
-**Highly Secure:** Unikname Connect implements the latest standards in cybersecurity. User accounts are more protected against hacks and data theft.
+### Simplest authentication
 
-### For businesses
+**Unikname Connect provides a disruptive UX User Experience** with no more password to remember, allowing instant login and frictionless sign-up to any websites. Unikname Connect simplifies day to day use of internet.
 
-:::tip Unikname Connect is a powerful marketing tool for gaining user's trust. 
-Unikname Connect is a strong authentication solution boosting platform traffic.
-:::
+### Highly Secure
 
-> With unikname every SaaS platform contributes for more ethical internet.
+**2FA strong authentication:** Unikname Connect is a 2FA strong authentication solution by design, relying on a smartphone app and a PIN Code or biometric recognition. Technically Unikname Connect relies on latests oAuth and OpenID Connect authentication protocol standards. User accounts are more protected against hacks and data theft.
 
-#### Benefits
+### New customer acquisition channel
 
-**Traffic booster:** The large community of @unikname users receive incentive to explore websites using Unikname Connect. By this way the Unikname Connect solution should be seen as a new customer acquisition channel.
+**Unikname Connect becomes a new customer acquisition channel.** The large community of @unikname users receive incentive to explore websites using Unikname Connect. 
 
-**Privacy-by-design:** Unikname Connect protects internet businesses from espionage. User's connections are not traceable by third parties tracking tools. Only the user and the platform know their relationship.
+## My Unikname: Your Universal IDentifier
 
-**2FA strong authentication:** Unikname Connect is a 2FA strong authentication solution by design, relying on a smartphone app and a PIN Code or biometric recognition. Technically Unikname Connect relies on latests oAuth and OpenID Connect authentication protocol standards.
+My Unikname is a Universal Human-Readable Self-Sovereign IDentifier, a @unikname, under the sole control of its owner, and an App. 
 
-## My Unikname 
-
-My Unikname is a combination of a universal self-sovereign identifier, a @unikname, and its related App. 
-
-My.Unikname.App is the best place to get and manage self-sovereign identifiers owned by each @unikname owner.
-
-My.Unikname.App is also the App enabling operations and functions provided by self-sovereign identifiers like fully confidential authentication.
+My.Unikname.App allows to get and manage your @unikname but also to use it to control everything you can do with it like fully confidential authentication on websites. 
 
 ## Unikname Anti-Phishing
 
@@ -71,4 +65,4 @@ Unikname Certificate Proofing is the solution for securing mobile apps against f
 
 ## Under the hood
 
-All unikname solutions rely on the ([uns.network](https://www.uns.network/)) decentralized blockchain technology, secured by 23 elected delegates, combining individuals and organizations. 
+All unikname solutions rely on the ([uns.network](https://www.uns.network/)) decentralized blockchain technology, secured by 23 elected individual and organization delegates. 
