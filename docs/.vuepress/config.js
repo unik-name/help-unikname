@@ -1,9 +1,9 @@
 module.exports = {
-  title: "The Unikname Solutions Hub",
+  title: "The @unikname Hub",
   title2: "Unikname Guides and Docs",
   description:
     "Comprehensive guides and documentation to help you start working with the Unikname Solutions as quickly as possible. Let's go!",
-  description2: "Official documentation for the Unikname solutions",
+  description2: "Official documentation for @unikname",
   plugins: {
     sitemap: {
       hostname: "https://docs.unikname.com",

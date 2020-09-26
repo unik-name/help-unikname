@@ -1,10 +1,12 @@
-# Unikname Solutions Hub
+# @unikname Hub
 
-**Unikname Solutions** secure your web and mobile apps against hacks and data theft.
+Official documentation for @unikname.
 
-> Official guides and documentation to use and integrate Unikname solutions, powered by VuePress.
+Guides and documentation to use and integrate Unikname solutions and to help you start working with @unikname as quickly as possible. Let's go!
 
 ## Development
+
+This documentation is powered by VuePress.
 
 ```
 git clone https://github.com/unik-name/docs.unik-name.com

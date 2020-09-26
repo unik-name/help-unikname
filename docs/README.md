@@ -2,9 +2,7 @@
 home: true
 ---
 
-Welcome to the <unikname/> Developer Hub.
-
-You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
+Welcome to the <unikname/> Hub. You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
 
 ## [What is Unikname?](/1-introduction)
 
