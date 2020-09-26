@@ -1,11 +1,11 @@
 ---
 home: false
-title: "What is Unikname"
+title: "What is Unikname&trade;"
 ---
 
-# What is Unikname?
+# What is Unikname&trade;?
 
-:::tip Unikname is a set of user friendly cyber-solutions aiming of securing internet platforms and protecting user's privacy. 
+:::tip Unikname&trade; is a set of user friendly cyber-solutions aiming of securing internet platforms and protecting user's privacy. 
 Unikname is intended for whose who wish to participates and contributes to make the internet more trustful. 
 :::
 
@@ -45,11 +45,13 @@ Our technology makes it possible to customized user experience and services with
 
 **Unikname Connect becomes a new customer acquisition channel.** The large community of @unikname users receive incentive to explore websites using Unikname Connect. 
 
-## My Unikname: Your Universal IDentifier
+## @Unikname: Your Universal IDentifier
 
-My Unikname is a Universal Human-Readable Self-Sovereign IDentifier, a @unikname, under the sole control of its owner, and an App. 
+**@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign**, that means it's easy to memorize it, it's always available, it's usable everywhere, and maybe the most important, it's under the sole control of its owner.
 
-My.Unikname.App allows to get and manage your @unikname but also to use it to control everything you can do with it like fully confidential authentication on websites. 
+To get your own @unikname identifier you just have to install the ``My Unikname App`` and to follow a 3 steps process. Once you own your @unikname, you can sign-up and log in to any website that embeds the Unikname Connect widget/pluggin, and start being rewarded.
+
+**My.Unikname.App allows to @unikname owner to control their digital life.** @unikname owners can get and manage their @unikname and can also control everything they can do with their ID, like private sign-up and login to websites. 
 
 ## Unikname Anti-Phishing
 

@@ -64,21 +64,32 @@ module.exports = {
       [
         // Introduction group
         {
-          title: "What is unikname?",
+          title: "What is Unikname?",
           path: "/1-introduction/",
           sidebarDepth: 1
         },
         // my @unikname
         {
-          title: "My @unikname",
+          title: "@Unikname",
           path: "/2-my-unikname/",
-          sidebarDepth: 1,
+          sidebarDepth: 0,
           children: [
             ["/2-my-unikname/howto-install-my-unikname-app", "How to install my Unikname App?"],
             ["/2-my-unikname/howto-get-individual-unikname", "How to get my own @unikname?"],
             ["/2-my-unikname/howto-login", "How to use my @unikname to log in?"],
-            ["/2-my-unikname/using-uns-tokens", "Using UNS tokens"],
-            ["/2-my-unikname/using-recovery-keys", "Using Recovery keys"],
+            ["/2-my-unikname/howto-backup-my-unikname", "How to backup my @unikname?"],
+            ["/2-my-unikname/howto-restore-my-unikname", "How to restore my @unikname?"],
+            ["/2-my-unikname/howto-become-ambassador", "How to become an ambassador?"],
+
+            ["/2-my-unikname/howto-get-premium-unikname", "How to get e premium @unikname?"],
+
+            ["/2-my-unikname/howto-earn-uns-tokens", "How to earn UNS tokens?"],
+
+            ["/2-my-unikname/howto-go-live", "How my @unikname goes live?"],
+            ["/2-my-unikname/howto-burn-my-unikname", "How to burn my @unikname?"],
+
+            ["/2-my-unikname/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
+            ["/2-my-unikname/howto-get-unikname-badges", "How to get @unikname badges?"],            
           ]
         },
         // Unikname Connect

@@ -8,9 +8,15 @@ You're are at the right place to find guides and docs to help you working with t
 
 ## [What is Unikname?](/1-introduction)
 
-## [My @unikname](/2-my-unikname)
+## [@unikname](/2-my-unikname): The Universal IDentifier
 
-## [Unikname Connect](/3-unikname-connect)
+* [Getting Started](/2-my-unikname/#getting-Started)
+* [Premium @unikname](/2-my-unikname/#premium-unikname)
+* [UNS tokens](/2-my-unikname/#uns-unikname-tokens)
+* [@unikname Lifecycle](/2-my-unikname/#unikname-lifecycle)
+* [@unikname Properties and Badges](/2-my-unikname/#unikname-properties-and-badges)
+
+## [Unikname Connect](/3-unikname-connect): The next-generation authentication solution
 
 ## [Key Concepts](/4-key-concepts)
 
