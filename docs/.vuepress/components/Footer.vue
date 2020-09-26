@@ -1,7 +1,7 @@
 <template>
   <footer>
     <p></p>
-    © 2019-2020 <a href="https://www.unikname.com">Unikname</a>&nbsp;&bullet;&nbsp;<a href="/powered-by-ark-io/">Powered by ARK</a>
+    © 2018-2020 <a href="https://www.unikname.com">Unikname</a>&nbsp;&bullet;&nbsp;Secured by <a href="https://uns.network">uns.network</a> blockchain&nbsp;&bullet;&nbsp;<a href="/5-support/powered-by-ark-io/">Powered by ARK</a>
     <p></p>
   </footer>
 </template>
