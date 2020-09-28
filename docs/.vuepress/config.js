@@ -70,7 +70,7 @@ module.exports = {
         },
         // my @unikname
         {
-          title: "@Unikname",
+          title: "my @unikname ID",
           path: "/2-my-unikname/",
           sidebarDepth: 0,
           children: [
@@ -98,7 +98,11 @@ module.exports = {
           path: "/3-unikname-connect/",
           sidebarDepth: 0,
           children: [
-            ["/3-unikname-connect/1-howto-install-unikname-connect", "How to Install Unikname Connect on a Website?"],
+            ["/3-unikname-connect/howto-signup-business-account", "How to sign-up a business account?"],
+            ["/3-unikname-connect/howto-create-unikname-organization", "How to create a certificate?"],
+            ["/3-unikname-connect/howto-setup-unikname-organization", "How to setup your @unikname?"],
+            ["/3-unikname-connect/howto-get-unikname-verified-status", "How to get the verified status?"],
+            ["/3-unikname-connect/howto-integrate-unikname-connect", "How to integrate Unikname Connect?"],
            ]
         },
         // Key Concepts group

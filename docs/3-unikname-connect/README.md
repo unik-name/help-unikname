@@ -9,26 +9,25 @@ title: "Introduction to Unikname Connect"
 
 Unikname Connect is a simple, secure and privacy-by-design login solution, rewarding users. 
 
-## How Does Unikname Connect Work? A Quick Overview
+## How Does Unikname Connect Work? 
 
-Once you have downloaded **"My Unikname App"** on your smartphone, and created your @unikname identifier, you can can create a business account and install Unikname Connect on your website.
+Once you have downloaded **"My Unikname App"** on your smartphone, and created your @unikname identifier, you can create a business account and install Unikname Connect on your website.
 
-Most of the Unikname solutions require a Unikname Business account. It allows you to manage your organization @unikname, to enable new services, to configure the billing information...
-
-To install Unikname Connect on your website, you must first: 
-- Create a business account (a personal @unikname identifier + an organization @unikname identifier).
-- Configure your business account.
+To install Unikname Connect on your website, you need to: 
+- Get your personnal @unikname and sign-up for a Business Account
+- Create and setup a @unikname certificat for you organization
+- Integrate the Unikname Connect button onto your website 
+- then join the partnership program
 
 👉 Let's go
 
-
 ## Setting up your business account
 
-:zap: [How to sign-up for a business account?](./howto-signup-for-a-business-account)
+:zap: [How to sign-up for a business account?](./howto-signup-business-account)
 
-:zap: [How to create a @unikname certificate for your organization?](./howto-create-unikname-certificate-for-organization)
+:zap: [How to create a @unikname certificate for your organization?](./howto-create-unikname-organization)
 
-:zap: [How to setup your Organization @unikname?](./howto-setup-organization-unikname)
+:zap: [How to setup your Organization @unikname?](./howto-setup-unikname-organization)
 
 :zap: [How to get the verified status?](./howto-get-unikname-verified-status)
 

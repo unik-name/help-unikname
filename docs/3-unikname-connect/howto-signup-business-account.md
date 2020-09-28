@@ -1,9 +1,9 @@
 ---
 home: false
-title: "How to sign-up for a business account"
+title: "How to sign-up a business account"
 ---
 
-# How to sign-up for a business account
+# How to sign-up a business account
 
 This guide explains how to configure **My Unikname App**, on your smartphone or tablet, in order to acquire a personal @unikname identifier, for your personal use. 
 

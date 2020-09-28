@@ -3,7 +3,7 @@ home: false
 Title: "@unikname: Your Universal Identifier"
 ---
 
-# Introduction to @Unikname
+# Introduction to @Unikname Universal ID
 
 **@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign**, that means it's easy to memorize it, it's always available, it's usable everywhere, and maybe the most important, it's under the sole control of its owner.
 
