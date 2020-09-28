@@ -1,8 +1,9 @@
 ---
 home: false
-title: "How to Get an Organization @unikname Identifier for Your Business Account?"
+title: "How to create a @unikname certificate for your organization?"
 ---
-# How to Get an Organization @unikname Identifier for Your Business Account?
+
+# How to create a @unikname certificate for your organization
 
 To integrate **Unikname Connect** on your website, you need to be authenticated as an organization/customer, with an organization @unikname identifier. You can create your organization @unikname identifier only through our UNS Command Line Interface (CLI).
 
@@ -15,7 +16,6 @@ The <uns/> Command Line Interface (CLI) allows you to:
 
 ## 1. Installing the **uns.network** CLI
 
-
 | <h3>Operating system</h3> | <h3>Download</h3> | <h3>Instructions</h3> |
 |:-----------------------------------:|:----------------------------------------------------------------------:|:---------------------------------------:|
 | <h2><vp-icon name="windows-brands" size="2em" /><br/>Windows</h2>    | <h4>![GitHub version](https://badge.fury.io/gh/unik-name%2Funs-cli.svg)</h4><h3>[Download the 64-bit installer](https://unikname-cli-assets.s3.fr-par.scw.cloud/uns-x64.exe)</h3> | <h4>On Windows, run the installer you have downloaded. Windows may display a warning. Click **Run anyway**.</h4> |
@@ -24,8 +24,6 @@ The <uns/> Command Line Interface (CLI) allows you to:
 
 
 [Alternate installation modes are also available in the CLI documentation](https://docs.uns.network/uns-use-the-network/cli.html#download-and-installation).
-
-
 
 - Enter `uns` into your command prompt to see if your installation is finished.
 - You should see the following menu:
@@ -46,7 +44,6 @@ COMMANDS
 ```
 You are now ready for the next step!
 
- 
 :::tip
 If you want more details about the CLI and tips to use it, refer to the [CLI documentation](/uns-use-the-network/cli).
 :::
@@ -114,8 +111,6 @@ $ uns unik:create --explicitValue "mycompany" --type organization --coupon "HERE
 7. Enter the 12 words of your passphrase manually, when asked.
 
 "data", "transaction" and "confirmations" command lines should be displayed.
-
-
 
 ```bash
 $ uns unik:create --explicitValue "mycompany" --type organization --coupon "HERE_THE_COUPON"

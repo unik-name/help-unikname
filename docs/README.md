@@ -16,6 +16,11 @@ Welcome to the <unikname/> Hub. You're are at the right place to find guides and
 
 ## [Unikname Connect](/3-unikname-connect): The next-generation authentication solution
 
+* [Setting up your business account](/3-unikname-connect)
+* [Integrating Unikname Connect](/3-unikname-connect)
+* [Joining the partnership program](/3-unikname-connect)
+* [Participate in securing the network](/3-unikname-connect)
+
 ## [Key Concepts](/4-key-concepts)
 
 ## [Support](/5-support)

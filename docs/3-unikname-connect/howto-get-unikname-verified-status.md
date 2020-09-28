@@ -1,8 +1,40 @@
 ---
 home: false
-title: "Upload a file to Your Website to Verify Your Web Address of Service"
+title: "howto-get-unikname-verified-status"
 ---
  
+# Add An HTML Tag to Verify Your Web Address of Service
+
+1. Add a `<meta>` tag to the HTML code of a specified page. 
+
+**Example:** 
+
+Here, we can see that the `meta` tag  `<meta name="uns-url-checker-verification" content="your verificationKey"> ` has been added correctly in the `<head>` section of a webpage from `https://www.mycompany.com/`
+
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta name="uns-url-checker-verification" content="your verificationKey">
+  </head>
+<body>
+...
+```
+
+2. In UNS CLI, type the following command to finish the verification process:
+```bash
+  `$ uns properties:verify "@organization:mycompany" --url-channel html`
+```
+A **UNS URL Checker** will crawl your website, within 72 hours, to check the verification package and HTML tag/file upload.
+
+:::warning
+Keep the HTML tag into the webpage as long as possible. An URL Checker may need up to 72 hours to check your website. Removing this HTML tag too soon from your site will cause you to lose verification for the site.
+:::
+ 
+## 2. Check your organization @unikname configuration information with the UNS Network explorer
+Refer to [Check the creation of your organization @unikname identifier with the UNS explorer](creating-unikname-organization.html#checking-the-creation-of-the-unikname-in-the-explorer).
+
+
 # Upload a file to Your Website to Verify Your Web Address of Service
 
 You can verify ownership of your website by generating a verification package, in a `uns-verification.txt` file you will upload to your site.
@@ -48,5 +80,3 @@ Refer to [Check the creation of your organization @unikname identifier with the 
 
 👏 Voilà! Your organization @unikname identifier is now ready to use! 
 
-
-**You are now going to [integrate Unikname Connect on your website](/3.HowToIntegrateUniknameConnect).**

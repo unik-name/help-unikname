@@ -1,10 +1,9 @@
 ---
 home: false
-title: "How to Configure Your Organization @unikname Identifier?"
+title: "How to setup your Organization @unikname?"
 ---
  
-
-# How to Configure Your Organization @unikname Identifier?
+# How to setup your Organization @unikname?
 
 Your users must be able to check and verify information about your service, especially your business name and its web address. Let's configure your organization @unikname identifier. It will reveal, to the uns.network [UNS.network](https://explorer.uns.network) community, your business name and associated data.
 

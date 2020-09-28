@@ -1,9 +1,9 @@
 ---
 home: false
-title: "How to Get a Personal @unikname Identifier for Your Business Account?"
+title: "How to sign-up for a business account"
 ---
 
-# How to Get a Personal @unikname Identifier for Your Business Account?
+# How to sign-up for a business account
 
 This guide explains how to configure **My Unikname App**, on your smartphone or tablet, in order to acquire a personal @unikname identifier, for your personal use. 
 
@@ -70,3 +70,4 @@ To create new @unikname identifiers or to restore your @unikname with your recov
 Refer to [How to Manage my UNS Tokens with My Unikname App?](./using-uns-tokens)
 
 **You are now going to [create your organization @unikname identifier](/2.creating-unikname-organization)**.
+

@@ -7,28 +7,46 @@ title: "Introduction to Unikname Connect"
 
 ## What is Unikname Connect?
 
-Unikname Connect is a simple, secure and privacy-by-design login solution. 
-
-**A simple-login solution**
-
-Unikname Connect allows you to log in to websites simply with your @unikname. No password is required.
-
-**Privacy-by-design**
-Privacy comes first. Our application is entirely built with the idea to keep your personal data private. We don't collect these personal data (name, phone number, address, history) at any moment as well as we will never use your @unikname identifier to trace your habits and behaviors on the Internet.  
-
-**A secure solution**
-Unikname Connect is based on a blockchain technology ([uns.network](https://www.uns.network/)) and is fully decentralized. 
-
-**Anti-phishing**
-It a natural anti-phishing solution as you don't create any password and as we don't store any of your personal data in any database.
-
-
-**Anti-spoofing**
-It is a natural anti-spoofing solution because your @unikname is not linked to your e-mail address in any way.
+Unikname Connect is a simple, secure and privacy-by-design login solution, rewarding users. 
 
 ## How Does Unikname Connect Work? A Quick Overview
+
 Once you have downloaded **"My Unikname App"** on your smartphone, and created your @unikname identifier, you can can create a business account and install Unikname Connect on your website.
 
-To go further, click the following links:
+Most of the Unikname solutions require a Unikname Business account. It allows you to manage your organization @unikname, to enable new services, to configure the billing information...
 
-- [How to install Unikname Connect on a website](/1-howto-install-unikname-connect)
+To install Unikname Connect on your website, you must first: 
+- Create a business account (a personal @unikname identifier + an organization @unikname identifier).
+- Configure your business account.
+
+👉 Let's go
+
+
+## Setting up your business account
+
+:zap: [How to sign-up for a business account?](./howto-signup-for-a-business-account)
+
+:zap: [How to create a @unikname certificate for your organization?](./howto-create-unikname-certificate-for-organization)
+
+:zap: [How to setup your Organization @unikname?](./howto-setup-organization-unikname)
+
+:zap: [How to get the verified status?](./howto-get-unikname-verified-status)
+
+## Integrating Unikname Connect
+
+:zap: [How to install Unikname Connect on your website](./howto-integrate-unikname-connect)
+
+* [Auth0](./integration-technology/auth0)
+* [Discourse Forum](./integration-technology/discourse)
+* [WordPress or Woocommerce](./integration-technology/wordpress)
+* [nodejs SDK](./integration-technology/nodejs)
+* [How to integrate to another website environment](./#)
+
+:zap: [How to contribute to the Open Source Community](./#)
+
+:zap: [UX UI Guides](./#)
+
+## Joining the partnership program
+
+## Participate in securing the network
+
