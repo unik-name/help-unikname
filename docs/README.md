@@ -2,12 +2,13 @@
 home: true
 ---
 
-Welcome to the <unikname/> Hub. You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
+Welcome to the <unikname/> Help Center. You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
 
 ## [What is Unikname?](/1-introduction)
 
 ## [@unikname](/2-my-unikname): The Universal IDentifier
 
+* [Introduction](/2-my-unikname)
 * [Getting Started](/2-my-unikname/#getting-Started)
 * [Premium @unikname](/2-my-unikname/#premium-unikname)
 * [UNS tokens](/2-my-unikname/#uns-unikname-tokens)
@@ -16,6 +17,7 @@ Welcome to the <unikname/> Hub. You're are at the right place to find guides and
 
 ## [Unikname Connect](/3-unikname-connect): The next-generation authentication solution
 
+* [Introduction](/3-unikname-connect)
 * [Setting up your business account](/3-unikname-connect)
 * [Integrating Unikname Connect](/3-unikname-connect)
 * [Joining the partnership program](/3-unikname-connect)

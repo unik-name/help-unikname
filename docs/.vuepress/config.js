@@ -1,9 +1,9 @@
 module.exports = {
-  title: "The @unikname Hub",
+  title: "Unikname Help Center",
   title2: "Unikname Guides and Docs",
   description:
     "Comprehensive guides and documentation to help you start working with the Unikname Solutions as quickly as possible. Let's go!",
-  description2: "Official documentation for @unikname",
+  description2: "Official documentation for Unikname",
   plugins: {
     sitemap: {
       hostname: "https://docs.unikname.com",
@@ -59,7 +59,7 @@ module.exports = {
     lastUpdated: true,
     activeHeaderLinks: true,
     sidebarDepth: 1,
-    nav: [{ text: "Get the App", link: "https://my.unikname.app" }],
+    nav: [{ text: "Get the App", link: "https://my.unikname.app" }, { text: "Go to website", link: "https://www.unikname.com" }],
     sidebar:
       [
         // Introduction group

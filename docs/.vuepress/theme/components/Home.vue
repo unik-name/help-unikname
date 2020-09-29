@@ -93,7 +93,7 @@ export default {
       max-width 35rem
       font-size 1.6rem
       line-height 1.3
-      color lighten($textColor, 40%)
+      color $textSecondaryColor
     .action-button
       display inline-block
       font-size 1.2rem
