@@ -30,7 +30,7 @@ If you not have auth0 application yet, please follow the [Get Started](https://a
 
 Once your application is created, you can add an `Enterprise Connection`. Use `Open Id Connect` link.
 
-For <uniknameconnect/> configuration, fill-in these required fields:
+For <brand name="UNC"/> configuration, fill-in these required fields:
 
 | Attribut | Value / Description |
 |--------|-----------|
@@ -47,7 +47,7 @@ Go to your application connections list and enable the `unikname-connect` `Open 
 
 ## Auth0 - Check user login
 
-Your customers should now be able to use <uniknameconnect/> to connect to your website, and to see this kind of login screen:
+Your customers should now be able to use <brand name="UNC"/> to connect to your website, and to see this kind of login screen:
 
 ![Auth0 with Unikname Connect](./auth0-login-screen-with-unc.png)
 

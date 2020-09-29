@@ -10,7 +10,7 @@ home: false
 
 ![Discourse](./discourse-logo-full.png)
 
-<uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth authorization protocol.
+<brand name="UNC"/> can be easily integrated within opensource frameworks compatible with the standard OAuth authorization protocol.
 
 In this example, [our discussion forum website](https://forum.unikname.com/) is based on the famous open source [Discourse forum solution](https://www.discourse.org).
 <brand name="unikname"/> users are automatically signed in for an optimal user experience.
@@ -69,7 +69,7 @@ Then, configure the following attributes:
 
 ## Discourse check user login
 
-Your users should now be able to use <uniknameconnect/> to connect to your website and to see this kind of login screen:
+Your users should now be able to use <brand name="UNC"/> to connect to your website and to see this kind of login screen:
 
 ![Discourse with Unikname Connect](./discourse-login-screen-with-unc.png)
 

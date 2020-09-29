@@ -31,7 +31,7 @@ To play with these examples you need to use your own @unikname.
 
 ### Unikname only. Simply the simplest!
 
-<Uniknameconnect/> can be used as the only way to authenticate.
+<brand name="UNC"/> can be used as the only way to authenticate.
 
 In this example, **platform101.net** demo website has been coded and setup to sign-in with <brand name="unikname"/> only.
 
@@ -42,9 +42,9 @@ You receive a notification on your smartphone to get connected with your PIN cod
 
 ### Unikname as an alternate to email/password
 
-<uniknameconnect/> can get along with traditional email/password authentication method.
+<brand name="UNC"/> can get along with traditional email/password authentication method.
 
-In this example, **platform101.net** demo website has been coded and setup to sign-in with the traditional user email/password and also with <uniknameconnect/>.
+In this example, **platform101.net** demo website has been coded and setup to sign-in with the traditional user email/password and also with <brand name="UNC"/>.
 
 platform101.net is a basic HTML5 and CSS3 website.
 
@@ -53,7 +53,7 @@ platform101.net is a basic HTML5 and CSS3 website.
 
 ### Unikname and Social Authentication
 
-<uniknameconnect/> can be used as a social authentication option.
+<brand name="UNC"/> can be used as a social authentication option.
 
 In this example, **platform101.net** demo website has been coded and setup to sign-in with social authentication. The user can choose between Facebook, Google, Twitter and Unikname Connect.
 
@@ -62,7 +62,7 @@ In this example, **platform101.net** demo website has been coded and setup to si
 
 ### Unikname Automatic Connect
 
-<uniknameconnect/> can be used as the only way to authenticate but also as a very fast and automatic sign-in.
+<brand name="UNC"/> can be used as the only way to authenticate but also as a very fast and automatic sign-in.
 
 In this example, **platform102.net** demo website has been coded and setup to sign-in with Automatic Connect.
 
@@ -71,21 +71,21 @@ In this example, **platform102.net** demo website has been coded and setup to si
 
 ### Opensource framework Integration
 
-<uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth 2.0 protocol.
+<brand name="UNC"/> can be easily integrated within opensource frameworks compatible with the standard OAuth 2.0 protocol.
 
 [Our discussion forum website](https://forum.unikname.com) is based on the famous open source Discourse solution. <brand name="unikname"/> users are automatically signed-in for an optimal user experience.
 
-[<uniknameconnect/> can be used to access your Discourse accounts](/integration/connect/apps/discourse).
+<brand name="UNC"/> can be used to access your Discourse accounts](/integration/connect/apps/discourse).
 
 ### Corporate cloud Integration
 
-<uniknameconnect/> provides SSO and SLI integration within cloud solutions.
+<brand name="UNC"/> provides SSO and SLI integration within cloud solutions.
 
-[<uniknameconnect/> can be used to access Microsoft Office 365 accounts](/integration/connect/apps/office365).
+<brand name="UNC"/> can be used to access Microsoft Office 365 accounts](/integration/connect/apps/office365).
 
 ### Account management for Online platforms eg. eCommerce
 
-<uniknameconnect/> allow easy access to user accounts on Online platforms.
+<brand name="UNC"/> allow easy access to user accounts on Online platforms.
 
-In this example, <uniknameconnect/> is used to connect to your WordPress website.
+In this example, <brand name="UNC"/> is used to connect to your WordPress website.
 

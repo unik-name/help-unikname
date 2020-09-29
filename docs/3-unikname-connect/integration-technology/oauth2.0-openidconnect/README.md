@@ -10,7 +10,7 @@ home: false
 
 ![OAuth2.0 / OpenID Connect solution](./oauth2.0-openidconnect-logo-full.png)
 
-<uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth authorization protocol.
+<brand name="UNC"/> can be easily integrated within opensource frameworks compatible with the standard OAuth authorization protocol.
 
 In this example, [our discussion forum website](https://forum.unikname.com/) is based on the famous open source [Discourse solution](https://www.discourse.org).
 
