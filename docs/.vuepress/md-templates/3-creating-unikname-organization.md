@@ -9,7 +9,7 @@ To integrate **Unikname Connect** on your website, you need to be authenticated 
 [[toc]]
 
 ## What can I do with the CLI?
-The <uns/> Command Line Interface (CLI) allows you to: 
+The <brand name="uns"/> Command Line Interface (CLI) allows you to: 
 - manage your @unikname information, 
 - manage your Unikname apps.
 
@@ -95,7 +95,7 @@ Otherwise, it's time [to get in contact with the Unikname team](https://www.unik
 Once you have a coupon, all you have to do is to create the @unikname identifier!
 
 :::warning
-For security and confidentiality reasons, neither <uns/> nor Unikname can retrieve your @unikname identifier for you, in the event you lose it. That is why **you must save the passphrase, associated to your @unikname identifier**.
+For security and confidentiality reasons, neither <brand name="uns"/> nor <brand name="unikname"/> can retrieve your @unikname identifier for you, in the event you lose it. That is why **you must save the passphrase, associated to your @unikname identifier**.
 :::
 
 :::warning
@@ -110,7 +110,7 @@ $ uns unik:create --explicitValue "mycompany" --type organization --coupon "HERE
 ```
 4. Replace the value `mycompany` by your organization @unikname identifier.
 5. Replace the value `HERE_THE_COUPON` with the coupon you received.
-6. If in doubt, **refer to the CLI documentation, about the [`unik:create`](https://docs.uns.network/uns-use-the-network/cli.html#unik-create) command**, in <uns/> to create your organization @unikname identifier.:::
+6. If in doubt, **refer to the CLI documentation, about the [`unik:create`](https://docs.uns.network/uns-use-the-network/cli.html#unik-create) command**, in <brand name="uns"/> to create your organization @unikname identifier.:::
 7. Enter the 12 words of your passphrase manually, when asked.
 
 "data", "transaction" and "confirmations" command lines should be displayed.

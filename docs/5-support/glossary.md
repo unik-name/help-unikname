@@ -5,7 +5,7 @@ title: "uns.network Glossary"
 
 # Unikname Glossary 
 
-Our glossary contains key terminology specifically related to <unikname/> Ecosystem. If you have any comments or requests, please [open a topic on our forum](https://forum.unikname.com).
+Our glossary contains key terminology specifically related to <brand name="unikname"/> Ecosystem. If you have any comments or requests, please [open a topic on our forum](https://forum.unikname.com).
 
 [[toc]]
 
@@ -15,25 +15,25 @@ _For Common Terms related to blockchain in general we invite you to read the ver
 
 ### Universal-Name-System (TM)
 
-**uns** letters from _uns.network_ is the abreviation of Universal-Name-System (TM) which is the official and registered name for the solution and the project. But everyone use _uns.network_ on a daily basis because it's more convenient. Both are used in this documentation,  this is the same thing.
+**uns** letters from _uns.network_ is the abreviation of Universal-Name-System (TM) which is the official and registered name for the solution and the project. But everyone use _uns.network_ on a daily basis because it's more convenient. Both are used in this documentation, this is the same thing.
 
 ### Unikname Ecosystem
 
-The entirety of the <unikname/> project and community, including the blockchain network, but also the supporting products, such as the wallet or the blockchain explorer.
+The entirety of the <brand name="unikname"/> project and community, including the blockchain network, but also the supporting products, such as the wallet or the blockchain explorer.
 
 ### Unikname Community
 
-Members of the <unikname/> community volunteer to provide assistance to new users, or work on bounties to improve uns.network. They are not officially associated with the <unikname/> Team. However, <unikname/> does most of its recruiting from the community.
+Members of the <brand name="unikname"/> community volunteer to provide assistance to new users, or work on bounties to improve uns.network. They are not officially associated with the <brand name="unikname"/> Team. However, <brand name="unikname"/> does most of its recruiting from the community.
 
-### Unikname Player
+### UNS network Player
 
-A network player is the owner of a specific <unikname/> Node, permitted to send and to validate transactions over the network. As such, a network player provides a service to the network like minting blocks, storing decentralized encrypted data, or issuing UNIK tokens. They play a significant role in securing the network.
+A network player is the owner of a specific <brand name="uns"/> Node, permitted to send and to validate transactions over the network. As such, a network player provides a service to the network like minting blocks, storing decentralized encrypted data, or issuing UNIK tokens. They play a significant role in securing the network.
 
-### Unikname Service Node
+### UNS Service Node
 
 A blockchain node permitted to send and to validate transactions over the network.
 
-### Unikname Gateway
+### UNS Gateway
 
 A specific server interacting with the decentralized Network and a centralized SaaS solution. Gateways can be passives or actives when they're connected to a service node.
 
@@ -47,13 +47,13 @@ Non-Fungible Token, by opposiiton to a more traditionnal Token. NFT have remarka
 
 ## Official Unikname Projects
 
-### Unikname Core
+### UNS Core
 
-The reference implementation for <unikname/> nodes, a forked implementation of ARK Core blockchain.
+The reference implementation for <brand name="uns"/> nodes, a forked implementation of ARK Core blockchain.
 
-### Unikname Explorer
+### UNS Explorer
 
-A frontend used to query the <unikname/> blockchain. Explorers use a Relay Node to perform queries and offer a user-friendly interface.
+A frontend used to query the <brand name="uns"/> blockchain. Explorers use a Relay Node to perform queries and offer a user-friendly interface.
 
 ### Unikname Desktop Wallet
 
@@ -67,10 +67,3 @@ The mobile app used to manage user's @unikname. These app is also a fully featur
 
 A curated list of improvement proposals. Breaking changes are first formulated as AIPs, discussed and reviewed by the community before being implemented.
 
-# Abbreviations (Keep?) 
-
-### Mun
-
-### Muc
-
-### unikid

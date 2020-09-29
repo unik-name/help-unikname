@@ -2,7 +2,7 @@
 home: true
 ---
 
-Welcome to the <unikname/> Help Center. You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
+Welcome to the <brand name="unikname"/> Help Center. You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
 
 ## [What is Unikname?](/1-introduction)
 
@@ -17,7 +17,7 @@ Welcome to the <unikname/> Help Center. You're are at the right place to find gu
 
 ## [Unikname Connect](/3-unikname-connect): The next-generation authentication solution
 
-* [Introduction](/3-unikname-connect)
+* [Getting started with Unikname Connect](/3-unikname-connect)
 * [Setting up your business account](/3-unikname-connect)
 * [Integrating Unikname Connect](/3-unikname-connect)
 * [Joining the partnership program](/3-unikname-connect)

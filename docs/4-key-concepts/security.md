@@ -5,7 +5,7 @@ title: "Unikname Security & Hack Protections"
 
 # Security & Hack Protections
 
-<unikname/> implement multiple hack protections:
+<brand name="unikname"/> implement multiple hack protections:
 
 [[TOC]]
 
@@ -46,7 +46,7 @@ Through OpenAPIs accesses, every request is filtered and analyzed to detect unus
 
 ### Ownership Protection
 
-@unikname token is a Self-Sovereign Asset with ownership rules coded within <unikname/> smart contract. Only @unikname token owner has control over it as long as the <unikname/> blockchain will exist.
+@unikname token is a Self-Sovereign Asset with ownership rules coded within <brand name="unikname"/> smart contract. Only @unikname token owner has control over it as long as the <brand name="unikname"/> blockchain will exist.
 
 ### Spoofing, Typosquatting, Phishing protection
 

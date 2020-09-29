@@ -33,7 +33,7 @@ To play with these examples you need to use your own @unikname.
 
 <Uniknameconnect/> can be used as the only way to authenticate.
 
-In this example, **platform101.net** demo website has been coded and setup to sign-in with <unikname/> only.
+In this example, **platform101.net** demo website has been coded and setup to sign-in with <brand name="unikname"/> only.
 
 You receive a notification on your smartphone to get connected with your PIN code, for the sign-up but also for every later sign-in.
 
@@ -73,7 +73,7 @@ In this example, **platform102.net** demo website has been coded and setup to si
 
 <uniknameconnect/> can be easily integrated within opensource frameworks compatible with the standard OAuth 2.0 protocol.
 
-[Our discussion forum website](https://forum.unikname.com) is based on the famous open source Discourse solution. <unikname/> users are automatically signed-in for an optimal user experience.
+[Our discussion forum website](https://forum.unikname.com) is based on the famous open source Discourse solution. <brand name="unikname"/> users are automatically signed-in for an optimal user experience.
 
 [<uniknameconnect/> can be used to access your Discourse accounts](/integration/connect/apps/discourse).
 
