@@ -8,8 +8,6 @@
 </template>
 
 <script>
-const path = require('path')
-
 export default {
     props: {
         caption:    {type: String, required: false}
