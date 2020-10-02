@@ -8,9 +8,10 @@ Welcome to the <brand name="unikname"/> Help Center. You're are at the right pla
 
 ## [@unikname](/2-my-unikname): The Universal IDentifier
 
-* [Introduction](/2-my-unikname)
+* [Introduction](/2-my-unikname)  
+The universal Identifer<p></p>
 * [Getting Started](/2-my-unikname/#getting-Started)
-* [Premium @unikname](/2-my-unikname/#premium-unikname)
+* [Freemium and Premium @unikname](/2-my-unikname/#premium-unikname)
 * [UNS tokens](/2-my-unikname/#uns-unikname-tokens)
 * [@unikname Lifecycle](/2-my-unikname/#unikname-lifecycle)
 * [@unikname Properties and Badges](/2-my-unikname/#unikname-properties-and-badges)

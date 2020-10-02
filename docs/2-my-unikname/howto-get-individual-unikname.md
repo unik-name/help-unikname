@@ -75,6 +75,3 @@ To create new @unikname identifiers or to restore your @unikname with your recov
 
 <copyscreen>![UniknameMenus](./images/UniknameMenus.png)</copyscreen>
 
-## Where to find your @unikname properties? 
-
-Refer to [How to Manage my UNS Tokens with My Unikname App?](./using-uns-tokens)

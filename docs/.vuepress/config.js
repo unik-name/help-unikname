@@ -105,9 +105,10 @@ module.exports = {
           path: "/3-unikname-connect/",
           sidebarDepth: 0,
           children: [
+            ["/3-unikname-connect/howto-install-uns-cli", "How to install the CLI?"],
+            ["/3-unikname-connect/howto-get-my-unikname-via-cli", "How to get your personal @unikname?"],
             ["/3-unikname-connect/howto-signup-business-account", "How to sign-up a business account?"],
             ["/3-unikname-connect/howto-create-unikname-organization", "How to create a certificate?"],
-            ["/3-unikname-connect/howto-setup-unikname-organization", "How to setup your @unikname?"],
             ["/3-unikname-connect/howto-get-unikname-verified-status", "How to get the verified status?"],
             ["/3-unikname-connect/howto-integrate-unikname-connect", "How to integrate Unikname Connect?"],
            ]

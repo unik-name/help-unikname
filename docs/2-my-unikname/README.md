@@ -32,7 +32,7 @@ To get your own @unikname identifier you just have to install the ``My Unikname 
 
 :zap: [How to become an ambassador?](./howto-become-ambassador)
 
-## Premium @unikname
+## Freemium and Premium @unikname
 
 :zap: [How to get an premium @unikname?](./howto-get-premium-unikname)
 

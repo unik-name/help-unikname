@@ -5,12 +5,12 @@ Title: "How to Log in to a Website With my unikname?"
 
 # How to log in to a Website With my @unikname?
 
-If you already have an account on the website you want to login to, just click on the **Unikname Connect** button.
+If you already have an account on the website you want to login to, just click on the <brand name="UNC"/> button.
 You're logged in!
 
 **If you don't have an account on a website, you have to:** 
 
- 1. Tap the  **Unikname Connect** button.
+ 1. Tap the <brand name="UNC"/> button.
  
  <copyscreen caption="First-time sign-up on kover.link website">![1.ConnectWebsite](./images/1.ConnectWebsite.png)</copyscreen>
 
