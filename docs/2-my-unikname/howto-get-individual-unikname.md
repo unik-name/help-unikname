@@ -13,7 +13,7 @@ Before creating a @unikname identifier, you have to define a PIN code. This PIN 
 
 You'll be required to enter this PIN code everytime you launch **My Unikname App**.
 
-<copyscreen caption="Defining a PIN code">![CreatePINCode](./images/CreatePINCode.jpg)</copyscreen>
+<hpicture caption="Defining a PIN code">![CreatePINCode](./images/CreatePINCode.jpg)</hpicture>
 
 
 ## 2. Create your personal @unikname identifier
@@ -24,7 +24,7 @@ Choose your @unikname identifier carefully.
  Your @unikname identifier is permanent and personal. Once it is created, you can't edit it or give it to another user.
  :::
 
-<copyscreen caption="Defining your @unikname">![chooseUnikname](./images/chooseUnikname.jpg)</copyscreen>
+<hpicture caption="Defining your @unikname">![chooseUnikname](./images/chooseUnikname.jpg)</hpicture>
 
 ### Creating a short @unikname identifier, with a coupon 
 If you have a coupon, you can create a "short" @unikname identifier, of 8-characters, or more. 
@@ -39,14 +39,14 @@ If you wish to create a shorter @unikname identifier, contact us on [contact@uni
 ## 3. Backup your recovery key
 Your @unikname identifier and all associated data (PIN code, recovery key) are strictly personal and confidential. We can't help you retrieve or restore it if you lose them or change your device. This is why **you must backup your recovery key immediately**. 
 
-<copyscreen>![RecoveryKeyBackup](./images/RecoveryKeyBackup.jpg)</copyscreen>
+<hpicture>![RecoveryKeyBackup](./images/RecoveryKeyBackup.jpg)</hpicture>
 
 Your recovery key is composed of 12 secret words.
 
 1. Tap **Secure now**.
 2. Keep pressing **Show recovery key** and write down your recovery key in a safe place.
   
-<copyscreen caption="Recovery key backup">![uniknameRecoveryKey](./images/uniknameRecoveryKey.jpg)</copyscreen>
+<hpicture caption="Recovery key backup">![uniknameRecoveryKey](./images/uniknameRecoveryKey.jpg)</hpicture>
 
 3. Tap **Check** to test your recovery key backup.
 4. Enter the secret words of your recovery key.
@@ -73,5 +73,5 @@ To create new @unikname identifiers or to restore your @unikname with your recov
 - Tap the top-left menu.
  The @unikname menu is displayed.
 
-<copyscreen>![UniknameMenus](./images/UniknameMenus.png)</copyscreen>
+<hpicture>![UniknameMenus](./images/UniknameMenus.png)</hpicture>
 

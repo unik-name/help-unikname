@@ -49,7 +49,7 @@ Our technology makes it possible to customized user experience and services with
 
 **@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign**, that means it's easy to memorize it, it's always available, it's usable everywhere, and maybe the most important, it's under the sole control of its owner.
 
-To get your own @unikname identifier you just have to install the ``My Unikname App`` and to follow a 3 steps process. Once you own your @unikname, you can sign-up and log in to any website that embeds the <brand name="UNC"/> widget/pluggin, and start being rewarded.
+To get your own @unikname identifier you just have to install the ``My Unikname App`` and to follow a 3 steps process. Once you own your @unikname, you can sign-up and log in to any website that embeds the <brand name="UNC"/> pluggin, and start being rewarded.
 
 **My.Unikname.App allows to @unikname owner to control their digital life.** @unikname owners can get and manage their @unikname and can also control everything they can do with their ID, like private sign-up and login to websites. 
 

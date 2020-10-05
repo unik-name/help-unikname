@@ -5,65 +5,74 @@ title: "Getting started with to Unikname Connect"
 
 # Getting started with Unikname Connect
 
-Integrating Unikname Connect onto your website is quite simple:
+Integrating <brand name="UNC"/> onto your website is quite simple. All you need is to do some basic preparations to get a security certificate and after doing a plugging installation or adding few lines of code to activate our widget, the Unikname Connect button become immediately available onto your website.
 
-[[TOC]]
+## Available integrations 
 
-Then the Unikname Connect button is immediately available onto your website and users can start to sign-up, to login, and to receive rewards!
+| <!-- -->    | <!-- -->    | <!-- -->    |
+|:-------------:|:-------------:|:-------------:|
+| [![][auth0-logo]](apps/auth0/)       | [![][discourse-logo]](apps/discourse/)        | [![][nodejs-logo]](apps/nodejs/) |
+| [![][wordpress-logo]](apps/wordpress/) | [![][woocommerce-logo]](apps/wordpress/) | [![][oauth2.0-oidc-logo]](apps/oauth2.0-openidconnect/) | 
 
-And if you've joined the APOLLO Partnership program you will see incoming traffic as soon as the partnership tag is taken into account on your website.
+[auth0-logo]: ./integration-technology/auth0-logo.png "Unikname Connect for Auth0"
+[discourse-logo]: ./integration-technology/discourse-logo.png "Unikname Connect for Discourse"
+[nodejs-logo]: ./integration-technology/nodejs-logo.png "Unikname Connect for Node JS"
+[wordpress-logo]: ./integration-technology/wordpress-logo.png "Unikname Connect for Worpress"
+[woocommerce-logo]: ./integration-technology/woocommerce-logo.png "Unikname Connect for WooCommerce"
+[oauth2.0-oidc-logo]: ./integration-technology/oauth2.0-openidconnect-logo.png "Unikname Connect for any OAuth 2.0 or OpenID Connect solution"
 
-For the integration itself (step 3) the process depends on your website. There's 5 ways to make the integration:
-
-- **NodeJS SDK** &rightarrow; your website has been developed with **NodeJS programing langage**, few lines of code need to be added.
-- **OAuth2.0 and OpendID Connect APIs** &rightarrow; for any website you can **call our APIs**.
-- **Simple setup of Auth0** &rightarrow; your website already embed **Auth0 Authentication services**, e.g. Social Authent 
-- **Unikname Connect Wordpress plugin** &rightarrow; you want to install to a **Wordpress website** or a **WooCommerce website**  
-- **Unikname Connect Discourse plugin** &rightarrow; you want to install to a **Discourse Forum** 
+<br/>
+Let's go 👉
 
 :::tip 
-:hourglass: Usually it takes between 30 minutes and 4 hours to follow the end to end integration process. The time depends on your website technology.
+:hourglass: Usually it takes between a few minutes and a few hours to follow the end to end integration process. The time depends on your website technology.
 :::
 
-👉 Let's go
+<hseparator/>
 
 ## 1. Install the CLI and get your personal @unikname
 
 :zap: [How to install the CLI?](./howto-install-uns-cli)  
-<pad>The <brand name="uns"/> Command Line Interface (the CLI) is required to set-up your business account.</pad>
+<hbox>The <brand name="uns"/> Command Line Interface (the CLI) is required to set-up your business account.</hbox>
 
-:zap: [How to get your personal @unikname?](./howto-get-my-unikname-via-cli)
-<pad>We show you how to create your personal @unikname with the CLI and how to restore it into the App.</pad>
+:zap: [How to get your personal @unikname with the CLI?](./howto-get-my-unikname-via-cli)
+<hbox>We show you how to create your @unikname with the CLI and how to restore it into the App.  
+:warning: This step is not required if you already have your @unikname.</hbox>
 
-## 2. Set up your business account
+<hseparator/>
+
+## 2. Setup your business account
 
 :zap: [How to sign-up for a business account?](./howto-signup-business-account)
-<pad>Sign-up and get the exclusive coupon code required to create the @unikname certificate for your organization.</pad>
+<hbox>Sign-up and get the Business Coupon Code required to create the trust certificate for your organization.</hbox>
 
-:zap: [How to get a @unikname for your organization, and to set it up?](./howto-get-unikname-organization)
-<pad>This certificate is used by the <brand name="UNC"/> authentication protocole.</pad>
+:zap: [How to get the trust certificate for your website, and to setup it?](./howto-get-unikname-trust-certificate-organization)
+<hbox>This certificate is used by the <brand name="UNC"/> authentication protocole.</hbox>
 
-:zap: [How to get the verified status?](./howto-get-unikname-verified-status)
+<hseparator/>
 
 ## 3. Integrate Unikname Connect
 
-:zap: [How to install Unikname Connect on your website](./howto-integrate-unikname-connect)
+:zap: For this integration the process depends on your website:
 
-<pad>
+<hbox>
 
-* [Auth0](./integration-technology/auth0)
-* [Discourse Forum](./integration-technology/discourse)
-* [WordPress or Woocommerce](./integration-technology/wordpress)
-* [Nodejs SDK](./integration-technology/nodejs)
-* [How to integrate to another website environment](./#)
+| [nodejs SDK](./integration-technology/nodejs) | your website has been developed with **nodejs programing langage**, few lines of code need to be added. |
+|-|-|
+|[Auth0](./integration-technology/auth0) | your website already embed **Auth0 Authentication services**, e.g. Social Authent, a simple setup is required. |
+|[Discourse Forum](./integration-technology/discourse) | you want to install to a **Discourse Forum**, install and setup our plugin |
+|[WordPress](./integration-technology/wordpress) | you want to install to a **Wordpress website**, install and setup our WP plugin |
+|[WooCommerce](./integration-technology/woocommerce) | you want to install to a **WooCommerce website**, install and setup our WP plugin |
+|[Any other website](./integration-technology/oauth2.0-openidconnect) | for any website you can **call our APIs** compatible with OAuth2.0 and OpendID Connect standard protocol. |
+  
+</hbox>
 
-</pad>
+<hseparator/>
 
-:zap: [How to contribute to the Open Source Community](./#)
+## ...to go further
 
-:zap: [UX UI Guides](./#)
+Then if you've joined the APOLLO Partnership program you will see incoming traffic as soon as the partnership tag is taken into account on your website. Finally you may want to Participate in securing the network and to operate a node. 
 
-## 4. Join the partnership program
-
-## 5. Participate in securing the network (optional)
+:zap: [Join the partnership program](./howto-join-the-partnership-program)  
+:zap: [Participate in securing the network](./howto-participate-in-securing-the-network)
 

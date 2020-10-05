@@ -51,9 +51,8 @@ module.exports = {
   ],
   markdown: {
     extendMarkdown: (md) => {
-      md.use(require("markdown-it-include"), {
-        root: "./docs/",
-      });
+      md.use(require("markdown-it-include"), { root: "./docs/", });
+      md.use(require("markdown-it-table-of-contents"), { includeLevel: [2] });
     },
   },
   themeConfig: {
@@ -78,9 +77,10 @@ module.exports = {
         // my @unikname
         {
           title: "my @unikname ID",
-          path: "/2-my-unikname/",
+          //path: "/2-my-unikname/",
           sidebarDepth: 0,
           children: [
+            ["/2-my-unikname/", "Introduction to @unikname ID"],
             ["/2-my-unikname/howto-install-my-unikname-app", "How to install my Unikname App?"],
             ["/2-my-unikname/howto-get-individual-unikname", "How to get my own @unikname?"],
             ["/2-my-unikname/howto-login", "How to use my @unikname to log in?"],
@@ -102,15 +102,20 @@ module.exports = {
         // Unikname Connect
         {
           title: "Unikname Connect",
-          path: "/3-unikname-connect/",
+          // path: "/3-unikname-connect/",
           sidebarDepth: 0,
           children: [
+            ["/3-unikname-connect/", "Getting started with Unikname Connect"],
             ["/3-unikname-connect/howto-install-uns-cli", "How to install the CLI?"],
             ["/3-unikname-connect/howto-get-my-unikname-via-cli", "How to get your personal @unikname?"],
-            ["/3-unikname-connect/howto-signup-business-account", "How to sign-up a business account?"],
-            ["/3-unikname-connect/howto-create-unikname-organization", "How to create a certificate?"],
-            ["/3-unikname-connect/howto-get-unikname-verified-status", "How to get the verified status?"],
-            ["/3-unikname-connect/howto-integrate-unikname-connect", "How to integrate Unikname Connect?"],
+            ["/3-unikname-connect/howto-signup-business-account", "How to sign-up your business account?"],
+            ["/3-unikname-connect/howto-get-unikname-trust-certificate-organization", "How to create your trust certificate?"],
+            ["/3-unikname-connect/integration-technology/nodejs", "How to integrate with nodejs"],
+            ["/3-unikname-connect/integration-technology/auth0", "How to integrate with Auth0"],
+            ["/3-unikname-connect/integration-technology/discourse", "How to integrate with Discourse"],
+            ["/3-unikname-connect/integration-technology/wordpress", "How to integrate with Wordpress"],
+            ["/3-unikname-connect/integration-technology/woocommerce", "How to integrate with WooCommerce"],
+            ["/3-unikname-connect/integration-technology/oauth2.0-openidconnect", "How to integrate with OAuth2.0 & OIDC"],
            ]
         },
         // Key Concepts group

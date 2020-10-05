@@ -53,12 +53,12 @@ export default {
 
   mounted () {
     const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
-    const NAVBAR_VERTICAL_PADDING = parseInt(css(this.$el, 'paddingLeft')) + parseInt(css(this.$el, 'paddingRight'))
+    const NAVBAR_VERTICAL_padding = parseInt(css(this.$el, 'paddingLeft')) + parseInt(css(this.$el, 'paddingRight'))
     const handleLinksWrapWidth = () => {
       if (document.documentElement.clientWidth < MOBILE_DESKTOP_BREAKPOINT) {
         this.linksWrapMaxWidth = null
       } else {
-        this.linksWrapMaxWidth = this.$el.offsetWidth - NAVBAR_VERTICAL_PADDING
+        this.linksWrapMaxWidth = this.$el.offsetWidth - NAVBAR_VERTICAL_padding
           - (this.$refs.siteName && this.$refs.siteName.offsetWidth || 0)
       }
     }

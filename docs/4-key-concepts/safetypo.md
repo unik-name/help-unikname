@@ -12,7 +12,7 @@ They're easily readable, spellable and communicable safely regarding spoofing, t
 
 Why?
 The SafeTypo© technology prevents users from creating similar and confusing identifiers.
-No errors due to confusing characters, accents, homonyms, separators or not, character inversion, international charset…
+No errors due to confusing characters, accents, homonyms, hseparators or not, character inversion, international charset…
 
 Nobody can create a @unikname identifier that closely resemble your own or with misstyped variations to trick you when you login on a website.
 

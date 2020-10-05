@@ -17,7 +17,7 @@ To get a personal @unikname identifier, you need to install **My unikname App** 
 
 1. On your smartphone, enter [My Unikname App](https://my.unikname.app/) into your web browser.
 
-<copyscreen caption="Installing My Unikname App" >![InstallMyUniknameApp](./images/InstallMyUniknameApp.jpg)</copyscreen>
+<hpicture caption="Installing My Unikname App" >![InstallMyUniknameApp](./images/InstallMyUniknameApp.jpg)</hpicture>
 
 2. Tap **Install now!**.
 3. Launch **My Unikname App**.

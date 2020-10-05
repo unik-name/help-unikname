@@ -12,20 +12,20 @@ You're logged in!
 
  1. Tap the <brand name="UNC"/> button.
  
- <copyscreen caption="First-time sign-up on kover.link website">![1.ConnectWebsite](./images/1.ConnectWebsite.png)</copyscreen>
+ <hpicture caption="First-time sign-up on kover.link website">![1.ConnectWebsite](./images/1.ConnectWebsite.png)</hpicture>
 
 2. Enter your @unikname, as requested.
 
-<copyscreen>![2.ConnectWebsite](./images/2.ConnectWebsite.png)</copyscreen>
+<hpicture>![2.ConnectWebsite](./images/2.ConnectWebsite.png)</hpicture>
 
 3. On the Unikname App, accept the connection request.
 
-<copyscreen>![3.ConnectWebsite](./images/3.ConnectWebsite.png)</copyscreen>
+<hpicture>![3.ConnectWebsite](./images/3.ConnectWebsite.png)</hpicture>
 
 4. Enter your PIN code, as requested. 
 
-<copyscreen>![5.ConnectWebsite](./images/5.ConnectWebsite.png)</copyscreen>
+<hpicture>![5.ConnectWebsite](./images/5.ConnectWebsite.png)</hpicture>
 
 **You're logged in!**
 
-<copyscreen>![6.ConnectWebsite](./images/6.ConnectWebsite.png)</copyscreen>
+<hpicture>![6.ConnectWebsite](./images/6.ConnectWebsite.png)</hpicture>

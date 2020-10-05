@@ -78,6 +78,7 @@ export default {
   max-width 960px
   margin 0px auto
   display block
+  text-align center
   .hero
     text-align center
     img

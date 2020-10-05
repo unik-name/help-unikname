@@ -1,28 +1,27 @@
 ---
 home: false
-title: "How to create a @unikname for your organization, and to set it up?"
+title: "How to get and setup the Trust Certificate for your organization?"
 ---
 
-# How to create a @unikname for your organization, and to set it up
+# How to get and setup the @unikname Trust Certificate for your organization?
 
 You've already discovered @unikname for individual where the main purpose is to allow people to keep full control of their Digital Identity and to keep their web authentications fully private. 
 
 There's another type of @unikname dedicated for organization. These kind of @unikname are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocole. Combined with the domain name of your website it offers a strong cyber-protection for your user account. @unikname for organization can only be obtained after human verification and from the Command Line Interface tool.
 
-Here we're going to explain how to create a @unikname of type Organization, how to disclose it, and how to link it with with your website domain name.
+Here we're going to explain how to create a @unikname of type Organization, how to disclose it, and how to link it with with your website domain name to make it your trust certificate.
 
 [[TOC]]
 
 :::warning Prerequisite
 :heavy_check_mark: You've already installed the Commande Line Interface on your desktop.  
-<pad>_See [How to install the CLI?](./howto-install-uns-cli)_</pad>
-:heavy_check_mark: You get your own @unikname and it's enlisted on the App.
-<pad>_See [How to get your personal @unikname?](./howto-get-my-unikname-via-cli)_</pad>
+<hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
 :heavy_check_mark: Unikname Team has provided you an exclusive COUPON CODE
-<pad>_See [How to sign-up for a business account?](./howto-signup-business-account)_</pad>
+<hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
 :::
 
-_____
+
+<hseparator/>
 
 ## Step 1. Create a new crypto account for your organization
 
@@ -60,7 +59,7 @@ Okay, now you can create the @unikname for your organization, using your exclusi
 
 The @unikname for your organization must contain at least one letter and be longer than 6 characters. We suggest to choose one very close to your domain name but without the `.com` or without any other extension.
 
-Your @unikname is case, accent and separator insensitive like individual ones. That means that if you choose `my-saas-platform-101` then it's the same as `mySaaS_platform101` or `mysaasplatform*101`
+Your @unikname is case, accent and hseparator insensitive like individual ones. That means that if you choose `my-saas-platform-101` then it's the same as `mySaaS_platform101` or `mysaasplatform*101`
 
 :::warning
 Choose your organization @unikname identifier wisely. Keep in mind that once created, this @unikname identifier will be permanently associated to your business and disclosed to the other users. 
@@ -203,7 +202,7 @@ To check that your organization @unikname identifier has been created correctly:
 
 Open the [UNS Network explorer](https://explorer.uns.network/) and enter ``@organization:my-saas-platform-101.com`` in the search.
 
-<copyscreen>![explorer-search-@organization_mycompany](./images/chechunexplorer.png)</copyscreen>
+<hpicture>![explorer-search-@organization_mycompany](./images/chechunexplorer.png)</hpicture>
 
 > Replace ``my-saas-platform-101.com`` with your own organization @unikname identifier.
 
@@ -211,18 +210,23 @@ Then check the information associated with your organization @unikname identifie
 
 :heavy_check_mark: Your unikname is disclosed. You can read it on the explorer.   
 :heavy_check_mark: Your unikname is of type Organization   
-:heavy_check_mark: Your unikname contains your verified URL. Scroll down the properties.  
+:heavy_check_mark: Your unikname contains your verified URL. (You need to scroll down the properties to see it)  
 :heavy_check_mark: Your unikname address is the right one.  
+
+**All done!** 
+
+<hseparator/>
 
 ---
 
 What you've achieved here:
 
-:heavy_check_mark: Created an @unikname of type `organization`
-:heavy_check_mark: Disclosed your @unikname
-:heavy_check_mark: Linked your @unikname with the domain name of your website
+:heavy_check_mark: Created an @unikname of type `organization`  
+:heavy_check_mark: Disclosed your @unikname  
+:heavy_check_mark: Linked your @unikname with the domain name of your website   
 
-:::tip
-If you've any troubles, open a thread with our team and the community on our [Unikname forum](https://kover.link/5CBGgD)
+<br/>
+
+:::tip Need Help?
+Open a thread on our [Unikname forum](https://kover.link/5CBGgD)
 :::
-

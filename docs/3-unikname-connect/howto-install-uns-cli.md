@@ -39,3 +39,9 @@ You can find more details about installing and using the CLI within the [full CL
 
 You can also request inline help with the command `$ uns --help`
 :::
+
+<hseparator/>
+
+:::tip Need Help?
+Open a thread on our [Unikname forum](https://kover.link/5CBGgD)
+:::
