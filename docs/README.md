@@ -6,6 +6,7 @@ Welcome to the <brand name="unikname"/> Help Center.
 
 <cardcontainer>
 <card title="Introduction" description="What is Unikname?" url="/1-introduction"/>
+<card title="Key Concepts" description="" url="/1-introduction/4-key-concepts"/>
 </cardcontainer>
 
 <hseparator/>
@@ -34,20 +35,26 @@ Welcome to the <brand name="unikname"/> Help Center.
 <card title="Trust Certificate for your website" description="Get and setup the @unikname Trust Certificate for your organization" url="/3-unikname-connect/howto-get-unikname-trust-certificate-organization"/>
 <card title="Example of integrations" description="See example of setup and code" url="/3-unikname-connect/example-of-integrations"/>
 <card title="Join the partnership program" description="coming soon..." url="/3-unikname-connect/howto-join-the-partnership-program" disable />
-<card title="Participate in securing the network" description="coming soon..." url="/3-unikname-connect/howto-participate-in-securing-the-network" disable />
 <card title="UX UI Signup and Login Guides" description="coming soon..." url="/3-unikname-connect/ux-ui-signup-login-guides" disable />
-
 </cardcontainer>
 
 <hseparator/>
 
-## Generalities
+## Security
 
 <cardcontainer>
-<card title="Key Concepts" url="/4-key-concepts"/>
-<card title="Glossary" url="/5-support/glossary"/>
-<card title="QnA" url="/5-support/qna"/>
-<card title="Vulnerabilities" url="/5-support/vulnerabilities"/>
-<card title="Powered by ARK.IO" url="/5-support/powered-by-ark-io"/>
+<card title="Hack Protections" description="Discover Unikname hack protections" url="5-security/security-hack-protections"/>
+<card title="Security Vulnerabilities" description="How Unikname Handles Security Vulnerabilities" url="/5-security/security-vulnerabilities"/>
+<card title="Participate in securing the network" description="coming soon..." url="/5-security/securing-the-uns-network" disable />
+</cardcontainer>
+
+<hseparator/>
+
+## More help
+
+<cardcontainer>
+<card title="Glossary" description="Terminology specifically related to Unikname Ecosystem" url="/9-more-help/glossary"/>
+<card title="QnA" description="Most frequent Questions & Answers" url="9-more-help/qna"/>
+<card title="Powered by ARK.IO" description="Know more about our partnership with ARK.IO" url="/9-more-help/powered-by-ark-io"/>
 </cardcontainer>
 

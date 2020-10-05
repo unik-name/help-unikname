@@ -35,8 +35,8 @@ export default {
 <style lang="stylus" scoped>
 .card
   height 10em
-  width 18em
-  min-width 18em
+  width 17em
+  min-width 17em
   display -webkit-box
   display -ms-flexbox
   display flex
@@ -54,9 +54,15 @@ export default {
   box-shadow 10px 10px 17px #e1e1e3, -3px -3px 5px #e1e1e3
 
   text-align center
-  margin 20px 20px 0px 0px
+  margin 20px 30px 10px 0px
 
   background-color #EFF6F6
+
+  h3
+    font-size 1rem
+  
+  p
+    font-size 0.9rem
 
   .description
     color #000
