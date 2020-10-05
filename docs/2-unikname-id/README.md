@@ -3,11 +3,11 @@ home: false
 Title: "@unikname ID: Your Universal Identifier"
 ---
 
-# Introduction to @Unikname : your Universal ID
+# @Unikname : your Universal ID
 
-**@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign**, that means it's easy to memorize it, it's always available, it's usable everywhere, and maybe the most important, it's under the sole control of its owner.
+**@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign that means it's easy to memorize, it's always available, it's usable everywhere, and maybe the most important it's under the sole control of its owner.
 
-To get your own @unikname identifier you just have to install the ``My Unikname App`` and to follow a 3 steps process. Once you own your @unikname, you can sign-up and log in to any website that embeds the Unikname Connect widget/pluggin, and start being rewarded.
+To get your own @unikname ID install the ``My Unikname App``, choose it, and root it into our highly secured and decentralized <brand name="uns"/>. Once you get your @unikname you can sign-up and log in to any website that embeds the Unikname Connect button. And start being rewarded.
 
 **My.Unikname.App allows to @unikname owner to control their digital life.** @unikname owners can get and manage their @unikname and can also control everything they can do with their ID, like private sign-up and login to websites. 
 
@@ -32,24 +32,24 @@ To get your own @unikname identifier you just have to install the ``My Unikname 
 
 :zap: [How to restore my @unikname?](./howto-restore-my-unikname)
 
-:zap: [How to become an ambassador?](./howto-become-ambassador)
+:zap: How to become an ambassador? _coming soon..._
 
 ## Freemium and Premium @unikname
 
-:zap: [How to get an premium @unikname?](./howto-get-premium-unikname)
-
-## UNS @unikname tokens
-
-:zap: [How to earn @unikname UNS tokens?](./howto-earn-uns-tokens)
+:zap: [How to get a premium @unikname?](./howto-get-premium-unikname)
 
 ## @unikname Lifecycle
 
-:zap: [how my @unikname goes live?](./howto-go-live)
+:zap: how my @unikname goes live? _coming soon..._
 
-:zap: [how to burn my @unikname](./howto-burn-my-unikname) (right to digital oblivion)
+:zap: how to burn my @unikname? _coming soon..._
 
 ## @unikname Properties and Badges
 
-:zap: [How to manage my @unikname properties?](./howto-manage-unikname-properties)
+:zap: How to manage my @unikname properties? _coming soon..._
 
-:zap: [How to get @unikname badges?](./howto-get-unikname-badges)
+:zap: How to get @unikname badges? _coming soon..._
+
+## UNS @unikname tokens
+
+:zap: How to earn @unikname UNS tokens? _coming soon..._

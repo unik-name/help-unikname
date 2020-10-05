@@ -86,17 +86,17 @@ module.exports = {
             ["/2-unikname-id/howto-login", "How to use my @unikname to log in?"],
             ["/2-unikname-id/howto-backup-my-unikname", "How to backup my @unikname?"],
             ["/2-unikname-id/howto-restore-my-unikname", "How to restore my @unikname?"],
-            ["/2-unikname-id/howto-become-ambassador", "How to become an ambassador?"],
+            // ["/2-unikname-id/howto-become-ambassador", "How to become an ambassador?"],
 
             ["/2-unikname-id/howto-get-premium-unikname", "How to get e premium @unikname?"],
 
-            ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
-            ["/2-unikname-id/howto-burn-my-unikname", "How to burn my @unikname?"],
+            // ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
+            // ["/2-unikname-id/howto-burn-my-unikname", "How to burn my @unikname?"],
 
-            ["/2-unikname-id/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
-            ["/2-unikname-id/howto-get-unikname-badges", "How to get @unikname badges?"],            
+            // ["/2-unikname-id/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
+            // ["/2-unikname-id/howto-get-unikname-badges", "How to get @unikname badges?"],            
 
-            ["/2-unikname-id/howto-earn-uns-tokens", "How to earn UNS tokens?"],
+            // ["/2-unikname-id/howto-earn-uns-tokens", "How to earn UNS tokens?"],
           ]
         },
         // Unikname Connect
@@ -123,18 +123,18 @@ module.exports = {
           title: "Key Concepts",
           path: "/4-key-concepts/",
           sidebarDepth: 0,
-          children: [
-            ["/4-key-concepts/what-is-ssid-cryptoaccount", "Self-Sovereign ID and Cryptoaccount"],
-            ["/4-key-concepts/what-is-unikname-trust-certificate", "Trust Certificate"],
-            ["/4-key-concepts/what-is-safetypo", "Safe Typo"],
-            ["/4-key-concepts/what-is-oidc", "Open ID Connect"],
-          ]
+          //children: [
+            // ["/4-key-concepts/what-is-ssid-cryptoaccount", "Self-Sovereign ID and Cryptoaccount"],
+            // ["/4-key-concepts/what-is-unikname-trust-certificate", "Trust Certificate"],
+            // ["/4-key-concepts/what-is-safetypo", "Safe Typo"],
+            // ["/4-key-concepts/what-is-oidc", "Open ID Connect"],
+          //]
         },
         // Security group
         {
           title: "Security",
           children: [
-            ["/5-security/securing-the-uns-network", "Securing the UNS network"],
+            // ["/5-security/securing-the-uns-network", "Securing the UNS network"],
             ["/5-security/security-hack-protections", "Hack Protections"],
             ["/5-security/security-vulnerabilities", "Vulnerabilities"],
           ]

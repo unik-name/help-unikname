@@ -6,7 +6,7 @@ Welcome to the <brand name="unikname"/> Help Center.
 
 <cardcontainer>
 <card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
-<card title="Key Concepts" description="" url="/4-key-concepts"/>
+<!-- <card title="Key Concepts" description="" url="/4-key-concepts"/> -->
 </cardcontainer>
 
 <hseparator/>
@@ -17,10 +17,10 @@ Welcome to the <brand name="unikname"/> Help Center.
 <card title="Getting Started" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
 </cardcontainer>
 <cardcontainer>
-<card title="Freemium and Premium @unikname" description="" url="/2-unikname-id/#premium-unikname"/>
-<card title="@unikname Lifecycle" description="" url="/2-unikname-id/#unikname-lifecycle"/>
-<card title="@unikname Properties and Badges" description="" url="/2-unikname-id/#unikname-properties-and-badges"/>
-<card title="UNS tokens" description="" url="/2-unikname-id/#uns-unikname-tokens"/>
+<card title="Freemium and Premium @unikname" description="" url="/2-unikname-id/#freemium-and-premium-unikname"/>
+<card title="@unikname Lifecycle" description="" url="/2-unikname-id/#unikname-lifecycle" disable/>
+<card title="@unikname Properties and Badges" description="" url="/2-unikname-id/#unikname-properties-and-badges" disable/>
+<card title="UNS tokens" description="" url="/2-unikname-id/#uns-unikname-tokens" disable/>
 </cardcontainer>
 
 <hseparator/>
