@@ -1,9 +1,20 @@
 ---
 home: false
-Title: "How to Log in to a Website With my unikname?"
+Title: "How to Log in to a Website With your unikname?"
 ---
 
-# How to log in to a Website With my @unikname?
+# How to log in to a Website With your @unikname?
+
+[[toc]]
+
+:::warning Prerequisite
+:heavy_check_mark: You've already installed My Unikname App on your smartphone.
+<hbox>_See [How to install my Unikname App?](./howto-install-my-unikname-app)_</hbox>
+:heavy_check_mark: You've got your own @unikname Identifier.
+<hbox>_See [How to get your @unikname?](./howto-get-individual-unikname)_</hbox>
+:::
+
+<hseparator/>
 
 If you already have an account on the website you want to login to, just click on the <brand name="UNC"/> button.
 You're logged in!
@@ -29,3 +40,10 @@ You're logged in!
 **You're logged in!**
 
 <hpicture>![6.ConnectWebsite](./images/6.ConnectWebsite.png)</hpicture>
+
+**All done!** 
+
+<hseparator/>
+
+!!!include(.vuepress/md-templates/need-help.md)!!!
+

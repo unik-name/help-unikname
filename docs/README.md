@@ -5,8 +5,8 @@ home: true
 Welcome to the <brand name="unikname"/> Help Center.
 
 <cardcontainer>
-<card title="Introduction" description="What is Unikname?" url="/1-introduction"/>
-<card title="Key Concepts" description="" url="/1-introduction/4-key-concepts"/>
+<card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
+<card title="Key Concepts" description="" url="/4-key-concepts"/>
 </cardcontainer>
 
 <hseparator/>
@@ -14,12 +14,13 @@ Welcome to the <brand name="unikname"/> Help Center.
 ## @unikname: The Universal IDentifier
 
 <cardcontainer>
-<card title="Introduction" description="The universal Identifer" url="/2-my-unikname"/>
-<card title="Getting Started" description="" url="/2-my-unikname/#getting-Started"/>
-<card title="Freemium and Premium @unikname" description="" url="/2-my-unikname/#premium-unikname"/>
-<card title="UNS tokens" description="" url="/2-my-unikname/#uns-unikname-tokens"/>
-<card title="@unikname Lifecycle" description="" url="/2-my-unikname/#unikname-lifecycle"/>
-<card title="@unikname Properties and Badges" description="" url="/2-my-unikname/#unikname-properties-and-badges"/>
+<card title="Getting Started" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
+</cardcontainer>
+<cardcontainer>
+<card title="Freemium and Premium @unikname" description="" url="/2-unikname-id/#premium-unikname"/>
+<card title="@unikname Lifecycle" description="" url="/2-unikname-id/#unikname-lifecycle"/>
+<card title="@unikname Properties and Badges" description="" url="/2-unikname-id/#unikname-properties-and-badges"/>
+<card title="UNS tokens" description="" url="/2-unikname-id/#uns-unikname-tokens"/>
 </cardcontainer>
 
 <hseparator/>

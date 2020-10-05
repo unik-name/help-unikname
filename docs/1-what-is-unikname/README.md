@@ -1,6 +1,7 @@
 ---
 home: false
 title: "What is Unikname&trade;"
+sidebarDepth: 0
 ---
 
 # What is Unikname&trade;?
@@ -14,6 +15,22 @@ Unikname makes the internet safer and protect user's privacy thanks to Self-Sove
 Discover Unikname solutions: 
 
 [[TOC]]
+
+<hseparator/>
+
+## @unikname ID: your Universal IDentifier
+
+**@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign**, that means it's easy to memorize it, it's always available, it's usable everywhere, and maybe the most important, it's under the sole control of its owner.
+
+To get your own @unikname identifier you just have to install the ``My Unikname App`` and to follow a 3 steps process. Once you own your @unikname, you can sign-up and log in to any website that embeds the <brand name="UNC"/> pluggin, and start being rewarded.
+
+**My.Unikname.App allows @unikname owners to control their digital life.** @unikname owners can get and manage their @unikname and control everything they can do with their ID, like private sign-up and provate login to websites. 
+
+<br/>
+
+:zap: [Getting started with @unikname ID](/2-unikname-id)
+
+<hseparator/>
 
 ## Unikname Connect: The next-generation authentication solution
 
@@ -45,13 +62,11 @@ Our technology makes it possible to customized user experience and services with
 
 **<brand name="UNC"/> becomes a new customer acquisition channel.** The large community of @unikname users receive incentive to explore websites using <brand name="UNC"/>. 
 
-## @Unikname: Your Universal IDentifier
+<br/>
 
-**@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign**, that means it's easy to memorize it, it's always available, it's usable everywhere, and maybe the most important, it's under the sole control of its owner.
+:zap: [Getting started with Unikname Connect](./3-unikname-connect)
 
-To get your own @unikname identifier you just have to install the ``My Unikname App`` and to follow a 3 steps process. Once you own your @unikname, you can sign-up and log in to any website that embeds the <brand name="UNC"/> pluggin, and start being rewarded.
-
-**My.Unikname.App allows to @unikname owner to control their digital life.** @unikname owners can get and manage their @unikname and can also control everything they can do with their ID, like private sign-up and login to websites. 
+<hseparator/>
 
 ## Unikname Anti-Phishing
 
@@ -61,9 +76,13 @@ With <brand name="UNC"/> there's already no more userid and password to steal, w
 
 Unikname Anti-Phishing adds a layer of cryptographic protection over the oAuth authentication protocol, in such a way that the authentication tokens can only be used only on a specific web domain name.
 
+<hseparator/>
+
 ## Unikname Certificate Proofing
 
 Unikname Certificate Proofing is the solution for securing mobile apps against falsified SSL X509 certificates and against man-in-the-middle attacks.
+
+<hseparator/>
 
 ## Under the hood
 

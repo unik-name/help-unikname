@@ -71,32 +71,32 @@ module.exports = {
         // Introduction group
         {
           title: "What is Unikname?",
-          path: "/1-introduction/",
-          sidebarDepth: 1
+          path: "/1-what-is-unikname/",
+          sidebarDepth: 0
         },
         // my @unikname
         {
-          title: "my @unikname ID",
-          //path: "/2-my-unikname/",
+          title: "@unikname Universal ID",
+          //path: "/2-unikname-id/",
           sidebarDepth: 0,
           children: [
-            ["/2-my-unikname/", "Introduction to @unikname ID"],
-            ["/2-my-unikname/howto-install-my-unikname-app", "How to install my Unikname App?"],
-            ["/2-my-unikname/howto-get-individual-unikname", "How to get my own @unikname?"],
-            ["/2-my-unikname/howto-login", "How to use my @unikname to log in?"],
-            ["/2-my-unikname/howto-backup-my-unikname", "How to backup my @unikname?"],
-            ["/2-my-unikname/howto-restore-my-unikname", "How to restore my @unikname?"],
-            ["/2-my-unikname/howto-become-ambassador", "How to become an ambassador?"],
+            ["/2-unikname-id/", "Getting started with @unikname ID"],
+            ["/2-unikname-id/howto-install-my-unikname-app", "How to install my Unikname App?"],
+            ["/2-unikname-id/howto-get-individual-unikname", "How to get my own @unikname?"],
+            ["/2-unikname-id/howto-login", "How to use my @unikname to log in?"],
+            ["/2-unikname-id/howto-backup-my-unikname", "How to backup my @unikname?"],
+            ["/2-unikname-id/howto-restore-my-unikname", "How to restore my @unikname?"],
+            ["/2-unikname-id/howto-become-ambassador", "How to become an ambassador?"],
 
-            ["/2-my-unikname/howto-get-premium-unikname", "How to get e premium @unikname?"],
+            ["/2-unikname-id/howto-get-premium-unikname", "How to get e premium @unikname?"],
 
-            ["/2-my-unikname/howto-earn-uns-tokens", "How to earn UNS tokens?"],
+            ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
+            ["/2-unikname-id/howto-burn-my-unikname", "How to burn my @unikname?"],
 
-            ["/2-my-unikname/howto-go-live", "How my @unikname goes live?"],
-            ["/2-my-unikname/howto-burn-my-unikname", "How to burn my @unikname?"],
+            ["/2-unikname-id/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
+            ["/2-unikname-id/howto-get-unikname-badges", "How to get @unikname badges?"],            
 
-            ["/2-my-unikname/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
-            ["/2-my-unikname/howto-get-unikname-badges", "How to get @unikname badges?"],            
+            ["/2-unikname-id/howto-earn-uns-tokens", "How to earn UNS tokens?"],
           ]
         },
         // Unikname Connect
@@ -124,20 +124,28 @@ module.exports = {
           path: "/4-key-concepts/",
           sidebarDepth: 0,
           children: [
-            ["/4-key-concepts/openidconnect", "Open ID Connect"],
-            ["/4-key-concepts/uns-network", "uns.network blockchain"],
-            ["/4-key-concepts/safetypo", "Safe Typo"],
-            ["/4-key-concepts/security", "Security"],
+            ["/4-key-concepts/what-is-ssid-cryptoaccount", "Self-Sovereign ID and Cryptoaccount"],
+            ["/4-key-concepts/what-is-unikname-trust-certificate", "Trust Certificate"],
+            ["/4-key-concepts/what-is-safetypo", "Safe Typo"],
+            ["/4-key-concepts/what-is-oidc", "Open ID Connect"],
           ]
         },
+        // Security group
+        {
+          title: "Security",
+          children: [
+            ["/5-security/securing-the-uns-network", "Securing the UNS network"],
+            ["/5-security/security-hack-protections", "Hack Protections"],
+            ["/5-security/security-vulnerabilities", "Vulnerabilities"],
+          ]
+        }, 
         // extra group
         {
-          title: "Support",
+          title: "More help",
           children: [
-            ["/5-support/qna", "Q&A"],
-            ["/5-support/glossary", "Glossary"],
-            ["/5-support/vulnerabilities", "Vulnerabilities"],
-            ["/5-support/powered-by-ark-io", "Powered by ARK.io"],
+            ["/9-more-help/qna", "Q&A"],
+            ["/9-more-help/glossary", "Glossary"],
+            ["/9-more-help/powered-by-ark-io", "Powered by ARK.io"],
             ["https://forum.unikname.com/", "Forum uns.network"],
           ]
         } 

@@ -1,9 +1,9 @@
 ---
 home: false
-Title: "@unikname: Your Universal Identifier"
+Title: "@unikname ID: Your Universal Identifier"
 ---
 
-# Introduction to @Unikname Universal ID
+# Introduction to @Unikname : your Universal ID
 
 **@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign**, that means it's easy to memorize it, it's always available, it's usable everywhere, and maybe the most important, it's under the sole control of its owner.
 
@@ -17,6 +17,8 @@ To get your own @unikname identifier you just have to install the ``My Unikname 
 **'@unikname'** beginning with the @ sign and only lowercase is the name of the Identifier. <br/>
 **'My Unikname'** is the name of the App
 :::
+
+<hseparator/>
 
 ## Getting Started
 

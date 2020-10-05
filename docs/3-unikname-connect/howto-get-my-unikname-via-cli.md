@@ -9,7 +9,7 @@ title: "How to get my @unikname, with the CLI?"
 Your own @unikname can be used everywhere and for multiple purposes. Also, if you already get one you don't need to get another one.
 :::
 
-There's multiple ways to get your own @unikname. The most user friendly one is to [get your @unikname directly within my.unikname.app.](./../2-my-unikname/howto-get-individual-unikname) But here we show you another way with the Command Line Interface which may seems more convenient for a developer or for a system administrator. Then we show you how to restore it within the App.
+There's multiple ways to get your own @unikname. The most user friendly one is to [get your @unikname directly within my.unikname.app.](./../2-unikname-id/howto-get-individual-unikname) But here we show you another way with the Command Line Interface which may seems more convenient for a developer or for a system administrator. Then we show you how to restore it within the App.
 
 [[TOC]]
 
