@@ -101,7 +101,7 @@ Go to your Discourse Forum and click on the `sign-up` button. You will see this 
 
 Choose ``with your @unikname`` button, then you should see this page:
 
-<hpicture noshadow>![enter-your-unikname](./../images/unc-enter-unikname.png)</hpicture>
+<hpicture noshadow>![enter-your-unikname](../../images/unc-enter-unikname.png)</hpicture>
 
 Finally enter your personal @unikname and validate the authentication on your smartphone. You're automatically redirected to the signup process on your forum.
 

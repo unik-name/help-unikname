@@ -38,7 +38,7 @@ Go to your website and click on the button that should trigger <brand name="UNC"
 
 You should see the Unikname Login screen similar to this:
 
-<hpicture>![enter-your-unikname](./../images/unc-enter-unikname.png)</hpicture>
+<hpicture>![enter-your-unikname](../../images/unc-enter-unikname.png)</hpicture>
 
 Then enter your personal @unikname and validate the authentication on your smartphone. Then you're automatically redirected to your website and authenticated.
 

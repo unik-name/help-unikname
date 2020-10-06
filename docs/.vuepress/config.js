@@ -140,27 +140,27 @@ module.exports = {
             "How to create your trust certificate?",
           ],
           [
-            "/3-unikname-connect/integration-technology/nodejs",
-            "How to integrate with nodejs",
-          ],
-          [
-            "/3-unikname-connect/integration-technology/auth0",
+            "/3-unikname-connect/integration-technology/auth0/",
             "How to integrate with Auth0",
           ],
           [
-            "/3-unikname-connect/integration-technology/discourse",
+            "/3-unikname-connect/integration-technology/discourse/",
             "How to integrate with Discourse",
           ],
           [
-            "/3-unikname-connect/integration-technology/wordpress",
+            "/3-unikname-connect/integration-technology/nodejs/",
+            "How to integrate with NodeJS",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/wordpress/",
             "How to integrate with Wordpress",
           ],
           [
-            "/3-unikname-connect/integration-technology/woocommerce",
+            "/3-unikname-connect/integration-technology/woocommerce/",
             "How to integrate with WooCommerce",
           ],
           [
-            "/3-unikname-connect/integration-technology/oauth2.0-openidconnect",
+            "/3-unikname-connect/integration-technology/oauth2.0-openidconnect/",
             "How to integrate with OAuth2.0 & OIDC",
           ],
         ],

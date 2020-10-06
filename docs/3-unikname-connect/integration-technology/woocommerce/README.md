@@ -1,21 +1,25 @@
 ---
 home: false
-title: "Integrate Unikname Connect with Wordpress"
+title: "Integrate Unikname Connect with WooCommerce"
 ---
 
-# Integrate Unikname Connect with WordPress
+# Integrate Unikname with WooCommerce
 
-<hpicture noshadow>![WordPress](./wordPress-logo-full.png)</hpicture>
+<hpicture noshadow>![woocommerce](./woocommerce-logo-full.png)</hpicture>
 
 <br/>
 
-<brand name="UNC"/> can be easily integrated with your Worpdress website with a simple plugin. [WordPress](https://wordpress.org) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
+<brand name="UNC"/> can be easily integrated with your WooCommerce website with a simple plugin. 
+
+[WooCommerce](https://woocommerce.com/) is an open-source e-commerce plugin for WordPress. It's designed for small to large-sized online stores.
+
+[WordPress](https://wordpress.org) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
 
 WordPress is used by more than 60 million websites, it is one of the most popular content management system solutions in use.
 WordPress was originally created as a blog-publishing system but has evolved to support other types of web content: corporate website, media galleries, online stores... such as with WooCommerce extension.
 
 :::tip Example
-Many WordPress websites are running with Unikname Connect such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/) or  [Cryptomaniac](https://www.cryptomaniac.fr) to give you some examples...
+Many WooCommerce websites are running with Unikname Connect such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/) or  [Cryptomaniac](https://www.cryptomaniac.fr) to give you some examples...
 
 👉 You're welcome to look at them and to see how they've integrated the <brand name="UNC"/> Button.
 :::
@@ -38,7 +42,7 @@ Many WordPress websites are running with Unikname Connect such as [La Bande Du C
 :heavy_check_mark: During the sign-up process you've received a set of keys.
 _</hbox>
 
-:book: We assume you're familiar with the Back-Office of your Wordpress Website.
+:book: We assume you're familiar with the Back-Office of your Wordpress Website and you've already installed the WooCommerce plugin on it.
 :::
 
 ## Step 1. Install the WordPress plugin
@@ -86,11 +90,13 @@ $ composer require wpackagist-plugin/unikname-connect
 1. Configure `Unikname Connect @unikname` with the information given from Unikname Team Support
 1. Configure `Unikname Connect Secret` with the information given from Unikname Team Support
 
-<hpicture>![Unikname Connect for WordPress basic configuration](./wordpress-config1.png)</hpicture>
+<hpicture>![Unikname Connect for WordPress basic configuration](../wordpress/wordpress-config1.png)</hpicture>
 
 ### Advanced configuration
 
 You can also configure some extra parameters in the `Advanced` tab of the plugin, such as selecting the page where you want to see the Sign-up / Login button.
+
+<hpicture>![Unikname Connect for WordPress advanced configuration, with configurations for WooCommerce](../wordpress/wordpress-config2.png)</hpicture>
 
 **All done!**
 

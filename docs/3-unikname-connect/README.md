@@ -11,15 +11,15 @@ Integrating <brand name="UNC"/> onto your website is quite simple. All you need 
 
 | <!-- -->    | <!-- -->    | <!-- -->    |
 |:-------------:|:-------------:|:-------------:|
-| [![][auth0-logo]](apps/auth0/)       | [![][discourse-logo]](apps/discourse/)        | [![][nodejs-logo]](apps/nodejs/) |
-| [![][wordpress-logo]](apps/wordpress/) | [![][woocommerce-logo]](apps/wordpress/) | [![][oauth2.0-oidc-logo]](apps/oauth2.0-openidconnect/) | 
+| [![][auth0-logo]](integration-technology/auth0/)       | [![][discourse-logo]](integration-technology/discourse/)        | [![][nodejs-logo]](integration-technology/nodejs/) |
+| [![][wordpress-logo]](integration-technology/wordpress/) | [![][woocommerce-logo]](integration-technology/woocommerce/) | [![][oauth2.0-oidc-logo]](integration-technology/oauth2.0-openidconnect/) | 
 
-[auth0-logo]: ./integration-technology/auth0-logo.png "Unikname Connect for Auth0"
-[discourse-logo]: ./integration-technology/discourse-logo.png "Unikname Connect for Discourse"
-[nodejs-logo]: ./integration-technology/nodejs-logo.png "Unikname Connect for Node JS"
-[wordpress-logo]: ./integration-technology/wordpress-logo.png "Unikname Connect for Worpress"
-[woocommerce-logo]: ./integration-technology/woocommerce-logo.png "Unikname Connect for WooCommerce"
-[oauth2.0-oidc-logo]: ./integration-technology/oauth2.0-openidconnect-logo.png "Unikname Connect for any OAuth 2.0 or OpenID Connect solution"
+[auth0-logo]: ./integration-technology/auth0/auth0-logo.png "Unikname Connect for Auth0"
+[discourse-logo]: ./integration-technology/discourse/discourse-logo.png "Unikname Connect for Discourse"
+[nodejs-logo]: ./integration-technology/nodejs/nodejs-logo.png "Unikname Connect for Node JS"
+[wordpress-logo]: ./integration-technology/wordpress/wordpress-logo.png "Unikname Connect for Worpress"
+[woocommerce-logo]: ./integration-technology/woocommerce/woocommerce-logo.png "Unikname Connect for WooCommerce"
+[oauth2.0-oidc-logo]: ./integration-technology/oauth2.0-openidconnect/oauth2.0-openidconnect-logo.png "Unikname Connect for any OAuth 2.0 or OpenID Connect solution"
 
 <br/>
 Let's go 👉
