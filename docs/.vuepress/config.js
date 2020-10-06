@@ -1,9 +1,9 @@
 module.exports = {
-  title: "The Unikname Developer Hub",
-  title2: "Unikname Docs",
+  title: "Unikname Help Center",
+  title2: "Unikname Guides and Docs",
   description:
     "Comprehensive guides and documentation to help you start working with the Unikname Solutions as quickly as possible. Let's go!",
-  description2: "Official documentation for the Unikname solutions",
+  description2: "Official documentation for Unikname",
   plugins: {
     sitemap: {
       hostname: "https://docs.unikname.com",
@@ -17,6 +17,12 @@ module.exports = {
     "@vuepress/back-to-top": {},
     tabs: {},
     "@goy/svg-icons": {},
+    "vuepress-plugin-container": {
+      type: "information",
+      defaultTitle: "",
+      before: '<div class="information">',
+      after: "</div>",
+    },
   },
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
@@ -45,9 +51,8 @@ module.exports = {
   ],
   markdown: {
     extendMarkdown: (md) => {
-      md.use(require("markdown-it-include"), {
-        root: "./docs/",
-      });
+      md.use(require("markdown-it-include"), { root: "./docs/" });
+      md.use(require("markdown-it-table-of-contents"), { includeLevel: [2] });
     },
   },
   themeConfig: {
@@ -59,73 +64,136 @@ module.exports = {
     docsDir: "docs",
     lastUpdated: true,
     activeHeaderLinks: true,
-    nav: [{ text: "Getting Started", link: "/getting-started/" }],
+    sidebarDepth: 1,
+    nav: [
+      { text: "Get the App", link: "https://my.unikname.app" },
+      { text: "Go to website", link: "https://www.unikname.com" },
+    ],
     sidebar: [
-      "/",
+      // Introduction group
       {
-        title: "Introduction",
+        title: "What is Unikname?",
+        path: "/1-what-is-unikname/",
+        sidebarDepth: 0,
+      },
+      // my @unikname
+      {
+        title: "@unikname Universal ID",
+        //path: "/2-unikname-id/",
+        sidebarDepth: 0,
         children: [
-          ["/introduction/", "Understanding Unikname"],
-          ["/introduction/unikname-solutions", "Unikname Solutions"],
-          ["/getting-started/", "Getting Started"],
+          ["/2-unikname-id/", "Getting started with @unikname ID"],
+          [
+            "/2-unikname-id/howto-install-my-unikname-app",
+            "How to install my Unikname App?",
+          ],
+          [
+            "/2-unikname-id/howto-get-individual-unikname",
+            "How to get my own @unikname?",
+          ],
+          ["/2-unikname-id/howto-login", "How to use my @unikname to log in?"],
+          [
+            "/2-unikname-id/howto-backup-my-unikname",
+            "How to backup my @unikname?",
+          ],
+          [
+            "/2-unikname-id/howto-restore-my-unikname",
+            "How to restore my @unikname?",
+          ],
+          // ["/2-unikname-id/howto-become-ambassador", "How to become an ambassador?"],
+
+          [
+            "/2-unikname-id/howto-get-premium-unikname",
+            "How to get e premium @unikname?",
+          ],
+
+          // ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
+          // ["/2-unikname-id/howto-burn-my-unikname", "How to burn my @unikname?"],
+
+          // ["/2-unikname-id/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
+          // ["/2-unikname-id/howto-get-unikname-badges", "How to get @unikname badges?"],
+
+          // ["/2-unikname-id/howto-earn-uns-tokens", "How to earn UNS tokens?"],
         ],
       },
+      // Unikname Connect
       {
-        title: "How to use Unikname",
+        title: "Unikname Connect",
+        // path: "/3-unikname-connect/",
+        sidebarDepth: 0,
         children: [
-          ["/how-to-use-unikname/", "Introduction"],
-          ["/how-to-use-unikname/api", "API"],
-          ["/how-to-use-unikname/sdk", "SDK"],
-          ["/how-to-use-unikname/app", "My Unikname App"],
+          ["/3-unikname-connect/", "Getting started with Unikname Connect"],
+          [
+            "/3-unikname-connect/howto-install-uns-cli",
+            "How to install the CLI?",
+          ],
+          [
+            "/3-unikname-connect/howto-get-my-unikname-via-cli",
+            "How to get your personal @unikname?",
+          ],
+          [
+            "/3-unikname-connect/howto-signup-business-account",
+            "How to sign-up your business account?",
+          ],
+          [
+            "/3-unikname-connect/howto-get-unikname-trust-certificate-organization",
+            "How to create your trust certificate?",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/nodejs",
+            "How to integrate with nodejs",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/auth0",
+            "How to integrate with Auth0",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/discourse",
+            "How to integrate with Discourse",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/wordpress",
+            "How to integrate with Wordpress",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/woocommerce",
+            "How to integrate with WooCommerce",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/oauth2.0-openidconnect",
+            "How to integrate with OAuth2.0 & OIDC",
+          ],
         ],
       },
+      // Key Concepts group
       {
-        title: "Setting up business account",
-        children: [
-          "/business-account/",
-          "/business-account/creating-your-unikname-individual",
-          "/business-account/creating-unikname-organization",
-          "/business-account/configuring-organization-unikname",
-        ],
+        title: "Key Concepts",
+        path: "/4-key-concepts/",
+        sidebarDepth: 0,
+        //children: [
+        // ["/4-key-concepts/what-is-ssid-cryptoaccount", "Self-Sovereign ID and Cryptoaccount"],
+        // ["/4-key-concepts/what-is-unikname-trust-certificate", "Trust Certificate"],
+        // ["/4-key-concepts/what-is-safetypo", "Safe Typo"],
+        // ["/4-key-concepts/what-is-oidc", "Open ID Connect"],
+        //]
       },
-      {
-        title: "Integrating Unikname Connect",
-        children: [
-          "/integration/connect/",
-          // "/integration/connect/features",
-          {
-            title: "Applications",
-            sidebarDepth: 0,
-            children: [
-              ["/integration/connect/apps/auth0/", "Auth0"],
-              ["/integration/connect/apps/discourse/", "Discourse"],
-              ["/integration/connect/apps/nodejs/", "NodeJS"],
-              [
-                "/integration/connect/apps/oauth2.0-openidconnect/",
-                "OAuth 2.0 / OpenID Connect",
-              ],
-              ["/integration/connect/apps/office365/", "Office 365"],
-              [
-                "/integration/connect/apps/wordpress/",
-                "Wordpress / WooCommerce",
-              ],
-            ],
-          },
-        ],
-      },
+      // Security group
       {
         title: "Security",
         children: [
-          ["/security/", "Security & Hack Protections"],
-          ["/security/vulnerabilities", "Security & Vulnerabilities"],
+          // ["/5-security/securing-the-uns-network", "Securing the UNS network"],
+          ["/5-security/security-hack-protections", "Hack Protections"],
+          ["/5-security/security-vulnerabilities", "Vulnerabilities"],
         ],
       },
+      // extra group
       {
-        title: "More...",
+        title: "More help",
         children: [
-          ["/qna/", "Q&A"],
-          ["/glossary/", "Glossary"],
-          ["/powered-by-ark-io/", "Powered by ARK"],
+          ["/9-more-help/qna", "Q&A"],
+          ["/9-more-help/glossary", "Glossary"],
+          ["/9-more-help/powered-by-ark-io", "Powered by ARK.io"],
+          ["https://forum.unikname.com/", "Forum uns.network"],
         ],
       },
     ],

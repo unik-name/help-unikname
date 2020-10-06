@@ -1,25 +1,61 @@
 ---
 home: true
-actionText: Getting Started
-actionLink: /getting-started/
 ---
 
-Welcome to the <unikname/> Developer Hub.
+Welcome to the <brand name="unikname"/> Help Center.
 
-You're are at the right place to find guides and docs to help you working with the Unikname Solutions, as well as support if you get stuck.
+<cardcontainer>
+<card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
+<!-- <card title="Key Concepts" description="" url="/4-key-concepts"/> -->
+</cardcontainer>
 
-## [Understanding Unikname](/introduction/)
+<hseparator/>
 
-## [Using Unikname](/how-to-use-unikname/)
+## @unikname: The Universal IDentifier
 
-## [Setting up a Unikname Business account](/business-account/)
+<cardcontainer>
+<card title="Getting Started" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
+</cardcontainer>
+<cardcontainer>
+<card title="Freemium and Premium @unikname" description="" url="/2-unikname-id/#freemium-and-premium-unikname"/>
+<card title="@unikname Lifecycle" description="" url="/2-unikname-id/#unikname-lifecycle" disable/>
+<card title="@unikname Properties and Badges" description="" url="/2-unikname-id/#unikname-properties-and-badges" disable/>
+<card title="UNS tokens" description="" url="/2-unikname-id/#uns-unikname-tokens" disable/>
+</cardcontainer>
 
-## [Integrating Unikname Connect](/integration/connect)
+<hseparator/>
 
-## [Secure by uns.network](/uns-network/])
+## Unikname Connect: The next-generation authentication solution
 
-## [Security](/security/)
+<cardcontainer>
+<card title="Getting started with Unikname Connect" url="/3-unikname-connect"/>
+</cardcontainer>
+<cardcontainer>
+<card title="Install the CLI" description="The Command Line Interface is required to setup a business account" url="/3-unikname-connect/howto-install-uns-cli"/>
+<card title="Sign up for a business account" description="Get your credentials to activate Unikname Connect on your website" url="/3-unikname-connect/howto-signup-business-account"/>
+<card title="Trust Certificate for your website" description="Get and setup the @unikname Trust Certificate for your organization" url="/3-unikname-connect/howto-get-unikname-trust-certificate-organization"/>
+<card title="Example of integrations" description="See example of setup and code" url="/3-unikname-connect/example-of-integrations"/>
+<card title="Join the partnership program" description="coming soon..." url="/3-unikname-connect/howto-join-the-partnership-program" disable />
+<card title="UX UI Signup and Login Guides" description="coming soon..." url="/3-unikname-connect/ux-ui-signup-login-guides" disable />
+</cardcontainer>
 
-## [Q&A](/qna/)
+<hseparator/>
 
-## [Glossary](/glossary/)
+## Security
+
+<cardcontainer>
+<card title="Hack Protections" description="Discover Unikname hack protections" url="5-security/security-hack-protections"/>
+<card title="Security Vulnerabilities" description="How Unikname Handles Security Vulnerabilities" url="/5-security/security-vulnerabilities"/>
+<card title="Participate in securing the network" description="coming soon..." url="/5-security/securing-the-uns-network" disable />
+</cardcontainer>
+
+<hseparator/>
+
+## More help
+
+<cardcontainer>
+<card title="Glossary" description="Terminology specifically related to Unikname Ecosystem" url="/9-more-help/glossary"/>
+<card title="QnA" description="Most frequent Questions & Answers" url="9-more-help/qna"/>
+<card title="Powered by ARK.IO" description="Know more about our partnership with ARK.IO" url="/9-more-help/powered-by-ark-io"/>
+</cardcontainer>
+
