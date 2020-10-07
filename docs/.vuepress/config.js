@@ -1,3 +1,10 @@
+const { slugify: vuePressSlugify } = require("@vuepress/shared-utils");
+
+function customSlugifyToHandleBadges(str) {
+  // Remove badges
+  return vuePressSlugify(str.replace(/<Badge[^>]*\/>/, ""));
+}
+
 module.exports = {
   title: "Unikname Help Center",
   title2: "Unikname Guides and Docs",
@@ -197,5 +204,11 @@ module.exports = {
         ],
       },
     ],
+  },
+  markdown: {
+    slugify: customSlugifyToHandleBadges,
+    toc: {
+      slugify: customSlugifyToHandleBadges,
+    },
   },
 };
