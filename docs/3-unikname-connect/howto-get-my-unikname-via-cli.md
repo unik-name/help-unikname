@@ -171,5 +171,5 @@ What you've achieved here:
 
 :::tip Need Help? 
 
-Open a thread on our [Unikname forum](https://kover.link/5CBGgD)
+Open a topic on our <forumurl/>
 :::

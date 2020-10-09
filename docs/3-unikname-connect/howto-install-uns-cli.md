@@ -43,5 +43,5 @@ You can also request inline help with the command `$ uns --help`
 <hseparator/>
 
 :::tip Need Help?
-Open a thread on our [Unikname forum](https://kover.link/5CBGgD)
+Open a topic on our <forumurl/>
 :::

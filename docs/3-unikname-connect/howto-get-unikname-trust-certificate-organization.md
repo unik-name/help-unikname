@@ -308,19 +308,19 @@ In addition to any method-specific verification errors, the following verificati
 
 - An internal error occurred.
 
-  If this problem persists, open a thread on our [Unikname forum](https://kover.link/5CBGgD).
+  If this problem persists, open a topic on our <forumurl/>.
 
 - Timeout.
 
   Either your site or the domain server stopped responding to our requests (depending on the verification method used).
   Confirm that your site is responding, and then try again.
-  If this problem persists, open a thread on our [Unikname forum](https://kover.link/5CBGgD).
+  If this problem persists, open a topic on our <forumurl/>.
 
 - Could not find your domain.
 
   The uns.network **URL_Checker** service provider tried to resolve the site URL that you gave us, but it is unknown to the DNS service.
   Check that you are providing the correct URL for your property.
-  If this problem persists, open a thread on our [Unikname forum](https://kover.link/5CBGgD).
+  If this problem persists, open a topic on our <forumurl/>.
 
 :::
 
