@@ -30,7 +30,7 @@ module.exports = {
       before: '<div class="information">',
       after: "</div>",
     },
-    "vuepress-plugin-matomo": {
+    "@spacelephantlabs/vuepress-plugin-matomo": {
       siteId: 5,
     },
   },
