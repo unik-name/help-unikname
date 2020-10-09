@@ -65,7 +65,7 @@ Your @unikname is case, accent and hseparator insensitive like individual ones. 
 Choose your organization @unikname identifier wisely. Keep in mind that once created, this @unikname identifier will be permanently associated to your business and disclosed to the other users. 
 :::
 
-Enter the following command replacing ``my-saas-platform-101`` by your own identifier, and replacing `MY-EXCLUSIVE-COUPON` by the one you've obtained when you sign up.
+Enter the following command replacing `my-saas-platform-101` by your own identifier, and replacing `MY-EXCLUSIVE-COUPON` by the one you've obtained when you sign up.
 
 ```bash
 $ uns unik:create --type=organization --explicitValue="my-saas-platform-101" --coupon="MY-EXCLUSIVE-COUPON"
@@ -93,8 +93,8 @@ The strength of the cyber protection provided by Unikname Connect is based on th
 
 Ok, now it's a good time to backup all these highly sensitive informations in a safe place: 
 
-- The cryptoaccount of your company: ``address``, ``publicKey``, ``privateKey``, ``passphrase``
-- The @unikname you've chosen, mentioning it's type: "organization", and its ``id``
+- The cryptoaccount of your company: `address`, `publicKey`, `privateKey`, `passphrase``
+- The @unikname you've chosen, mentioning it's type: "organization", and its `id``
 - Take care of spelling the 12 words of the passphrase. You should be able to access it for all your life long.
 
 If you use a password safe solution like _lastpass_ or _keepass_ you're encouraged to save your information on it
@@ -118,7 +118,7 @@ $ uns unik:disclose "@organization:my-saas-platform-101" -e "my-saas-platform-10
 ## Step 4. Prove the ownership of your website and link it to the @unikname of your Organization
 
 Unikname of type Organization must be linked with your web domain name in order to be used with <brand name="UNC"/> on your website.
-In concrete terms, this consists of generating a ``Verification Key`` from your @unikname and to publish it to your website.
+In concrete terms, this consists of generating a `Verification Key` from your @unikname and to publish it to your website.
 
 This publication can be done in two ways depending on your credentials: either by modifying the `<head>` section of your html page, either by publishing a hidden text page directly at the URL of your website.
 
@@ -324,7 +324,13 @@ In addition to any method-specific verification errors, the following verificati
 
 :::
 
-### Note about the User-Agent
+### Notes
+
+#### Your website logo
+
+While verifying your website URL, the uns.network **URL_Checker** service provider will try to crawl and store your website main logo to display it to your users when they connect with Unikname Connect.
+
+#### About the User-Agent
 
 The user agent of the uns.network **URL_Checker** service provider that performs HTML tag or file verification has the user agent token `UNS-URL-Checker-Verification` and the full user agent string is `Mozilla/5.0 (compatible; UNS-URL-Checker-Verification/1.0; <DID>)` where `DID` is the ID of the URL_Checker service provider that performs the verification (such as [`did:unik:unid:fbfbe7d9e8c005f1a9937d9fd17c4ef7da2ff8037a71e6cb7847b302eda4d08a`](https://explorer.uns.network/uniks/08bf335ede1818e222ecd529e0e892190aab62a39ec40492395b825a4f640731) for one of the official URL_Checkers service providers).
 
@@ -334,11 +340,11 @@ In the <brand name="uns"/> blockchain explorer you can find all the information 
 
 To check that your organization @unikname identifier has been created correctly:
 
-Open the [UNS Network explorer](https://explorer.uns.network/) and enter ``@organization:my-saas-platform-101.com`` in the search.
+Open the [UNS Network explorer](https://explorer.uns.network/) and enter `@organization:my-saas-platform-101.com` in the search.
 
 <hpicture>![explorer-search-@organization_mycompany](./images/chechunexplorer.png)</hpicture>
 
-> Replace ``my-saas-platform-101.com`` with your own organization @unikname identifier.
+> Replace `my-saas-platform-101.com` with your own organization @unikname identifier.
 
 Then check the information associated with your organization @unikname identifier:
 
@@ -362,5 +368,5 @@ What you've achieved here:
 <br/>
 
 :::tip Need Help?
-Open a thread on our [Unikname forum](https://kover.link/5CBGgD)
+Open a support thread on our <forumurl/>
 :::
