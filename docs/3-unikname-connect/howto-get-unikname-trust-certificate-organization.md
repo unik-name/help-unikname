@@ -117,9 +117,13 @@ $ uns unik:disclose "@organization:my-saas-platform-101" -e "my-saas-platform-10
 
 ## Step 4. Prove the ownership of your website and link it to the @unikname of your Organization
 
-Unikname of type Organization must be linked with your web domain name in order to be used with <brand name="UNC"/> on your website. In concrete terms, this consists of generating a ``Verification Key`` from your @unikname and to publish it to your website. This publication can be done in two ways depending on your credentials: either by modifying the `<head>` section of your html page, either by publishing a hidden text page directly at the URL of your website.
+Unikname of type Organization must be linked with your web domain name in order to be used with <brand name="UNC"/> on your website.
+In concrete terms, this consists of generating a ``Verification Key`` from your @unikname and to publish it to your website.
 
-First of all enter the following command to generate the verification package:
+This publication can be done in two ways depending on your credentials: either by modifying the `<head>` section of your html page, either by publishing a hidden text page directly at the URL of your website.
+
+First of all enter the following command to generate the verification package, using the [`properties:register` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-register):
+
 ```bash
 $ uns properties:register "@organization:my-saas-platform-101" --value "www.my-saas-platform-101.com" 
 ```
@@ -145,7 +149,7 @@ Then run the verification:
 * 1st way: Add An HTML <meta> tag to your website
 * 2nd way: Upload a text file to your website
 
-### 1st way: Add An HTML <meta> tag to your website
+### 1st way: Add an HTML <meta> tag to your website
 
 Add a `<meta...>` tag to the HTML code of the home page of your website, located at `https://www.my-saas-platform-101.com`. 
 
@@ -164,7 +168,7 @@ In the `<head>` section, like this:
 ```
 > Replace `your_verification_Key` with the one that has been previously generated with the `uns properties:register` command.
 
-Until done, finish the process by executing the following command:
+Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-verify):
 
 ```bash
 $ uns properties:verify "@organization:www.my-saas-platform-101.com" --url-channel html
@@ -177,14 +181,56 @@ Keep the HTML tag into the webpage as long as possible. An URL_Checker service m
 
 It is also safe to leave it forever 😉
 :::
- 
+
+::: details Potential errors
+
+The following verification errors can occur with HTML tag verification:
+
+- Meta tag not found/in the wrong location
+
+  The verification meta tag must be within the `<head>` section of the page.
+  If you see errors, check the following:
+
+  - Is the meta tag on the correct page?
+
+      The URL Checker looks for it on the site's home page.
+      This is the page that the web server returns when someone requests the site (such as `http://www.mycompany.com/`).
+      This page is often named `index.html` or `index.htm`, but could be named differently, depending on your server's configuration.
+  
+  - Is the meta tag in the correct place on the page?
+
+    The URL Checker looks for it in the page's `<head>` section. An example of correct placement is shown here:
+
+    ```html
+    <html>
+      <head>
+        <title>Page title</title>
+        ...
+        <meta name="uns-url-checker-verification" content="verificationKey">
+        ...
+      </head>
+    <body>
+    ...
+    ```
+
+    If you're using a web editor or a WYSIWYG editor to edit your page, make sure to select the 'Edit HTML' option or to edit the source code of the page.
+
+- The meta tag is incorrect
+
+  The URL Checker found the verification meta tag, but the content was incorrect.
+  To avoid errors, copy and paste the `verificationKey` value provided by the [`properties:register`](#properties-register) command.
+
+- More [common verification problems](#common-verification-errors) are listed below.
+
+:::
+
 ### 2nd way: Upload a text file to your website
 
 Upload the `uns-verification.txt` file that has been previously generated with the `uns properties:register` command to the subdirectory `.well-known` of the root folder of your website.
 
-The **URL_Checker** service will verify the file by reaching the following URL: `https://www.my-saas-platform-101.com/.well-known/uns-verification.txt`
+The **URL_Checker** service will verify the file by reaching the following URL: `https://www.my-saas-platform-101.com/.well-known/uns-verification.txt`.
 
-Last, enter the following command to finish the verification process:
+Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-verify):
 
 ```bash
 $ uns properties:verify "@organization:my-saas-platform-101.com" --url-channel file
@@ -197,6 +243,90 @@ Keep the HTML tag into the webpage as long as possible. An URL_Checker service m
 
 It is also safe to leave it forever 😉
 :::
+
+::: details Potential errors
+
+The following verification errors can occur with uploading a text file verification:
+
+- Verification file not found
+
+  Please check where the `uns-verification.txt` file was uploaded.
+  It must be reached at `https://www.my-saas-platform-101.com/.well-known/uns-verification.txt` location without any modifications.
+  If the file name or content does not match the `uns-verification.txt` file provided, the uns.network **URL_Checker** service provider won't be able to verify your site ownership.
+
+- Your verification file has the wrong content
+
+  The uns.network **URL_Checker** service provider checks to see if your verification file has the same filename and content as the file provided by the CLI command.
+  If the file name or content does not match the `uns-verification.txt` file provided, the uns.network **URL_Checker** service provider won't be able to verify your site ownership.
+  Please, upload the `uns-verification.txt` file provided to the specified location without any modifications.
+
+- Hacked verification file
+
+  Your verification attempt failed in a way that indicates that your site might have been hacked.
+  [Learn more about detecting and fixing hacked sites](https://developers.google.com/web/fundamentals/security/hacked/).
+
+- Your verification file redirects to a disallowed location.
+
+  The uns.network **URL_Checker** service provider will not follow redirects for verification files; if your site redirects all traffic to another site, we recommend using [meta tag verification](#_1st-way-add-an-html-tag-to-your-website).
+
+- More [common verification problems](#common-verification-errors) are listed below.
+:::
+
+### Common verification errors
+
+In addition to any method-specific verification errors, the following verification errors are possible in most verification methods:
+
+::: details Common verification errors
+
+- The verification package is expired
+
+  The verification package expires after 72h, so you must [restart the ownership process of your URL](#step-4-prove-the-ownership-of-your-website-and-link-it-to-the-unikname-of-your-organization).
+
+- The connection to your server timed out.
+  
+  The uns.network **URL_Checker** service provider was unable to verify your file because he received a server timeout.
+  This could be because your server is down or is busy and responding slowly.
+  Make sure that your server is responding and try again.
+
+- The uns.network **URL_Checker** service provider encountered an error looking up your site's domain name.
+
+  He tried to access your verification file, but was unable to access your domain due to a DNS error.
+  This could be because your server is down, or there is an issue with the DNS routing to your domain.
+  Make sure that your domain is resolving correctly and try again.
+
+- The download request was redirected too many times.
+
+  Check the URL for potential issues, such as an infinite loop.
+
+- Your server returned an invalid response.
+
+  This can happen if your site is requires password authentication, or if we cannot access it for other reasons.
+
+- The uns.network **URL_Checker** service provider was unable to connect to your server.
+
+  Make sure that your server is not down, and that your domain is resolving correctly, and try again.
+
+- An internal error occurred.
+
+  If this problem persists, open a thread on our [Unikname forum](https://kover.link/5CBGgD).
+
+- Timeout.
+
+  Either your site or the domain server stopped responding to our requests (depending on the verification method used).
+  Confirm that your site is responding, and then try again.
+  If this problem persists, open a thread on our [Unikname forum](https://kover.link/5CBGgD).
+
+- Could not find your domain.
+
+  The uns.network **URL_Checker** service provider tried to resolve the site URL that you gave us, but it is unknown to the DNS service.
+  Check that you are providing the correct URL for your property.
+  If this problem persists, open a thread on our [Unikname forum](https://kover.link/5CBGgD).
+
+:::
+
+### Note about the User-Agent
+
+The user agent of the uns.network **URL_Checker** service provider that performs HTML tag or file verification has the user agent token `UNS-URL-Checker-Verification` and the full user agent string is `Mozilla/5.0 (compatible; UNS-URL-Checker-Verification/1.0; <DID>)` where `DID` is the ID of the URL_Checker service provider that performs the verification (such as [`did:unik:unid:fbfbe7d9e8c005f1a9937d9fd17c4ef7da2ff8037a71e6cb7847b302eda4d08a`](https://explorer.uns.network/uniks/08bf335ede1818e222ecd529e0e892190aab62a39ec40492395b825a4f640731) for one of the official URL_Checkers service providers).
 
 ## Step 5. Check your setup in the uns.network blockchain explorer
 
