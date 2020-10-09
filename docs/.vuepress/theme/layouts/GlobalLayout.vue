@@ -1,7 +1,6 @@
 <!-- themePath/layouts/GlobalLayout.vue -->
 <template>
   <div id="global-layout">
-    <!--script src="matomo.js" async defer></script-->
     <component :is="layout"/>
   </div>
 </template>

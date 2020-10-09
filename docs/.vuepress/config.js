@@ -30,32 +30,11 @@ module.exports = {
       before: '<div class="information">',
       after: "</div>",
     },
+    "vuepress-plugin-matomo": {
+      siteId: 5,
+    },
   },
-  head: [
-    ["link", { rel: "icon", href: "/logo.png" }],
-    // instantiate matomo.js
-    [
-      "script",
-      {},
-      `
-      var _paq = window._paq || [];
-      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-      _paq.push(["setDomains", ["*.unik-name.com", "*.unikname.com", "*.unikname.app",  "*.uns.network"]]);
-      _paq.push(["enableCrossDomainLinking"]);
-      _paq.push(["setDoNotTrack", true]);
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      _paq.push(['enableHeartBeatTimer', 15]);
-      (function() {
-        var u="https://kpi.unikname.com/";
-        _paq.push(['setTrackerUrl', u+'r.php']);
-        _paq.push(['setSiteId', '5']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
-      })();
-    `,
-    ],
-  ],
+  head: [["link", { rel: "icon", href: "/logo.png" }]],
   markdown: {
     extendMarkdown: (md) => {
       md.use(require("markdown-it-include"), { root: "./docs/" });
@@ -63,8 +42,8 @@ module.exports = {
     },
   },
   themeConfig: {
-    logo: "./logo.png",
-    repo: "unik-name/docs.unik-name.com",
+    logo: "/logo.png",
+    repo: "unik-name/docs.unikname.com",
     repoLabel: "Contribute!",
     editLinks: true,
     editLinkText: "Help us improve this page!",
