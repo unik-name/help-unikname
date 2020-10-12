@@ -52,8 +52,8 @@ module.exports = {
     activeHeaderLinks: true,
     sidebarDepth: 1,
     nav: [
-      { text: "Get the App", link: "https://my.unikname.app" },
       { text: "Go to website", link: "https://www.unikname.com" },
+      { text: "Get the App", link: "https://my.unikname.app" },
     ],
     sidebar: [
       // Introduction group
