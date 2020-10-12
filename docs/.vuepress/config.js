@@ -36,9 +36,10 @@ module.exports = {
   },
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   markdown: {
+    toc: { includeLevel: [1] },
     extendMarkdown: (md) => {
       md.use(require("markdown-it-include"), { root: "./docs/" });
-      md.use(require("markdown-it-table-of-contents"), { includeLevel: [2] });
+      md.use(require("markdown-it-table-of-contents"), { includeLevel: [1], forceFullToc: true });
     },
   },
   themeConfig: {
