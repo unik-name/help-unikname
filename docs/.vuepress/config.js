@@ -35,13 +35,6 @@ module.exports = {
     },
   },
   head: [["link", { rel: "icon", href: "/logo.png" }]],
-  markdown: {
-    toc: { includeLevel: [1] },
-    extendMarkdown: (md) => {
-      md.use(require("markdown-it-include"), { root: "./docs/" });
-      md.use(require("markdown-it-table-of-contents"), { includeLevel: [1], forceFullToc: true });
-    },
-  },
   themeConfig: {
     logo: "/logo.png",
     repo: "unik-name/docs.unikname.com",
@@ -189,6 +182,7 @@ module.exports = {
     slugify: customSlugifyToHandleBadges,
     toc: {
       slugify: customSlugifyToHandleBadges,
+      includeLevel: [2],
     },
   },
 };
