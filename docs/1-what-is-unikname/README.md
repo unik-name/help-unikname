@@ -6,7 +6,7 @@ sidebarDepth: 1
 
 # What is Unikname&trade;?
 
-<p class="highlight">
+<p class="focustext">
 Unikname&trade; is a European cyber-solution aiming of securing internet platforms and protecting user's privacy.
 </p>
 
@@ -24,7 +24,7 @@ Unikname&trade; is intended for whose who wish to participates and contributes t
 
 ## @unikname ID: your Universal IDentifier
 
-<p class="highlight">
+<p class="focustext">
 @unikname is a Universal Identifier, Human-Readable and Self-Soverign, providing exclusive services under the sole control of its owner.
 </p>
 
@@ -61,7 +61,7 @@ To get and use your own @unikname ID you need to install the ``My Unikname App``
 
 ## Unikname Connect: The next-generation authentication solution
 
-<p class="highlight">
+<p class="focustext">
 Unikname Connect is a privacy-by-design authentication solution, rewarding users who want to make internet a safer place.
 </p>
 

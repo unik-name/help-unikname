@@ -6,7 +6,7 @@ sidebarDepth: 0
 
 # What is Unikname Rewarding Program?
 
-<p class="highlight">
+<p class="focustext">
 Unikname rewards users who want to make internet a safer place
 </p>
 
