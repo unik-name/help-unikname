@@ -62,6 +62,9 @@ module.exports = {
         title: "What is Unikname?",
         path: "/1-what-is-unikname/",
         sidebarDepth: 0,
+        children: [
+          "/1-what-is-unikname/what-is-unikname-rewarding-program"
+        ]
       },
       // my @unikname
       {
