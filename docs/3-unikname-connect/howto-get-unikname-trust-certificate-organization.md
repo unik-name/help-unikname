@@ -1,6 +1,5 @@
 ---
-home: false
-title: "How to get and setup the Trust Certificate for your organization?"
+next: "/3-unikname-connect/"
 ---
 
 # How to get and setup the @unikname Trust Certificate for your organization?

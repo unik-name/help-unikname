@@ -1,9 +1,9 @@
 ---
-home: false
-title: "Integrate Unikname Connect with WooCommerce"
+prev: false
+next: false 
 ---
 
-# Integrate Unikname with WooCommerce
+# How to integrate Unikname with WooCommerce?
 
 <hpicture noshadow>![woocommerce](./woocommerce-logo-full.png)</hpicture>
 

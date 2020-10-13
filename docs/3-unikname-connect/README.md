@@ -1,6 +1,5 @@
 ---
-home: false
-title: "Getting started with to Unikname Connect"
+prev: false
 ---
 
 # Getting started with Unikname Connect

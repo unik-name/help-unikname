@@ -1,9 +1,9 @@
 ---
-home: false
-title: "Integrate Unikname Connect with Wordpress"
+prev: false
+next: false 
 ---
 
-# Integrate Unikname Connect with WordPress
+# How to integrate Unikname Connect with WordPress?
 
 <hpicture noshadow>![WordPress](./wordpress-logo-full.png)</hpicture>
 

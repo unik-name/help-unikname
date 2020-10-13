@@ -1,9 +1,9 @@
 ---
-home: false
-title: "Integrate Unikname Connect with Auth2.0 or OpenID Connect"
+prev: false
+next: false 
 ---
 
-# Integrating Unikname with Auth2.0 or OpenID Connect
+# How to integrate Unikname Connect with OAuth 2.0 or OpenID Connect?
 
 <hpicture noshadow>![OAuth2.0 / OpenID Connect](./oauth2.0-openidconnect-logo-full.png)</hpicture>
 

@@ -1,9 +1,9 @@
 ---
-home: false
-title: "Integrate Unikname Connect with NodeJS"
+prev: false
+next: false 
 ---
 
-# Integrate Unikname Connect with NodeJS
+# How to integrate Unikname Connect with NodeJS?
 
 <hpicture noshadow>![Node JS](./nodejs-logo-full.png)</hpicture>
 

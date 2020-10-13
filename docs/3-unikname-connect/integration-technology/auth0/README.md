@@ -1,9 +1,9 @@
 ---
-home: false
-title: "Integrate Unikname Connect with Auth0"
+prev: false
+next: false
 ---
 
-# Integrate Unikname Connect with Auth0
+# How to Integrate Unikname Connect with Auth0?
 
 <hpicture noshadow>![Auth0](./auth0-logo-full.png)</hpicture>
 
