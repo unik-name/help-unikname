@@ -179,6 +179,11 @@ module.exports = {
     ],
   },
   markdown: {
+    extendMarkdown: (md) => {
+      // Required for common templates inclusion
+      // They are configured in docs/.vuepress/md-templates/
+      md.use(require("markdown-it-include"), { root: "./docs/" });
+    },
     slugify: customSlugifyToHandleBadges,
     toc: {
       slugify: customSlugifyToHandleBadges,
