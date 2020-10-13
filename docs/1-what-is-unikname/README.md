@@ -1,7 +1,7 @@
 ---
 home: false
 title: "What is Unikname&trade;"
-sidebarDepth: 0
+sidebarDepth: 1
 ---
 
 # What is Unikname&trade;?
@@ -15,6 +15,8 @@ Unikname&trade; makes the internet safer and protect user's privacy thanks to Se
 Unikname&trade; is intended for whose who wish to participates and contributes to make the internet more trustful. 
 
 ![what-is-unikname](./what-is-unikname_@2x.png)
+
+**Content**
 
 [[TOC]]
 
@@ -76,9 +78,11 @@ Our technology makes it possible to customized user experience and services with
 
 ### Unikname rewards its users
 
-**Thanks to UNS Tokens,** Unikname users are encouraged to maximize use of their @unikname to log in any websites by rewarding them. Every unikname user who sign-up and login to a website receives rewards. These rewards are digital tokens called _UNS Tokens_. 
+**Thanks to UNS Tokens,** Unikname users are encouraged to maximize use of their @unikname to log in to any websites by rewarding them. Every unikname user who sign-up and login to a website receives rewards. These rewards are digital tokens called _UNS Tokens_. 
 
 **Partner platforms using <brand name="UNC"/> offer promotional coupons for Unikname users.** UNS Tokens can be exchanged against vouchers or promotional coupons to be redeemed on any partner platforms.
+
+:mag_right: [More about the Unikname rewarding program](what-is-unikname-rewarding-program.md)
 
 ### Simplest authentication
 
