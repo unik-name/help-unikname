@@ -3,15 +3,13 @@ home: false
 title: "Integrate Unikname Connect with Auth2.0 or OpenID Connect"
 ---
 
-# Integrating Unikname with Auth2.0 or OpenID
+# Integrating Unikname with Auth2.0 or OpenID Connect
 
 <hpicture noshadow>![OAuth2.0 / OpenID Connect](./oauth2.0-openidconnect-logo-full.png)</hpicture>
 
 <br/>
 
-<brand name="UNC"/> can be easily integrated with any website using Auth2.0 or OpenID Connect Authorization protocol.
-
-Here under you will see how to setup your Auth0 account to use Unikname Connect.
+<brand name="UNC"/> can be easily integrated with any website using Auth2.0 or OpenID Connect Authorization protocols.
 
 **Table of Content**
 
