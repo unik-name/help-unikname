@@ -106,7 +106,7 @@ Choose ``with your @unikname`` button, then you should see this page:
 Finally enter your personal @unikname and validate the authentication on your smartphone. You're automatically redirected to the signup process on your forum.
 
 :::tip Information
-If you already have an account on your website, with your email, then you can Login to your forum with your eMail then go to preferences on your profil page, and link your @unikname with your account. For more info read the post on our forum.
+If you already have an account on your website, with your email, then you can Login to your forum with your eMail then go to preferences on your profil page, and link your @unikname with your account. For more info read the good [post published by the community on our forum](https://forum.unikname.com/t/how-to-login-with-your-unikname-if-your-already-have-an-account/562/3).
 :::
 
 **All done!**
