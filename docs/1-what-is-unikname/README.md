@@ -14,7 +14,7 @@ Unikname&trade; makes the internet safer and protect user's privacy thanks to Se
 
 Unikname&trade; is intended for whose who wish to participates and contributes to make the internet more trustful. 
 
-![what-is-unikname](./what-is-unikname_@2x.png)
+<img src="./what-is-unikname_@2x.png" alt="what-is-unikname" style="width:480px; height:auto; display:block; margin-left:auto; margin-right:auto;">
 
 **Content**
 
@@ -108,7 +108,7 @@ Our technology makes it possible to customized user experience and services with
 
 Unikname Certificate Proofing is another solution aiming for securing mobile apps against falsified SSL X509 certificates and against man-in-the-middle attacks. This solution has been designe and developped with a bank company. 
 
-![unikname_certificate_proofing](./unikname_certificate_proofing_@2x.png)
+<img src="./unikname_certificate_proofing_@2x.png" alt="unikname_certificate_proofing" style="width:640px; height:auto; display:block; margin-left:auto; margin-right:auto;">
 
 <hseparator/>
 
