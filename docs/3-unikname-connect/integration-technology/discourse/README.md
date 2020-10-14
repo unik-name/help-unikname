@@ -37,7 +37,6 @@ To make integration very easy we've developed a specific ready-to-use plugin. He
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
 :heavy_check_mark: During the sign-up process you've received a set of API keys.
-_</hbox>
 
 :book: We assume you're familiar with the Discourse installation process.
 :::
