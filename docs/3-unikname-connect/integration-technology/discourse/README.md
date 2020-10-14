@@ -1,9 +1,9 @@
 ---
-home: false
-title: "Integrate Unikname Connect with Discourse"
+prev: false
+next: false 
 ---
 
-# Integrate Unikname Connect with Discourse
+# How to integrate Unikname Connect with Discourse?
 
 <hpicture noshadow>![Discourse](./discourse-logo-full.png)</hpicture>
 

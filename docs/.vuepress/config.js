@@ -55,9 +55,7 @@ module.exports = {
         title: "What is Unikname?",
         path: "/1-what-is-unikname/",
         sidebarDepth: 0,
-        children: [
-          "/1-what-is-unikname/what-is-unikname-rewarding-program"
-        ]
+        children: ["/1-what-is-unikname/what-is-unikname-rewarding-program"],
       },
       // my @unikname
       {
@@ -87,7 +85,7 @@ module.exports = {
 
           [
             "/2-unikname-id/howto-get-premium-unikname",
-            "How to get e premium @unikname?",
+            "How to get a premium @unikname?",
           ],
 
           // ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
@@ -124,27 +122,27 @@ module.exports = {
           ],
           [
             "/3-unikname-connect/integration-technology/auth0/",
-            "How to integrate with Auth0",
+            "How to integrate with Auth0?",
           ],
           [
             "/3-unikname-connect/integration-technology/discourse/",
-            "How to integrate with Discourse",
+            "How to integrate with Discourse?",
           ],
           [
             "/3-unikname-connect/integration-technology/nodejs/",
-            "How to integrate with NodeJS",
+            "How to integrate with NodeJS?",
           ],
           [
             "/3-unikname-connect/integration-technology/wordpress/",
-            "How to integrate with Wordpress",
+            "How to integrate with WordPress?",
           ],
           [
             "/3-unikname-connect/integration-technology/woocommerce/",
-            "How to integrate with WooCommerce",
+            "How to integrate with WooCommerce?",
           ],
           [
             "/3-unikname-connect/integration-technology/oauth2.0-openidconnect/",
-            "How to integrate with OAuth2.0 & OIDC",
+            "How to integrate with OAuth2 & OIDC?",
           ],
         ],
       },

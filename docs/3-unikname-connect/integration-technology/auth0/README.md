@@ -1,9 +1,9 @@
 ---
-home: false
-title: "Integrate Unikname Connect with Auth0"
+prev: false
+next: false
 ---
 
-# Integrate Unikname Connect with Auth0
+# How to Integrate Unikname Connect with Auth0?
 
 <hpicture noshadow>![Auth0](./auth0-logo-full.png)</hpicture>
 
@@ -11,7 +11,8 @@ title: "Integrate Unikname Connect with Auth0"
 
 <brand name="UNC"/> can be easily integrated with any solution already configured with the Auth0 product. 
 
-[Auth0](https://auth0.com) is a flexible, drop-in solution to add authentication and authorization services to your applications. Auth0 enables to connect any application, written in any language or on any stack, with the identity providers of your choice.In other words you can decide how you want your users to login: eMail, Social Authent, Active Directory... and <brand name="UNC"/>.
+[Auth0](https://auth0.com) is a flexible, drop-in solution to add authentication and authorization services to your applications. Auth0 enables to connect any application, written in any language or on any stack, with the identity providers of your choice.
+In other words you can decide how you want your users to login: eMail, Social Authent, Active Directory... and <brand name="UNC"/>.
 
 :::tip Example
 We are running a live example of integrating Unikname Connect with Auth0 on [**platform103.net**](https://www.platform103.net).

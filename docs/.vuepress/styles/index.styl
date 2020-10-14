@@ -36,7 +36,7 @@ details > figure:last-child,
 details > p:last-child,
 details > ul:last-child {
   margin-bottom: 0 !important;
-  padding-bottom: 0 !important; 
+  padding-bottom: 0 !important;
 }
 
 details > pre:last-child {
@@ -73,23 +73,6 @@ tr:nth-child(2n) {
   background-color: #f6f8fa;
 }
 
-.theme-container.cheatsheet-pageclass {
-  .theme-default-content:not(.custom) {
-    max-width: none;
-  }
-  .page-edit, .page-nav {
-    max-width: none;
-    }
-  th {
-    background-color: #DEFEFE;
-    padding: 0.1rem 0.2rem;
-  }
-  td {
-    background-color: #ffffff;
-    padding: 0.1rem 0.2rem;
-  }
-}
-
 unikname {
   color: #293984;
   font-weight: bold;
@@ -104,6 +87,10 @@ unikname {
   font-size 1.4rem
   line-height 1.3
   color $textSecondaryColor
+}
+
+.pagefooter {
+  text-align: center;
 }
 
 @require '~vuepress-plugin-tabs/dist/themes/default.styl'

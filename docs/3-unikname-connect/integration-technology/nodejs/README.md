@@ -1,9 +1,9 @@
 ---
-home: false
-title: "Integrate Unikname Connect with NodeJS"
+prev: false
+next: false 
 ---
 
-# Integrate Unikname Connect with NodeJS
+# How to integrate Unikname Connect with NodeJS?
 
 <hpicture noshadow>![Node JS](./nodejs-logo-full.png)</hpicture>
 
@@ -25,12 +25,12 @@ title: "Integrate Unikname Connect with NodeJS"
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
 
-:book: We assume you're familiar with nodejs programming language.
+:book: We assume you're familiar with Node JS programming language.
 :::
 
 ## Step 1. Setup your service 
 
-_Coming soon ..._
+
 
 ## Step 2. Test Unikname Connect on your website
 
