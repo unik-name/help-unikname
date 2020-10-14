@@ -64,7 +64,7 @@ hooks:
         cd: $home/plugins
         cmd:
           - ...
-          - sudo -E -u discourse git clone https://github.com/unik-name/discourse-unikname
+          - sudo -E -u discourse git clone https://github.com/unik-name/discourse-unikname-connect-authentication-plugin
 ```
 
 > Add the plugin’s `git clone` url just below `sudo -E -u discourse git clone https://github.com/discourse/docker_manager.git`)
