@@ -75,7 +75,7 @@ export default {
 <style lang="stylus">
 .home
   padding $navbarHeight 2rem 0
-  max-width 960px
+  max-width 1280px
   margin 0px auto
   display block
   text-align center
@@ -88,6 +88,7 @@ export default {
       margin 3rem auto 1.5rem
     h1
       font-size 3rem
+      font-weight 800
     h1, .description, .action
       margin 1.8rem auto
     .description
@@ -107,6 +108,9 @@ export default {
       border-bottom 1px solid darken($accentColor, 10%)
       &:hover
         background-color lighten($accentColor, 10%)
+  h2
+    font-size 2rem
+    font-weight 800
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0

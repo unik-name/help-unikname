@@ -2,16 +2,12 @@
 home: true
 ---
 
-Welcome to the <brand name="unikname"/> Help Center.
-
 <cardcontainer>
 <card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
 <!-- <card title="Key Concepts" description="" url="/4-key-concepts"/> -->
 </cardcontainer>
 
-<hseparator/>
-
-## @unikname: The Universal IDentifier
+## @unikname ID: The Universal IDentifier
 
 <cardcontainer>
 <card title="Getting Started" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
