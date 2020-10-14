@@ -1,10 +1,11 @@
-# Unikname Developper Hub
+# Unikname Help Center
 
-**Unikname Solutions** secure your web and mobile apps against hacks and data theft.
-
-> Official guides and documentation to use and integrate Unikname solutions, powered by VuePress.
+Comprehensive guides and documentation to help you start working with the Unikname Solutions as quickly as possible. Let's go!,
 
 ## Development
+
+This doc website is developed with VuePress.
+
 
 ```
 git clone https://github.com/unik-name/docs.unik-name.com
@@ -30,4 +31,5 @@ If you discover a security vulnerability within this package, please send an e-m
 
 ## License
 
-[MIT](LICENSE) © by [Unikname](https://www.unikname.com) powered by [uns.network](https://www.uns.network).
+[MIT](LICENSE) © by [Unikname](https://www.unikname.com) secured by [uns.network](https://www.uns.network) blockchain.
+
