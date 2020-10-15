@@ -41,7 +41,7 @@ Many WooCommerce websites are running with Unikname Connect such as [La Bande Du
 <hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
 :heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
 
-:book: We assume you're familiar with the Back-Office of your Wordpress Website and you've already installed the WooCommerce plugin on it.
+:book: We assume you're familiar with the administration of your WordPress website and you've already installed the WooCommerce plugin on it.
 :::
 
 ## Step 1. Install the WordPress plugin

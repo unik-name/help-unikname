@@ -37,7 +37,7 @@ Many WordPress websites are running with Unikname Connect such as [La Bande Du C
 <hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
 :heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
 
-:book: We assume you're familiar with the Back-Office of your Wordpress Website.
+:book: We assume you're familiar with the administration of your WordPress website.
 :::
 
 ## Step 1. Install the WordPress plugin
