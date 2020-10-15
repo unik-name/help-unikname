@@ -1,7 +1,7 @@
 ---
 home: false
 title: "What is Unikname&trade;"
-sidebarDepth: 1
+sidebarDepth: 0
 ---
 
 # What is Unikname&trade;?
@@ -10,15 +10,29 @@ sidebarDepth: 1
 Unikname&trade; is a European cyber-solution aiming of securing internet platforms and protecting user's privacy.
 </p>
 
-Unikname&trade; makes the internet safer and protect user's privacy thanks to Self-Sovereign Identifiers and blockchain technologies.
+**Individuals get their own @unikname ID**, a pseudo under their sole control, allowing them to sign-up/login safely and privately to their favorite websites. Because this @unikname ID is a Self-Sovereign ID with remarkable features and properties, it enables exclusive operations for its owner such as authenticating any kind of operations, managing rewarding tokens, or authentic data sharing.  
+_[Read more about @unikname ID...](#unikname-id-your-universal-identifier)_
 
-Unikname&trade; is intended for whose who wish to participates and contributes to make the internet more trustful. 
+**Organizations implement Unikname Connect to their website** to provide a really simple but strong authentication to their users. User's connections stay fully private and untraceable. Organizations may take benefits from the Unikname community, responsive to the respect of the privacy, by highlighting their solution. For this kind of organizations, Unikname Connect is also a new customer acquisition channel. _[Read more about Unikname Connect...](#unikname-connect-the-next-generation-authentication-solution)_
+
+**Corporate can secure mobile apps against falsified SSL X509 certificates** thanks to Unikname Certificate Proofing technology.  
+_[Read more about Unikname Certificate Proofing...](#unikname-certificate-proofing)_
+
+<br/>
 
 <img src="./what-is-unikname_@2x.png" alt="what-is-unikname" style="width:480px; height:auto; display:block; margin-left:auto; margin-right:auto;">
 
-**Content**
+<br/>
 
-[[TOC]]
+:::tip For Who?
+Unikname&trade; is intended for whose who wish to participates and contributes to make the internet more secure and more trustful. It is aimed to both indivduals and organizations.
+:::
+
+:::tip Under the hood
+Unikname&trade; makes the internet safer and protect user's privacy thanks to Self-Sovereign Identifiers and blockchain technologies.
+
+:mag_right: [see Key concepts](./../4-key-concepts)
+:::
 
 <hseparator/>
 
@@ -28,7 +42,15 @@ Unikname&trade; is intended for whose who wish to participates and contributes t
 @unikname is a Universal Identifier, Human-Readable and Self-Soverign, providing exclusive services under the sole control of its owner.
 </p>
 
-@unikname owners can get and manage their @unikname, and control everything they can do a Self-Sovereign ID, like: 
+**@unikname ID is a Universal IDentifier:** it's a multi-purpose ID, it's always available and it's usable everywhere on the Internet. Thanks to the decentralized infrastructure provided by the blockchain technology.
+
+**@unikname ID is Human-Readable:** it's easy to memorize it, like an eMail. It's protected against spoofing thanks to our SafeTypo&trade; technology.
+
+**@unikname ID is Self-Sovereign:** maybe the most important, it's under the sole control of its owner. Thanks to the uns.network.
+
+Example of exclusive operations allowed to the owner of a @unikname ID:
+
+<hbox>
 
 * Private Sign-up
 * Instant Login
@@ -41,25 +63,24 @@ Unikname&trade; is intended for whose who wish to participates and contributes t
 * Redeem coupons
 * ...
 
-**@unikname ID is a Universal IDentifier:** it's a multi-purpose ID, it's always available and it's usable everywhere on the Internet.
+</hbox>
 
-**@unikname ID is Human-Readable:** it's easy to memorize it, like an eMail.
 
-**@unikname ID is Self-Sovereign:** maybe the most important, it's under the sole control of its owner.
+### my.unikname.app
 
-#### my.unikname.app
+To get and use your own @unikname ID you need to install the ``My Unikname App``. Once you own your @unikname ID you can sign-up and log in to any website providing the ``Connect with Unikname`` button, and start being rewarded.
 
-To get and use your own @unikname ID you need to install the ``My Unikname App``. Once you own your @unikname you can sign-up and log in to any website providing the ``Connect with Unikname`` button, and start being rewarded.
+### more...
 
-> _My.Unikname.App allows @unikname owners to control their digital life._
+:zap: [Getting started with @unikname ID &rightarrow;](/2-unikname-id) 
 
-<br/>
-
-:zap: [Getting started with @unikname ID](/2-unikname-id)
+:zap: [How to install My Unikname App? &rightarrow;](/2-unikname-id/howto-install-my-unikname-app)
+ 
+:zap: [How to get my own @unikname? &rightarrow;](/2-unikname-id/howto-get-individual-unikname)
 
 <hseparator/>
 
-## Unikname Connect: The next-generation authentication solution
+## Unikname Connect: The next-generation Authentication Solution
 
 <p class="focustext">
 Unikname Connect is a privacy-by-design authentication solution, rewarding users who want to make internet a safer place.
@@ -76,17 +97,17 @@ Our technology makes it possible to customized user experience and services with
 
 **<brand name="UNC"/> protects internet businesses from espionage**. User's connections are not traceable by third parties tracking tools. Only the user himself and the platform know their relationship.
 
-### Unikname rewards its users
+### Unikname Rewards its Users
 
 **Thanks to UNS Tokens,** Unikname users are encouraged to maximize use of their @unikname to log in to any websites by rewarding them. Every unikname user who sign-up and login to a website receives rewards. These rewards are digital tokens called _UNS Tokens_. 
 
 **Partner platforms using <brand name="UNC"/> offer promotional coupons for Unikname users.** UNS Tokens can be exchanged against vouchers or promotional coupons to be redeemed on any partner platforms.
 
-:mag_right: [More about the Unikname rewarding program](what-is-unikname-rewarding-program.md)
+### Simplest Strong Authentication
 
-### Simplest authentication
+Since strong authentication is becoming a standard, user experience is downgrading due to authentication processes becoming more complex (e.g.combining password plus code sent by SMS, email confirmation requests...). In this context **<brand name="UNC"/> provides a disruptive UX User Experience** with no more password to remember, allowing instant login and frictionless sign-up to any websites. 
 
-**<brand name="UNC"/> provides a disruptive UX User Experience** with no more password to remember, allowing instant login and frictionless sign-up to any websites. <brand name="UNC"/> simplifies day to day use of internet.
+<brand name="UNC"/> simplifies day to day use of a secured internet.
 
 ### Highly Secure
 
@@ -98,24 +119,16 @@ Our technology makes it possible to customized user experience and services with
 
 **<brand name="UNC"/> becomes a new customer acquisition channel.** The large community of @unikname users receive incentive to explore websites using <brand name="UNC"/>. 
 
-<br/>
+### more...
 
-:zap: [Getting started with Unikname Connect](./3-unikname-connect)
+:zap: [Getting started with Unikname Connect &rightarrow;](/3-unikname-connect)
+
+:mag_right: [More about the Unikname User Rewarding System &rightarrow;](/1-what-is-unikname/what-is-unikname-user-rewarding-system.md)
 
 <hseparator/>
 
 ## Unikname Certificate Proofing
 
-Unikname Certificate Proofing is another solution aiming for securing mobile apps against falsified SSL X509 certificates and against man-in-the-middle attacks. This solution has been designe and developped with a bank company. 
+Unikname Certificate Proofing is another solution aiming for securing mobile apps against falsified SSL X509 certificates and against man-in-the-middle attacks. This solution has been designed and developed with a bank company. 
 
 <img src="./unikname_certificate_proofing_@2x.png" alt="unikname_certificate_proofing" style="width:640px; height:auto; display:block; margin-left:auto; margin-right:auto;">
-
-<hseparator/>
-
-## uns.network blockchain under the hood
-
-Unikname&trade; solutions rely on the ([uns.network](https://www.uns.network/)) decentralized protocol and blockchain technology, secured by 23 delegates, elected by individual and organization stakeholders. This blockchain is specialized in providing dedicated services around Decentralized IDs and Self-Sovereign-Identity (SSID).
-
-![what-is-unikname-blockchain](./what-is-unikname_blockchain.png)
-
-This uns.network blockchain is live, [up and running](https://explorer.uns.network/network-monitor) since May 2020. 

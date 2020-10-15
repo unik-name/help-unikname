@@ -36,7 +36,7 @@ To get your own @unikname ID install the ``My Unikname App``, choose it, and roo
 
 ## Freemium and Premium @unikname
 
-:zap: [How to get a premium @unikname?](./howto-get-premium-unikname)
+:zap: How to get a premium @unikname? _coming soon..._
 
 ## @unikname Lifecycle
 

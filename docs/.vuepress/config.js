@@ -52,10 +52,13 @@ module.exports = {
     sidebar: [
       // Introduction group
       {
-        title: "What is Unikname?",
-        path: "/1-what-is-unikname/",
+        title: "Introduction",
+        //path: "/1-what-is-unikname/",
         sidebarDepth: 0,
-        children: ["/1-what-is-unikname/what-is-unikname-rewarding-program"],
+        children: [ 
+          ["/1-what-is-unikname/", "What is Unikname?"],
+          ["/1-what-is-unikname/what-is-unikname-user-rewarding-system", "User Rewarding system"],
+        ],
       },
       // my @unikname
       {
