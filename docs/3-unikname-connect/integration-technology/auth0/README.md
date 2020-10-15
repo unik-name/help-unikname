@@ -38,8 +38,7 @@ Here under you will see how to setup your Auth0 account to use Unikname Connect.
 <hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
-:heavy_check_mark: During the sign-up process you've received a set of keys.
-_</hbox>
+:heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
 
 :book: We assume you've access to your Auth0 account.
 <hbox>If you don't have used Auth0 yet, follow the [Get Started](https://auth0.com/docs/quickstarts) Auth0 tutorial.</hbox>
@@ -57,8 +56,8 @@ Fill-in the following required fields to setup <brand name="UNC"/>:
 | `Display name` | Enter `your private @unikname`.<br/>It will display `Continue with your private @unikname` on the connection button |
 | `Logo url` | Add this url `https://cdn.unikname.com/logos/20/un-blue-nbt.png` to display the Unikname icon on the button ![Unikname logo](https://cdn.unikname.com/logos/20/un-blue-nbt.png) |
 | `Issuer URL` | <UncServerUrl/> |
-| `Client ID` | The client ID you have received from Unikname's support request |
-| `Client Secret` | The client secret you have received from Unikname's support request |
+| `Client ID` | The Business Account ID you have received from Unikname's support request |
+| `Client Secret` | The API secret key you have received from Unikname's support request |
 
 ## Step 2. Enable your `Open ID Connect` Connection for your Auth0 application
 

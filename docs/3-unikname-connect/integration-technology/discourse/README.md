@@ -36,7 +36,7 @@ To make integration very easy we've developed a specific ready-to-use plugin. He
 <hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
-:heavy_check_mark: During the sign-up process you've received a set of API keys.
+:heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
 
 :book: We assume you're familiar with the Discourse installation process.
 :::
@@ -88,9 +88,9 @@ Then, configure the following attributes:
 | Attribut | Description |
 |--------|-----------|
 | `unikname connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
-| `unikname connect unikname key` | The key you have received from Unikname's support request |
-| `unikname connect secret` | The secret you have received from Unikname's support request |
-| `unikname connect authorize scope` | `openid` by default, or `openid email` if you want to ask for the user to share his email address |
+| `unikname connect Business Account ID` | The Business Account ID you have received from Unikname's support request |
+| `unikname connect API secret key` | The API secret key you have received from Unikname's support request |
+| `unikname connect authorize scope` | `openid` by default |
 
 ## Step 3. Test Unikname Connect on your Discourse Forum
 

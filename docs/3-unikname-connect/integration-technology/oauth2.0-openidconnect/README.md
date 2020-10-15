@@ -26,8 +26,7 @@ next: false
 <hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
-:heavy_check_mark: During the sign-up process you've received a set of keys.
-_</hbox>
+:heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
 
 :book: We assume you're familiar with the Auth2.0 or OpenID protocol.
 :::
@@ -48,9 +47,9 @@ Here are the informations you have to code or set up on your OAuth2.0 service:
 | Attribut | Description |
 |--------|-----------|
 | OIDC discovery document | <UncServerUrl/> |
-| OIDC client id | The client id you have received from Unikname's support request |
-| OIDC client secret | The client secret you have received from Unikname's support request |
-| OIDC authorize scopes |`openid` by default.<br/>You can request for more informations, such as `profile` or `email` (which may be verified or not) |
+| OIDC client id | The Business Account ID you have received from Unikname's support request |
+| OIDC client secret | The API secret key you have received from Unikname's support request |
+| OIDC authorize scopes |`openid` by default. |
 
 ### Detailed OAuth 2.0 / OIDC Endpoints
 

@@ -24,7 +24,7 @@ To be able to provide you these activation information, we need to know:
 You will receive the following information to be used to activate your account:
 
 - your organization @unikname
-- a pair of `client_id/client_secret` credentials
+- a pair of `business_account_id/api_secret_key` credentials
 - a `BUSINESS COUPON CODE` to get your organization @unikname
 
 This BUSINESS COUPON CODE looks like this: `UNC-xyz999`
@@ -50,6 +50,6 @@ What you've achieved here:
 :heavy_check_mark: Transmitted your Business Account informations  
 :heavy_check_mark: Unikname team has generated activating informations for your business account  
 :heavy_check_mark: Received your BUSINESS COUPON CODE  
-:heavy_check_mark: Received a pair of `client_id/client_secret` credentials
+:heavy_check_mark: Received a pair of `business_account_id/api_secret_key` credentials
 
 !!!include(.vuepress/md-templates/need-help.md)!!!
