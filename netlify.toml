@@ -15,3 +15,13 @@
   to = "https://docs.unikname.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://docs.unikname.com/integration/connect/apps/*"
+  to = "https://docs.unikname.com/3-unikname-connect/integration-technology/:splat"
+  status = 301
+
+[[redirects]]
+  from = "https://docs.unikname.com/integration/connect/"
+  to = "https://docs.unikname.com/3-unikname-connect/"
+  status = 301
