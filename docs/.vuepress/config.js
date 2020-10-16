@@ -55,9 +55,12 @@ module.exports = {
         title: "Introduction",
         //path: "/1-what-is-unikname/",
         sidebarDepth: 0,
-        children: [ 
+        children: [
           ["/1-what-is-unikname/", "What is Unikname?"],
-          ["/1-what-is-unikname/what-is-unikname-user-rewarding-system", "User Rewarding system"],
+          [
+            "/1-what-is-unikname/what-is-unikname-user-rewarding-system",
+            "User Rewarding system",
+          ],
         ],
       },
       // my @unikname
@@ -133,7 +136,7 @@ module.exports = {
           ],
           [
             "/3-unikname-connect/integration-technology/nodejs/",
-            "How to integrate with NodeJS?",
+            "How to integrate with Node.js?",
           ],
           [
             "/3-unikname-connect/integration-technology/wordpress/",
