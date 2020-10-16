@@ -9,10 +9,10 @@ next: false
 
 <br/>
 
-<brand name="UNC"/> can be easily integrated with your Worpdress website with a simple plugin. [WordPress](https://wordpress.org) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
+<brand name="UNC"/> can be easily integrated with your WordPress website with a simple plugin. [WordPress](https://wordpress.org) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
 
 WordPress is used by more than 60 million websites, it is one of the most popular content management system solutions in use.
-WordPress was originally created as a blog-publishing system but has evolved to support other types of web content: corporate website, media galleries, online stores... such as with WooCommerce extension.
+WordPress was originally created as a blog-publishing system but has evolved to support other types of web content: corporate website, media galleries, online stores...
 
 :::tip Example
 Many WordPress websites are running with Unikname Connect such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/) or  [Cryptomaniac](https://www.cryptomaniac.fr) to give you some examples...
