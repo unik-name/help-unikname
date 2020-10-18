@@ -41,11 +41,9 @@ The following guide is written for:
 - Express 4.x
 :::
 
-## Step 1. Setup your service
+What we are doing is simple: adding new dependencies to support the OpenID Connect protocole used by <brand name="UNC"/>, then configuring your application to use these dependencies, coding a few lines and finally, adding the "Connect with your private @unikname" button.
 
-What we are doing is simple: adding new dependencies to support the OpenID Connect protocole used by Unikname Connect, then configuring your application to use these dependencies.
-
-### Add dependencies to your Node.js Web Application
+## Step 1. Add dependencies to your Web Application
 
 The first thing you’ll need is the following NPM packages:
 - [Passport](http://www.passportjs.org)
@@ -74,6 +72,10 @@ const session = require('express-session');
 const MemoryStore = require('memorystore')(session)
 const { Issuer, Strategy } = require('openid-client');
 ```
+
+<hseparator/>
+
+## Step 2. Code the OpenID Connect logic flow
 
 ### Configure Express session
 
@@ -130,13 +132,13 @@ var client = new uniknameConnectIssuer.Client({
   client_secret: uniknameConnectApiSecretKey,
 
   // This URL will be called later by your user's browser at the end of connection process
-  redirect_uris: [ 'https://<YOUR_HOST:PORT>/auth/unikname/callback'], // You need the real hostname here, and the real protocol (http/https), as it is called by your user's browser
+  redirect_uris: [ 'https://<YOUR_HOST:PORT>/auth/unikname/callback'], // You need the real hostname here, and the real protocol (http/https), as it is called by your user's browser at execution time
 
   response_types: ['code'],
 });
 
 
-// Your existing code, or quite similar
+// Your existing code, or quite similar, AFTER calling Issuer#discover
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   ...
@@ -149,6 +151,11 @@ app.use(function(err, req, res, next) {
 ```
 
 You should load this at the beginning of the startup of your server, and you might reload it regularly.
+
+| Attribut | Description |
+|--------|-----------|
+| `uniknameConnectBusinessAccountId` | The Business Account ID you have received from Unikname's support request |
+| `uniknameConnectApiSecretKey` | The API secret key you have received from Unikname's support request |
 
 :::warning Declare 404 and errors handlers at the right place
 
@@ -227,52 +234,19 @@ Let's now configure Express routes to handle the login flow.
 
 <hseparator/>
 
-### Set up the login flow
+## Step 3. Configure HTTP routes
 
 Now that we have set up openid-client, Passport and Express session, it is time to trigger your first user's login.
+Setting up <brand name="UNC"/> authentication flow requires new routes: one for handling the end of the connection process and one for initiating it.
+With these routes, you will be able to do your first integration test to check your configuration.
 
-For that, you need to configure a first route by appending the following code to your `.js` application file:
-
-```javascript
-app.get('/auth/unikname', (req, res, next) => {
-  passport.authenticate('unikname')(req, res, next);
-});
-```
-
-You must call this route with a button or an HTML link with a simple GET action (default form submit or HTML link behavior), as this route will redirect your user's browser to the <brand name="UNC"/> login screen.
-
-Your login button should look like that:
-
-<div align="center">
-
-![Unikname button sample](./unikname-button-sample.png)
-
-</div>
-
-Now you should be able to successfully trigger the authentication flow and after you click on the <brand name="UNC"/> login button, you should be redirected to the <brand name="UNC"/> login screen.
-
-:::tip Handling multiple login routes
-
-We recommend you to name the login route in order to be able to handle multiple login flow, such as email, another OIDC compatible authentication provider ...
-
-In the example above, the name is `/auth/unikname` so you could define `/auth/email`, `/auth/github` ...
-:::
-
-:::tip Using iframes
-
-By default, you are not allowed to load any <brand name="UNC"/> screens into an iframe.
-If you want to provide to your user another UX based on an iframe (for eg. with a login popin so that a user never leaves you page), please contact [our support to discuss enabling it](mailto:support@unikname.com).
-
-:::
-
-
-### Set up the authentication callback (redirect URI flow)
+### HTTP route for the authentication callback (redirect URI flow)
 
 After being successfully authenticated by <brand name="UNC"/>, your user's will be redirected (their browser indeed 😊) to the authentication redirect route which you provided when [you initialized the openid-client previously](#set-up-openid-client).
 
-So you have to create an Express route which handles the callback and authenticate the user.
+So you have to create an Express route which handles the callback and authenticates the user.
 
-To do that, you simply have to call `authenticate` function of Passport and pass it the strategy name and an object containing following properties:
+To do that, you simply have to call the `authenticate` function of Passport and pass it the strategy name and an object containing following properties:
 
 - `successRedirect`: where to redirect if the <brand name="UNC"/> authentication was successful
 - `failureRedirect`: where to redirect if the <brand name="UNC"/> authentication was unsuccessful
@@ -288,17 +262,60 @@ app.get('/auth/unikname/callback', (req, res, next) => {
 });
 ```
 
-`/secured-home` is the home of successfully authenticated users.
-In this page, you can display their user info by extracting them from the Express request:
+`/secured-home` is the home of successfully authenticated users and he label of this route can be whatever you want.
+You will [come back later on this configuration](#step-4-set-up-ui-components).
+
+### HTTP route to initiate the login flow
+
+Now, you need to configure the route which initiates the login flow of your users, by appending the following code to your `.js` application file:
 
 ```javascript
-// Route '/secured-home' which renders 'userHome' template
-app.get('/secured-home', (req, res) => {
-  res.render('userHome', { user: req.user }); // so 'user' object will be available in your template
+app.get('/auth/unikname', (req, res, next) => {
+  passport.authenticate('unikname')(req, res, next);
 });
 ```
 
-In this snippet, the `req.user` object comes from the [`user` object previously defined in the openid-client strategy](#initialize-openid-client-strategy-for-passport).
+Here, you can now do your first integration test to check if your code is working properly.
+For this, let's just open your browser at:
+
+    https://<YOUR_HOST:PORT>/auth/unikname
+
+What should happen? You should see:
+1. The <brand name="UNC"/> login screen
+2. And then, be redirecting to your web application at the end of the login process
+
+If everything is OK, you can continue the set up.
+
+:::tip Handling multiple login routes
+
+We recommend you to name the login route in order to be able to handle multiple login flow, such as email, another OIDC compatible authentication provider ...
+
+In the example above, the name is `/auth/unikname` so you could define `/auth/email`, `/auth/github` ...
+:::
+
+<hseparator/>
+
+## Step 4. Set up UI components
+
+### "Landing" pages
+
+As seen before, at the end of the login process, you user is redirected to your web application, as [you have already configured before](#http-route-for-the-authentication-callback-redirect-uri-flow).
+
+Let's now using the user info received from <brand name="UNC"/>.
+
+On the page named `/secured-home` in our sample, you can display the user info by extracting them from the Express request:
+
+```javascript
+// Route '/secured-home' which renders 'userHome' template
+// Example of configuration of this page
+// If you already have one, just add the 'req.user' to its context
+app.get('/secured-home', (req, res) => {
+  res.render('userHome', { user: req.user }); // so 'user' object will be available in your HTML template
+});
+```
+
+In the snippet above, the `req.user` object comes from the [`user` object previously defined in the openid-client strategy](#initialize-openid-client-strategy-for-passport).
+All values of the `user` object will be available in your HTML template to be displayed.
 
 :::tip What to do when the <brand name="UNC"/> authentication fails?
 
@@ -306,9 +323,34 @@ You can redirect the users after unsuccessful authentication to the public homep
 
 :::
 
-At this point you should have a working authentication flow 💪.
+### Add the "Connect with your private @unikname" button
 
-## Step 2. Test Unikname Connect on your website
+This is the final step: adding the "Connect with your private @unikname" button in your web application.
+
+Your login button should look like that:
+
+<div align="center">
+
+![Unikname button sample](./unikname-button-sample.png)
+
+</div>
+
+Your button must call the previously defined route `/auth/unikname`:
+- with a submit button with a `GET` action (not a `POST` action)
+- or an HTML link
+
+:::tip Using iframes
+
+By default, you are not allowed to load any <brand name="UNC"/> screens into an iframe.
+If you want to provide to your user another UX based on an iframe (for eg. with a login pop-in so that a user never leaves you page), please contact [our support to discuss enabling it](mailto:support@unikname.com).
+
+:::
+
+At this point you should have a complete and working authentication flow 💪.
+
+<hseparator/>
+
+## Step 5. Test Unikname Connect on your website
 
 Go to your website and click on the button that should trigger <brand name="UNC"/>, e.g `Sign-up/Login` or `Connect with your private @unikname`.
 
