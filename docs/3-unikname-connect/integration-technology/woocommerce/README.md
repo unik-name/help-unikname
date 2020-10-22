@@ -34,11 +34,11 @@ Many WooCommerce websites are running with Unikname Connect such as [La Bande Du
 
 :::warning Prerequisites
 :heavy_check_mark: You've already obtained your own @unikname SSID
-<hbox>_See [How to get your personal @unikname with the CLI?](./howto-get-my-unikname-via-cli)_</hbox>
+<hbox>_See [How to get your personal @unikname with the CLI?](./../../howto-get-my-unikname-via-cli)_</hbox>
 :heavy_check_mark: You've signed-up for a business account
-<hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
+<hbox>_See [How to sign-up for a business account?](./../../howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
-<hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
+<hbox>_See [How to get and setup the trust certificate for your website?](./../../howto-get-unikname-trust-certificate-organization)_</hbox>
 :heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
 
 :book: We assume you're familiar with the administration of your WordPress website and you've already installed the WooCommerce plugin on it.
