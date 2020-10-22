@@ -62,6 +62,7 @@ Let's go 👉
 |[Discourse Forum](./integration-technology/discourse) | you want to install to a **Discourse Forum**, install and setup our plugin |
 |[WordPress](./integration-technology/wordpress) | you want to install to a **Wordpress website**, install and setup our WP plugin |
 |[WooCommerce](./integration-technology/woocommerce) | you want to install to a **WooCommerce website**, install and setup our WP plugin |
+|[Matomo](./integration-technology/matomo) | you want sign-in to your **Matomo account** with your @unikname, install and setup the OIDC plugin |
 |[Any other website](./integration-technology/oauth2.0-openidconnect) | for any website you can **call our APIs** compatible with OAuth2.0 and OpendID Connect standard protocol. |
   
 </hbox>
