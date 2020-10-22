@@ -9,10 +9,10 @@ next: false
 
 <br/>
 
-<brand name="UNC"/> can be easily integrated with your Worpdress website with a simple plugin. [WordPress](https://wordpress.org) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
+<brand name="UNC"/> can be easily integrated with your WordPress website with a simple plugin. [WordPress](https://wordpress.org) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
 
 WordPress is used by more than 60 million websites, it is one of the most popular content management system solutions in use.
-WordPress was originally created as a blog-publishing system but has evolved to support other types of web content: corporate website, media galleries, online stores... such as with WooCommerce extension.
+WordPress was originally created as a blog-publishing system but has evolved to support other types of web content: corporate website, media galleries, online stores...
 
 :::tip Example
 Many WordPress websites are running with Unikname Connect such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/) or  [Cryptomaniac](https://www.cryptomaniac.fr) to give you some examples...
@@ -30,11 +30,11 @@ Many WordPress websites are running with Unikname Connect such as [La Bande Du C
 
 :::warning Prerequisites
 :heavy_check_mark: You've already obtained your own @unikname SSID
-<hbox>_See [How to get your personal @unikname with the CLI?](./howto-get-my-unikname-via-cli)_</hbox>
+<hbox>_See [How to get your personal @unikname with the CLI?](./../../howto-get-my-unikname-via-cli)_</hbox>
 :heavy_check_mark: You've signed-up for a business account
-<hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
+<hbox>_See [How to sign-up for a business account?](./../../howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
-<hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
+<hbox>_See [How to get and setup the trust certificate for your website?](./../../howto-get-unikname-trust-certificate-organization)_</hbox>
 :heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
 
 :book: We assume you're familiar with the administration of your WordPress website.
