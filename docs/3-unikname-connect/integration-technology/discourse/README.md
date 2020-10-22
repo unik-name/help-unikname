@@ -81,7 +81,7 @@ That’s it! You’ve successfully installed the Unikname Connect plugin on your
 
 As an admin, go to the Discourse "burger" menu → admin → "Settings" tab → "Plugin" category.
 
-You can also go to `https://<your_discourse_forum_url>` `/admin/site_settings/category/plugins?filter=plugin%3Adiscourse-unikname`
+You can also go to `https://<your_discourse_forum_url>` `/admin/site_settings/category/plugins?filter=plugin%3Adiscourse-unikname-connect-authentication-plugin`
 
 Then, configure the following attributes:
 
