@@ -163,6 +163,10 @@ module.exports = {
             "How to integrate with Discourse?",
           ],
           [
+            "/3-unikname-connect/integration-technology/matomo/",
+            "How to integrate with Matomo?",
+          ],
+          [
             "/3-unikname-connect/integration-technology/nodejs/",
             "How to integrate with Node.js?",
           ],

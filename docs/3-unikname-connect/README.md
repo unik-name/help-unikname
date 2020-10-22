@@ -55,12 +55,13 @@ For this integration, the process depends on your website:
 
 <hbox>
 
-| [nodejs SDK](./integration-technology/nodejs) | your website has been developed with **nodejs programing langage**, few lines of code need to be added. |
+|[nodejs SDK](./integration-technology/nodejs) | your website has been developed with **nodejs programing langage**, few lines of code need to be added. |
 |-|-|
 |[Auth0](./integration-technology/auth0) | your website already embed **Auth0 Authentication services**, e.g. Social Authent, a simple setup is required. |
 |[Discourse Forum](./integration-technology/discourse) | you want to install to a **Discourse Forum**, install and setup our plugin |
 |[WordPress](./integration-technology/wordpress) | you want to install to a **Wordpress website**, install and setup our WP plugin |
 |[WooCommerce](./integration-technology/woocommerce) | you want to install to a **WooCommerce website**, install and setup our WP plugin |
+|[Matomo](./integration-technology/matomo) | you want sign-in to your **Matomo account** with your @unikname, install and setup the OIDC plugin |
 |[Any other website](./integration-technology/oauth2.0-openidconnect) | for any website you can **call our APIs** compatible with OAuth2.0 and OpendID Connect standard protocol. |
   
 </hbox>
