@@ -56,7 +56,7 @@ Let's go 👉
 
 <hbox>
 
-| [nodejs SDK](./integration-technology/nodejs) | your website has been developed with **nodejs programing langage**, few lines of code need to be added. |
+|[nodejs SDK](./integration-technology/nodejs) | your website has been developed with **nodejs programing langage**, few lines of code need to be added. |
 |-|-|
 |[Auth0](./integration-technology/auth0) | your website already embed **Auth0 Authentication services**, e.g. Social Authent, a simple setup is required. |
 |[Discourse Forum](./integration-technology/discourse) | you want to install to a **Discourse Forum**, install and setup our plugin |

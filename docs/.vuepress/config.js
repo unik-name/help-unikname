@@ -147,6 +147,10 @@ module.exports = {
             "How to integrate with WooCommerce?",
           ],
           [
+            "/3-unikname-connect/integration-technology/matomo/",
+            "How to sign-up to Matomo with my @unikname",
+          ],
+          [
             "/3-unikname-connect/integration-technology/oauth2.0-openidconnect/",
             "How to integrate with OAuth2 & OIDC?",
           ],

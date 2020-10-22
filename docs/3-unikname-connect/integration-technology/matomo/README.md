@@ -9,7 +9,7 @@ next: false
 
 <br/>
 
-It is easy to connect to Matomo with my @unikname with a simple plugin and a very fast configuration.
+It's easy to connect to Matomo with my @unikname with a simple plugin and a very fast configuration.
 
 **Table of Content**
 
@@ -22,11 +22,7 @@ It is easy to connect to Matomo with my @unikname with a simple plugin and a ver
 :::warning Prerequisites
 :heavy_check_mark: You've already obtained your own @unikname SSID
 <hbox>_See [How to get your personal @unikname with the CLI?](./howto-get-my-unikname-via-cli)_</hbox>
-:heavy_check_mark: You've signed-up for a business account. Required to get your API keys.
-<hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
-:heavy_check_mark: You've got and setup the Trust certificate for your Matomo business account
-<hbox>_See [How to get and setup the trust certificate for your website?](./howto-get-unikname-trust-certificate-organization)_</hbox>
-:heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
+:heavy_check_mark: You've setup your matomo account.
 
 :::
 
