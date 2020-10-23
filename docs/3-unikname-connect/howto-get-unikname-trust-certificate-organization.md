@@ -121,6 +121,8 @@ In concrete terms, this consists of generating a `Verification Key` from your @u
 
 This publication can be done in two ways depending on your credentials: either by modifying the `<head>` section of your html page, either by publishing a hidden text page directly at the URL of your website.
 
+### Generate the verification package
+
 First of all enter the following command to generate the verification package, using the [`properties:register` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-register):
 
 ```bash
@@ -144,11 +146,27 @@ The outcome will be like that:
 ```
 and will produce a file named `uns-verification.txt` in the current directory.
 
-Then run the verification: 
-* 1st way: Add An HTML <meta> tag to your website
-* 2nd way: Upload a text file to your website
+You will next add this verification package to the website you want to verify the URL.
 
-### 1st way: Add an HTML <meta> tag to your website
+### Add the verification package to your website
+
+There are several ways to add the verification package to your website:
+
+* Either [add an HTML <meta> tag to your website](#add-an-html-tag-to-your-website)
+* Or [upload a text file to your website](#upload-a-text-file-to-your-website)
+
+<!--
+::: tip
+
+Please note that we also have dedicated documentations to add the verification package to your website for:
+- [Discourse forums]()
+- [WordPress/WooCommerce websites]()
+
+:::
+
+-->
+
+#### Add an HTML <meta> tag to your website
 
 Add a `<meta...>` tag to the HTML code of the home page of your website, located at `https://www.my-saas-platform-101.com`. 
 
@@ -158,7 +176,7 @@ In the `<head>` section, like this:
   <head>
     <title>Page Title</title>
     ...
-    <!-- this is the line to add bellow -->
+    <!-- this is the line to add below -->
     <meta name="uns-url-checker-verification" content="your_verification_Key">
     ...
   </head>
@@ -223,7 +241,7 @@ The following verification errors can occur with HTML tag verification:
 
 :::
 
-### 2nd way: Upload a text file to your website
+#### Upload a text file to your website
 
 Upload the `uns-verification.txt` file that has been previously generated with the `uns properties:register` command to the subdirectory `.well-known` of the root folder of your website.
 
@@ -271,7 +289,7 @@ The following verification errors can occur with uploading a text file verificat
 - More [common verification problems](#common-verification-errors) are listed below.
 :::
 
-### Common verification errors
+#### Common verification errors
 
 In addition to any method-specific verification errors, the following verification errors are possible in most verification methods:
 
@@ -323,13 +341,13 @@ In addition to any method-specific verification errors, the following verificati
 
 :::
 
-### Notes
+#### Notes
 
-#### Your website logo
+##### Your website logo
 
 While verifying your website URL, the uns.network **URL_Checker** service provider will try to crawl and store your website main logo to display it to your users when they connect with Unikname Connect.
 
-#### About the User-Agent
+##### About the User-Agent
 
 The user agent of the uns.network **URL_Checker** service provider that performs HTML tag or file verification has the user agent token `UNS-URL-Checker-Verification` and the full user agent string is `Mozilla/5.0 (compatible; UNS-URL-Checker-Verification/1.0; <DID>)` where `DID` is the ID of the URL_Checker service provider that performs the verification (such as [`did:unik:unid:fbfbe7d9e8c005f1a9937d9fd17c4ef7da2ff8037a71e6cb7847b302eda4d08a`](https://explorer.uns.network/uniks/08bf335ede1818e222ecd529e0e892190aab62a39ec40492395b825a4f640731) for one of the official URL_Checkers service providers).
 
