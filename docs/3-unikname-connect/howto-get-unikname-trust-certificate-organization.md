@@ -1,19 +1,34 @@
 ---
 next: "/3-unikname-connect/"
+sidebarDepth: 1
 ---
 
 # How to get and setup the @unikname Trust Certificate for your organization?
 
 You've already discovered @unikname for individual where the main purpose is to allow people to keep full control of their Digital Identity and to keep their web authentications fully private. 
 
-There's another type of @unikname dedicated for organization. These kind of @unikname are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocole. Combined with the domain name of your website it offers a strong cyber-protection for your user account. @unikname for organization can only be obtained after human verification and from the Command Line Interface tool.
+There's another type of @unikname dedicated for organization. These kind of @unikname are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocol. Combined with the domain name of your website it offers a strong cyber-protection for your user account. The @unikname ID of type organization can only be obtained after human verification and from the Command Line Interface tool (the CLI).
 
-Here we're going to explain how to create a @unikname of type Organization, how to disclose it, and how to link it with with your website domain name to make it your trust certificate.
+:::tip Where do your trust certificate information appear?
+
+Your users see your trust certificate information when they sign-up or login to your website.
+
+<hpicture noshadow caption="Example of Trust Certificate Information on Cryptomaniac Website">![Unikname Connect trust certificate example](./images/unc-trust-certificate-example.png)</hpicture>
+
+1. The @unikname ID of type organization. Usually your brand.
+2. The verified domain name where Unikname Connect is installed. 
+3. Clicking on the green shield allows users to check the validity of this information.
+
+<hpicture noshadow caption="Trust Certificate Link">![Unikname Connect trust certificate link](./images/unc-trust-certificate-message.png)</hpicture>
+
+:::
+
+Here we explain how to create a @unikname of type Organization, how to disclose it publicly, and how to link it with your website domain name and to make it your trust certificate.
 
 [[TOC]]
 
 :::warning Prerequisite
-:heavy_check_mark: You've already installed the Commande Line Interface on your desktop.  
+:heavy_check_mark: You've already installed the Commande Line Interface tool on your desktop.  
 <hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
 :heavy_check_mark: Unikname Team has provided you an exclusive COUPON CODE
 <hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
@@ -22,9 +37,9 @@ Here we're going to explain how to create a @unikname of type Organization, how 
 
 <hseparator/>
 
-## Step 1. Create a new crypto account for your organization
+## Step 1. Create a new crypto account
 
-First you need to create a cryptoaccount with the CLI. This one will be the cryptoaccount of your organization. 
+First you need to create a cryptoaccount with the CLI. **This one will be the cryptoaccount of your organization**, not your own. 
 
 You should've already done it for your individual @unikname, so the process is the same.
 
@@ -52,7 +67,7 @@ The information of your newly created cryptoaccount are displayed: address, publ
 
 Then make an immediate backup of these information in a safe place. We're going to reuse it soon.
 
-## Step 2. Use your exclusive COUPON CODE to create the @unikname ID for your organization
+## Step 2. Create the @unikname ID for your organization
 
 Okay, now you can create the @unikname for your organization, using your exclusive COUPON CODE (see prerequisites here above) and with the information of the just created cryptoaccount.
 
@@ -102,7 +117,7 @@ If you use a password safe solution like _lastpass_ or _keepass_ you're encourag
 It is very important to save your cryptoaccount information at this stage! **There's no way to recover it** nor to look for it later. **So do it right now!**
 :::
 
-## Step 3. Disclose the @unikname of your organization
+## Step 3. Disclose the @unikname ID of your organization
 
 Unikname of type Organization must be publicly disclosed in order to be used with <brand name="UNC"/> on your website. By default all @unikname values are obfuscated and publicly hidden. 
 
@@ -114,7 +129,9 @@ $ uns unik:disclose "@organization:my-saas-platform-101" -e "my-saas-platform-10
 
 > Replace `my-saas-platform-101` by the @unikname of type organization you want to disclose. You need to change it at both places. For more informations about the Disclose command, see the [uns.network documentation](https://docs.uns.network/uns-use-the-network/cli.html#unik-disclose).
 
-## Step 4. Prove the ownership of your website and link it to the @unikname of your Organization
+## Step 4. Prove the ownership of your website
+
+At this step you're going to prove the ownership of your website and to link it to the @unikname of your Organization.
 
 Unikname of type Organization must be linked with your web domain name in order to be used with <brand name="UNC"/> on your website.
 In concrete terms, this consists of generating a `Verification Key` from your @unikname and to publish it to your website.
@@ -341,17 +358,18 @@ In addition to any method-specific verification errors, the following verificati
 
 :::
 
-#### Notes
+:::tip About the User-Agent used by URL_Checker
 
-##### Your website logo
+The user agent of the uns.network **URL_Checker** service provider that performs HTML tag or file verification has the user agent token `UNS-URL-Checker-Verification` and the full user agent string is `Mozilla/5.0 (compatible; UNS-URL-Checker-Verification/1.0; <DID>)` where `DID` is the ID of the URL_Checker service provider that performs the verification (such as this official URL_Checkers service provider [`did:unik:unid:fbfbe7d9e8c005f1a9937d9fd17c4ef7da2ff8037a71e6cb7847b302eda4d08a`](https://explorer.uns.network/uniks/08bf335ede1818e222ecd529e0e892190aab62a39ec40492395b825a4f640731)).
+:::
+
+### Customizing the Unikname Connect screen with your website logo
 
 While verifying your website URL, the uns.network **URL_Checker** service provider will try to crawl and store your website main logo to display it to your users when they connect with Unikname Connect.
 
-##### About the User-Agent
+## Step 5. Check your setup
 
-The user agent of the uns.network **URL_Checker** service provider that performs HTML tag or file verification has the user agent token `UNS-URL-Checker-Verification` and the full user agent string is `Mozilla/5.0 (compatible; UNS-URL-Checker-Verification/1.0; <DID>)` where `DID` is the ID of the URL_Checker service provider that performs the verification (such as [`did:unik:unid:fbfbe7d9e8c005f1a9937d9fd17c4ef7da2ff8037a71e6cb7847b302eda4d08a`](https://explorer.uns.network/uniks/08bf335ede1818e222ecd529e0e892190aab62a39ec40492395b825a4f640731) for one of the official URL_Checkers service providers).
-
-## Step 5. Check your setup in the uns.network blockchain explorer
+Finally check your setup in the uns.network blockchain explorer.
 
 In the <brand name="uns"/> blockchain explorer you can find all the information related to any @unikname Identifier.
 
