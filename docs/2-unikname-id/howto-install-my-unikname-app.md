@@ -87,6 +87,3 @@ Our App and our protocol ensure your **privacy-by-design**. That means:
 
 You're now ready to get you own @unikname or to restore one yoy already own.
 
-<hseparator/>
-
-!!!include(.vuepress/md-templates/need-help.md)!!!

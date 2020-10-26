@@ -370,5 +370,3 @@ If you’re having issues when connecting (access denied ...), check that the cr
 
 You can also check that you’re using the latest version of the OpenID Connect SDK, library, plugin or service embedded in your application.
 
-!!!include(.vuepress/md-templates/need-help.md)!!!
-

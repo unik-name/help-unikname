@@ -43,7 +43,3 @@ You're logged in!
 
 **All done!** 
 
-<hseparator/>
-
-!!!include(.vuepress/md-templates/need-help.md)!!!
-

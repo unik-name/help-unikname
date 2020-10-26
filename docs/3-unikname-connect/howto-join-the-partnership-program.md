@@ -9,4 +9,3 @@ _Coming soon..._
 
 <hseparator/>
 
-!!!include(.vuepress/md-templates/need-help.md)!!!

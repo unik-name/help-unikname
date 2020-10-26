@@ -42,6 +42,3 @@ You can also request inline help with the command `$ uns --help`
 
 <hseparator/>
 
-:::tip Need Help?
-Open a topic on our <forumurl/>
-:::

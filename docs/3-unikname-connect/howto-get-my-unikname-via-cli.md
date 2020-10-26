@@ -166,10 +166,3 @@ What you've achieved here:
 :heavy_check_mark: Checked your @unikname with the name resolver     
 :heavy_check_mark: Installed the App enlist your @unikname within it   
 :heavy_check_mark: Sign-up to our forum with your own @unikname    
-
-<br/>
-
-:::tip Need Help? 
-
-Open a topic on our <forumurl/>
-:::

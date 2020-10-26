@@ -41,7 +41,3 @@ If you wish to create a shorter @unikname identifier, contact us on [contact@uni
 
 **All done!** 
 
-<hseparator/>
-
-!!!include(.vuepress/md-templates/need-help.md)!!!
-

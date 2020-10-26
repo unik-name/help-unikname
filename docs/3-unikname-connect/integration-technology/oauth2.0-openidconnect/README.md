@@ -63,4 +63,3 @@ If the generic discovery document URL doesn't work for you, you can configure in
 
 <hseparator/>
 
-!!!include(.vuepress/md-templates/need-help.md)!!!
