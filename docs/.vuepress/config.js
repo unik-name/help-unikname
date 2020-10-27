@@ -106,7 +106,6 @@ module.exports = {
       // Unikname Connect
       {
         title: "Unikname Connect",
-        // path: "/3-unikname-connect/",
         sidebarDepth: 0,
         children: [
           ["/3-unikname-connect/", "Getting started with Unikname Connect"],
@@ -123,8 +122,16 @@ module.exports = {
             "How to sign-up your business account?",
           ],
           [
-            "/3-unikname-connect/howto-get-unikname-trust-certificate-organization",
+            "/3-unikname-connect/howto-create-unikname-trust-certificate-organization",
             "How to create your trust certificate?",
+          ],
+          [
+            "/3-unikname-connect/howto-vote-for-delegate-organization",
+            "How to vote for your delegate?",
+          ],
+          [
+            "/3-unikname-connect/howto-get-unikname-connect-credentials",
+            "How to get your Credentials?",
           ],
           [
             "/3-unikname-connect/integration-technology/auth0/",

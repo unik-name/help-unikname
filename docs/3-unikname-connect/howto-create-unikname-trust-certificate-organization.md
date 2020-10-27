@@ -1,17 +1,21 @@
 ---
-next: "/3-unikname-connect/"
+home: false
 sidebarDepth: 1
 ---
 
-# How to get and setup the @unikname Trust Certificate for your organization?
+# How to create and setup the Unikname Trust Certificate for your organization?
 
-You've already discovered @unikname for individual where the main purpose is to allow people to keep full control of their Digital Identity and to keep their web authentications fully private. 
+![install-unikname-connect-step](./images/install-unikname-connect-step2.png)
 
-There's another type of @unikname dedicated for organization. These kind of @unikname are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocol. Combined with the domain name of your website it offers a strong cyber-protection for your user account. The @unikname ID of type organization can only be obtained after human verification and from the Command Line Interface tool (the CLI).
+You've already discovered @unikname ID for individual where the main purpose is to allow people to keep full control of their Digital Identity and to keep their web authentications fully private. There's another type of @unikname ID dedicated for organization.
 
-:::tip Where do your trust certificate information appear?
+**@unikname IDs of type Organization** are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocol. Combined with the domain name of your website it offers a strong cyber-protection for your user account. The @unikname ID of type organization can only be created with a ``BUSINESS COUPON CODE`` obtained after human verification and with the Command Line Interface tool (the CLI).
 
-Your users see your trust certificate information when they sign-up or login to your website.
+Here we explain how to create a @unikname of type Organization, how to disclose it publicly, and how to link it with your website domain name and to make it your trust certificate.
+
+:::tip Where does your trust certificate information appear?
+
+Your users see your trust certificate information when they sign-up and login to your website.
 
 <hpicture noshadow caption="Example of Trust Certificate Information on Cryptomaniac Website">![Unikname Connect trust certificate example](./images/unc-trust-certificate-example.png)</hpicture>
 
@@ -20,20 +24,16 @@ Your users see your trust certificate information when they sign-up or login to 
 3. Clicking on the green shield allows users to check the validity of this information.
 
 <hpicture noshadow caption="Trust Certificate Link">![Unikname Connect trust certificate link](./images/unc-trust-certificate-message.png)</hpicture>
-
 :::
-
-Here we explain how to create a @unikname of type Organization, how to disclose it publicly, and how to link it with your website domain name and to make it your trust certificate.
-
-[[TOC]]
 
 :::warning Prerequisite
 :heavy_check_mark: You've already installed the Commande Line Interface tool on your desktop.  
 <hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
-:heavy_check_mark: Unikname Team has provided you an exclusive COUPON CODE
+:heavy_check_mark: Unikname Team has provided you your **``BUSINESS COUPON CODE``** (step 1)
 <hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
 :::
 
+[[TOC]]
 
 <hseparator/>
 
@@ -69,20 +69,20 @@ Then make an immediate backup of these information in a safe place. We're going 
 
 ## Step 2. Create the @unikname ID for your organization
 
-Okay, now you can create the @unikname for your organization, using your exclusive COUPON CODE (see prerequisites here above) and with the information of the just created cryptoaccount.
+Okay, now you can create the @unikname ID for your organization, using your BUSINESS COUPON CODE (see prerequisites here above) and using the information of the just created cryptoaccount.
 
-The @unikname for your organization must contain at least one letter and be longer than 6 characters. We suggest to choose one very close to your domain name but without the `.com` or without any other extension.
+The @unikname ID for your organization must contain at least one letter and be longer than 6 characters. We suggest to choose one very close to your domain name but without the `.com` and without any other extension.
 
-Your @unikname is case, accent and hseparator insensitive like individual ones. That means that if you choose `my-saas-platform-101` then it's the same as `mySaaS_platform101` or `mysaasplatform*101`
+Your @unikname is case, accent and separator insensitive like individual ones. That means if you choose `my-saas-platform-101` then you're protected against squatting with `mySaaS_platform101` or `mysaasplatform*101`
 
 :::warning
-Choose your organization @unikname identifier wisely. Keep in mind that once created, this @unikname identifier will be permanently associated to your business and disclosed to the other users. 
+Choose your organization @unikname identifier wisely. Keep in mind that once created this @unikname identifier will be permanently associated to your business and disclosed to the other users. 
 :::
 
-Enter the following command replacing `my-saas-platform-101` by your own identifier, and replacing `MY-EXCLUSIVE-COUPON` by the one you've obtained when you sign up.
+Enter the following command replacing `my-saas-platform-101` by your own identifier, and replacing `MY-BUSINESS-COUPON` by the one you've obtained when you sign up.
 
 ```bash
-$ uns unik:create --type=organization --explicitValue="my-saas-platform-101" --coupon="MY-EXCLUSIVE-COUPON"
+$ uns unik:create --type=organization --explicitValue="my-saas-platform-101" --coupon="MY-BUSINESS-COUPON"
 ```
 
 The CLI ask you for your passphrase. Then enter the passphrase of the cryptoaccount you've just created here above.
@@ -97,7 +97,7 @@ The outcome looks like this:
   }
 }
 ```
-> NOTA: The `id` is unique technical ID of the @unikname created and recorder.
+> NOTA: The `id` is the unique technical ID of the @unikname created. This `id` is recorder in the blockchain and can be query with the <brand name="uns"/> blockchain explorer.
 
 You @unikname is obfuscated within the blockchain so that means **nobody knows it unless you**. It's very important you remember the @unikname you've chosen! Nobody can help you to look for it nor to recover it. 
 
@@ -399,9 +399,3 @@ What you've achieved here:
 :heavy_check_mark: Created an @unikname of type `organization`  
 :heavy_check_mark: Disclosed your @unikname  
 :heavy_check_mark: Linked your @unikname with the domain name of your website   
-
-<br/>
-
-:::tip Need Help?
-Open a support thread on our <forumurl/>
-:::

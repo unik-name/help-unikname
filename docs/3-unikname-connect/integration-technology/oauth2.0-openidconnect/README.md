@@ -5,19 +5,17 @@ next: false
 
 # How to integrate Unikname Connect with OAuth 2.0 or OpenID Connect?
 
+![install-unikname-connect-step](./../../images/install-unikname-connect-step5.png)
+
 <hpicture noshadow>![OAuth2.0 / OpenID Connect](./oauth2.0-openidconnect-logo-full.png)</hpicture>
 
 <br/>
 
 <brand name="UNC"/> can be easily integrated with any website using Auth2.0 or OpenID Connect Authorization protocols.
 
-**Table of Content**
-
 [[TOC]]
 
 <hseparator/>
-
-## Prerequisites
 
 :::warning Prerequisites
 :heavy_check_mark: You've already obtained your own @unikname SSID

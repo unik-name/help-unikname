@@ -10,6 +10,8 @@ tags:
 
 # How to integrate Unikname Connect with Node.JS?
 
+![install-unikname-connect-step](./../../images/install-unikname-connect-step5.png)
+
 <hpicture noshadow>![Node.JS](./nodejs-logo-full.png)</hpicture>
 
 <br/>
@@ -17,13 +19,9 @@ tags:
 <brand name="UNC"/> can be integrated with any Node.js based web applications.
 [Node.js](https://nodejs.org/) is an open-source, cross-platform, back-end, JavaScript runtime environment that executes JavaScript code outside a web browser. Node.js lets developers use JavaScript for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.
 
-**Table of content**
-
 [[TOC]]
 
 <hseparator/>
-
-## Prerequistes
 
 :::warning Prerequisite
 :heavy_check_mark: You've already obtained your own @unikname SSID

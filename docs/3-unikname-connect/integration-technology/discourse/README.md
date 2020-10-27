@@ -5,6 +5,8 @@ next: false
 
 # How to integrate Unikname Connect with Discourse?
 
+![install-unikname-connect-step](./../../images/install-unikname-connect-step5.png)
+
 <hpicture noshadow>![Discourse](./discourse-logo-full.png)</hpicture>
 
 <br/>
@@ -21,13 +23,9 @@ Our discussion Forum website has been built with Discourse.
 
 To make integration very easy we've developed a specific ready-to-use plugin. Here under you will see how to install and setup this Discourse plugin.
 
-**Table of Content**
-
 [[TOC]]
 
 <hseparator/>
-
-## Prerequisites
 
 :::warning Prerequisites
 :heavy_check_mark: You've already obtained your own @unikname SSID

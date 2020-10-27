@@ -1,9 +1,9 @@
 ---
 home: false
-title: "What is the added value of the blockchain"
+title: "What is the added value of the blockchain for Unikname?"
 ---
 
-## What is the added value of the blockchain?
+## What is the added value of the blockchain for Unikname?
 
 Unikname&trade; solutions relies on the ([uns.network](https://www.uns.network/)) decentralized protocol and blockchain technology.
 

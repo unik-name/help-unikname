@@ -5,6 +5,8 @@ next: false
 
 # How to Integrate Unikname Connect with Auth0?
 
+![install-unikname-connect-step](./../../images/install-unikname-connect-step5.png)
+
 <hpicture noshadow>![Auth0](./auth0-logo-full.png)</hpicture>
 
 <br/>
@@ -23,13 +25,9 @@ This demo website has been coded and setup to sign-up ang login with Auth0.
 
 Here under you will see how to setup your Auth0 account to use Unikname Connect.
 
-**Table of Content**
-
 [[TOC]]
 
 <hseparator/>
-
-## Prerequisites
 
 :::warning Prerequisites
 :heavy_check_mark: You've already obtained your own @unikname SSID

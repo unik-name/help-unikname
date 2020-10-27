@@ -5,6 +5,8 @@ next: false
 
 # How to integrate Unikname Connect with WordPress?
 
+![install-unikname-connect-step](./../../images/install-unikname-connect-step5.png)
+
 <hpicture noshadow>![WordPress](./wordpress-logo-full.png)</hpicture>
 
 <br/>
@@ -20,13 +22,9 @@ Many WordPress websites are running with Unikname Connect such as [La Bande Du C
 👉 You're welcome to look at them and to see how they've integrated the <brand name="UNC"/> Button.
 :::
 
-**Table of Content**
-
 [[TOC]]
 
 <hseparator/>
-
-## Prerequisites
 
 :::warning Prerequisites
 :heavy_check_mark: You've already obtained your own @unikname SSID
