@@ -71,9 +71,11 @@ Then make an immediate backup of these information in a safe place. We're going 
 
 Okay, now you can create the @unikname ID for your organization, using your BUSINESS COUPON CODE (see prerequisites here above) and using the information of the just created cryptoaccount.
 
-The @unikname ID for your organization must contain at least one letter and be longer than 6 characters. We suggest to choose one very close to your domain name but without the `.com` and without any other extension.
+The @unikname ID for your organization must contain at least one letter and be longer than 6 characters.
+We suggest to choose one very close to your domain name but without the `.com` and without any other extension.
 
-Your @unikname is case, accent and separator insensitive like individual ones. That means if you choose `my-saas-platform-101` then you're protected against squatting with `mySaaS_platform101` or `mysaasplatform*101`
+Your @unikname is case, accent and separator insensitive like individual ones.
+That means if you choose `my-saas-platform-101` then you're protected against squatting with `mySaaS_platform101` or `mysaasplatform*101`
 
 :::warning
 Choose your organization @unikname identifier wisely. Keep in mind that once created this @unikname identifier will be permanently associated to your business and disclosed to the other users. 
@@ -87,7 +89,7 @@ $ uns unik:create --type=organization --explicitValue="my-saas-platform-101" --c
 
 The CLI ask you for your passphrase. Then enter the passphrase of the cryptoaccount you've just created here above.
 
-The outcome looks like this:
+The output looks like this:
 ```bash
 {
   "data": {
@@ -107,11 +109,11 @@ The strength of the cyber protection provided by Unikname Connect is based on th
 
 Ok, now it's a good time to backup all these highly sensitive informations in a safe place: 
 
-- The cryptoaccount of your company: `address`, `publicKey`, `privateKey`, `passphrase``
+- The cryptoaccount of your company: `address`, `publicKey`, `privateKey`, `passphrase`
 - The @unikname you've chosen, mentioning it's type: "organization", and its `id``
 - Take care of spelling the 12 words of the passphrase. You should be able to access it for all your life long.
 
-If you use a password safe solution like _lastpass_ or _keepass_ you're encouraged to save your information on it
+If you use a password safe solution like [_Lastpass_, _Keepass_ (or others)](https://alternativeto.net/category/security/password-manager/) you're encouraged to save your information in it.
 
 :::danger
 It is very important to save your cryptoaccount information at this stage! **There's no way to recover it** nor to look for it later. **So do it right now!**
@@ -147,30 +149,36 @@ $ uns properties:register "@organization:my-saas-platform-101" --value "www.my-s
 ```
 > Replace `my-saas-platform-101` by your @unikname of type Organization and `www.my-saas-platform-101.com` by the URL of your own website.
 
-Do not include the `https://` protocol string in front of your domain name. It is added by default by the command.
+::: warning HTTP protocol
+Do not include the `https://` protocol string in front of your domain name.
+It is added by default by the command.
+:::
 
-The outcome will be like that:
-```json
+The command generates two proofs, to be used later:
+
+- An output in the console, with the **`verificationKey`**:
+```json{6}
 {
   "data": {
     "type": "url",
     "value": "www.my-saas-platform-101.com",
     "filename": "uns-verification.txt",
-    "verificationKey": "TOlzvZCLq3KufJOg7RjNE",
+    "verificationKey": "fi5TrRlrW1Dx1jEGCCEXISVKuNSIk2GOzD75MLmv58MImSNDM180HPDXyvF383jYj5ki-TSMrxMDiQ-pplpJxQ",
     "expirationDate": "2020-08-15T12:39:31.000Z"
   }
 }
 ```
-and will produce a file named `uns-verification.txt` in the current directory.
 
-You will next add this verification package to the website you want to verify the URL.
+- a file named `uns-verification.txt` in the current directory, the **_verification package_**
+
+You will next add **one of** these proofs to the website you want to verify the URL.
 
 ### Add the verification package to your website
 
 There are several ways to add the verification package to your website:
 
-* Either [add an HTML <meta> tag to your website](#add-an-html-tag-to-your-website)
-* Or [upload a text file to your website](#upload-a-text-file-to-your-website)
+* Either [add an HTML <meta> tag to your website](#add-an-html-tag-to-your-website), with the **`verificationKey`**
+* Or [upload a text file to your website](#upload-a-text-file-to-your-website) with the **_verification package_**
 
 <!--
 ::: tip
@@ -188,7 +196,8 @@ Please note that we also have dedicated documentations to add the verification p
 Add a `<meta...>` tag to the HTML code of the home page of your website, located at `https://www.my-saas-platform-101.com`. 
 
 In the `<head>` section, like this:
-```html
+
+```html{6}
 <html>
   <head>
     <title>Page Title</title>
@@ -200,21 +209,37 @@ In the `<head>` section, like this:
 <body>
 ...
 ```
-> Replace `your_verification_Key` with the one that has been previously generated with the `uns properties:register` command.
+> Replace **`your_verification_Key`** with the **`verificationKey`** that has been previously generated with the `uns properties:register` command.
+
+::: tip The verificationKey format
+
+The **`verificationKey`** is a 86-length characters and digits, such as `fi5TrRlrW1Dx1jEGCCEXISVKuNSIk2GOzD75MLmv58MImSNDM180HPDXyvF383jYj5ki-TSMrxMDiQ-pplpJxQ`.
+
+**⚠ Do not used** the content of the verification package file `uns-verification.txt` here.
+:::
 
 Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-verify):
 
 ```bash
-$ uns properties:verify "@organization:www.my-saas-platform-101.com" --url-channel html
+$ uns properties:verify "@organization:my-saas-platform-101" --url-channel html
 ```
 
-A uns.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
+> Replace `my-saas-platform-101` by your @unikname of type Organization.
 
-:::tip Information
-Keep the HTML tag into the webpage as long as possible. An URL_Checker service may need up to 72 hours to check your website. Removing this HTML tag too soon from your site will cause the verification to fail.
+The command will tell with you its a success or will display an error message you can try to solve by yourself by [reading the section below](#what-to-do-when-it-doesn-t-work).
+
+Then, a uns.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
+
+::: tip When to remove the proof from the web page
+Keep the HTML tag into the webpage as long as possible.
+An **URL_Checker** service may need **up to 72 hours** to check your website. Removing this HTML tag too soon from your site will cause the verification to fail.
 
 It is also safe to leave it forever 😉
 :::
+
+If everything is ok, you can now [go to the last step of this guide](#step-5-check-your-setup).
+
+##### What to do when it doesn't work?
 
 ::: details Potential errors
 
@@ -260,23 +285,41 @@ The following verification errors can occur with HTML tag verification:
 
 #### Upload a text file to your website
 
-Upload the `uns-verification.txt` file that has been previously generated with the `uns properties:register` command to the subdirectory `.well-known` of the root folder of your website.
+Upload the **verification package** file `uns-verification.txt` that has been previously generated with the `uns properties:register` command to the subdirectory **`.well-known` of the root folder of your website**.
 
-The **URL_Checker** service will verify the file by reaching the following URL: `https://www.my-saas-platform-101.com/.well-known/uns-verification.txt`.
+The **URL_Checker** service will verify the file by reaching the following URL:
+
+    https://www.my-saas-platform-101.com/.well-known/uns-verification.txt
+
+::: tip The verification package file
+
+The **verification package** is a file named `uns-verification.txt`, which contains a very long string which begins with `eyJ0e`.
+
+**⚠ Do not used** the `verificationKey` here.
+:::
 
 Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-verify):
 
 ```bash
-$ uns properties:verify "@organization:my-saas-platform-101.com" --url-channel file
+$ uns properties:verify "@organization:my-saas-platform-101" --url-channel file
 ```
 
-A uns.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
+> Replace `my-saas-platform-101` by your @unikname of type Organization.
 
-:::tip Information
-Keep the HTML tag into the webpage as long as possible. An URL_Checker service may need up to 72 hours to check your website. Removing this HTML tag too soon from your site will cause the verification to fail.
+The command will tell with you its a success or will display an error message you can try to solve by yourself by [reading the section below](#what-to-do-when-it-doesn-t-work-2).
+
+Then, a uns.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
+
+::: tip When to remove the proof from the web page
+Keep the HTML tag into the web page as long as possible.
+An **URL_Checker** service may need **up to 72 hours** to check your website. Removing this HTML tag too soon from your site will cause the verification to fail.
 
 It is also safe to leave it forever 😉
 :::
+
+If everything is ok, you can now [go to the last step of this guide](#step-5-check-your-setup).
+
+##### What to do when it doesn't work?
 
 ::: details Potential errors
 
@@ -375,11 +418,11 @@ In the <brand name="uns"/> blockchain explorer you can find all the information 
 
 To check that your organization @unikname identifier has been created correctly:
 
-Open the [UNS Network explorer](https://explorer.uns.network/) and enter `@organization:my-saas-platform-101.com` in the search.
+Open the [UNS Network explorer](https://explorer.uns.network/) and enter `@organization:my-saas-platform-101` in the search.
 
 <hpicture>![explorer-search-@organization_mycompany](./images/chechunexplorer.png)</hpicture>
 
-> Replace `my-saas-platform-101.com` with your own organization @unikname identifier.
+> Replace `my-saas-platform-101` with your own organization @unikname identifier.
 
 Then check the information associated with your organization @unikname identifier:
 
