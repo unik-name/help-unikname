@@ -90,7 +90,7 @@ Now click on the App Icon on the Desktop like any other App.
 Choose an easy to remember PIN Code, you'll need to enter this PIN code to unlock **My Unikname App**. There's no way to recover it!
 :::
 
-<hpicture caption="Defining a PIN code">![CreatePINCode](./images/CreatepinCode.png)</hpicture>
+<hpicture caption="Defining a PIN code">![CreatePINCode](./images/createpincode.png)</hpicture>
 
 ## Step 4. Setup main settings
 
