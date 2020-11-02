@@ -10,22 +10,23 @@ sidebarDepth: 0
 Unikname&trade; is a European cyber-solution aiming of securing internet platforms and protecting user's privacy.
 </p>
 
-**Individuals get their own @unikname ID**, a pseudo under their sole control, allowing them to sign-up/login safely and privately to their favorite websites. Because this @unikname ID is a Self-Sovereign ID with remarkable features and properties, it enables exclusive operations for its owner such as authenticating any kind of operations, managing rewarding tokens, or authentic data sharing.  
-_[Read more about @unikname ID...](#unikname-id-your-universal-identifier)_
-
-**Organizations implement Unikname Connect to their website** to provide a really simple but strong authentication to their users. User's connections stay fully private and untraceable. Organizations may take benefits from the Unikname community, responsive to the respect of the privacy, by highlighting their solution. For this kind of organizations, Unikname Connect is also a new customer acquisition channel. _[Read more about Unikname Connect...](#unikname-connect-the-next-generation-authentication-solution)_
-
-**Corporate can secure mobile apps against falsified SSL X509 certificates** thanks to Unikname Certificate Proofing technology.  
-_[Read more about Unikname Certificate Proofing...](#unikname-certificate-proofing)_
-
 <br/>
 
 <img src="./what-is-unikname_@2x.png" alt="what-is-unikname" style="width:480px; height:auto; display:block; margin-left:auto; margin-right:auto;">
 
+**Individuals get their own @unikname ID**, a pseudo under their sole control, allowing them to sign-up/login safely and privately to their favorite websites. Because this @unikname ID is a Self-Sovereign ID with remarkable features and properties, it enables exclusive operations for its owner such as authenticating any kind of operations, managing rewarding tokens, or authentic data sharing.  
+_[:arrow_forward: More about @unikname ID](/2-unikname-id)_
+
+**Organizations implement Unikname Connect to their website** to provide a really simple but strong authentication to their users. User's connections stay fully private and untraceable. Organizations may take benefits from the Unikname community, responsive to the respect of the privacy, by highlighting their solution. For this kind of organizations, Unikname Connect is also a new customer acquisition channel.  
+_[:arrow_forward: More about Unikname Connect](#unikname-connect-the-next-generation-authentication-solution)_
+
+**Corporate can secure mobile apps against falsified SSL X509 certificates** thanks to Unikname Certificate Proofing technology.  
+_[:arrow_forward: More about Unikname Certificate Proofing](#unikname-certificate-proofing)_
+
 <br/>
 
 :::tip For Who?
-Unikname&trade; is intended for whose who wish to participates and contributes to make the internet more secure and more trustful. It is aimed to both indivduals and organizations.
+<brand name="unikname"/> is intended for whose who wish to participates and contributes to make the internet more secure and more trustful. It is aimed to both indivduals and organizations.
 :::
 
 :::tip Under the hood
@@ -34,49 +35,11 @@ Unikname&trade; makes the internet safer and protect user's privacy thanks to Se
 :mag_right: [see Key concepts](./../4-key-concepts)
 :::
 
-<hseparator/>
-
-## @unikname ID: your Universal IDentifier
-
-<p class="focustext">
-@unikname is a Universal Identifier, Human-Readable and Self-Soverign, providing exclusive services under the sole control of its owner.
-</p>
-
-**@unikname ID is a Universal IDentifier:** it's a multi-purpose ID, it's always available and it's usable everywhere on the Internet. Thanks to the decentralized infrastructure provided by the blockchain technology.
-
-**@unikname ID is Human-Readable:** it's easy to memorize it, like an eMail. It's protected against spoofing thanks to our SafeTypo&trade; technology.
-
-**@unikname ID is Self-Sovereign:** maybe the most important, it's under the sole control of its owner. Thanks to the uns.network.
-
-Example of exclusive operations allowed to the owner of a @unikname ID:
-
-<hbox>
-
-* Private Sign-up
-* Instant Login
-* Secure access to confidential data
-* Authentic data sharing
-* Sign Documents
-* Sharing proofs of authenticity
-* Authenticate Operations
-* Get rewards
-* Redeem coupons
-* ...
-
-</hbox>
-
-
-### my.unikname.app
-
-To get and use your own @unikname ID you need to install the ``My Unikname App``. Once you own your @unikname ID you can sign-up and log in to any website providing the ``Connect with Unikname`` button, and start being rewarded.
-
-### more...
-
-:zap: [Getting started with @unikname ID &rightarrow;](/2-unikname-id) 
-
-:zap: [How to install My Unikname App? &rightarrow;](/2-unikname-id/howto-install-my-unikname-app)
- 
-:zap: [How to get my own @unikname? &rightarrow;](/2-unikname-id/howto-get-individual-unikname)
+:::tip Spelling convention
+**`Unikname`&trade;** with an uppercase `U` refers to the product and the brand. <br/>
+**`@unikname ID`** beginning with the `@` sign and lowercases refers to the name of the Identifier. <br/>
+**`My Unikname App`** refers to the name of the App
+:::
 
 <hseparator/>
 
