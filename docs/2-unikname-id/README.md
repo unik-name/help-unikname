@@ -1,24 +1,24 @@
 ---
 home: false
 Title: "@unikname ID: Your Universal Identifier"
+prev: false
+next: false
 ---
 
-# @Unikname : your Universal ID
+# @Unikname ID : your Universal ID
 
-**@unikname is a Universal IDentifier.** It's Human-Readable and Self-Sovereign that means it's easy to memorize, it's always available, it's usable everywhere, and maybe the most important it's under the sole control of its owner.
+<p class="focustext">
+@unikname ID is a Self-Sovereign Universal IDentifier, giving its owner total control over its digital life.
+</p>
 
-To get your own @unikname ID install the ``My Unikname App``, choose it, and root it into our highly secured and decentralized <brand name="uns"/>. Once you get your @unikname you can sign-up and log in to any website that embeds the Unikname Connect button. And start being rewarded.
+With your <unid/> and `My.Unikname.App` you can control your digital life: 
+* sign-up and log in to any website that embeds the <brand name="unc"/> button, securely and privately
+* share and get access to public information with your friends, authenticated and quickly
+* earn network credits that you may redeem with a coupon, to be used with Unikname partners
 
-**My.Unikname.App allows to @unikname owner to control their digital life.** @unikname owners can get and manage their @unikname and can also control everything they can do with their ID, like private sign-up and login to websites. 
+<hpicture caption="Why to use your @unikname ID to connect to websites?">![unikname ID value proposition](./images/uniknameid_value.png)</hpicture>
 
-:::tip 
-
-**'Unikname&trade;'** with an uppercase is the spelling of the product and the brand. <br/>
-**'@unikname'** beginning with the @ sign and only lowercase is the name of the Identifier. <br/>
-**'My Unikname'** is the name of the App
-:::
-
-<hseparator/>
+To get your own <unid/>, first you need to install the `My Unikname App`, then choose a unique name and root it into the global <brand name="uns"/>. 
 
 ## Getting Started
 
