@@ -5,51 +5,54 @@ title: "How to install my Unikname App?"
 
 # How to install My Unikname App?
 
-Unikname offers a decentralized robust authentication solution that is very easy to use, and ABOVE all fully respects users’ privacy. Its use is based on an application available on smartphones or tablets: we name it **My Unikname App**. 
+**My Unikname App** is required to get, manage and use <unid/> and network credits. It allows users to use their <unid/> to authenticate safely and privately to any websites. 
 
-**My Unikname App** allows @unikname owners to control their digital life. They can get and manage their @unikname SSID giving them total control over everything they can do with their ID, like private sign-up, login to websites, or validating operations such as paiements.
+:::warning
+Don’t try to download this application on traditional App stores, you won’t find it! **My Unikname App is a Progressive Web App (PWA)**: goodbye download and welcome simplicity of installation thanks to a QR Code or a clickable link.
 
-:::tip Under the hood
-**My Unikname App** works like a cryptographic wallet. It embeds security features like handling pass phrase, handling private keys and calculating public addresses. So it is a safe place to manage your @unikname but also to manage your UNS tokens and to trigger transactions requiring tokens.
+[:mag_right: read our blog post to know more about PWA](https://www.unikname.com/en/2020/09/pwa-progressive-web-app-next-generation-applications/)
 :::
 
-But don’t try to download this application on traditional application stores (App Store for iOS, Google Play for Android); you won’t find it! **My Unikname App is a Progressive Web App (PWA)**, goodbye download, and welcome simplicity of installation thanks to the QR Code or a clickable link (your choice).
-
-:::tip What is a Progessive Web App (PWA)?
-If you want to know [more about PWA, read our blog post](https://medium.com/unik-name/en-progressive-web-app-pwa-the-next-generation-of-applications-36ff6592bd28)
-:::
-
-Here we show you how to install this next-gen App. Let's go!
-
-**Table of content**
+Here we show you how to install this App. Let's go!
 
 [[TOC]]
 
 <hseparator/>
 
-## Step 1. Go to my.unikname.app
+## Step 1. Go to https://my.unikname.app
 
 Open your web browser on your smartphone and enter [my.unikname.app](https://my.unikname.app/).
 
 <hpicture caption="Installing My Unikname App" noshadow>![Install-MyUniknameApp-1](./images/mun-install1.png)</hpicture>
 
-:::warning Browser Compatibility Issue
-**my.unikname.app** works very well on : 
+:::warning Browser Compatibility
+**my.unikname.app** works on: 
 
-:heavy_check_mark: ``Brave`` on Android (our preferred choice)  
+:heavy_check_mark: ``Brave`` on Android, our preferred choice  
 :heavy_check_mark: ``Google Chrome`` on Android   
 :heavy_check_mark: ``Safari`` on Apple iOS.  
 
 :x: ``Firefox`` does not manage PWA correctly for the time being.  
-:x: ``Google Chrome on Apple iOS`` does not enable PWA yet
+:x: ``Google Chrome on Apple iOS`` does not enable PWA yet  
 :x: ``Qwant`` mobile browser is not compatible with PWA yet
 :::
 
-## Step 2. Install Now! No download from any store!
+:::details I met a compatibility issue screen, what can I do?
+If you've met the following screen you can close it and you need to open another internet browser. 
+<hpicture noshadow>![compatibility issue screen](./images/compatibilityissuescreen.png)</hpicture>
+If you're using an iPhone then open Safari, and if you're using an Android Smartphone then open Brave or Google Chrome. Then enter `my.unikname.app` again.
+:::
 
-Unless you met a browser compatibility issue you've been able to click on the "Install now!" button. After confirming the installation, you arrived to this page:
+## Step 2. Install Now!
 
-<hpicture caption="Successful Install Page" >![Install-MyUniknameApp-2](./images/mun-install2.png)</hpicture>
+When you click on `Install Now` your browser detects you're installing an App directly from an URL and is going to ask your confirmation.
+
+<hpicture caption="Install example on a xaomi Red note8, with Chrome">
+<video height="600" controls>
+  <source src="./images/mun-installnow.mp4" type="video/mp4">
+  <hpicture caption="Successful Install Page" >![Install-MyUniknameApp-2](./images/mun-install2.png)</hpicture>
+</video>
+</hpicture>
 
 Then your App has been installed by your OS on the desktop of your Smartphone, like this:
 
@@ -59,31 +62,48 @@ Then your App has been installed by your OS on the desktop of your Smartphone, l
 On Android your smartphone has automatically "build" an App on your phone. This App is also available in the list of installed Apps like the ones coming from stores.
 :::
 
+:::details On my smartphone the App does not launch automatically like on the video, what can I do?
+Go to your home screen, look for `my unikname app` icon and click to launch the App.
+:::
+
+:::details I did not see the "Add to home screen" message, what can I do?
+You need to add it manually going to the menu of your internet browser:
+
+![install](./images/addtohomescreen-manually.png)
+:::
+
+:::details I don't see the icon on my desktop, what can I do?
+There's multiple possible reasons for that. 
+
+You can try to add it manually going to the menu of your internet browser:
+
+![install](./images/addtohomescreen-manually.png)
+
+If it's still not working you can try to check your smartphone desktop settings. Some smartphone setting may prevent App install on the home screen.
+:::
+
 ## Step 3. Run the App and create your PIN code
 
-Ok, now you've to click on the App Icon on the Desktop like any other App. Then define an easy to remember PIN Code.
+Now click on the App Icon on the Desktop like any other App. 
 
-You'll need to enter this PIN code to unlock **My Unikname App**.
-
-<hpicture caption="Defining a PIN code">![CreatePINCode](./images/CreatePINCode.jpg)</hpicture>
-
-## Step 4. Setup main App Settings
-
-Before to finish you're invited to enable notifications and to subscribe to the stay tuned newsletter. Both settings are optional.
-
-:::warning Confidentiality and privacy are on our core values
-The stay tuned email is stored in a self-hosted, dedicated, and highly secure private server. This eMail is for our private communication between you and us only and is never shared with any third-party. 
-
-Our App and our protocol ensure your **privacy-by-design**. That means:
-
-- Nobody else than you knows your @unikname identifier, and the people with who you've decided to share it.
-- Nobody from Unikname Team knows your @unikname.
-- We're technically unable to link your e-mail address to your @unikname identifier, so we don't!
+:::warning
+Choose an easy to remember PIN Code, you'll need to enter this PIN code to unlock **My Unikname App**. There's no way to recover it!
 :::
+
+<hpicture caption="Defining a PIN code">![CreatePINCode](./images/CreatepinCode.png)</hpicture>
+
+## Step 4. Setup main settings
+
+App settings are limited, you're invited to enable notifications and to subscribe to the stay tuned newsletter. Both settings are optional.
 
 <hpicture caption="App Main Settings" noshadow>![App Main Settings](./images/mun-install4.png)</hpicture>
 
+:::tip Privacy-by-design
+The stay tuned email is stored in a self-hosted, dedicated, and highly secure private server. This eMail is only required for private communication between you and the Unikname team. It is not shared with a third-party. 
+
+Your eMail is not linked with your @unikname ID nor any other information.
+:::
+
 **All done!** 
 
-You're now ready to get you own @unikname or to restore one yoy already own.
-
+You're now ready to get you own <unid/> or to restore one you already own.
