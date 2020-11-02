@@ -24,6 +24,10 @@ export default {
 <style lang="stylus" scoped>
 figure
     text-align center
+
+figcaption
+    font-size 0.8em
+
 img
     display block
     margin-left auto
