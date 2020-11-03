@@ -78,7 +78,7 @@ module.exports = {
             "/2-unikname-id/howto-get-individual-unikname",
             "How to get my own @unikname?",
           ],
-          ["/2-unikname-id/howto-login", "How to use my @unikname to log in?"],
+          ["/2-unikname-id/howto-connect", "How to connect to a website?"],
           [
             "/2-unikname-id/howto-backup-my-unikname",
             "How to backup my @unikname?",

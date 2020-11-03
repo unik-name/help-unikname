@@ -24,13 +24,13 @@ To get your own <unid/>, first you need to install the `My Unikname App`, then c
 
 :zap: [How to install My Unikname App?](./howto-install-my-unikname-app)
 
-:zap: [How to get my own @unikname?](./howto-get-individual-unikname)
+:zap: [How to get my own @unikname ID?](./howto-get-individual-unikname)
 
-:zap: [How to login with my @unikname?](./howto-login)
+:zap: [How to connect to a website with my @unikname ID?](./howto-connect)
 
-:zap: [How to backup my @unikname?](./howto-backup-my-unikname)
+:zap: [How to backup my @unikname ID?](./howto-backup-my-unikname)
 
-:zap: [How to restore my @unikname?](./howto-restore-my-unikname)
+:zap: [How to restore my @unikname ID?](./howto-restore-my-unikname)
 
 :zap: How to become an ambassador? _coming soon..._
 
