@@ -12,27 +12,28 @@
 
 [[redirects]]
   from = "https://docs.unik-name.com/*"
-  to =   "https://docs.unikname.com/:splat"
+  to =   "https://help.unikname.com/:splat"
   status = 301
   force = true
-
-[[redirects]]
-  from = "https://docs.unikname.com/integration/connect/apps/*"
-  to =   "https://docs.unikname.com/3-unikname-connect/integration-technology/:splat"
-  status = 301
-
-[[redirects]]
-  from = "https://docs.unikname.com/3-unikname-connect/howto-get-unikname-trust-certificate-organization*"
-  to =   "https://docs.unikname.com/3-unikname-connect/howto-create-unikname-trust-certificate-organization:splat"
-  status = 301
-
-[[redirects]]
-  from = "https://docs.unikname.com/integration/connect/"
-  to =   "https://docs.unikname.com/3-unikname-connect/"
-  status = 301
 
 [[redirects]]
   from = "https://docs.unikname.com/*"
   to =   "https://help.unikname.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/integration/connect/apps/*"
+  to =   "/3-unikname-connect/integration-technology/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/3-unikname-connect/howto-get-unikname-trust-certificate-organization*"
+  to =   "/3-unikname-connect/howto-create-unikname-trust-certificate-organization:splat"
+  status = 301
+
+[[redirects]]
+  from = "/integration/connect/"
+  to =   "/3-unikname-connect/"
+  status = 301
+
