@@ -13,7 +13,7 @@ module.exports = {
   description2: "Official documentation for Unikname",
   plugins: {
     sitemap: {
-      hostname: "https://docs.unikname.com",
+      hostname: "https://help.unikname.com",
     },
     "@vuepress/last-updated": {
       transformer: (timestamp, lang) => {
