@@ -164,12 +164,13 @@ module.exports = {
         title: "Key Concepts",
         path: "/4-key-concepts/",
         sidebarDepth: 0,
-        //children: [
-        // ["/4-key-concepts/what-is-ssid-cryptoaccount", "Self-Sovereign ID and Cryptoaccount"],
-        // ["/4-key-concepts/what-is-unikname-trust-certificate", "Trust Certificate"],
-        // ["/4-key-concepts/what-is-safetypo", "Safe Typo"],
-        // ["/4-key-concepts/what-is-oidc", "Open ID Connect"],
-        //]
+        children: [
+          "/4-key-concepts/what-is-my-unikname-app",
+          // ["/4-key-concepts/what-is-ssid-cryptoaccount", "Self-Sovereign ID and Cryptoaccount"],
+          // ["/4-key-concepts/what-is-unikname-trust-certificate", "Trust Certificate"],
+          // ["/4-key-concepts/what-is-safetypo", "Safe Typo"],
+          // ["/4-key-concepts/what-is-oidc", "Open ID Connect"],
+        ],
       },
       // Security group
       {

@@ -1,11 +1,13 @@
 ---
-home: false
-title: "Key Concepts"
+prev: false
+next: "/4-key-concepts/what-is-my-unikname-app"
 ---
 
-:zap: [What is 'my unikname App'?](what-is-my-unikname-app)
+# Unikname key concepts
 
-:zap: What is a Self-Sovereign ID and crypo accounts? _coming soon..._
+:zap: [What is *My unikname App*?](what-is-my-unikname-app)
+
+:zap: What is a Self-Sovereign ID and crypto accounts? _coming soon..._
 
 :zap: What is SafeTypo? _coming soon..._
 
