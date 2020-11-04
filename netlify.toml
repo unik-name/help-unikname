@@ -35,3 +35,4 @@
   from = "https://docs.unikname.com/*"
   to =   "https://help.unikname.com/:splat"
   status = 301
+  force = true
