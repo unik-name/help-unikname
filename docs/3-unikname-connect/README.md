@@ -12,7 +12,7 @@ We guide you through the process to make it simple. Let's go 👉
 ![install-unikname-connect-5-steps](./images/install-unikname-connect-5-steps.png)
 
 
-## Prerequisits
+## Prerequisites
 
 Before to start you need to install the CLI and to get your personal @unikname.
 
