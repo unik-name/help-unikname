@@ -2,7 +2,7 @@
   <span>
     <br />
     <div class="custom-block tip">
-      <p class="custom-block-title">Need help?</p>
+      <p class="custom-block-title">Still need help?</p>
       <p>Open a topic on our <forumurl /></p>
     </div>
   </span>
