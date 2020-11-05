@@ -37,7 +37,7 @@ module.exports = {
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   themeConfig: {
     logo: "/logo.png",
-    repo: "unik-name/docs.unikname.com",
+    repo: "unik-name/help-unikname",
     repoLabel: "Contribute!",
     editLinks: true,
     editLinkText: "Help us improve this page!",
