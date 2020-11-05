@@ -13,7 +13,7 @@ next: false
 
 <brand name="UNC"/> can be easily integrated with Discourse with a simple plugin. 
 
-<brand name="UNC"/> has been designed to work with open-source frameworks compatible with the OAuth authorization standard protocol. The famous open-source [Discourse forum solution](https://www.discourse.org), respectful of user privacy, is one of these frameworks. 
+<brand name="UNC"/> has been designed to work with open-source solutions compatible with the OAuth/OpenID Connect authorization standard protocol. The famous open-source [Discourse forum solution](https://www.discourse.org), respectful of user privacy, is one of them. 
 
 :::tip Example
 Our discussion Forum website has been built with Discourse. 

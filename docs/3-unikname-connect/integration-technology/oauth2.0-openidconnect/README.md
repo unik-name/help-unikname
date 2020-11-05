@@ -42,7 +42,7 @@ The current implementation of Unikname Connect provides support for:
 
 Here are the informations you have to code or set up on your OAuth2.0 service:
 
-| Attribut | Description |
+| Attribut | Value/Description |
 |--------|-----------|
 | OIDC discovery document | <UncServerUrl/> |
 | OIDC client id | The Business Account ID you have received from Unikname's support request |
@@ -61,3 +61,6 @@ If the generic discovery document URL doesn't work for you, you can configure in
 
 <hseparator/>
 
+## Troubleshooting
+
+If you’re having issues when connecting (access denied ...), check that the credentials (the @unikname of your organization, Unikname Connect secret, client id/secret ...) you are using to connect to <brand name="UNC"/> authentication server are the good one.

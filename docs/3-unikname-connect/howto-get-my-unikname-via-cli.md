@@ -162,7 +162,7 @@ Follow the process on the forum.
 What you've achieved here:
 
 :heavy_check_mark: Created and backup you crypto account    
-:heavy_check_mark: Choosen and created your own @unikname ID   
+:heavy_check_mark: Chosen and created your own @unikname ID   
 :heavy_check_mark: Checked your @unikname with the name resolver     
 :heavy_check_mark: Installed the App enlist your @unikname within it   
 :heavy_check_mark: Sign-up to our forum with your own @unikname    
