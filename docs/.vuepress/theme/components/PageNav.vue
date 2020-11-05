@@ -15,6 +15,9 @@
     <Needhelp />
 
   </div>
+  <div class="page-nav" v-else>
+    <Needhelp />
+  </div>
 </template>
 <script>
 import { resolvePage } from '../util'
