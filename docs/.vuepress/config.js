@@ -48,6 +48,13 @@ module.exports = {
         content: "black-translucent",
       },
     ],
+    [
+      "meta",
+      {
+        property: "og:image",
+        content: "https://help.unikname.com/opengraph-v1.png",
+      },
+    ],
   ],
   themeConfig: {
     logo: "/logo.png",
