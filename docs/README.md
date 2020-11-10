@@ -4,7 +4,7 @@ home: true
 
 <cardcontainer>
 <card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
-<card title="User Rewarding System" description="Everything about user rewards, and how to get it and to use it." url="/1-what-is-unikname/what-is-unikname-user-rewarding-system" disable/>
+<card title="User Rewarding System" description="Everything about user rewards, and how to get it and to use it." url="/1-what-is-unikname/what-is-unikname-user-rewarding-system" />
 <card title="Key Concepts" description="" url="/4-key-concepts"/> 
 </cardcontainer>
 
