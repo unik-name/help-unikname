@@ -6,26 +6,20 @@ home: true
 <card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
 <card title="User Rewarding System" description="Everything about user rewards, and how to get it and to use it." url="/1-what-is-unikname/what-is-unikname-user-rewarding-system" />
 <!-- card title="Key Concepts" description="" url="/4-key-concepts"/ --> 
+<card title="@unikname ID" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
 </cardcontainer>
 
-## @unikname ID: The Universal IDentifier
-
-<cardcontainer>
-<card title="Getting Started" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
-</cardcontainer>
-<cardcontainer>
 <!-- card title="Freemium and Premium @unikname" description="" url="/2-unikname-id/#freemium-and-premium-unikname"/ -->
 <!-- card title="@unikname Lifecycle" description="" url="/2-unikname-id/#unikname-lifecycle" disable/ -->
 <!-- card title="@unikname Properties and Badges" description="" url="/2-unikname-id/#unikname-properties-and-badges" disable/ -->
 <!-- card title="UNS tokens" description="" url="/2-unikname-id/#uns-unikname-tokens" disable/ -->
-</cardcontainer>
 
 <hseparator/>
 
-## Unikname Connect: The next-generation authentication solution
+## Unikname Connect
 
 <cardcontainer>
-<card title="Getting started with Unikname Connect" url="/3-unikname-connect"/>
+<card title="Getting started with Unikname Connect" description="The next-generation authentication solution" url="/3-unikname-connect"/>
 </cardcontainer>
 <cardcontainer>
 <card title="Install the CLI" description="The Command Line Interface is required to setup a business account" url="/3-unikname-connect/howto-install-uns-cli"/>
