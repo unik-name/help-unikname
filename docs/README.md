@@ -5,7 +5,7 @@ home: true
 <cardcontainer>
 <card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
 <card title="User Rewarding System" description="Everything about user rewards, and how to get it and to use it." url="/1-what-is-unikname/what-is-unikname-user-rewarding-system" />
-<card title="Key Concepts" description="" url="/4-key-concepts"/> 
+<!-- card title="Key Concepts" description="" url="/4-key-concepts"/ --> 
 </cardcontainer>
 
 ## @unikname ID: The Universal IDentifier
@@ -14,10 +14,10 @@ home: true
 <card title="Getting Started" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
 </cardcontainer>
 <cardcontainer>
-<card title="Freemium and Premium @unikname" description="" url="/2-unikname-id/#freemium-and-premium-unikname"/>
-<card title="@unikname Lifecycle" description="" url="/2-unikname-id/#unikname-lifecycle" disable/>
-<card title="@unikname Properties and Badges" description="" url="/2-unikname-id/#unikname-properties-and-badges" disable/>
-<card title="UNS tokens" description="" url="/2-unikname-id/#uns-unikname-tokens" disable/>
+<!-- card title="Freemium and Premium @unikname" description="" url="/2-unikname-id/#freemium-and-premium-unikname"/ -->
+<!-- card title="@unikname Lifecycle" description="" url="/2-unikname-id/#unikname-lifecycle" disable/ -->
+<!-- card title="@unikname Properties and Badges" description="" url="/2-unikname-id/#unikname-properties-and-badges" disable/ -->
+<!-- card title="UNS tokens" description="" url="/2-unikname-id/#uns-unikname-tokens" disable/ -->
 </cardcontainer>
 
 <hseparator/>
@@ -32,8 +32,8 @@ home: true
 <card title="Sign up for a business account" description="Get your credentials to activate Unikname Connect on your website" url="/3-unikname-connect/howto-signup-business-account"/>
 <card title="Trust Certificate for your website" description="Get and setup the @unikname Trust Certificate for your organization" url="/3-unikname-connect/howto-get-unikname-trust-certificate-organization"/>
 <card title="Example of integrations" description="See example of setup and code" url="/3-unikname-connect/example-of-integrations"/>
-<card title="Join the partnership program" description="coming soon..." url="/3-unikname-connect/howto-join-the-partnership-program" disable />
-<card title="UX UI Signup and Login Guides" description="coming soon..." url="/3-unikname-connect/ux-ui-signup-login-guides" disable />
+<!-- card title="Join the partnership program" description="coming soon..." url="/3-unikname-connect/howto-join-the-partnership-program" disable / -->
+<!-- card title="UX UI Signup and Login Guides" description="coming soon..." url="/3-unikname-connect/ux-ui-signup-login-guides" disable / -->
 </cardcontainer>
 
 <hseparator/>
