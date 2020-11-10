@@ -26,7 +26,7 @@ _[:arrow_forward: More about Unikname Certificate Proofing](#unikname-certificat
 <br/>
 
 :::tip For Who?
-<brand name="unikname"/> is intended for whose who wish to participates and contributes to make the internet more secure and more trustful. It is aimed to both indivduals and organizations.
+<brand name="unikname"/> is intended for whose who wish to participates and contributes to make the internet more secure and more trustful. It is aimed to both individuals and organizations.
 :::
 
 :::tip Under the hood
