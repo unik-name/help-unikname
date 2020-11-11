@@ -28,13 +28,17 @@ If you've already setup a <unid/> you've two ways to get a new one:
 
 Your @unikname ID is unique, persistent, and personal. You can choose a pseudo, your real name, a nickname, or a funny one, it's up to you! Keep it simple as you may use it every day.
 
-:::tip Is it free?
-**@unikname ID longer or equal to 15 characters are totally free.**
+:::tip @unikname ID longer or equal to 15 characters are totally free!
+:::
 
-To get a scarce names, shorter than 15 chars, you can:
+To get a scarce name, shorter than 15 chars, you can:
 * use a PROMOTIONAL COUPON CODE.
 * bought it with € or crypto
 * exchange network credits ($UNS), if you own some
+
+<hpicture>![chooseUnikname](./images/unik-pricelist.png)</hpicture>
+
+:::danger For readers of this help center we offer a PREMIUM 8 char length with the coupon code `UNIK8DOC2020`
 :::
 
 Choose your @unikname ID on the following screen:
@@ -49,9 +53,6 @@ You get it one time for all.
 If it's a 14 characters long or more then confirm to go to the last step. If it's a scarce one, a shorter than 15 characters, you can check its price within the price list, then confirm.
 
 <hpicture noshadow caption="Exemple with @Marty.McFly-2015 and @Marty.McFly IDs">![chooseUnikname](./images/gun-freemium-vs-premium.png)</hpicture>
-
-:::danger For readers of this doc we offer a PREMIUM 8 char length with the coupon code `UNIK8DOC2020`
-:::
 
 ## Create you @unikname ID one time for all
 
