@@ -1,6 +1,6 @@
 ---
 home: false
-sidebarDepth: 1
+sidebarDepth: 4
 ---
 
 # How to create and setup the Unikname Trust Certificate for your organization?
