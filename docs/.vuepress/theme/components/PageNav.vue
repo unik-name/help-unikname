@@ -126,4 +126,27 @@ function flatten (items, res) {
   padding 3px 10px
   margin 0px
 
+@media screen and (max-width: 720px)
+  p.inner
+    display: flex
+    flex-direction: column
+
+    & > span
+      margin-bottom: 1em
+      &.prev > span.navbutton a
+        margin-left:1em
+
+      &.next > span.navbutton
+        a
+          margin-right:1em
+
+      & > span.navbutton
+          display: flex
+          flex-direction: row
+          align-items: center
+          justify-content: center
+
+          a
+            margin-left:1em
+
 </style>
