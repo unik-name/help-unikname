@@ -13,7 +13,7 @@ There's multiple ways to get your own @unikname. The most user friendly one is t
 
 [[TOC]]
 
-:::warning Prerequisite
+:::warning Prerequisites
 :heavy_check_mark: You've already installed the Command Line Interface on your desktop.
 <hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
 

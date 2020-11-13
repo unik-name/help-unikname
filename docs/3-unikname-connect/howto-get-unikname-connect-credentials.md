@@ -10,7 +10,7 @@ title: "How to get your Unikname Connect Credentials?"
 
 Your credentials are composed of a `business account id` and an `api secret key`. These credentials are required to setup your website with the Unikname Connect plugin or with any other integration mode. Here we explain how to get them.
 
-:::warning Prerequisite
+:::warning Prerequisites
 :heavy_check_mark: You've created your @unikname ID of type organization and linked it to the domain name of your website (step 2)
 <hbox>_See [How to get and setup the Unikname Trust Certificate for your organization?](./howto-get-unikname-trust-certificate-organization)_</hbox>
 :heavy_check_mark: You've voted for delegate to secure the network (step 3)

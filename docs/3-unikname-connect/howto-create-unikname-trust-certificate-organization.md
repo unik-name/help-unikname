@@ -13,24 +13,28 @@ You've already discovered @unikname ID for individual where the main purpose is 
 
 Here we explain how to create a @unikname of type Organization, how to disclose it publicly, and how to link it with your website domain name and to make it your trust certificate.
 
+:::warning Prerequisites
+:heavy_check_mark: You've already installed the Commande Line Interface tool on your desktop.  
+<hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
+:heavy_check_mark: Unikname Team has provided you your **``BUSINESS COUPON CODE``** (step 1)
+<hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
+:::
+
+<div id="trust-appearance">&nbsp;<br/></div>
+
 :::tip Where does your trust certificate information appear?
 
 Your users see your trust certificate information when they sign-up and login to your website.
 
 <hpicture noshadow caption="Example of Trust Certificate Information on Cryptomaniac Website">![Unikname Connect trust certificate example](./images/unc-trust-certificate-example.png)</hpicture>
 
-1. The @unikname ID of type organization. Usually your brand.
-2. The verified domain name where Unikname Connect is installed. 
-3. Clicking on the green shield allows users to check the validity of this information.
+1. The @unikname ID of type organization. **Usually your brand**.
+2. The verified domain name where Unikname Connect is installed.
+3. The green shield, a button which allows users to check the validity of this information.
+
+    **It proves the ownership of the domain by you**.
 
 <hpicture noshadow caption="Trust Certificate Link">![Unikname Connect trust certificate link](./images/unc-trust-certificate-message.png)</hpicture>
-:::
-
-:::warning Prerequisite
-:heavy_check_mark: You've already installed the Commande Line Interface tool on your desktop.  
-<hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
-:heavy_check_mark: Unikname Team has provided you your **``BUSINESS COUPON CODE``** (step 1)
-<hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
 :::
 
 [[TOC]]
@@ -139,6 +143,14 @@ Unikname of type Organization must be linked with your web domain name in order 
 In concrete terms, this consists of generating a `Verification Key` from your @unikname and to publish it to your website.
 
 This publication can be done in two ways depending on your credentials: either by modifying the `<head>` section of your html page, either by publishing a hidden text page directly at the URL of your website.
+
+::: tip Why is it so important to prove the ownership of my website?
+
+Proving the ownership of your website is matter of trust.
+
+Please, [read the explanations above in this current documentation for more information](#trust-appearance).
+
+:::
 
 ### Generate the verification package
 

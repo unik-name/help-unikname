@@ -11,7 +11,7 @@ Unikname Authentication solution is based on the <brand name="uns"/> blockchain 
 
 Here we explain how to chose and vote for your delegate.
 
-:::warning Prerequisite
+:::warning Prerequisites
 :heavy_check_mark: You've already installed the Command Line Interface tool on your desktop.  
 <hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
 :heavy_check_mark: You've created your Trust Certificate (step 2)
