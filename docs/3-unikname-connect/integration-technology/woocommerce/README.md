@@ -21,10 +21,12 @@ WordPress is used by more than 60 million websites, it is one of the most popula
 WordPress was originally created as a blog-publishing system but has evolved to support other types of web content: corporate website, media galleries, online stores... such as with WooCommerce extension.
 
 :::tip Example
-Many WooCommerce websites are running with Unikname Connect such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/) or  [Cryptomaniac](https://www.cryptomaniac.fr) to give you some examples...
+Many WooCommerce websites are running with Unikname Connect such as [La Bande Du Coin](https://www.demo.labandeducoin.fr/) or  [Cryptomaniac](https://www.cryptomaniac.fr) to give you some examples.
 
 👉 You're welcome to look at them and to see how they've integrated the <brand name="UNC"/> Button.
 :::
+
+**Table of content**
 
 [[TOC]]
 
@@ -89,11 +91,23 @@ $ composer require wpackagist-plugin/unikname-connect
 
 <hpicture>![Unikname Connect for WordPress basic configuration](../wordpress/wordpress-config1.png)</hpicture>
 
-### Advanced configuration
+### Pages options
 
-You can also configure some extra parameters in the `Advanced` tab of the plugin, such as selecting the page where you want to see the Sign-up / Login button.
+You can then configure on which pages of your WordPress site you want to display the Unikname Connect button:
+
+- WordPress pages
+
+<hpicture>![Unikname Connect for WordPress pages configuration](../wordpress/wordpress-config3.png)</hpicture>
+
+- WooCommerce pages
 
 <hpicture>![Unikname Connect for WordPress advanced configuration, with configurations for WooCommerce](../wordpress/wordpress-config2.png)</hpicture>
+
+### Unikname Connect buttons style
+
+You can also fine-tune the style options of the Unikname Connect buttons:
+
+<hpicture>![Unikname Connect for WordPress buttons style configuration](../wordpress/wordpress-config4.png)</hpicture>
 
 **All done!**
 
