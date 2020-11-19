@@ -47,8 +47,8 @@ Unikname Connect plugin is available **for free** [on the official WordPress plu
 There are various ways of installing the plugin, so choose the one adapted to your installation:
 
 - From your WordPress Dashboard
-- From the Github Repository
 - With Composer
+- From the Github Repository
 
 ### Install from your WordPress Dashboard
 
@@ -61,13 +61,6 @@ You can install Unikname Connect directly from your WordPress Dashboard.
 1. Install `Unikname Connect` plugin
 1. Then `enable` it
 
-### Install from the Github Repository
-
-1. Download [WordPress-Unikname-Connect plugin](https://github.com/unik-name/wordpress-unikname-connect/archive/master.zip)
-1. Extract the downloaded ZIP archive
-1. Upload the `wordpress-unikname-connect-master` directory to your `/wp-content/plugins/` directory (you can remove the trailing `-master` in the name of the directory)
-1. Activate WordPress-Unikname-Connect from your Plugins page
-
 ### Install with Composer
 
 If you're using Composer to manage WordPress, add WordPress-Unikname-Connect to your project's dependencies through the [WordPress Packagist repository](https://wpackagist.org/search?q=unikname+connect).
@@ -76,6 +69,36 @@ Run de following command:
 ```
 $ composer require wpackagist-plugin/unikname-connect
 ```
+### Install from the Github Repository
+
+#### Stable version of the plugin
+
+1. Go to [the release page of WordPress-Unikname-Connect plugin](https://github.com/unik-name/wordpress-unikname-connect/releases)
+1. Choose the version you want to install by clicking on its version. You should select the last one available
+1. Select the archive to download which matches your platform ('zip' or 'tar.gz' - choose 'zip' if you don't know)
+
+<hpicture>![Unikname Connect for WordPress Github installation](./wordpress-install1.png)</hpicture>
+
+1. Extract the downloaded ZIP archive
+1. Rename the directory `wordpress-unikname-connect-X.Y.Z` (`X.Y.X` depends on the downloaded version) to `wordpress-unikname-connect`
+1. Upload the `wordpress-unikname-connect` directory to your `/wp-content/plugins/` WordPress server directory
+1. Activate _Unikname Connect_ plugin from your Plugins page
+
+#### Unstable/development version of the plugin
+
+::: warning ⚠️
+
+With this method, you are going to install a **development** version of the plugin, which **might be unstable**.
+
+Install it only to test unreleased features, to check if a bug as been correctly fixed...
+
+:::
+
+1. Download [WordPress-Unikname-Connect plugin](https://github.com/unik-name/wordpress-unikname-connect/archive/master.zip)
+1. Extract the downloaded ZIP archive
+1. Rename the directory `wordpress-unikname-connect-master` to `wordpress-unikname-connect`
+1. Upload the `wordpress-unikname-connect` directory to your `/wp-content/plugins/` WordPress server directory
+1. Activate _Unikname Connect_ plugin from your Plugins page
 
 ## Step 2. Setup the WordPress Plugin
 
