@@ -71,11 +71,11 @@ This @unikname may be your own for your life long, at least as long as you decid
 @unikname IDs for Individuals and @unikname IDs for Organization are different in their uses and in their capabilities. Here you need to create your individual one. We'll see how to create the one for your organization later on.
 :::
 
-For a free @unikname choose one longer than 15 characters. The shorter ones are to be bought because they are rarer.
+You can get a free @unikname, longer than 15 characters, with the coupon `LATIN-FREE-UNIKDOC`. The shorter ones are to be bought because they are rarer.
 
-Your @unikname is case, accent and hseparator insensitive. That means that if you choose `your-personal-pseudo` then it's the same as `YourPersonalPseudo` or `your*personal*p.s.e.u.d.ô`
+Your @unikname is case, accent and separator insensitive. That means that if you choose `your-personal-pseudo` then it's the same as `YourPersonalPseudo` or `your*personal*p.s.e.u.d.ô`.
 
-In the example here above just replace ``your-personal-pseudo`` by your own identifier.
+In the example below just replace `your-personal-pseudo` by your own identifier.
 
 ```bash
 $ uns unik:create --type=individual --explicitValue="your-personal-pseudo" --coupon="LATIN-FREE-UNIKDOC"
