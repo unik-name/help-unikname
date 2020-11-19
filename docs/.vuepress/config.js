@@ -75,7 +75,6 @@ module.exports = {
       {
         title: "Introduction",
         //path: "/1-what-is-unikname/",
-        sidebarDepth: 0,
         children: [
           ["/1-what-is-unikname/", "What is Unikname?"],
           [
@@ -88,7 +87,6 @@ module.exports = {
       {
         title: "@unikname Universal ID",
         //path: "/2-unikname-id/",
-        sidebarDepth: 0,
         children: [
           ["/2-unikname-id/", "Getting started with @unikname ID"],
           [
@@ -127,7 +125,6 @@ module.exports = {
       // Unikname Connect
       {
         title: "Unikname Connect",
-        sidebarDepth: 0,
         children: [
           ["/3-unikname-connect/", "Getting started with Unikname Connect"],
           [
@@ -188,7 +185,6 @@ module.exports = {
       {
         title: "Key Concepts",
         path: "/4-key-concepts/",
-        sidebarDepth: 0,
         children: [
           "/4-key-concepts/what-is-my-unikname-app",
           // ["/4-key-concepts/what-is-ssid-cryptoaccount", "Self-Sovereign ID and Cryptoaccount"],
@@ -227,7 +223,7 @@ module.exports = {
     slugify: customSlugifyToHandleBadges,
     toc: {
       slugify: customSlugifyToHandleBadges,
-      includeLevel: [2],
     },
+    extractHeaders: ["h2", "h3", "h4"],
   },
 };
