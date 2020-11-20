@@ -38,7 +38,7 @@ Open your terminal on your desktop and enter the following first command:
 uns cryptoaccount:create
 ```
 
-Your cryptoaccount is immediately created. It has two unique public numbers called the **address** and the **publickey**, and is protected by two private secrets, the **privateKey** and the **passphrase**. 
+Your cryptoaccount is immediately generated. It has two unique public numbers called the **address** and the **publickey**, and is protected by two private secrets, the **privateKey** and the **passphrase**. 
 
 Here is an example of what you see on your screen:
 ```bash{8}
@@ -59,8 +59,10 @@ Then make an immediate backup of these information in a safe place.
 
 The most important part of them is the `passphrase`, also known as "secret recovery code".
 
-:::danger 
-It is very important to save your cryptoaccount information at this stage! **There's no way to recover it** nor to look for it later. **So do it right now!**
+:::danger Save sensitive information
+It is very important to save your cryptoaccount information at this stage! **There's no way to recover it** nor to look for it later.
+
+**So do it right now!**
 
 👉 Take care of spelling the 12 words of the passphrase. You should be able to access it for all your life long.
 

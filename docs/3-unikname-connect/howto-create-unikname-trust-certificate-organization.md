@@ -29,60 +29,75 @@ Your users see your trust certificate information when they sign-up and login to
 <hpicture noshadow caption="Example of Trust Certificate Information on Cryptomaniac Website">![Unikname Connect trust certificate example](./images/unc-trust-certificate-example.png)</hpicture>
 
 1. The @unikname ID of type organization. **Usually your brand**.
-2. The verified domain name where Unikname Connect is installed.
-3. The green shield, a button which allows users to check the validity of this information.
+1. The verified domain name where Unikname Connect is installed.
+1. The green shield, a button which allows users to check the validity of this information.
 
     **It proves the ownership of the domain by you**.
 
 <hpicture noshadow caption="Trust Certificate Link">![Unikname Connect trust certificate link](./images/unc-trust-certificate-message.png)</hpicture>
+
+4. The logo of your organization
+
 :::
+
+
+**Table of Content**
 
 [[TOC]]
 
 <hseparator/>
 
-## Step 1. Create a new crypto account
+## Step 1. Create a new cryptoaccount
 
-First you need to create a cryptoaccount with the CLI. **This one will be the cryptoaccount of your organization**, not your own. 
+First you need to create a cryptoaccount with the CLI. **This one will be the cryptoaccount of your organization**, not your own.
 
 You should've already done it for your individual @unikname, so the process is the same.
 
+**DO NOT USE THE SAME CRYPTOACCOUNT** as for your other individual @unikname.
+
 :::tip What is a Crypto Account?
-A crypto Account is a digital account maintained in a highly secure way by a decentralized network, a blockchain, in which all transactions between you and others are recorded. It is safer than a bank account. 
+A crypto Account is a digital account maintained in a highly secure way by a decentralized network, a blockchain, in which all transactions between you and others are recorded.
+It is safer than a bank account. 
 :::
 
 Open your terminal on your desktop and enter the following command: 
 ```bash 
 $ uns cryptoaccount:create
 ```
-The information of your newly created cryptoaccount are displayed: address, publicKey, privateKey, passphrase. Here is an example of what you see on your screen:
 
-```bash
+The cryptoaccount is immediately generated. It has two unique public numbers called the **address** and the **publickey**, and is protected by two private secrets, the **privateKey** and the **passphrase**. 
+
+Here is an example of what you see on your screen:
+```bash{8}
 » :warn: Backup your cryptoaccount information in a secure place.
 {
-  "address": "UTUaW62xycJWMhKASg9kjmqYJTuQ1wvmat",
-  "publicKey": "038e48ab5a8c9f5fbee7582102a913b209d705d9edd66024ba77897b50d04f45db",
-  "privateKey": "****************************************************************",
-  "passphrase": "**** ****** ***** ****** ******** ***** ********* ******* ****** ***** **** ******",
+  "address": "UgMrbSEAVf6b2jnJbqzDbtmVkY3ziqpWAx",
+  "publicKey": "03f2abc19eedadr693b04bf5656a7b809003d359eed883494991d81f23d5a3985",
+  "privateKey": "4ba4cb8619f538c610f8092251b83fhfd647e4cece0e26blfbb6b3aef15756c",
+  "passphrase": "artwork impulse lorem bounce solution naive ghost lottery stone club goat target",
   "network": "livenet"
 }
 ```
-> NOTA: In your case the stars are replaced by real values and the address and the publicKey are your own ones.
+> NOTA: these values are **samples** (more, they are invalid 😉), **don't use them for you**
 
-Then make an immediate backup of these information in a safe place. We're going to reuse it soon.
+Then make an immediate backup of these information in a safe place.
+
+The most important part of them is the `passphrase`, also known as "secret recovery code".
 
 ## Step 2. Create the @unikname ID for your organization
 
 Okay, now you can create the @unikname ID for your organization, using your BUSINESS COUPON CODE (see prerequisites here above) and using the information of the just created cryptoaccount.
 
-The @unikname ID for your organization must contain at least one letter and be longer than 6 characters.
-We suggest to choose one very close to your domain name but without the `.com` and without any other extension.
+The @unikname ID for your organization must follow these rules:
+- containing at least one letter and be longer than 6 characters
+- being very close to your domain name but without the `.com` and without any other extension
 
 Your @unikname is case, accent and separator insensitive like individual ones.
 That means if you choose `my-saas-platform-101` then you're protected against squatting with `mySaaS_platform101` or `mysaasplatform*101`
 
 :::warning
-Choose your organization @unikname identifier wisely. Keep in mind that once created this @unikname identifier will be permanently associated to your business and disclosed to the other users. 
+Choose your organization @unikname identifier wisely.
+Keep in mind that once created this @unikname identifier will be permanently associated to your business and disclosed to the other users. 
 :::
 
 Enter the following command replacing `my-saas-platform-101` by your own identifier, and replacing `MY-BUSINESS-COUPON` by the one you've obtained when you sign up.
@@ -91,36 +106,37 @@ Enter the following command replacing `my-saas-platform-101` by your own identif
 $ uns unik:create --type=organization --explicitValue="my-saas-platform-101" --coupon="MY-BUSINESS-COUPON"
 ```
 
-The CLI ask you for your passphrase. Then enter the passphrase of the cryptoaccount you've just created here above.
+The CLI ask you for the **passphrase** of your cryptoaccount.
 
-The output looks like this:
+**DO NOT GENERATE YOUR OWN PASSPHRASE**, you must use the one you've generated [in the previous section](#step-1-create-a-new-cryptoaccount).
+
+Then the result should look like this:
 ```bash
 {
   "data": {
-    "id": "2e5ae117eaf17b113ab5f01defc851730bbddbb5d9d3c00c462778be62a9134e",
+    "id": "f6018b8dcddbc9f8675577419c3493ffbc961876062655be43fce108e52408c0",
     "transaction": "f9718b85d6f88306e9eb3af4aa686897b8443e19251684976a6874c7f06a8378",
     "confirmations": 1
   }
 }
 ```
-> NOTA: The `id` is the unique technical ID of the @unikname created. This `id` is recorder in the blockchain and can be query with the <brand name="uns"/> blockchain explorer.
+> NOTA: The `id` is the unique technical ID of the @unikname created. This `id` is recorder in the blockchain and can be queried with the <brand name="uns"/> blockchain explorer ([example for the @unikname `@organization:unikname`](https://explorer.uns.network/uniks/f6018b8dcddbc9f8675577419c3493ffbc961876062655be43fce108e52408c0)).
 
-You @unikname is obfuscated within the blockchain so that means **nobody knows it unless you**. It's very important you remember the @unikname you've chosen! Nobody can help you to look for it nor to recover it. 
+Ok, now it's a good time to backup all these highly sensitive information in a safe place: 
 
-:::tip Information
-The strength of the cyber protection provided by Unikname Connect is based on the fact that you're the only one to own and control your @unikname and its digital keys. 
-:::
+:::danger Save sensitive information
+It is very important to save your sensitive information at this stage! **There's no way to recover them** nor to look for it later.
 
-Ok, now it's a good time to backup all these highly sensitive informations in a safe place: 
+**So do it right now!**
 
-- The cryptoaccount of your company: `address`, `publicKey`, `privateKey`, `passphrase`
-- The @unikname you've chosen, mentioning it's type: "organization", and its `id``
-- Take care of spelling the 12 words of the passphrase. You should be able to access it for all your life long.
+👉 The cryptoaccount of your company: `address`, `publicKey`, `privateKey`, `passphrase`
 
-If you use a password safe solution like [_Lastpass_, _Keepass_ (or others)](https://alternativeto.net/category/security/password-manager/) you're encouraged to save your information in it.
+👉 Take care of spelling the 12 words of the passphrase. You should be able to access it for all your company-life long.
 
-:::danger
-It is very important to save your cryptoaccount information at this stage! **There's no way to recover it** nor to look for it later. **So do it right now!**
+👉 The @unikname you've chosen, mentioning it's type: "organization", and its `id`
+Your @unikname is obfuscated within the blockchain so that means **nobody knows it unless you**.
+
+👉 You should use a password safe solution like [_Lastpass_, _Keepass_ (or others)](https://alternativeto.net/category/security/password-manager/), so you're encouraged to save your information in it.
 :::
 
 ## Step 3. Disclose the @unikname ID of your organization
