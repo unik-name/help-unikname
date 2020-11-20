@@ -1,6 +1,5 @@
 ---
 home: false
-title: "How to get my @unikname, with the CLI?"
 ---
 
 # How to get my first @unikname, with the CLI?
@@ -9,7 +8,9 @@ title: "How to get my @unikname, with the CLI?"
 Your own @unikname can be used everywhere and for multiple purposes. Also, if you already get one you don't need to get another one.
 :::
 
-There's multiple ways to get your own @unikname. The most user friendly one is to [get your @unikname directly within my.unikname.app.](./../2-unikname-id/howto-get-individual-unikname) But here we show you another way with the Command Line Interface which may seems more convenient for a developer or for a system administrator. Then we show you how to restore it within the App.
+There's multiple ways to get your own @unikname. The most user friendly one is to [get your @unikname directly within my.unikname.app.](../2-unikname-id/howto-get-individual-unikname) But here we show you another way with the Command Line Interface which may seems more convenient for a developer or for a system administrator. Then we show you how to restore it within the App.
+
+**Table of content**
 
 [[TOC]]
 
@@ -23,12 +24,13 @@ There's multiple ways to get your own @unikname. The most user friendly one is t
 
 <hseparator/>
 
-## Step 1. Create a new cryptoaccount, and make a backup of it
+## Step 1. Create a new cryptoaccount and backup it
 
 So now let's get your own @unikname. To get it with the CLI you need to run two commands, one to create a cryptoaccount and then one to use it to embed your unikname.
 
 :::tip What is a Crypto Account?
-A crypto Account is a digital account maintained in a highly secure way by a decentralized network, a blockchain, in which all transactions between you and others are recorded. It is safer than a bank account.
+A crypto Account is a digital account maintained in a highly secure way by a decentralized network, a blockchain, in which all transactions between you and others are recorded.
+It is safer than a bank account.
 :::
 
 Open your terminal on your desktop and enter the following first command: 
@@ -39,36 +41,45 @@ uns cryptoaccount:create
 Your cryptoaccount is immediately created. It has two unique public numbers called the **address** and the **publickey**, and is protected by two private secrets, the **privateKey** and the **passphrase**. 
 
 Here is an example of what you see on your screen:
-```bash
-uns cryptoaccount:create
+```bash{8}
+$ uns cryptoaccount:create
+
 » :warn: Backup your cryptoaccount information in a secure place.
 {
-  "address": "UgjxSEVso19wyURgVSGGAPSVLNGd98YV9B",
-  "publicKey": "02174192b83419a3a41c8063ba07946fca130f6069b314e63dbd5dcfa929e15dfd",
-  "privateKey": "****************************************************************",
-  "passphrase": "**** ****** ***** ****** ******** ***** ********* ******* ****** ***** **** ******",
+  "address": "UgjxSEVso15wyURgASGGBPSVLNGd98YV9",
+  "publicKey": "02174192b83419a3a41c8063ba07946fca130f6069b314e63ybd5dcfa929e15dfd",
+  "privateKey": "9488451e19aac12cr96112a1b23a0250ea8ee668d225dfd1411089p45e7a6ed0",
+  "passphrase": "case connect ecology sphere sick almost into original lorem upset rotate quarter",
   "network": "livenet"
 }
 ```
-> NOTA: In your case the stars are replaced by real values and the address and the publicKey are your own ones.
+> NOTA: these values are **samples** (more, they are invalid 😉), **don't use them for you**
 
-Then make an immediate backup of these information in a safe place. 
+Then make an immediate backup of these information in a safe place.
+
+The most important part of them is the `passphrase`, also known as "secret recovery code".
 
 :::danger 
 It is very important to save your cryptoaccount information at this stage! **There's no way to recover it** nor to look for it later. **So do it right now!**
 
-- Take care of spelling the 12 words of the passphrase. You should be able to access it for all your life long.
-- If you use a password safe solution like lastpass or keepass you're encouraged to save it on it
+👉 Take care of spelling the 12 words of the passphrase. You should be able to access it for all your life long.
+
+👉 You should use a password safe solution like [_Lastpass_, _Keepass_ (or others)](https://alternativeto.net/category/security/password-manager/), so you're encouraged to save your information in it.
 :::
 
 ## Step 2. Choose and create your own @unikname identifier
 
 Okay now you can create you own individual @unikname. 
 
-This @unikname may be your own for your life long, at least as long as you decide to keep it. You will use it to get access to your business account but also on your day to day life to login on any website or to authenticate informations on the web. So keep it **simple** and **easy to remember**. It could be your pseudo, your real name, or any funny name, it's up to you to decide.
+This @unikname may be your own for your life long, at least as long as you decide to keep it.
+You will use it to get access to your business account but also on your day to day life to login on any website or to authenticate informations on the web.
+So keep it **simple** and **easy to remember**.
+It could be your pseudo, your real name, or any funny name, it's up to you to decide.
 
 :::tip Information
-@unikname IDs for Individuals and @unikname IDs for Organization are different in their uses and in their capabilities. Here you need to create your individual one. We'll see how to create the one for your organization later on.
+@unikname IDs for Individuals and @unikname IDs for Organization are **different in their uses and in their capabilities**.
+Here you need to create your individual one.
+We'll see how to create the one for your organization later on.
 :::
 
 You can get a free @unikname, longer than 15 characters, with the coupon `LATIN-FREE-UNIKDOC`. The shorter ones are to be bought because they are rarer.
@@ -81,7 +92,11 @@ In the example below just replace `your-personal-pseudo` by your own identifier.
 $ uns unik:create --type=individual --explicitValue="your-personal-pseudo" --coupon="LATIN-FREE-UNIKDOC"
 ```
 
-The CLI ask you for the passphrase of your cryptoaccount, then the result should looks like this:
+The CLI ask you for the **passphrase** of your cryptoaccount.
+
+**DO NOT GENERATE YOUR OWN PASSPHRASE**, you must use the one you've generated [in the previous section](#step-1-create-a-new-cryptoaccount-and-backup-it).
+
+Then the result should look like this:
 
 ```bash
 Enter your crypto account passphrase (12 words phrase): *****************************
@@ -93,22 +108,26 @@ Enter your crypto account passphrase (12 words phrase): ************************
   }
 }
 ```
+
 :::danger
-You @unikname is obfuscated within the blockchain so that means **nobody knows it unless you**. It's very important you remember the @unikname you've chosen! Nobody can help you to look for it nor to recover it. It's a good practice to write it close to the pass phrase you've just backed-up.
+You @unikname is obfuscated within the blockchain so that means **nobody knows it unless you**.
+It's very important you **remember the @unikname you've chosen!**
+Nobody can help you to look for it nor to recover it.
+It's a good practice to write it close to the passphrase you've just backed-up.
 :::
 
 ## Step 3. Check your @unikname with the name resolver 
 
 One interesting tool provided by the CLI is the name resolver. You can query the network and check quickly every @unikname.
 
-Let's try to check ``@your-personal-pseudo`` status:
+Let's try to check `@your-personal-pseudo` status:
 ```bash
 $ uns resolve "@your-personal-pseudo?*" --format=raw
 ```
 
-This returns the public address of the crypto account of ``@your-personal-pseudo``:
+This returns the public address of the crypto account of `@your-personal-pseudo`:
 ```
-UgjxSEVso19wyURgVSGGAPSVLNGd98YV9B
+UgjxSEVso15wyURgASGGBPSVLNGd98YV9
 ```
 
 Done :+1:
@@ -131,11 +150,15 @@ More info on our blog post &rightarrow; [Progressive Web App (PWA) — The Next 
 
 :::
 
-Open a Chrome or Brave internet browser on your Android Smartphone or the Safari internet Browser on your iPhone/ihbox. Then go to [my.unikname.app](https://kover.link/c8rMyT).
+Open a Chrome or Brave internet browser on your Android Smartphone or the Safari internet Browser on your iPhone/iPad. Then go to [my.unikname.app](https://kover.link/c8rMyT).
 
 During the installation process you will have to setup your PIN Code. This PIN is specific to your Smartphone. It will be requested to unlock your app.
 
 Until done you're going to choose `restore your @unikname` button, and follow the process.
+
+You will need:
+- your chosen @unikname
+- **the passphrase** (or secret recovery key) you've used to create the @unikname you want to restore
 
 ![my.unikname.app](./images/bob-app-snapshot2.png)
 
