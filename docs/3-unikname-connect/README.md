@@ -37,9 +37,9 @@ _:warning: This step is not required if you already have your @unikname._</hbox>
 :zap: [4. Get your Unikname Connect Credentials?](./howto-get-unikname-connect-credentials)
 <hbox>These credentials are used to setup your website.</hbox>
 
-## Integrate Unikname Connect on your website
+## Install Unikname-Connect on your website
 
-For this integration, the process depends on your website:
+For this installation, the process depends on your website:
 
 | <!-- -->    | <!-- -->    | <!-- -->    |
 |:-------------:|:-------------:|:-------------:|
