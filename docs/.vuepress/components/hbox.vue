@@ -8,6 +8,7 @@
 <style lang="stylus" scoped>
 .hbox
     padding-left: 25px
+    margin-bottom: 15px
 
     th
         text-align left
