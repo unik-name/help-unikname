@@ -4,10 +4,14 @@
         @mouseover="iscardhover = true"
         @mouseleave="iscardhover = false" 
         :class="{ active: iscardhover && !this.disable , disablestyle: this.disable }">
-        <span class="text-content">
-            <h3 class="btn" > {{ title }} </h3>
-            <p class="description"><span :class="{ disablestyle: this.disable }">{{ description }}</span></p>
-        </span>
+        <div v-if="icon" class="icon">
+            <img :src="icon"/>
+        </div>
+        <div class="text-content">
+            <div v-if="title"><h3 class="btn" >{{ title }}</h3></div>
+            <!--span class="description"><span :class="{ disablestyle: this.disable }">{{ description }}</span></span-->
+            <div class="description">{{ description }}</div>
+        </div>
     </div>
 </a>
 </template>
@@ -21,6 +25,7 @@ export default {
     },
     props: { 
         title: {type: String, required:true},  
+        icon: {type: String},
         description: {type: String},
         url: {type: String},
         disable: {type: Boolean, required:false, default:false, },
@@ -35,7 +40,7 @@ export default {
 
 <style lang="stylus" scoped>
 .card
-  height 9.3em
+  height 8em
   width 17em
   min-width 17em
   display -webkit-box
@@ -52,32 +57,35 @@ export default {
   border-radius 16px
   overflow hidden
   text-align center
-  margin 0px 10px 0px 0px
+  margin 0px 10px 10px 0px
   background-color #EFF6F6
-
   .active 
     -webkit-box-shadow 10px 10px 17px #e1e1e3, -3px -3px 5px #e1e1e3
     box-shadow 10px 10px 17px #e1e1e3, -3px -3px 5px #e1e1e3
-
   h3
     font-size 1.1rem
     font-weight 700
-  
-  p
+    margin 0
+  .icon
+    margin-top 15px
+    height 40px
+    img
+        margin 0
+        max-width 100%
+        height 40px
+  .text-content
+    padding 10px
     font-size 0.9rem
-
-  .description
-    color #000
-    font-weight 400
+    .description
+        color #000
+        font-weight 400
+        margin-top 10px
 
 .active 
     // background-color #FE7644
     // color #fff
     -webkit-box-shadow 10px 10px 17px #e1e1e3, -3px -3px 5px #e1e1e3
     box-shadow 10px 10px 17px #e1e1e3, -3px -3px 5px #e1e1e3
-
-.text-content
-    padding 10px
 
 .btn
     //border 1px solid $accentColor

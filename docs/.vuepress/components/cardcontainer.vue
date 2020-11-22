@@ -15,7 +15,7 @@
   flex-direction row
 
   justify-content center
-  margin 0 -20px 10px 0
+  margin 40px -20px 20px 0
 
 </style>
 
