@@ -28,8 +28,6 @@ To make integration very easy we've developed a specific ready-to-use plugin. He
 <hseparator/>
 
 :::warning Prerequisites
-:heavy_check_mark: You've already obtained your own @unikname SSID
-<hbox>_See [How to get your personal @unikname with the CLI?](./../../howto-get-my-unikname-via-cli)_</hbox>
 :heavy_check_mark: You've signed-up for a Unikname-Connect account. Required to get your API keys.
 <hbox>_See [How to sign-up for a Unikname-Connect account?](./../../howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website

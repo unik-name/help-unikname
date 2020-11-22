@@ -30,8 +30,6 @@ Here under you will see how to setup your Auth0 account to use Unikname Connect.
 <hseparator/>
 
 :::warning Prerequisites
-:heavy_check_mark: You've already obtained your own @unikname SSID
-<hbox>_See [How to get your personal @unikname with the CLI?](./howto-get-my-unikname-via-cli)_</hbox>
 :heavy_check_mark: You've signed-up for a Unikname-Connect account
 <hbox>_See [How to sign-up for a Unikname-Connect account?](./howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
