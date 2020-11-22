@@ -34,22 +34,25 @@ To get your own <unid/>, first you need to install the `My Unikname App`, then c
 
 :zap: How to become an ambassador? _coming soon..._
 
-## Freemium and Premium @unikname
+## Freemium and Premium 
 
 :zap: How to get a premium @unikname? _coming soon..._
 
-## @unikname Lifecycle
+## Lifecycle
 
 :zap: how my @unikname goes live? _coming soon..._
 
 :zap: how to burn my @unikname? _coming soon..._
 
-## @unikname Properties and Badges
+## Properties and Badges
 
 :zap: How to manage my @unikname properties? _coming soon..._
 
 :zap: How to get @unikname badges? _coming soon..._
 
-## UNS @unikname tokens
+## UNS tokens
+
+:zap: [What is the User Rewarding System?](./../4-key-concepts/what-is-unikname-user-rewarding-system)
 
 :zap: How to earn @unikname UNS tokens? _coming soon..._
+
