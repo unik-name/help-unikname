@@ -110,7 +110,9 @@ export default {
         background-color lighten($accentColor, 10%)
   h2
     font-size 2rem
-    font-weight 800
+    font-weight 700
+    border-bottom 0px none
+    border-top 2px solid $borderColor
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0

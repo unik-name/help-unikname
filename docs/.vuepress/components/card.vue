@@ -35,7 +35,7 @@ export default {
 
 <style lang="stylus" scoped>
 .card
-  height 10em
+  height 9.3em
   width 17em
   min-width 17em
   display -webkit-box
@@ -52,7 +52,7 @@ export default {
   border-radius 16px
   overflow hidden
   text-align center
-  margin 10px 20px 10px 0px
+  margin 0px 10px 0px 0px
   background-color #EFF6F6
 
   .active 
