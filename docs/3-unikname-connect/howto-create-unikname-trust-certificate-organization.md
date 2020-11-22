@@ -3,7 +3,7 @@ home: false
 sidebarDepth: 4
 ---
 
-# How to create and setup the Unikname Trust Certificate for your organization?
+# How to create and setup the Unikname Trust Certificate for your website?
 
 ![install-unikname-connect-step](./images/install-unikname-connect-step2.png)
 
@@ -17,7 +17,7 @@ Here we explain how to create a @unikname of type Organization, how to disclose 
 :heavy_check_mark: You've already installed the Commande Line Interface tool on your desktop.  
 <hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
 :heavy_check_mark: Unikname Team has provided you your **``BUSINESS COUPON CODE``** (step 1)
-<hbox>_See [How to sign-up for a business account?](./howto-signup-business-account)_</hbox>
+<hbox>_See [How to sign-up for a Unikname-Connect Account?](./howto-signup-business-account)_</hbox>
 :::
 
 <div id="trust-appearance">&nbsp;<br/></div>

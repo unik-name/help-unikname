@@ -28,11 +28,11 @@ tags:
 :::warning Prerequisite
 :heavy_check_mark: You've already obtained your own @unikname SSID
 <hbox>_See [How to get your personal @unikname with the CLI?](./../../howto-get-my-unikname-via-cli)_</hbox>
-:heavy_check_mark: You've signed-up for a business account
-<hbox>_See [How to sign-up for a business account?](./../../howto-signup-business-account)_</hbox>
+:heavy_check_mark: You've signed-up for a Unikname-Connect account
+<hbox>_See [How to sign-up for a Unikname-Connect account?](./../../howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./../../howto-get-unikname-trust-certificate-organization)_</hbox>
-:heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
+:heavy_check_mark: During the sign-up process you've received your Unikname-Connect Account ID and your API secret key.
 
 :book: We assume you're familiar with Node.js programming language.
 
@@ -119,7 +119,7 @@ The best way to get initialized openid-client `Issuer` instance is by calling th
 The function then loads the standard OpenID Connect Authorization Server Metadata document and return a promise for the initialized issuer object.
 
 ```javascript
-// The Business Account ID you have received from Unikname's support request
+// The Unikname-Connect Account ID you have received from Unikname's support request
 const uniknameConnectBusinessAccountId = ...; // should be read from environment variables
 
 // The API secret key you have received from Unikname's support request
@@ -154,7 +154,7 @@ You should load this at the beginning of the startup of your server, and you mig
 
 | Attribut | Description |
 |--------|-----------|
-| `uniknameConnectBusinessAccountId` | The Business Account ID you have received from Unikname's support request |
+| `uniknameConnectBusinessAccountId` | The Unikname-Connect Account ID you have received from Unikname's support request |
 | `uniknameConnectApiSecretKey` | The API secret key you have received from Unikname's support request |
 
 :::warning Declare 404 and errors handlers at the right place

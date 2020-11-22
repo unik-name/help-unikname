@@ -30,11 +30,11 @@ To make integration very easy we've developed a specific ready-to-use plugin. He
 :::warning Prerequisites
 :heavy_check_mark: You've already obtained your own @unikname SSID
 <hbox>_See [How to get your personal @unikname with the CLI?](./../../howto-get-my-unikname-via-cli)_</hbox>
-:heavy_check_mark: You've signed-up for a business account. Required to get your API keys.
-<hbox>_See [How to sign-up for a business account?](./../../howto-signup-business-account)_</hbox>
+:heavy_check_mark: You've signed-up for a Unikname-Connect account. Required to get your API keys.
+<hbox>_See [How to sign-up for a Unikname-Connect account?](./../../howto-signup-business-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./../../howto-get-unikname-trust-certificate-organization)_</hbox>
-:heavy_check_mark: During the sign-up process you've received your Business Account ID and your API secret key.
+:heavy_check_mark: During the sign-up process you've received your Unikname-Connect Account ID and your API secret key.
 
 :book: We assume you're familiar with the Discourse installation process.
 :::
@@ -85,10 +85,10 @@ Then, configure the following attributes:
 
 | Attribut | Description |
 |--------|-----------|
-| `unikname connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
-| `unikname connect Business Account ID` | The Business Account ID you have received from Unikname's support request |
-| `unikname connect API secret key` | The API secret key you have received from Unikname's support request |
-| `unikname connect authorize scope` | `openid` by default |
+| `Unikname-Connect enabled`  | Of course, check this box to enable Unikname Connect login for your users |
+| `Unikname-Connect Account ID` | The Unikname-Connect Account ID you have received from Unikname's support request |
+| `Unikname-Connect API secret key` | The API secret key you have received from Unikname's support request |
+| `UniknameConnect authorize scope` | `openid` by default |
 
 ## Step 3. Test Unikname Connect on your Discourse Forum
 

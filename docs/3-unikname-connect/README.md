@@ -17,15 +17,15 @@ We guide you through the process to make it simple. Let's go 👉
 Before to start you need to install the CLI and to get your personal @unikname.
 
 :zap: [Install the CLI?](./howto-install-uns-cli)  
-<hbox>The <brand name="uns"/> Command Line Interface (the CLI) is required to set-up your business account.</hbox>
+<hbox>The <brand name="uns"/> Command Line Interface (the CLI) is required to set-up your Unikname-Connect account.</hbox>
 
 :zap: [Get your personal @unikname with the CLI?](./howto-get-my-unikname-via-cli)
 <hbox>We show you how to create your @unikname with the CLI and how to restore it into the App.  
 _:warning: This step is not required if you already have your @unikname._</hbox>
 
-## Setup your business account
+## Setup your Unikname-Connect account
 
-:zap: [1. Sign-up for a business account?](./howto-signup-business-account)
+:zap: [1. Sign-up for a Unikname-Connect account?](./howto-signup-business-account)
 <hbox>Sign-up and get the Business Coupon Code required to create the trust certificate for your organization.</hbox>
 
 :zap: [2. Get the trust certificate for your website, and to setup it?](./howto-create-unikname-trust-certificate-organization)

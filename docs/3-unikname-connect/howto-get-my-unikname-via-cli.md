@@ -74,7 +74,7 @@ It is very important to save your cryptoaccount information at this stage! **The
 Okay now you can create you own individual @unikname. 
 
 This @unikname may be your own for your life long, at least as long as you decide to keep it.
-You will use it to get access to your business account but also on your day to day life to login on any website or to authenticate informations on the web.
+You will use it to get access to your Unikname-Connect Account but also on your day to day life to login on any website or to authenticate information on the web.
 So keep it **simple** and **easy to remember**.
 It could be your pseudo, your real name, or any funny name, it's up to you to decide.
 
