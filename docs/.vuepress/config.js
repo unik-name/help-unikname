@@ -77,10 +77,6 @@ module.exports = {
         //path: "/1-what-is-unikname/",
         children: [
           ["/1-what-is-unikname/", "What is Unikname?"],
-          [
-            "/1-what-is-unikname/what-is-unikname-user-rewarding-system",
-            "User Rewarding system",
-          ],
         ],
       },
       // my @unikname
@@ -137,7 +133,7 @@ module.exports = {
           ],
           [
             "/3-unikname-connect/howto-signup-business-account",
-            "How to sign-up your business account?",
+            "How to sign-up Unikname-Connect account?",
           ],
           [
             "/3-unikname-connect/howto-create-unikname-trust-certificate-organization",
@@ -191,6 +187,7 @@ module.exports = {
           // ["/4-key-concepts/what-is-unikname-trust-certificate", "Trust Certificate"],
           // ["/4-key-concepts/what-is-safetypo", "Safe Typo"],
           // ["/4-key-concepts/what-is-oidc", "Open ID Connect"],
+          ["/4-key-concepts/what-is-unikname-user-rewarding-system","What is the User Rewarding system?"],
         ],
       },
       // Security group

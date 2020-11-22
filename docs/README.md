@@ -4,7 +4,7 @@ home: true
 
 <cardcontainer>
 <card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
-<card title="User Rewarding System" description="Everything about user rewards, and how to get it and to use it." url="/1-what-is-unikname/what-is-unikname-user-rewarding-system" />
+<!-- card title="User Rewarding System" description="Everything about user rewards, and how to get it and to use it." url="/1-what-is-unikname/what-is-unikname-user-rewarding-system" / -->
 <!-- card title="Key Concepts" description="" url="/4-key-concepts"/ --> 
 <card title="@unikname ID" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
 </cardcontainer>
@@ -14,7 +14,7 @@ home: true
 <!-- card title="@unikname Properties and Badges" description="" url="/2-unikname-id/#unikname-properties-and-badges" disable/ -->
 <!-- card title="UNS tokens" description="" url="/2-unikname-id/#uns-unikname-tokens" disable/ -->
 
-<hseparator/>
+<hseparator y="15px"/>
 
 ## Unikname Connect
 
@@ -22,15 +22,14 @@ home: true
 <card title="Getting started with Unikname Connect" description="The next-generation authentication solution" url="/3-unikname-connect"/>
 </cardcontainer>
 <cardcontainer>
-<card title="Install the CLI" description="The Command Line Interface is required to setup a business account" url="/3-unikname-connect/howto-install-uns-cli"/>
-<card title="Sign up for a business account" description="Get your credentials to activate Unikname Connect on your website" url="/3-unikname-connect/howto-signup-business-account"/>
-<card title="Trust Certificate for your website" description="Get and setup the @unikname Trust Certificate for your organization" url="/3-unikname-connect/howto-get-unikname-trust-certificate-organization"/>
-<card title="Example of integrations" description="See example of setup and code" url="/3-unikname-connect/example-of-integrations"/>
+<card title="Unikname Connect Account" description="Get your credentials to activate Unikname Connect on your website" url="/3-unikname-connect/howto-signup-business-account"/>
+<card title="Trust Certificate" description="Get and setup the @unikname Trust Certificate for your website" url="/3-unikname-connect/howto-create-unikname-trust-certificate-organization"/>
+<!--card title="Example of integrations" description="See example of setup and code" url="/3-unikname-connect/example-of-integrations"/-->
 <!-- card title="Join the partnership program" description="coming soon..." url="/3-unikname-connect/howto-join-the-partnership-program" disable / -->
 <!-- card title="UX UI Signup and Login Guides" description="coming soon..." url="/3-unikname-connect/ux-ui-signup-login-guides" disable / -->
 </cardcontainer>
 
-<hseparator/>
+<hseparator y="15px"/>
 
 ## Security
 
@@ -40,7 +39,7 @@ home: true
 <card title="Participate in securing the network" description="coming soon..." url="/5-security/securing-the-uns-network" disable />
 </cardcontainer>
 
-<hseparator/>
+<hseparator y="15px"/>
 
 ## More help
 
