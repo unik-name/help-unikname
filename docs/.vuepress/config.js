@@ -33,6 +33,9 @@ module.exports = {
     "@spacelephantlabs/vuepress-plugin-matomo": {
       siteId: 5,
     },
+    "@spacelephantlabs/vuepress-plugin-rocketchat-livechat": {
+      rocketChatUrl: "https://spacelephant.rocket.chat/",
+    },
   },
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
@@ -75,9 +78,7 @@ module.exports = {
       {
         title: "Introduction",
         //path: "/1-what-is-unikname/",
-        children: [
-          ["/1-what-is-unikname/", "What is Unikname?"],
-        ],
+        children: [["/1-what-is-unikname/", "What is Unikname?"]],
       },
       // my @unikname
       {
@@ -187,7 +188,10 @@ module.exports = {
           // ["/4-key-concepts/what-is-unikname-trust-certificate", "Trust Certificate"],
           // ["/4-key-concepts/what-is-safetypo", "Safe Typo"],
           // ["/4-key-concepts/what-is-oidc", "Open ID Connect"],
-          ["/4-key-concepts/what-is-unikname-user-rewarding-system","What is the User Rewarding system?"],
+          [
+            "/4-key-concepts/what-is-unikname-user-rewarding-system",
+            "What is the User Rewarding system?",
+          ],
         ],
       },
       // Security group
