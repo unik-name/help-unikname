@@ -24,7 +24,7 @@ export default {
         }
     },
     props: { 
-        title: {type: String, required:true},  
+        title: {type: String},  
         icon: {type: String},
         description: {type: String},
         url: {type: String},
