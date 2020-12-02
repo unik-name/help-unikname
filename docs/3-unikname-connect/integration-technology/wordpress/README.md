@@ -130,3 +130,17 @@ New users are now able to use their @unikname SSID to sign-up to your Wordpress 
 
 If you’re having issues when connecting (access denied ...), check that the credentials (the @unikname of your organization, Unikname Connect secret, client id/secret ...) you are using to connect to <brand name="UNC"/> authentication server are the good one.
 
+### When connecting, my users are stuck at https://mydomain.com/?OIDCCallback=UniknameConnect&code=...
+
+Some WordPress administrators have reported weird interactions between our TLS Let's Encrypt certificate and WordPress installations with `fsockopen` on PHP 7.3.
+
+Example of errors you might see in your WordPress `debug.log` file ([if enabled](https://wordpress.org/support/article/debugging-in-wordpress/#wp_debug_log)):
+
+```
+SSL operation failed with code 1. OpenSSL Error messages:
+error:14094458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): unable to connect to ssl://connect.unikname.com:443 (Unknown error)
+```
+
+In this case, you need to install `php-curl` on your server, which works fine.

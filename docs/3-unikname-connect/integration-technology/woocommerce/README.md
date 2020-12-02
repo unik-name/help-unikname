@@ -137,5 +137,4 @@ New users are now able to use their @unikname SSID to sign-up to your Wordpress 
 
 ## Troubleshooting
 
-If you’re having issues when connecting (access denied ...), check that the credentials (the @unikname of your organization, Unikname Connect secret, client id/secret ...) you are using to connect to <brand name="UNC"/> authentication server are the good one.
-
+See [WordPress troubleshooting section](../wordpress/#troubleshooting).
