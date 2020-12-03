@@ -144,3 +144,9 @@ stream_socket_client(): unable to connect to ssl://connect.unikname.com:443 (Unk
 ```
 
 In this case, you need to install `php-curl` on your server, which works fine.
+
+### Compatibility with WP-Cerber plugin
+
+If you are a user of the feature "Custom login URL" feature of WP-Cerber plugin, you need also to enable the "deferred rendering" option to display the Unikname Connect button within the renamed login page.
+
+See this option in the WP-Cerber plugin settings: https://wpcerber.com/user-switching-with-wp-cerber/
