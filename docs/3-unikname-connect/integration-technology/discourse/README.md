@@ -29,7 +29,7 @@ To make integration very easy we've developed a specific ready-to-use plugin. He
 
 :::warning Prerequisites
 :heavy_check_mark: You've signed-up for a Unikname-Connect account. Required to get your API keys.
-<hbox>_See [How to sign-up for a Unikname-Connect account?](./../../howto-signup-business-account)_</hbox>
+<hbox>_See [How to sign-up for a Unikname-Connect account?](./../../howto-signup-unconnect-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./../../howto-get-unikname-trust-certificate-organization)_</hbox>
 :heavy_check_mark: During the sign-up process you've received your Unikname-Connect Account ID and your API secret key.

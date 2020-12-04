@@ -25,7 +25,7 @@ _:warning: This step is not required if you already have your @unikname._</hbox>
 
 ## Setup your Unikname-Connect account
 
-:zap: [1. Sign-up for a Unikname-Connect account?](./howto-signup-business-account)
+:zap: [1. Sign-up for a Unikname-Connect account?](./howto-signup-unconnect-account)
 <hbox>Sign-up and get the Coupon Code required to create the trust certificate for your organization.</hbox>
 
 :zap: [2. Get the trust certificate for your website, and to setup it?](./howto-create-unikname-trust-certificate-organization)

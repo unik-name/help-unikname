@@ -43,6 +43,6 @@
   status = 301
 
 [[redirects]]
-  from = "/3-unikname-connect/howto-signup-business-account.html"
-  to =   "/3-unikname-connect/howto-signup-unconnect-account.html"
+  from = "/3-unikname-connect/howto-signup-business-account*"
+  to =   "/3-unikname-connect/howto-signup-unconnect-account:splat"
   status = 301

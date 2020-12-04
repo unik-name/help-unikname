@@ -27,7 +27,7 @@ tags:
 
 :::warning Prerequisite
 :heavy_check_mark: You've signed-up for a Unikname-Connect account
-<hbox>_See [How to sign-up for a Unikname-Connect account?](./../../howto-signup-business-account)_</hbox>
+<hbox>_See [How to sign-up for a Unikname-Connect account?](./../../howto-signup-unconnect-account)_</hbox>
 :heavy_check_mark: You've got and setup the Trust certificate for your website
 <hbox>_See [How to get and setup the trust certificate for your website?](./../../howto-get-unikname-trust-certificate-organization)_</hbox>
 :heavy_check_mark: During the sign-up process you've received your Unikname-Connect Account ID and your API secret key.
