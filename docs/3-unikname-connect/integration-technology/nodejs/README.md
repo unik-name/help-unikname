@@ -118,7 +118,7 @@ The function then loads the standard OpenID Connect Authorization Server Metadat
 
 ```javascript
 // The Unikname-Connect Account ID you have received from Unikname's support request
-const uniknameConnectBusinessAccountId = ...; // should be read from environment variables
+const uniknameConnectAccountId = ...; // should be read from environment variables
 
 // The API secret key you have received from Unikname's support request
 const uniknameConnectApiSecretKey = ...; // should be read from environment variables
@@ -126,7 +126,7 @@ const uniknameConnectApiSecretKey = ...; // should be read from environment vari
 const uniknameConnectIssuer = await Issuer.discover('https://connect.unikname.com/oidc/.well-known/openid-configuration');
 
 var client = new uniknameConnectIssuer.Client({
-  client_id: uniknameConnectBusinessAccountId,
+  client_id: uniknameConnectAccountId,
   client_secret: uniknameConnectApiSecretKey,
 
   // This URL will be called later by your user's browser at the end of connection process
@@ -152,7 +152,7 @@ You should load this at the beginning of the startup of your server, and you mig
 
 | Attribut | Description |
 |--------|-----------|
-| `uniknameConnectBusinessAccountId` | The Unikname-Connect Account ID you have received from Unikname's support request |
+| `uniknameConnectAccountId` | The Unikname-Connect Account ID you have received from Unikname's support request |
 | `uniknameConnectApiSecretKey` | The API secret key you have received from Unikname's support request |
 
 :::warning Declare 404 and errors handlers at the right place

@@ -133,7 +133,7 @@ module.exports = {
             "How to get your personal @unikname?",
           ],
           [
-            "/3-unikname-connect/howto-signup-business-account",
+            "/3-unikname-connect/howto-signup-unconnect-account",
             "How to sign-up Unikname-Connect account?",
           ],
           [

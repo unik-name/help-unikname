@@ -9,15 +9,15 @@ sidebarDepth: 4
 
 You've already discovered @unikname ID for individual where the main purpose is to allow people to keep full control of their Digital Identity and to keep their web authentications fully private. There's another type of @unikname ID dedicated for organization.
 
-**@unikname IDs of type Organization** are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocol. Combined with the domain name of your website it offers a strong cyber-protection for your user account. The @unikname ID of type organization can only be created with a ``BUSINESS COUPON CODE`` obtained after human verification and with the Command Line Interface tool (the CLI).
+**@unikname IDs of type Organization** are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocol. Combined with the domain name of your website it offers a strong cyber-protection for your user account. The @unikname ID of type organization can only be created with a `UNIKNAME-CONNECT COUPON CODE` obtained after human verification and with the Command Line Interface tool (the CLI).
 
 Here we explain how to create a @unikname of type Organization, how to disclose it publicly, and how to link it with your website domain name and to make it your trust certificate.
 
 :::warning Prerequisites
 :heavy_check_mark: You've already installed the Commande Line Interface tool on your desktop.  
 <hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
-:heavy_check_mark: Unikname Team has provided you your **``BUSINESS COUPON CODE``** (step 1)
-<hbox>_See [How to sign-up for a Unikname-Connect Account?](./howto-signup-business-account)_</hbox>
+:heavy_check_mark: Unikname Team has provided you your **`UNIKNAME-CONNECT COUPON CODE`** (step 1)
+<hbox>_See [How to sign-up for a Unikname-Connect Account?](./howto-signup-unconnect-account)_</hbox>
 :::
 
 <div id="trust-appearance">&nbsp;<br/></div>
@@ -86,7 +86,7 @@ The most important part of them is the `passphrase`, also known as "secret recov
 
 ## Step 2. Create the @unikname ID for your organization
 
-Okay, now you can create the @unikname ID for your organization, using your BUSINESS COUPON CODE (see prerequisites here above) and using the information of the just created cryptoaccount.
+Okay, now you can create the @unikname ID for your organization, using your UNIKNAME-CONNECT COUPON CODE (see prerequisites here above) and using the information of the just created cryptoaccount.
 
 The @unikname ID for your organization must follow these rules:
 - containing at least one letter and be longer than 6 characters
@@ -97,13 +97,14 @@ That means if you choose `my-saas-platform-101` then you're protected against sq
 
 :::warning
 Choose your organization @unikname identifier wisely.
-Keep in mind that once created this @unikname identifier will be permanently associated to your business and disclosed to the other users. 
+
+Keep in mind that once created this @unikname identifier will be permanently associated to your organization and disclosed to the other users. 
 :::
 
-Enter the following command replacing `my-saas-platform-101` by your own identifier, and replacing `MY-BUSINESS-COUPON` by the one you've obtained when you sign up.
+Enter the following command replacing `my-saas-platform-101` by your own identifier, and replacing `MY-UNIKNAME-CONNECT-COUPON` by the one you've obtained when you sign up.
 
 ```bash
-$ uns unik:create --type=organization --explicitValue="my-saas-platform-101" --coupon="MY-BUSINESS-COUPON"
+$ uns unik:create --type=organization --explicitValue="my-saas-platform-101" --coupon="MY-UNIKNAME-CONNECT-COUPON"
 ```
 
 The CLI ask you for the **passphrase** of your cryptoaccount.

@@ -49,7 +49,7 @@ Unikname&trade; makes the internet safer and protect user's privacy thanks to Se
 Unikname Connect is a privacy-by-design authentication solution, rewarding users who want to make internet a safer place.
 </p>
 
-Unikname&trade; is an European next-generation authentication solution, passwordless, and working with a @unikname (a pseudo). Private-by-design and secured by the uns.network blockchain, it's a reliable alternate to former GAFAM social authentication solutions.
+Unikname&trade; is an European next-generation authentication solution, passwordless, and working with a @unikname (a pseudo). Private-by-design and secured by the uns.network blockchain, it's a reliable alternate to former social authentication solutions.
 
 
 ### Privacy-by-design

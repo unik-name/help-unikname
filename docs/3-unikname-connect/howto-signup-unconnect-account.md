@@ -15,7 +15,7 @@ This sign-up process is quite easy, you only need to send to us some information
 :checkered_flag: We plan to provide you solution to sign-up your Unikname-Connect account online. It's under development. In the meantime you need to get in contact with our support team to do it.
 :::
 
-So, send us an eMail to [business-hotline@unikname.com](mailto:business-hotline@unikname.com?subject=sign-up%20for%20a%20Unikname%20Connect20Account&body=Hi%2C%0A%0AI%20would%20like%20to%20sign-up%20for%20a%20Unikname%20Connect%20Account.%20Here%20are%20the%20requested%20information%3A%20%0A%0A-%20the%20URL%20of%20the%20website%20I%20would%20like%20to%20integrate%20Unikname%20Connect%20%3D%20%3F%0A-%20the%20legal%20name%20of%20my%20organization%20%3D%20%3F%0A-%20my%20full%20name%20and%20my%20role%20in%20the%20organization%20%3D%20%3F%0A-%20my%20eMail%20%3D%20%3F%0A-%20my%20phone%20number%20(including%20the%20country%20code)%20%3D%20%3F%0A%0AThank%20you%20) with the following information:
+So, send us an eMail to [support@unikname.com](mailto:support@unikname.com?subject=sign-up%20for%20a%20Unikname%20Connect20Account&body=Hi%2C%0A%0AI%20would%20like%20to%20sign-up%20for%20a%20Unikname%20Connect%20Account.%20Here%20are%20the%20requested%20information%3A%20%0A%0A-%20the%20URL%20of%20the%20website%20I%20would%20like%20to%20integrate%20Unikname%20Connect%20%3D%20%3F%0A-%20the%20legal%20name%20of%20my%20organization%20%3D%20%3F%0A-%20my%20full%20name%20and%20my%20role%20in%20the%20organization%20%3D%20%3F%0A-%20my%20eMail%20%3D%20%3F%0A-%20my%20phone%20number%20(including%20the%20country%20code)%20%3D%20%3F%0A%0AThank%20you%20) with the following information:
 
 - the URL of the website where you're integrating Unikname Connect.
 - the legal name of your organization

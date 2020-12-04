@@ -41,3 +41,8 @@
   from = "/business-account/*"
   to =   "/3-unikname-connect/howto-signup-business-account.html"
   status = 301
+
+[[redirects]]
+  from = "/3-unikname-connect/howto-signup-business-account.html"
+  to =   "/3-unikname-connect/howto-signup-unconnect-account.html"
+  status = 301
