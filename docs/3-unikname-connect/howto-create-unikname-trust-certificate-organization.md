@@ -26,7 +26,7 @@ Here we explain how to create a @unikname of type Organization, how to disclose 
 
 Your users see your trust certificate information when they sign-up and login to your website.
 
-<hpicture noshadow caption="Example of Trust Certificate Information on Cryptomaniac Website">![Unikname Connect trust certificate example](./images/unc-trust-certificate-example.png)</hpicture>
+<hpicture noshadow caption="Example of Trust Certificate Information on Cryptomaniac Website - Click to see it live">[![Unikname Connect trust certificate example](./images/unc-trust-certificate-example.png)](https://www.cryptomaniac.fr/?OIDCCallback=UniknameConnect)</hpicture>
 
 1. The @unikname ID of type organization. **Usually your brand**.
 1. The verified domain name where Unikname Connect is installed.
