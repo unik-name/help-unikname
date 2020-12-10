@@ -62,7 +62,7 @@ It is safer than a bank account.
 
 Open your terminal on your desktop and enter the following command: 
 ```bash 
-$ uns cryptoaccount:create
+uns cryptoaccount:create
 ```
 
 The cryptoaccount is immediately generated. It has two unique public numbers called the **address** and the **publickey**, and is protected by two private secrets, the **privateKey** and the **passphrase**. 
@@ -104,7 +104,7 @@ Keep in mind that once created this @unikname identifier will be permanently ass
 Enter the following command replacing `my-saas-platform-101` by your own identifier, and replacing `MY-UNIKNAME-CONNECT-COUPON` by the one you've obtained when you sign up.
 
 ```bash
-$ uns unik:create --type=organization --explicitValue="my-saas-platform-101" --coupon="MY-UNIKNAME-CONNECT-COUPON"
+uns unik:create --type=organization --explicitValue="my-saas-platform-101" --coupon="MY-UNIKNAME-CONNECT-COUPON"
 ```
 
 The CLI ask you for the **passphrase** of your cryptoaccount.
@@ -147,7 +147,7 @@ Unikname of type Organization must be publicly disclosed in order to be used wit
 Run the following command to disclose the @unikname of your organization:
 
 ```bash
-$ uns unik:disclose "@organization:my-saas-platform-101" -e "my-saas-platform-101"
+uns unik:disclose "@organization:my-saas-platform-101" -e "my-saas-platform-101"
 ```
 
 > Replace `my-saas-platform-101` by the @unikname of type organization you want to disclose. You need to change it at both places. For more informations about the Disclose command, see the [uns.network documentation](https://docs.uns.network/uns-use-the-network/cli.html#unik-disclose).
@@ -174,7 +174,7 @@ Please, [read the explanations above in this current documentation for more info
 First of all enter the following command to generate the verification package, using the [`properties:register` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-register):
 
 ```bash
-$ uns properties:register "@organization:my-saas-platform-101" --value "www.my-saas-platform-101.com" 
+uns properties:register "@organization:my-saas-platform-101" --value "www.my-saas-platform-101.com" 
 ```
 > Replace `my-saas-platform-101` by your @unikname of type Organization and `www.my-saas-platform-101.com` by the URL of your own website.
 
@@ -250,7 +250,7 @@ The **`verificationKey`** is a 86-length characters and digits, such as `fi5TrRl
 Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-verify):
 
 ```bash
-$ uns properties:verify "@organization:my-saas-platform-101" --url-channel html
+uns properties:verify "@organization:my-saas-platform-101" --url-channel html
 ```
 
 > Replace `my-saas-platform-101` by your @unikname of type Organization.
@@ -330,7 +330,7 @@ The **verification package** is a file named `uns-verification.txt`, which conta
 Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-verify):
 
 ```bash
-$ uns properties:verify "@organization:my-saas-platform-101" --url-channel file
+uns properties:verify "@organization:my-saas-platform-101" --url-channel file
 ```
 
 > Replace `my-saas-platform-101` by your @unikname of type Organization.

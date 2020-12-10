@@ -43,7 +43,7 @@ You're welcome to [discuss with delegates in the Unikname Forum](https://forum.u
 Voting for a delegate of type organization requires a simple line of command with the CLI:
 
 ```bash
-$ uns delegate:vote "@organization:SpaceElephant"
+uns delegate:vote "@organization:SpaceElephant"
 ```
 > NOTA: replace `SpaceElephant` by the delegate you've chosen.
 

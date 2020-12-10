@@ -42,7 +42,7 @@ Your cryptoaccount is immediately generated. It has two unique public numbers ca
 
 Here is an example of what you see on your screen:
 ```bash{8}
-$ uns cryptoaccount:create
+uns cryptoaccount:create
 
 » :warn: Backup your cryptoaccount information in a secure place.
 {
@@ -91,7 +91,7 @@ Your @unikname is case, accent and separator insensitive. That means that if you
 In the example below just replace `your-personal-pseudo` by your own identifier.
 
 ```bash
-$ uns unik:create --type=individual --explicitValue="your-personal-pseudo" --coupon="LATIN-FREE-UNIKDOC"
+uns unik:create --type=individual --explicitValue="your-personal-pseudo" --coupon="LATIN-FREE-UNIKDOC"
 ```
 
 The CLI ask you for the **passphrase** of your cryptoaccount.
@@ -124,7 +124,7 @@ One interesting tool provided by the CLI is the name resolver. You can query the
 
 Let's try to check `@your-personal-pseudo` status:
 ```bash
-$ uns resolve "@your-personal-pseudo?*" --format=raw
+uns resolve "@your-personal-pseudo?*" --format=raw
 ```
 
 This returns the public address of the crypto account of `@your-personal-pseudo`:
