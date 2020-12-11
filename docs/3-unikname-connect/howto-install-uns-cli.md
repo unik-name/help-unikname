@@ -1,9 +1,8 @@
 ---
 home: false
-title: "How to install the Commend Line Interface (CLI)?"
 ---
 
-# How to install the Command Line Interface (CLI)
+# How to install the Command Line Interface (CLI)?
 
 The <brand name="uns"/> Command Line Interface (CLI) is a powerful tool allowing you to manage your @uniknames and to interact directly with the <brand name="uns"/> blockchain. This Command Line Interface tool is required to setup a Unikname-Connect Account.
 

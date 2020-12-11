@@ -1,6 +1,5 @@
 ---
 home: false
-title: "How to sign-up for Unikname-Connect account?"
 ---
 
 # How to sign-up for your Unikname-Connect Account?

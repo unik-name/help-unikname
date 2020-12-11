@@ -1,6 +1,5 @@
 ---
 home: false
-title: "How to vote for your delegate?"
 ---
 
 # How to vote for your delegate?
