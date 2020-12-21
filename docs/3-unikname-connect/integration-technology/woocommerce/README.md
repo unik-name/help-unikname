@@ -32,6 +32,8 @@ Many WooCommerce websites are running with Unikname Connect such as [La Bande Du
 
 <hseparator/>
 
+<div id="prerequisites"></div>
+
 :::warning Prerequisites
 :heavy_check_mark: You've signed-up for a Unikname-Connect account
 <hbox>_See [How to sign-up for a Unikname-Connect account?](./../../howto-signup-unconnect-account)_</hbox>
@@ -63,7 +65,10 @@ You can install Unikname Connect directly from your WordPress Dashboard.
 1. Install `Unikname Connect` plugin
 1. Then `enable` it
 
-### Install with Composer
+### Advanced installation methods
+
+::: details Advanced installation methods
+#### Install with Composer
 
 If you're using Composer to manage WordPress, add WordPress-Unikname-Connect to your project's dependencies through the [WordPress Packagist repository](https://wpackagist.org/search?q=unikname+connect).
 
@@ -71,9 +76,9 @@ Run de following command:
 ```
 $ composer require wpackagist-plugin/unikname-connect
 ```
-### Install from the Github Repository
+#### Install from the Github Repository
 
-#### Stable version of the plugin
+##### Stable version of the plugin
 
 1. Go to [the release page of WordPress-Unikname-Connect plugin](https://github.com/unik-name/wordpress-unikname-connect/releases)
 1. Choose the version you want to install by clicking on its version. You should select the last one available
@@ -86,28 +91,30 @@ $ composer require wpackagist-plugin/unikname-connect
 1. Upload the `wordpress-unikname-connect` directory to your `/wp-content/plugins/` WordPress server directory
 1. Activate _Unikname Connect_ plugin from your Plugins page
 
-#### Unstable/development version of the plugin
+##### Unstable/development version of the plugin
 
-::: warning ⚠️
-
-With this method, you are going to install a **development** version of the plugin, which **might be unstable**.
+:warning: With this method, you are going to install a **development** version of the plugin, which **might be unstable**.
 
 Install it only to test unreleased features, to check if a bug as been correctly fixed...
-
-:::
 
 1. Download [WordPress-Unikname-Connect plugin](https://github.com/unik-name/wordpress-unikname-connect/archive/master.zip)
 1. Extract the downloaded ZIP archive
 1. Rename the directory `wordpress-unikname-connect-master` to `wordpress-unikname-connect`
 1. Upload the `wordpress-unikname-connect` directory to your `/wp-content/plugins/` WordPress server directory
 1. Activate _Unikname Connect_ plugin from your Plugins page
+
+:::
+
 ## Step 2. Setup the WordPress Plugin
 
-### Basic configuration
+### General
 
 1. Enable the `Enable Unikname Connect`
-1. Configure `Unikname Connect @unikname` with the Unikname-Connect Account ID given from Unikname Team Support
-1. Configure `Unikname Connect Secret` with the API Secret Key given from Unikname Team Support
+
+Configure the information **provided by the Unikname Support Team (see <a href="#prerequisites">Prerequisites</a>)**:
+
+2. `Unikname-Connect @unikname` with the Unikname Connect Account ID
+2. `Unikname-Connect Secret` with the API secret key
 
 <hpicture>![Unikname Connect for WordPress basic configuration](../wordpress/wordpress-config1.png)</hpicture>
 
