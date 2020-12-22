@@ -107,3 +107,7 @@ Your eMail is not linked with your @unikname ID nor any other information.
 **All done!** 
 
 You're now ready to get you own <unid/> or to restore one you already own.
+
+## Troubleshooting
+
+If you encounter issues when installing the application My Unikname, [see our troubleshooting section](/2-unikname-id/troubleshooting/my-unikname-installation-troubleshooting).

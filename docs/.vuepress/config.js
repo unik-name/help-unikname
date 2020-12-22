@@ -117,6 +117,15 @@ module.exports = {
           // ["/2-unikname-id/howto-get-unikname-badges", "How to get @unikname badges?"],
 
           // ["/2-unikname-id/howto-earn-uns-tokens", "How to earn UNS tokens?"],
+          {
+            title: "Troubleshooting",
+            children: [
+              [
+                "/2-unikname-id/troubleshooting/my-unikname-installation-troubleshooting.md",
+                "My Unikname Installation",
+              ],
+            ],
+          },
         ],
       },
       // Unikname Connect
