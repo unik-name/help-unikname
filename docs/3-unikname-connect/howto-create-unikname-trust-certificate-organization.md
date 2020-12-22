@@ -14,7 +14,7 @@ You've already discovered @unikname ID for individual where the main purpose is 
 Here we explain how to create a @unikname of type Organization, how to disclose it publicly, and how to link it with your website domain name and to make it your trust certificate.
 
 :::warning Prerequisites
-:heavy_check_mark: You've already installed the Commande Line Interface tool on your desktop.  
+:heavy_check_mark: You've already installed the Command Line Interface tool on your desktop.  
 <hbox>_See [How to install the CLI?](./howto-install-uns-cli)_</hbox>
 :heavy_check_mark: Unikname Team has provided you your **`UNIKNAME-CONNECT COUPON CODE`** (step 1)
 <hbox>_See [How to sign-up for a Unikname-Connect Account?](./howto-signup-unconnect-account)_</hbox>
@@ -154,6 +154,13 @@ uns unik:disclose "@organization:my-saas-platform-101" -e "my-saas-platform-101"
 
 ## Step 4. Prove the ownership of your website
 
+::: tip Dedicated documentation
+
+Please note that we also have dedicated documentations to add the verification package to your website for:
+- [WordPress/WooCommerce websites](/6-wp-wordpress/howto-verify-url-domain.html)
+
+:::
+
 At this step you're going to prove the ownership of your website and to link it to the @unikname of your Organization.
 
 Unikname of type Organization must be linked with your web domain name in order to be used with <brand name="UNC"/> on your website.
@@ -208,17 +215,6 @@ There are several ways to add the verification package to your website:
 
 * Either [add an HTML <meta> tag to your website](#add-an-html-tag-to-your-website), with the **`verificationKey`**
 * Or [upload a text file to your website](#upload-a-text-file-to-your-website) with the **_verification package_**
-
-<!--
-::: tip
-
-Please note that we also have dedicated documentations to add the verification package to your website for:
-- [Discourse forums]()
-- [WordPress/WooCommerce websites]()
-
-:::
-
--->
 
 #### Add an HTML <meta> tag to your website
 

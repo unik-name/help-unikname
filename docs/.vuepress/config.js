@@ -203,6 +203,11 @@ module.exports = {
           ],
         ],
       },
+      // WordPress plugin
+      {
+        title: "WordPress Plugin",
+        children: ["/6-wp-wordpress/howto-verify-url-domain.md"],
+      },
       // Security group
       {
         title: "Security",
