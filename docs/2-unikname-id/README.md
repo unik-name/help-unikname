@@ -1,11 +1,9 @@
 ---
-home: false
-Title: "@unikname ID: Your Universal Identifier"
 prev: false
 next: false
 ---
 
-# @Unikname ID : your Universal ID
+# @Unikname ID: your Universal ID
 
 <p class="focustext">
 @unikname ID is a Self-Sovereign Universal IDentifier, giving its owner total control over its digital life.
@@ -19,6 +17,13 @@ With your <unid/> and `My.Unikname.App` you can control your digital life:
 <hpicture caption="Why to use your @unikname ID to connect to websites?">![unikname ID value proposition](./images/uniknameid_value.png)</hpicture>
 
 To get your own <unid/>, first you need to install the `My Unikname App`, then choose a unique name and root it into the global <brand name="uns"/>. 
+
+<!-- 2021-01-14
+Do not remove this DOT below (broken menu on left otherwise)
+Ask for DLE or FAB for explanations
+No time to fix it properly ...
+ -->
+.
 
 ## Getting Started
 
