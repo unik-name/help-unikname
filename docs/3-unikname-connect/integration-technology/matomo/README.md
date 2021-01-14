@@ -32,10 +32,7 @@ It's easy to connect to Matomo with its @unikname with a simple plugin and a ver
 
 ## Step 1. Install Login OIDC plugin
 
-Install it via Matomo Marketplace (for [Matomo 3](https://plugins.matomo.org/LoginOIDC?matomoversion=3)), or from the [original repository](https://github.com/dominik-th/matomo-plugin-LoginOIDC).
-
-This plugin is not compatible with Matomo 4 yet.
-
+Install it via Matomo Marketplace (for [Matomo 3](https://plugins.matomo.org/LoginOIDC?matomoversion=3) or [Matomo 4](https://plugins.matomo.org/LoginOIDC?matomoversion=4)), or from the [original repository](https://github.com/dominik-th/matomo-plugin-LoginOIDC).
 
 ## Step 2. Setup Login OIDC plugin
 
