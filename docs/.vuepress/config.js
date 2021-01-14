@@ -111,12 +111,12 @@ module.exports = {
           ],
 
           // ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
-          // ["/2-unikname-id/howto-burn-my-unikname", "How to burn my @unikname?"],
-
           // ["/2-unikname-id/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
           // ["/2-unikname-id/howto-get-unikname-badges", "How to get @unikname badges?"],
+          // ["/2-unikname-id/howto-buy-unikname", "How to buy @unikname?"],
 
           // ["/2-unikname-id/howto-earn-uns-tokens", "How to earn UNS tokens?"],
+          // ["/2-unikname-id/howto-burn-my-unikname", "How to burn my @unikname?"],
           {
             title: "Troubleshooting",
             children: [
@@ -124,6 +124,16 @@ module.exports = {
                 "/2-unikname-id/troubleshooting/my-unikname-installation-troubleshooting.md",
                 "My Unikname Installation",
               ],
+
+              // [
+              //   "/2-unikname-id/troubleshooting/my-unikname-login-troubleshooting.md",
+              //   "My Unikname Login",
+              // ],
+
+              // [
+              //   "/2-unikname-id/troubleshooting/my-unikname-buying-troubleshooting.md",
+              //   "Buy @unikname",
+              // ],
             ],
           },
         ],
