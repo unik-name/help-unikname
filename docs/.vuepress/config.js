@@ -117,6 +117,8 @@ module.exports = {
 
           // ["/2-unikname-id/howto-earn-uns-tokens", "How to earn UNS tokens?"],
           // ["/2-unikname-id/howto-burn-my-unikname", "How to burn my @unikname?"],
+
+          "/2-unikname-id/howto-reset-my-unikname",
           {
             title: "Troubleshooting",
             children: [
