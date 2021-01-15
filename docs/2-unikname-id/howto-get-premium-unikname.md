@@ -1,6 +1,6 @@
 ---
-home: false
-title: "How to get a premium @unikname?"
+prev: false
+next: false
 ---
 
 # How to get a premium @unikname?

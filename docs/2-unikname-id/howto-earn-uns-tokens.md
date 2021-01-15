@@ -1,6 +1,6 @@
 ---
-home: false
-Title: "How to Manage my UNS Tokens with My Unikname App?"
+prev: false
+next: false
 ---
 
 # How to Manage my UNS Tokens with My Unikname App?

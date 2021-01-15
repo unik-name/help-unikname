@@ -1,6 +1,6 @@
 ---
-home: false
-title: "How to backup my @unikname"
+prev: false
+next: false
 ---
 
 # How to backup my @unikname?

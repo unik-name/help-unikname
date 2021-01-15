@@ -1,6 +1,6 @@
 ---
-home: false
-title: "How to restore your @unikname with your recovery key?"
+prev: false
+next: false
 ---
 
 # How to restore your @unikname with your recovery key?

@@ -1,6 +1,7 @@
 ---
-home: false
 title: How to reset My Unikname?
+prev: false
+next: false
 ---
 
 # How to reset My Unikname App?

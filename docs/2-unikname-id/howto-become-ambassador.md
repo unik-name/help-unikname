@@ -1,6 +1,6 @@
 ---
-home: false
-title: "How to become ambassador?"
+prev: false
+next: false
 ---
 
 # How to become ambassador

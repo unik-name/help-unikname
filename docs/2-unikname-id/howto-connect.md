@@ -1,6 +1,6 @@
 ---
-home: false
-Title: "How to connect to a website with your @unikname ID?"
+prev: false
+next: false
 ---
 
 # How to connect to a website with your @unikname?

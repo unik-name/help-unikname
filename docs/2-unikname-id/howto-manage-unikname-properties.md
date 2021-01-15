@@ -1,7 +1,9 @@
 ---
-home: false
-Title: "How to manage my @unikname properties?"
+prev: false
+next: false
 ---
+
+# How to manage my @unikname properties?
 
 ## Where to find your @unikname properties? 
 

@@ -1,6 +1,6 @@
 ---
-home: false
-Title: "How to get your own @unikname Identifier?"
+prev: false
+next: false
 ---
 
 # How to get your own @unikname Identifier?

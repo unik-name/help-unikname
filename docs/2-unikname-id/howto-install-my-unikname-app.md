@@ -1,6 +1,6 @@
 ---
-home: false
-title: "How to install my Unikname App?"
+prev: false
+next: false
 ---
 
 # How to install My Unikname App?

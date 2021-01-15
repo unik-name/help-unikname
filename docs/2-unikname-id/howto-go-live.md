@@ -1,6 +1,6 @@
 ---
-home: false
-Title: "How my @unikname goes live?"
+prev: false
+next: false
 ---
 
 # How my @unikname goes live?

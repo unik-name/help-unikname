@@ -1,6 +1,6 @@
 ---
-home: false
-Title: "How to burn my @unikname?"
+prev: false
+next: false
 ---
 
 # How to burn my @unikname?
