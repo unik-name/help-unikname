@@ -41,12 +41,12 @@ You will lose:
 On your iPhone or iPad:
 
 - Remove the icon of "My Unikname" from your home screen
-- Go to `Settings` > `Safari` > `Advanced` > `Sites data`
+- Go to `Settings` > `Safari` > `Advanced` > `Website data`
 
 <hpicture caption="Menu where to reset My Unikname App">![MyUniknameMenu](./images/ios-reset-my-unikname.png)</hpicture>
 
 - Search in the list: `unikname.app`
-- Swipe the item left
+- Swipe the item `unikname.app` from right to left
 - Click "Delete"
 
 Voilà! All data of My Unikname App has been destroyed.
