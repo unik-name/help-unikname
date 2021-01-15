@@ -37,6 +37,9 @@ You will lose:
 
 ## On Apple iOS
 
+On your iPhone or iPad:
+
+- Remove the icon of "My Unikname" from your home screen
 - Go to `Settings` > `Safari` > `Advanced` > `Sites data`
 
 <hpicture caption="Menu where to reset My Unikname App">![MyUniknameMenu](./images/ios-reset-my-unikname.png)</hpicture>
@@ -45,6 +48,6 @@ You will lose:
 - Swipe the item left
 - Click "Delete"
 
-All data of My Unikname App has been destroy.
+Voilà! All data of My Unikname App has been destroyed.
 
 You can now [set up My Unikname again](../howto-install-my-unikname-app.html#step-2-install-now) and [restore your @unikname](../howto-restore-my-unikname.html).
