@@ -119,6 +119,8 @@ module.exports = {
           // ["/2-unikname-id/howto-burn-my-unikname", "How to burn my @unikname?"],
 
           "/2-unikname-id/howto-reset-my-unikname",
+          "/2-unikname-id/howto-change-pincode-my-unikname",
+
           {
             title: "Troubleshooting",
             children: [
