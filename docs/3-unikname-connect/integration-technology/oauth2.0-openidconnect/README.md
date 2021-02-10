@@ -27,6 +27,12 @@ next: false
 :book: We assume you're familiar with the Auth2.0 or OpenID protocol.
 :::
 
+<!-- 2021-02-10
+Do not remove this DOT below (broken menu on left otherwise)
+Ask for DLE or FAB for explanations
+No time to fix it properly ...
+ -->
+.
 
 ## Unikname Connect OAuth2.0 / OIDC features
 
