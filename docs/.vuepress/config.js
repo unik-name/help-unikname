@@ -134,10 +134,10 @@ module.exports = {
               //   "My Unikname Login",
               // ],
 
-              // [
-              //   "/2-unikname-id/troubleshooting/my-unikname-buying-troubleshooting.md",
-              //   "Buy @unikname",
-              // ],
+              [
+                "/2-unikname-id/troubleshooting/my-unikname-payment-troubleshooting.md",
+                "Payments in My Unikname",
+              ],
             ],
           },
         ],
