@@ -1,6 +1,5 @@
 ---
 home: false
-title: "Unikname Security & Hack Protections"
 ---
 
 # Security & Hack Protections

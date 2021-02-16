@@ -1,6 +1,5 @@
 ---
 home: false
-title: "Unikname Security Vulnerabilies"
 ---
 
 # How Unikname Handles Security Vulnerabilities?

@@ -73,5 +73,5 @@ For this installation, the process depends on your website:
 Then if you've joined the APOLLO Partnership program you will see incoming traffic as soon as the partnership tag is taken into account on your website. Finally you may want to Participate in securing the network and to operate a node. 
 
 :zap: [Join the partnership program](./howto-join-the-partnership-program)  
-:zap: [Participate in securing the network](./howto-participate-in-securing-the-network)
+:zap: [Participate in securing the network](/5-security/securing-the-uns-network.html)
 

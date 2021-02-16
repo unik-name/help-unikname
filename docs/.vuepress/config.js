@@ -226,7 +226,7 @@ module.exports = {
       {
         title: "Security",
         children: [
-          // ["/5-security/securing-the-uns-network", "Securing the UNS network"],
+          ["/5-security/securing-the-uns-network", "Securing the UNS.network"],
           ["/5-security/security-hack-protections", "Hack Protections"],
           ["/5-security/security-vulnerabilities", "Vulnerabilities"],
         ],
@@ -238,7 +238,7 @@ module.exports = {
           ["/9-more-help/qna", "Q&A"],
           ["/9-more-help/glossary", "Glossary"],
           ["/9-more-help/powered-by-ark-io", "Powered by ARK.io"],
-          ["https://forum.unikname.com/", "Forum uns.network"],
+          ["https://forum.unikname.com/", "Community forum"],
         ],
       },
     ],

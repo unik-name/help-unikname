@@ -1,9 +1,9 @@
 ---
 home: false
-title: "How to participate in securing the network?"
+prev: false
 ---
 
 # How to participate in securing the network?
 
-_Coming soon..._
+The best way to participate in securing the network is [to become an UNS.network player](https://docs.uns.network/becoming-network-player.html)!
 
