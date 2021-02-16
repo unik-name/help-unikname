@@ -180,12 +180,36 @@ module.exports = {
             "How to integrate with Discourse?",
           ],
           [
+            "/3-unikname-connect/integration-technology/dotnet/",
+            "How to integrate with .Net?",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/golang/",
+            "How to integrate with Go?",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/java/",
+            "How to integrate with Java?",
+          ],
+          [
             "/3-unikname-connect/integration-technology/matomo/",
             "How to integrate with Matomo?",
           ],
           [
             "/3-unikname-connect/integration-technology/nodejs/",
             "How to integrate with Node.js?",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/php/",
+            "How to integrate with PHP?",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/python/",
+            "How to integrate with Python?",
+          ],
+          [
+            "/3-unikname-connect/integration-technology/ruby/",
+            "How to integrate with Ruby?",
           ],
           [
             "/3-unikname-connect/integration-technology/wordpress/",

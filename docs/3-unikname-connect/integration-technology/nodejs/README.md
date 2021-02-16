@@ -6,9 +6,12 @@ tags:
   - node.js
   - openid-client
   - express
+  - yarn
+  - npm
+  - node
 ---
 
-# How to integrate Unikname Connect with Node.JS?
+# How to integrate Unikname Connect with Node.JS applications?
 
 ![install-unikname-connect-step](./../../images/install-unikname-connect-step5.png)
 
