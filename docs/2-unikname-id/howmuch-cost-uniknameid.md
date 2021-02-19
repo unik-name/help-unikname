@@ -39,7 +39,7 @@ The getter of a PREMIUM @unikname ID remains the owner of his identifier for no 
 | Digit Standard  | 6 characters | 500 € |
 | Digit Tiny  | 3 characters | 5 000 € |
 
-## *End of life
+## *End of life option
 
 Every @unikname ID may have an end of life and can be recycled if its owner die. For a PREMIUM ID this end of life happens 18 months after the last proof of activity. To prevent this end of life and to ensure the owner keep it for eternity without having to proof of activity, the owner must get the `everlasting` option.
 
