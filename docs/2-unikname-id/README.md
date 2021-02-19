@@ -41,7 +41,17 @@ No time to fix it properly ...
 
 ## Freemium and Premium 
 
-:zap: How to get a premium @unikname? _coming soon..._
+:zap: [Can I get my @unikname ID for free?](./can-i-get-uniknameid-for-free)
+
+:zap: [Why do I have to pay for a short ID?](./why-to-pay-short-id)
+
+:zap: [What are differences between FREEMIUM and PREMIUM @unikname ID?](./what-are-differences-freemium-premium-unikname)
+
+:zap: [How much does it cost to get a PREMIUM ID?](./howmuch-cost-uniknameid)
+
+:zap: [How to get a FREEMIUM @unikname?](./howto-get-freemium-unikname)
+
+:zap: [How to get a PREMIUM @unikname?](./howto-get-premium-unikname)
 
 ## Lifecycle
 

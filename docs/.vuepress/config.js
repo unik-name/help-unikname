@@ -106,10 +106,23 @@ module.exports = {
           // ["/2-unikname-id/howto-become-ambassador", "How to become an ambassador?"],
 
           [
-            "/2-unikname-id/howto-get-premium-unikname",
-            "How to get a premium @unikname?",
+            "/2-unikname-id/can-i-get-uniknameid-for-free", "Can I get my @unikname ID for free?",
           ],
-
+          [
+            "/2-unikname-id/why-to-pay-short-id", "Why to pay for short ID?",
+          ],
+          [
+            "/2-unikname-id/what-are-differences-freemium-premium-unikname","What are differences between Freemium and Premium?",
+          ],
+          [
+            "/2-unikname-id/howmuch-cost-uniknameid", "How much does a @unikname cost?",
+          ],
+          [
+            "/2-unikname-id/howto-get-freemium-unikname","How to get a freemium @unikname?",
+          ],
+          [
+            "/2-unikname-id/howto-get-premium-unikname","How to get a premium @unikname?",
+          ],
           // ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
           // ["/2-unikname-id/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
           // ["/2-unikname-id/howto-get-unikname-badges", "How to get @unikname badges?"],
