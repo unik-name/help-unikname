@@ -19,7 +19,6 @@ The getter of a PREMIUM @unikname ID remains the owner of his identifier for no 
 
 | Type | specifications | price |
 | :- | :- | -: |
-| Long | 15 characters and more | 5 € |
 | Regular | 10 characters and more | 10 € |
 | Short | 7 characters and more | 50 € |
 | Rare | 4 characters and more | 500 € |
