@@ -46,7 +46,7 @@ Many WooCommerce websites are running with Unikname Connect such as [La Bande Du
 
 ## Step 1. Install the WordPress plugin
 
-Unikname Connect plugin is available **for free** [on the official WordPress plugins repository](https://wordpress.org/plugins/unikname-connect/).
+Unikname plugin is available **for free** [on the official WordPress plugins repository](https://wordpress.org/plugins/unikname-connect/).
 
 There are various ways of installing the plugin, so choose the one adapted to your installation:
 
@@ -56,13 +56,13 @@ There are various ways of installing the plugin, so choose the one adapted to yo
 
 ### Install from your WordPress Dashboard
 
-You can install Unikname Connect directly from your WordPress Dashboard.
+You can install the plugin directly from your WordPress Dashboard.
 
 1. Go to your WordPress Dashboard
 1. Go to the extensions/plugins manager
 1. Add a new one
-1. Look for `unikname connect` in the search box on right
-1. Install `Unikname Connect` plugin
+1. Look for `unikname` in the search box on right
+1. Install `Unikname` plugin
 1. Then `enable` it
 
 ### Advanced installation methods
@@ -70,11 +70,11 @@ You can install Unikname Connect directly from your WordPress Dashboard.
 ::: details Advanced installation methods
 #### Install with Composer
 
-If you're using Composer to manage WordPress, add WordPress-Unikname-Connect to your project's dependencies through the [WordPress Packagist repository](https://wpackagist.org/search?q=unikname+connect).
+If you're using Composer to manage WordPress, add WordPress-Unikname-Connect to your project's dependencies through the [WordPress Packagist repository](https://wpackagist.org/search?q=unikname).
 
 Run de following command:
 ```
-$ composer require wpackagist-plugin/unikname-connect
+composer require wpackagist-plugin/unikname-connect
 ```
 #### Install from the Github Repository
 
