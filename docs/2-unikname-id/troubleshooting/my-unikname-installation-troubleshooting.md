@@ -7,13 +7,23 @@ next: false
 
 ## Which browsers is the My Unikname application compatible with?
 
-As of December 2020, the My Unikname application is compatible with:
+As of March 2021, the My Unikname application is compatible with:
 - On Android
-  - Google Chrome for Android >= 75
-  - Opera for Android
-  - Brave for Android
+✅ Google Chrome for Android >= 75
+✅ Opera for Android
+✅ Brave for Android
+✅ Firefox for Android
 - On iOS
-  - Safari >= 13
+✅ Safari >= 13
+
+It is not compatible with:
+- On iOS
+:x: any other browsers but Safari: Google Chrome, Firefox...
+- On Android
+:x: Qwant browser
+:x: Samsung browser
+:x: Microsoft Edge
+:x: Mi browser 
 
 If your browser is missing from this list, you can request it [on our Forum](https://forum.unikname.com/c/my-unikname/5).
 

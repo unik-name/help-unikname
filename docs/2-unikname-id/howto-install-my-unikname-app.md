@@ -25,16 +25,9 @@ Open your web browser on your smartphone and enter [my.unikname.app](https://my.
 
 <hpicture caption="Installing My Unikname App" noshadow>![Install-MyUniknameApp-1](./images/mun-install1.png)</hpicture>
 
-:::warning Browser Compatibility
-**my.unikname.app** works on: 
-
-:heavy_check_mark: ``Brave`` on Android, our preferred choice  
-:heavy_check_mark: ``Google Chrome`` on Android   
-:heavy_check_mark: ``Safari`` on Apple iOS.  
-
-:x: ``Firefox`` does not manage PWA correctly for the time being.  
-:x: ``Google Chrome on Apple iOS`` does not enable PWA yet  
-:x: ``Qwant`` mobile browser is not compatible with PWA yet
+:::tip Browser Compatibility
+**my.unikname.app** works on the most popular mobile browsers.
+If you encounter issues with the installation, [check-out our compatibility matrix](./troubleshooting/my-unikname-installation-troubleshooting.html#which-browsers-is-the-my-unikname-application-compatible-with).
 :::
 
 :::details I met a compatibility issue screen, what can I do?
