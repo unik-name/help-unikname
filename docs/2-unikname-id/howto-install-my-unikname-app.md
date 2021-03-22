@@ -7,7 +7,7 @@ next: false
 
 **My Unikname App** is required to get, manage and use <unid/> and network credits. It allows users to use their <unid/> to authenticate safely and privately to any websites. 
 
-:::warning
+::: tip
 Don’t try to download this application on traditional App stores, you won’t find it! **My Unikname App is a Progressive Web App (PWA)**: goodbye download and welcome simplicity of installation thanks to a QR Code or a clickable link.
 
 [:mag_right: read our blog post to know more about PWA](https://www.unikname.com/en/2020/09/pwa-progressive-web-app-next-generation-applications/)
@@ -23,24 +23,22 @@ Here we show you how to install this App. Let's go!
 
 Open your web browser on your smartphone and enter [my.unikname.app](https://my.unikname.app/).
 
+**My Unikname App** works on the most popular mobile browsers.
+
 <hpicture caption="Installing My Unikname App" noshadow>![Install-MyUniknameApp-1](./images/mun-install1.png)</hpicture>
 
-:::tip Browser Compatibility
-**my.unikname.app** works on the most popular mobile browsers.
-If you encounter issues with the installation, [check-out our compatibility matrix](./troubleshooting/my-unikname-installation-troubleshooting.html#which-browsers-is-the-my-unikname-application-compatible-with).
-:::
-
-:::details I met a compatibility issue screen, what can I do?
-If you've met the following screen you can close it and you need to open another internet browser. 
+::: details I met a compatibility issue screen, what can I do?
+If you encounter issues with the installation or if you meet the following screen, you can close it and you can try to open it with another web browser. 
 <hpicture noshadow>![compatibility issue screen](./images/compatibilityissuescreen.png)</hpicture>
-If you're using an iPhone then open Safari, and if you're using an Android Smartphone then open Brave or Google Chrome. Then enter `my.unikname.app` again.
+
+[Check-out our compatibility matrix](./troubleshooting/my-unikname-installation-troubleshooting.html#which-browsers-is-the-my-unikname-application-compatible-with) to understand which browsers are compatible with My Unikname app.
 :::
 
 ## Step 2. Install Now!
 
 When you click on `Install Now` your browser detects you're installing an App directly from an URL and is going to ask your confirmation.
 
-<hpicture caption="Install example on a xaomi Red note8, with Chrome">
+<hpicture caption="Install example on a Xaomi Redmi Note 8, with Chrome">
 <video height="600" controls>
   <source src="./images/mun-installnow.mp4" type="video/mp4">
   <hpicture caption="Successful Install Page" >![Install-MyUniknameApp-2](./images/mun-install2.png)</hpicture>
