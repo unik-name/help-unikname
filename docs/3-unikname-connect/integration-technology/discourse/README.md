@@ -110,6 +110,19 @@ New users are now able to use their @unikname SSID to sign-up to your Discourse 
 
 <hseparator/>
 
+## FAQ
+
+### How to configure the verification key in your Discourse?
+
+The verification of your domain requires to expose the verification key to the crawling of a web bot (such as a search engine bot, but dedicated to Unikname ecosystem).
+The best way to do that, is to add a `meta` HTML tag in the main page of your Discourse web site.
+
+We advise you to follow this [Discourse guide on Meta](https://meta.discourse.org/t/how-to-perform-google-search-console-a-k-a-google-webmaster-tools-verification-with-discourse/107229), where you must replace the meta tag by yours:
+
+```
+<meta name="uns-url-checker-verification" content="your_verification_Key">
+```
+
 ## Troubleshooting
 
 If you’re having issues when connecting (access denied ...), check that the credentials (the @unikname of your organization, Unikname Connect secret, client id/secret ...) you are using to connect to <brand name="UNC"/> authentication server are the good one.
