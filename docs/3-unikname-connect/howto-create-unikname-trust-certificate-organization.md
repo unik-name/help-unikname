@@ -251,7 +251,7 @@ uns properties:verify "@organization:my-saas-platform-101" --url-channel html
 
 > Replace `my-saas-platform-101` by your @unikname of type Organization.
 
-The command will tell with you its a success or will display an error message you can try to solve by yourself by [reading the section below](#what-to-do-when-it-doesn-t-work).
+The command will tell with you it is a success or will display an error message you can try to solve by yourself by [reading the section below](#what-to-do-when-it-doesn-t-work).
 
 Then, a uns.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
 
@@ -331,7 +331,7 @@ uns properties:verify "@organization:my-saas-platform-101" --url-channel file
 
 > Replace `my-saas-platform-101` by your @unikname of type Organization.
 
-The command will tell with you its a success or will display an error message you can try to solve by yourself by [reading the section below](#what-to-do-when-it-doesn-t-work-2).
+The command will tell with you it is a success or will display an error message you can try to solve by yourself by [reading the section below](#what-to-do-when-it-doesn-t-work-2).
 
 Then, a uns.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
 
@@ -464,6 +464,21 @@ Then check the information associated with your organization @unikname identifie
 
 What you've achieved here:
 
-:heavy_check_mark: Created an @unikname of type `organization`  
-:heavy_check_mark: Disclosed your @unikname  
-:heavy_check_mark: Linked your @unikname with the domain name of your website   
+:heavy_check_mark: Creation of an @unikname of type `organization`  
+:heavy_check_mark: Disclose of your @unikname  
+:heavy_check_mark: Linking your @unikname with the domain name of your website   
+
+## FAQ
+
+### How to verify multiple sites for the same @unikname?
+
+It is possible to have multiple web sites verified for the same @unikname.
+
+When running the command `uns:verify` to proved the ownership of your website, add the parameter `--url-name` with the value provided by the Unikname support.
+Such as:
+
+```bash
+uns properties:verify "@organization:my-saas-platform-101" --url-channel html --url-name 01
+```
+
+In this example, the URL name value given by the Unikname support is `01`.
