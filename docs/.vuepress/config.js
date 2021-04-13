@@ -5,6 +5,8 @@ function customSlugifyToHandleBadges(str) {
   return vuePressSlugify(str.replace(/<Badge[^>]*\/>/, ""));
 }
 
+const HOSTNAME = "https://help.unikname.com";
+
 module.exports = {
   title: "Unikname Help Center",
   title2: "Unikname Guides and Docs",
@@ -13,8 +15,9 @@ module.exports = {
   description2: "Official documentation for Unikname",
   plugins: {
     sitemap: {
-      hostname: "https://help.unikname.com",
+      hostname: HOSTNAME,
     },
+    robots: { host: HOSTNAME },
     "@vuepress/last-updated": {
       transformer: (timestamp, lang) => {
         // UTC date (without time) as ISO format: 2019-09-17
@@ -55,9 +58,10 @@ module.exports = {
       "meta",
       {
         property: "og:image",
-        content: "https://help.unikname.com/opengraph-v1.png",
+        content: "${HOSTNAME}/opengraph-v1.png",
       },
     ],
+    ["meta", { name: "charset", content: "utf-8" }],
   ],
   themeConfig: {
     logo: "/logo.png",
@@ -106,22 +110,25 @@ module.exports = {
           // ["/2-unikname-id/howto-become-ambassador", "How to become an ambassador?"],
 
           [
-            "/2-unikname-id/can-i-get-uniknameid-for-free", "Can I get my @unikname ID for free?",
+            "/2-unikname-id/can-i-get-uniknameid-for-free",
+            "Can I get my @unikname ID for free?",
+          ],
+          ["/2-unikname-id/why-to-pay-short-id", "Why to pay for short ID?"],
+          [
+            "/2-unikname-id/what-are-differences-freemium-premium-unikname",
+            "What are differences between Freemium and Premium?",
           ],
           [
-            "/2-unikname-id/why-to-pay-short-id", "Why to pay for short ID?",
+            "/2-unikname-id/howmuch-cost-uniknameid",
+            "How much does a @unikname cost?",
           ],
           [
-            "/2-unikname-id/what-are-differences-freemium-premium-unikname","What are differences between Freemium and Premium?",
+            "/2-unikname-id/howto-get-freemium-unikname",
+            "How to get a freemium @unikname?",
           ],
           [
-            "/2-unikname-id/howmuch-cost-uniknameid", "How much does a @unikname cost?",
-          ],
-          [
-            "/2-unikname-id/howto-get-freemium-unikname","How to get a freemium @unikname?",
-          ],
-          [
-            "/2-unikname-id/howto-get-premium-unikname","How to get a premium @unikname?",
+            "/2-unikname-id/howto-get-premium-unikname",
+            "How to get a premium @unikname?",
           ],
           // ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
           // ["/2-unikname-id/howto-manage-unikname-properties", "How to manage my @unikname properties?"],
