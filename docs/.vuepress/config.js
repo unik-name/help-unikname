@@ -243,6 +243,10 @@ module.exports = {
             "/3-unikname-connect/integration-technology/oauth2.0-openidconnect/",
             "How to integrate with OAuth2 & OIDC?",
           ],
+          [
+            "/3-unikname-connect/integration-technology/guide-lines/",
+            "Integration Guide Lines",
+          ],
         ],
       },
       // Key Concepts group

@@ -22,6 +22,7 @@ home: true
 <card title="Getting started with Unikname Connect" description="The next-generation authentication solution" url="/3-unikname-connect"/>
 <card title="Unikname Connect Account" description="Get your credentials to activate Unikname Connect on your website" url="/3-unikname-connect/howto-signup-unconnect-account"/>
 <card title="Trust Certificate" description="Get and setup the @unikname Trust Certificate for your website" url="/3-unikname-connect/howto-create-unikname-trust-certificate-organization"/>
+<card title="Integration Guide lines" description="Guide lines to integrate Unikname Connect on your website" url="/3-unikname-connect/integration-technology/guide-lines"/>
 <!--card title="Example of integrations" description="See example of setup and code" url="/3-unikname-connect/example-of-integrations"/-->
 <!-- card title="Join the partnership program" description="coming soon..." url="/3-unikname-connect/howto-join-the-partnership-program" disable / -->
 <!-- card title="UX UI Signup and Login Guides" description="coming soon..." url="/3-unikname-connect/ux-ui-signup-login-guides" disable / -->
