@@ -879,13 +879,15 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@spacelephantlabs/vuepress-plugin-matomo@spacelephantlabs/vuepress-plugin-matomo":
-  version "1.0.0"
-  resolved "https://codeload.github.com/spacelephantlabs/vuepress-plugin-matomo/tar.gz/372df28ce3c8e7839d42697e98f961f6deb0cddc"
+"@spacelephantlabs/vuepress-plugin-matomo-spacelephant@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@spacelephantlabs/vuepress-plugin-matomo-spacelephant/-/vuepress-plugin-matomo-spacelephant-1.1.0.tgz#0d147326162561b2ed17d78534b5233574b044e5"
+  integrity sha512-sq6RXfq9zgfcC60aRnqjyTOJXLqJAOCq4sQy1OF8TGGNJqYggsb5Beb8q9NmPVLLXKfrIXFR7DfZ5K73IREJWw==
 
-"@spacelephantlabs/vuepress-plugin-rocketchat-livechat@spacelephantlabs/vuepress-plugin-rocketchat-livechat":
+"@spacelephantlabs/vuepress-plugin-rocketchat-livechat@^1.0.0":
   version "1.0.0"
-  resolved "https://codeload.github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/tar.gz/f1c8cd49c91c747dc09e6b512c643683aa683d9b"
+  resolved "https://registry.yarnpkg.com/@spacelephantlabs/vuepress-plugin-rocketchat-livechat/-/vuepress-plugin-rocketchat-livechat-1.0.0.tgz#55651a1eb8a9ae85666f6e7a472f488ef72b05c0"
+  integrity sha512-1LzhSepnQNe6kE5jlgcTVoKLW2b6UsNIKWMlR4muiZ3x7JJG/HWX8Q2h3vgMFrq1Pqm07/OOh08QNC0371LoDw==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"

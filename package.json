@@ -42,8 +42,8 @@
   },
   "devDependencies": {
     "@goy/vuepress-plugin-svg-icons": "^4.2.1",
-    "@spacelephantlabs/vuepress-plugin-matomo": "spacelephantlabs/vuepress-plugin-matomo",
-    "@spacelephantlabs/vuepress-plugin-rocketchat-livechat": "spacelephantlabs/vuepress-plugin-rocketchat-livechat",
+    "@spacelephantlabs/vuepress-plugin-matomo-spacelephant": "^1.1.0",
+    "@spacelephantlabs/vuepress-plugin-rocketchat-livechat": "^1.0.0",
     "@vuepress/plugin-back-to-top": "^1.2.0",
     "highlight.js": "^9.16.2",
     "hyperlink": "^4.5.3",
