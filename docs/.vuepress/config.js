@@ -232,6 +232,10 @@ module.exports = {
             "How to integrate with Ruby?",
           ],
           [
+            "/3-unikname-connect/integration-technology/spring-boot/",
+            "How to integrate with Spring Boot?",
+          ],
+          [
             "/3-unikname-connect/integration-technology/wordpress/",
             "How to integrate with WordPress?",
           ],

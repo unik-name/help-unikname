@@ -33,7 +33,8 @@ home: true
 <card icon="./discourse-logo.png" description="Discourse Integration" url="3-unikname-connect/integration-technology/discourse/"/>
 <card icon="./matomo-logo.png" description="Matomo Integration" url="3-unikname-connect/integration-technology/matomo/"/>
 <card icon="./nodejs-logo.png" description="Nodejs Integration" url="3-unikname-connect/integration-technology/nodejs/"/>
-<card icon="./auth0-logo.png" description="Auth0 Integration" url="3-unikname-connect/integration-technology/Auth0/"/>
+<card icon="./spring-boot-logo.png" description="Spring Boot Integration" url="3-unikname-connect/integration-technology/spring-boot/"/>
+<card icon="./auth0-logo.png" description="Auth0 Integration" url="3-unikname-connect/integration-technology/auth0/"/>
 <card icon="./oauth2.0-openidconnect-logo.png" description="OAuth2.0 - OIDC Integration" url="3-unikname-connect/integration-technology/oauth2.0-openidconnect/"/>
 </cardcontainer>
 

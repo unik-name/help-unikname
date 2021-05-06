@@ -43,25 +43,27 @@ For this installation, the process depends on your website:
 
 | <!-- -->    | <!-- -->    | <!-- -->    |
 |:-------------:|:-------------:|:-------------:|
-| [![][auth0-logo]](integration-technology/auth0/)       | [![][discourse-logo]](integration-technology/discourse/)        | [![][nodejs-logo]](integration-technology/nodejs/) |
+| [![][spring-boot-logo]](integration-technology/spring-boot/)       | [![][discourse-logo]](integration-technology/discourse/)        | [![][nodejs-logo]](integration-technology/nodejs/) |
 | [![][wordpress-logo]](integration-technology/wordpress/) | [![][woocommerce-logo]](integration-technology/woocommerce/) | [![][oauth2.0-oidc-logo]](integration-technology/oauth2.0-openidconnect/) | 
 
 [auth0-logo]: ./integration-technology/auth0/auth0-logo.png "Unikname Connect for Auth0"
 [discourse-logo]: ./integration-technology/discourse/discourse-logo.png "Unikname Connect for Discourse"
+[oauth2.0-oidc-logo]: ./integration-technology/oauth2.0-openidconnect/oauth2.0-openidconnect-logo.png "Unikname Connect for any OAuth 2.0 or OpenID Connect solution"
 [nodejs-logo]: ./integration-technology/nodejs/nodejs-logo.png "Unikname Connect for Node JS"
+[spring-boot-logo]: ./integration-technology/spring-boot/spring-boot-logo.png "Unikname Connect for Spring Boot"
 [wordpress-logo]: ./integration-technology/wordpress/wordpress-logo.png "Unikname Connect for Worpress"
 [woocommerce-logo]: ./integration-technology/woocommerce/woocommerce-logo.png "Unikname Connect for WooCommerce"
-[oauth2.0-oidc-logo]: ./integration-technology/oauth2.0-openidconnect/oauth2.0-openidconnect-logo.png "Unikname Connect for any OAuth 2.0 or OpenID Connect solution"
 
 <hbox>
 
-|[nodejs SDK](./integration-technology/nodejs) | your website has been developed with **nodejs programing langage**, few lines of code need to be added. |
+|[Node.js](./integration-technology/nodejs) | your website has been developed with **nodejs programing langage**, few lines of code need to be added. |
 |-|-|
-|[Auth0](./integration-technology/auth0) | your website already embed **Auth0 Authentication services**, e.g. Social Authent, a simple setup is required. |
 |[Discourse Forum](./integration-technology/discourse) | you want to install to a **Discourse Forum**, install and setup our plugin |
 |[WordPress](./integration-technology/wordpress) | you want to install to a **Wordpress website**, install and setup our WP plugin |
 |[WooCommerce](./integration-technology/woocommerce) | you want to install to a **WooCommerce website**, install and setup our WP plugin |
+|[Java Spring Boot](./integration-technology/spring-boot) | your website has been developed with **Java Spring Boot framework**, few lines of code need to be added. |
 |[Matomo](./integration-technology/matomo) | you want sign-in to your **Matomo account** with your @unikname, install and setup the OIDC plugin |
+|[Auth0](./integration-technology/auth0) | your website already embed **Auth0 Authentication services**, e.g. Social Authent, a simple setup is required. |
 |[Any other website](./integration-technology/oauth2.0-openidconnect) | for any website you can **call our APIs** compatible with OAuth2.0 and OpendID Connect standard protocol. |
   
 </hbox>

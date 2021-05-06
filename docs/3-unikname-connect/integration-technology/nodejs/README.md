@@ -120,17 +120,17 @@ The best way to get initialized openid-client `Issuer` instance is by calling th
 The function then loads the standard OpenID Connect Authorization Server Metadata document and return a promise for the initialized issuer object.
 
 ```javascript
-// The Unikname-Connect Account ID you have received from Unikname's support request
-const uniknameConnectAccountId = ...; // should be read from environment variables
+// The Unikname Connect Site ID you have received from Unikname's support request
+const uniknameConnectSiteId = ...; // should be read from environment variables
 
-// The API secret key you have received from Unikname's support request
-const uniknameConnectApiSecretKey = ...; // should be read from environment variables
+// The Site secret key you have received from Unikname's support request
+const uniknameConnectSecretKey = ...; // should be read from environment variables
 
 const uniknameConnectIssuer = await Issuer.discover('https://connect.unikname.com/oidc/.well-known/openid-configuration');
 
 var client = new uniknameConnectIssuer.Client({
-  client_id: uniknameConnectAccountId,
-  client_secret: uniknameConnectApiSecretKey,
+  client_id: uniknameConnectSiteId,
+  client_secret: uniknameConnectSecretKey,
 
   // This URL will be called later by your user's browser at the end of connection process
   redirect_uris: [ 'https://<YOUR_HOST:PORT>/auth/unikname/callback'], // You need the real hostname here, and the real protocol (http/https), as it is called by your user's browser at execution time
@@ -155,8 +155,8 @@ You should load this at the beginning of the startup of your server, and you mig
 
 | Attribut | Description |
 |--------|-----------|
-| `uniknameConnectAccountId` | The Unikname-Connect Account ID you have received from Unikname's support request |
-| `uniknameConnectApiSecretKey` | The API secret key you have received from Unikname's support request |
+| `uniknameConnectSiteId` | The Unikname-Connect Account ID you have received from Unikname's support request |
+| `uniknameConnectSecretKey` | The API secret key you have received from Unikname's support request |
 
 :::warning Declare 404 and errors handlers at the right place
 
@@ -282,7 +282,7 @@ For this, let's just open your browser at:
     https://<YOUR_HOST:PORT>/auth/unikname
 
 What should happen? You should see:
-1. The <brand name="UNC"/> login screen
+1. The <brand name="UNC"/> login screen 🥳
 2. And then, be redirecting to your web application at the end of the login process
 
 If everything is OK, you can continue the set up.
@@ -332,7 +332,7 @@ Your login button should look like that:
 
 <div align="center">
 
-![Unikname button sample](./unikname-button-sample.png)
+![Unikname button sample](../assets/unikname-button-sample.png)
 
 </div>
 
