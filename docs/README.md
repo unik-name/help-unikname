@@ -36,6 +36,7 @@ home: true
 <card icon="./spring-boot-logo.png" description="Spring Boot Integration" url="3-unikname-connect/integration-technology/spring-boot/"/>
 <card icon="./auth0-logo.png" description="Auth0 Integration" url="3-unikname-connect/integration-technology/auth0/"/>
 <card icon="./oauth2.0-openidconnect-logo.png" description="OAuth2.0 - OIDC Integration" url="3-unikname-connect/integration-technology/oauth2.0-openidconnect/"/>
+<card title="Other technologies" description="All other available integrations" url="3-unikname-connect/#install-unikname-connect-on-your-website"/>
 </cardcontainer>
 
 <hseparator y="15px"/>
