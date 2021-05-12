@@ -1,6 +1,9 @@
 ---
 prev: false
 next: false 
+tags:
+  - composer
+  - wp-cerber
 ---
 
 # How to integrate Unikname Connect with WordPress?
@@ -109,8 +112,8 @@ Install it only to test unreleased features, to check if a bug as been correctly
 
 Configure the information **provided by the Unikname Support Team (see <a href="#prerequisites">Prerequisites</a>)**:
 
-2. `Unikname-Connect @unikname` with the Unikname Connect Account ID
-2. `Unikname-Connect Secret` with the API secret key
+2. `Unikname-Connect Site Id` with the Unikname Connect site ID
+2. `Unikname-Connect Secret` with the Unikname Connect site secret key
 
 <hpicture>![Unikname Connect for WordPress basic configuration](./wordpress-config1.png)</hpicture>
 
@@ -128,7 +131,7 @@ You can also fine-tune the style options of the Unikname Connect buttons:
 
 **All done!**
 
-New users are now able to use their @unikname SSID to sign-up to your Wordpress website.
+New users are now able to use their @unikname ID to sign-up to your Wordpress website.
 
 <hseparator/>
 

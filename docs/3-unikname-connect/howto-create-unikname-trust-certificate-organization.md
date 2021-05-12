@@ -1,6 +1,14 @@
 ---
 home: false
 sidebarDepth: 4
+tags:
+  - uns-url-checker-verification
+  - verificationkey
+  - verification package
+  - meta
+  - properties register
+  - properties:verify
+  - url name
 ---
 
 # How to create and setup the Unikname Trust Certificate for your website?
