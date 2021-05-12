@@ -138,6 +138,16 @@ If you’re having issues when connecting (access denied ...), check that the cr
 
 ### When connecting, my users are stuck at https://mydomain.com/?OIDCCallback=UniknameConnect&code=...
 
+This situation might have several origins.
+
+#### Wrong plugin configuration
+
+Check again that the credentials you are using to connect to Unikname Connect authentication server are the good one, provided by Unikname Support:
+- Unikname Connect site id
+- Unikname Connect secret
+
+#### TLS error with fsockopen
+
 Some WordPress administrators have reported weird interactions between our TLS Let's Encrypt certificate and WordPress installations with `fsockopen` on PHP 7.3.
 
 Example of errors you might see in your WordPress `debug.log` file ([if enabled](https://wordpress.org/support/article/debugging-in-wordpress/#wp_debug_log)):
