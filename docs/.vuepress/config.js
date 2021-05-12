@@ -5,7 +5,8 @@ function customSlugifyToHandleBadges(str) {
   return vuePressSlugify(str.replace(/<Badge[^>]*\/>/, ""));
 }
 
-const HOSTNAME = "https://help.unikname.com";
+const DOMAIN = "help.unikname.com";
+const HOSTNAME = `https://${DOMAIN}`;
 
 module.exports = {
   title: "Unikname Help Center",
@@ -39,6 +40,19 @@ module.exports = {
     "@spacelephantlabs/vuepress-plugin-rocketchat-livechat": {
       rocketChatUrl: "https://spacelephant.rocket.chat/",
     },
+    seo: {
+      // your options
+      author: (_, $site) => {
+        return {
+          name: $site.themeConfig.author,
+          twitter: "@Unikname_UNS",
+        };
+      },
+      image: ($page, $site) =>
+        $site.themeConfig.domain +
+        "/" +
+        ($page.frontmatter.image || "opengraph-v1.png"),
+    },
   },
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
@@ -54,18 +68,14 @@ module.exports = {
         content: "black-translucent",
       },
     ],
-    [
-      "meta",
-      {
-        property: "og:image",
-        content: `${HOSTNAME}/opengraph-v1.png`,
-      },
-    ],
     ["meta", { name: "charset", content: "utf-8" }],
   ],
   themeConfig: {
     logo: "/logo.png",
     repo: "unik-name/help-unikname",
+    hostname: HOSTNAME,
+    domain: HOSTNAME,
+    author: "Unikname Team",
     repoLabel: "Contribute!",
     editLinks: true,
     editLinkText: "Help us improve this page!",
