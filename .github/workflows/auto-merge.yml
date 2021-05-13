@@ -1,0 +1,15 @@
+# All configurations from https://github.com/ahmadnassri/action-dependabot-auto-merge
+name: auto-merge
+
+on:
+  pull_request_target:
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          # Other configs at .github/auto-merge.yml
+          github-token: ${{ secrets.GH_TOKEN }}
