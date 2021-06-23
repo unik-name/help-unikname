@@ -14,7 +14,7 @@ export default {
     },
     methods: {
       href: function() {
-        let xhref = "https://explorer.uns.network/uniks/";
+        let xhref = "https://explorer.unikname.network/uniks/";
         if (!this.unikid || 0 === this.unikid.length) {
           // xhref = "https://unikname.id/" + this.id
           xhref += this.id;

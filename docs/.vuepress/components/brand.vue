@@ -8,14 +8,14 @@ export default {
     methods: {
       fullBrandName: function () {
         switch (this.name) {
-          case 'uns': return 'uns.network';
+          case 'uns': return 'unikname.network';
           case 'unikname': return 'Unikname™';
           case 'UNC': case 'unc': return 'Unikname Connect';
         }
       },
       title: function () {
         switch (this.name) {
-          case 'uns': return 'Universal Name System Network: The Unikname Blockchain';
+          case 'uns': return 'Unikname Network: The Unikname Blockchain';
           case 'unikname': return "Unikname™ is a set of user friendly cyber-solutions aiming of securing internet platforms and protecting user's privacy.";
           case 'UNC': case 'unc': return "Unikname Connect: The next-generation authentication solution";
         }
