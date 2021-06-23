@@ -2,6 +2,12 @@
 home: false
 ---
 
+::: warning
+UNS/uns.network/universal-name-system is the old name of unikname.network blockchain.
+UNIK is the old name of UNIKNAME nft token
+UNS is the old name of UNIK protocol token
+Urls and old documentation are not renamed yet but are still valid. We're updating progressively.
+:::
 # How to vote for your delegate?
 
 ![install-unikname-connect-step](./images/install-unikname-connect-step3.png)
@@ -16,7 +22,7 @@ Here we explain how to chose and vote for your delegate.
 :heavy_check_mark: You've created your Trust Certificate (step 2)
 <hbox>_See [How to get and setup the Unikname Trust Certificate for your organization?](./howto-get-unikname-trust-certificate-organization)_</hbox>
 
-:book: Your need to be familiar with the key concept of the Unikname blockchain: uns.network.
+:book: Your need to be familiar with the key concept of the Unikname blockchain: unikname.network.
 <hbox>_See [What is the added value of the blockchain?](./../4-key-concepts/what-is-added-value-of-blockchain)_</hbox>
 <hbox>_See [What are network player stakeholders and delegates?](./../4-key-concepts/what-are-stakeholders-delegates)_</hbox>
 :::
@@ -35,7 +41,7 @@ As an organization you're called to vote for a registered delegate in the organi
 <hpicture caption="Snapshot of registered delegates of type organization, by Oct 10th, 2020">![install-unikname-connect-step](./images/list-of-delegate-organization.png)</hpicture>
 
 :::tip
-The updated list of delegates is available in realtime in the [uns.network explorer](https://explorer.uns.network/delegate-status).  
+The updated list of delegates is available in realtime in the [unikname.network explorer](https://explorer.unikname.network/delegate-status).  
 You're welcome to [discuss with delegates in the Unikname Forum](https://forum.unikname.com/c/un-business).
 :::
 

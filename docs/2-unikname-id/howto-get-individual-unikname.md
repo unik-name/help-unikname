@@ -34,7 +34,7 @@ Your @unikname ID is unique, persistent, and personal. You can choose a pseudo, 
 To get a scarce name, shorter than 15 chars, you can:
 * use a PROMOTIONAL COUPON CODE.
 * bought it with € or crypto
-* exchange network credits ($UNS), if you own some
+* exchange network credits ($UNIK), if you own some
 
 <hpicture>![chooseUnikname](./images/unik-pricelist.png)</hpicture>
 

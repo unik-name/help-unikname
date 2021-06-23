@@ -2,6 +2,13 @@
 home: false
 ---
 
+::: warning
+UNS/uns.network/universal-name-system is the old name of unikname.network blockchain.
+UNIK is the old name of UNIKNAME nft token
+UNS is the old name of UNIK protocol token
+Urls and old documentation are not renamed yet but are still valid. We're updating progressively.
+:::
+
 # How to get my first @unikname, with the CLI?
 
 :::tip
@@ -135,7 +142,7 @@ UgjxSEVso15wyURgASGGBPSVLNGd98YV9
 Done :+1:
 
 :::tip
-Your @unikname is called a DID, a Decentralized ID, because it has a unique Identifier within the uns.network blockchain.
+Your @unikname is called a DID, a Decentralized ID, because it has a unique Identifier within the unikname.network blockchain.
 If you try to resolve a name that doesn't exist on the network then the command returns the message "DID not resolved"
 :::
 

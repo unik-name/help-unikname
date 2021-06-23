@@ -11,7 +11,7 @@ The shorter a name, the rarer it is, the more expensive it is. There will be one
 
 All PREMIUM @Unikname IDs have the following specifications: 
 - PREMIUM ID can have a public registry with up to 100 properties. 
-- PREMIUM ID receive a welcome reward of 100 UNS tokens at activation time.
+- PREMIUM ID receive a welcome reward of 100 UNIK tokens at activation time.
 
 The getter of a PREMIUM @unikname ID remains the owner of his identifier for no limit of time, provided that the identifier has been activated within 4 weeks and it used regularly*. So it is recommended to activate it as soon as you get it.
 

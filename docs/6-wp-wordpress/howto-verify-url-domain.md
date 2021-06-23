@@ -8,6 +8,8 @@ tags:
   - woocommerce
 ---
 
+
+
 # How to verify the domain or URL of your WordPress website?
 
 If you have configured Unikname Connect with the [Unikname for WordPress plugin](/3-unikname-connect/integration-technology/wordpress/), you may want to prove the ownership of your website.
@@ -27,6 +29,12 @@ If you want to understand **why** you should verify the URL ot your website, [re
 
 [[TOC]]
 
+::: warning
+UNS/uns.network/universal-name-system is the old name of unikname.network blockchain.
+UNIK is the old name of UNIKNAME nft token
+UNS is the old name of UNIK protocol token
+Urls and old documentation are not renamed yet but are still valid. We're updating progressively.
+:::
 ## Generate the verification package
 
 Run this CLI command in a terminal:

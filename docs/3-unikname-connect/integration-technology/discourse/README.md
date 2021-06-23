@@ -37,6 +37,13 @@ To make integration very easy we've developed a specific ready-to-use plugin. He
 :book: We assume you're familiar with the Discourse installation process.
 :::
 
+::: warning
+UNS/uns.network/universal-name-system is the old name of unikname.network blockchain.
+UNIK is the old name of UNIKNAME nft token
+UNS is the old name of UNIK protocol token
+Urls and old documentation are not renamed yet but are still valid. We're updating progressively.
+:::
+
 ## Step 1. Install Discourse plugin
 
 Connect to your Discourse server, and access your container’s `app.yml` file. It should be present in `/var/discourse/containers/`)
