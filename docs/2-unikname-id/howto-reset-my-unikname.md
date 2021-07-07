@@ -14,6 +14,7 @@ next: false
 - You have lost your PIN code
 - Your application is corrupted
 - You want to erase all data of My Unikname App
+- You don't have latest app updates (e.g icon on homescreen)
 
 ### Caution
 
@@ -32,7 +33,7 @@ You will lose:
 👉 The history of your connections
 :::
 
-[If you have backed up your @unikname](../howto-backup-my-unikname.html), you will be able [to restore them]((../howto-restore-my-unikname.html)).
+[If you have backed up your @unikname](../howto-backup-my-unikname.html), you will be able [to restore them](<(../howto-restore-my-unikname.html)>).
 
 **So be sure of what you want to do!**
 
@@ -52,3 +53,11 @@ On your iPhone or iPad:
 Voilà! All data of My Unikname App has been destroyed.
 
 You can now [set up My Unikname again](../howto-install-my-unikname-app.html#step-2-install-now) and [restore your @unikname](../howto-restore-my-unikname.html).
+
+## On Android
+
+Following example is for Chrome browser. For other browsers, maybe website data removal process is different.
+
+- Go to your browser settings
+- Then `website settings` > `all websites` > `my.unikname.app` > `erase and reset`
+- Then remove the icon of "My Unikname" app from your home screen
