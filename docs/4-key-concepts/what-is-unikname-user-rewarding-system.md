@@ -8,12 +8,12 @@ next: false
 # What is the Unikname User Rewarding System?
 
 <p class="focustext">
-Unikname rewards users who want to make internet a safer place thanks to the uns.network blockchain and its UNS token.
+Unikname rewards users who want to make internet a safer place thanks to the unikname.network blockchain and its UNIK token.
 </p>
 
-**Thanks to UNS Tokens,** Unikname users are encouraged to maximize use of their @unikname to log in to any websites by rewarding them. 
+**Thanks to UNIK Tokens,** Unikname users are encouraged to maximize use of their @unikname to log in to any websites by rewarding them. 
 
-Every unikname user who sign-up and login to a website accumulate claimable credits (1). These credits are digital tokens called _UNS Tokens_. User claim his reward when he wants, and receives UNS tokens (2). Partner ecommerce website (eg. woocommerce...) using <brand name="UNC"/> propose special offers to Unikname users holding UNS tokens (3). During the payment process users can redeem some of their UNS tokens  for a partner offer (4). 
+Every unikname user who sign-up and login to a website accumulate claimable credits (1). These credits are digital tokens called _UNIK Tokens_. User claim his reward when he wants, and receives UNIK tokens (2). Partner ecommerce website (eg. woocommerce...) using <brand name="UNC"/> propose special offers to Unikname users holding UNIK tokens (3). During the payment process users can redeem some of their UNIK tokens  for a partner offer (4). 
 
 <img src="./unikname-user-rewarding-system.png" alt="unikname user rewarding system" style="width:640px; height:auto; display:block; margin-left:auto; margin-right:auto;">
 
@@ -28,7 +28,7 @@ eMerchants using Unikname Connect create special offers on their dashboard and t
 
 ## Rewards and redeems cannot be falsified 
 
-Unikname Rewarding System is designed and based on the <brand name="uns"/> blockchain and the next-gen authentication protocol, ensuring that rewards and redeems of UNS tokens can not be counterfeit.
+Unikname Rewarding System is designed and based on the <brand name="uns"/> blockchain and the next-gen authentication protocol, ensuring that rewards and redeems of UNIK tokens can not be counterfeit.
 
 ## The user privacy is secured
 

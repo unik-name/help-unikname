@@ -11,6 +11,12 @@ tags:
   - url name
 ---
 
+::: warning
+UNS/uns.network/universal-name-system is the old name of unikname.network blockchain.
+UNIK is the old name of UNIKNAME nft token
+UNS is the old name of UNIK protocol token
+Urls and old documentation are not renamed yet but are still valid. We're updating progressively.
+:::
 # How to create and setup the Unikname Trust Certificate for your website?
 
 ![install-unikname-connect-step](./images/install-unikname-connect-step2.png)
@@ -129,7 +135,7 @@ Then the result should look like this:
   }
 }
 ```
-> NOTA: The `id` is the unique technical ID of the @unikname created. This `id` is recorder in the blockchain and can be queried with the <brand name="uns"/> blockchain explorer ([example for the @unikname `@organization:unikname`](https://explorer.uns.network/uniks/f6018b8dcddbc9f8675577419c3493ffbc961876062655be43fce108e52408c0)).
+> NOTA: The `id` is the unique technical ID of the @unikname created. This `id` is recorder in the blockchain and can be queried with the <brand name="uns"/> blockchain explorer ([example for the @unikname `@organization:unikname`](https://explorer.unikname.network/uniks/f6018b8dcddbc9f8675577419c3493ffbc961876062655be43fce108e52408c0)).
 
 Ok, now it's a good time to backup all these highly sensitive information in a safe place: 
 
@@ -158,7 +164,7 @@ Run the following command to disclose the @unikname of your organization:
 uns unik:disclose "@organization:my-saas-platform-101" -e "my-saas-platform-101"
 ```
 
-> Replace `my-saas-platform-101` by the @unikname of type organization you want to disclose. You need to change it at both places. For more informations about the Disclose command, see the [uns.network documentation](https://docs.uns.network/uns-use-the-network/cli.html#unik-disclose).
+> Replace `my-saas-platform-101` by the @unikname of type organization you want to disclose. You need to change it at both places. For more informations about the Disclose command, see the [unikname.network documentation](https://docs.unikname.network/uns-use-the-network/cli.html#unik-disclose).
 
 ## Step 4. Prove the ownership of your website
 
@@ -186,7 +192,7 @@ Please, [read the explanations above in this current documentation for more info
 
 ### Generate the verification package
 
-First of all enter the following command to generate the verification package, using the [`properties:register` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-register):
+First of all enter the following command to generate the verification package, using the [`properties:register` CLI command](https://docs.unikname.network/uns-use-the-network/cli.html#properties-register):
 
 ```bash
 uns properties:register "@organization:my-saas-platform-101" --value "www.my-saas-platform-101.com" 
@@ -251,7 +257,7 @@ The **`verificationKey`** is a 86-length characters and digits, such as `fi5TrRl
 **⚠ Do not used** the content of the verification package file `uns-verification.txt` here.
 :::
 
-Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-verify):
+Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.unikname.network/uns-use-the-network/cli.html#properties-verify):
 
 ```bash
 uns properties:verify "@organization:my-saas-platform-101" --url-channel html
@@ -261,7 +267,7 @@ uns properties:verify "@organization:my-saas-platform-101" --url-channel html
 
 The command will tell with you it is a success or will display an error message you can try to solve by yourself by [reading the section below](#what-to-do-when-it-doesn-t-work).
 
-Then, a uns.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
+Then, a unikname.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
 
 ::: tip When to remove the proof from the web page
 Keep the HTML tag into the webpage as long as possible.
@@ -331,7 +337,7 @@ The **verification package** is a file named `uns-verification.txt`, which conta
 **⚠ Do not used** the `verificationKey` here.
 :::
 
-Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.uns.network/uns-use-the-network/cli.html#properties-verify):
+Until done, finish the process by executing the [`properties:verify` CLI command](https://docs.unikname.network/uns-use-the-network/cli.html#properties-verify):
 
 ```bash
 uns properties:verify "@organization:my-saas-platform-101" --url-channel file
@@ -341,7 +347,7 @@ uns properties:verify "@organization:my-saas-platform-101" --url-channel file
 
 The command will tell with you it is a success or will display an error message you can try to solve by yourself by [reading the section below](#what-to-do-when-it-doesn-t-work-2).
 
-Then, a uns.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
+Then, a unikname.network **URL_Checker** service provider will crawl your website, within 72 hours, to check the verification package.
 
 ::: tip When to remove the proof from the web page
 Keep the HTML tag into the web page as long as possible.
@@ -362,12 +368,12 @@ The following verification errors can occur with uploading a text file verificat
 
   Please check where the `uns-verification.txt` file was uploaded.
   It must be reached at `https://www.my-saas-platform-101.com/.well-known/uns-verification.txt` location without any modifications.
-  If the file name or content does not match the `uns-verification.txt` file provided, the uns.network **URL_Checker** service provider won't be able to verify your site ownership.
+  If the file name or content does not match the `uns-verification.txt` file provided, the unikname.network **URL_Checker** service provider won't be able to verify your site ownership.
 
 - Your verification file has the wrong content
 
-  The uns.network **URL_Checker** service provider checks to see if your verification file has the same filename and content as the file provided by the CLI command.
-  If the file name or content does not match the `uns-verification.txt` file provided, the uns.network **URL_Checker** service provider won't be able to verify your site ownership.
+  The unikname.network **URL_Checker** service provider checks to see if your verification file has the same filename and content as the file provided by the CLI command.
+  If the file name or content does not match the `uns-verification.txt` file provided, the unikname.network **URL_Checker** service provider won't be able to verify your site ownership.
   Please, upload the `uns-verification.txt` file provided to the specified location without any modifications.
 
 - Hacked verification file
@@ -377,7 +383,7 @@ The following verification errors can occur with uploading a text file verificat
 
 - Your verification file redirects to a disallowed location.
 
-  The uns.network **URL_Checker** service provider will not follow redirects for verification files; if your site redirects all traffic to another site, we recommend using [meta tag verification](#_1st-way-add-an-html-tag-to-your-website).
+  The unikname.network **URL_Checker** service provider will not follow redirects for verification files; if your site redirects all traffic to another site, we recommend using [meta tag verification](#_1st-way-add-an-html-tag-to-your-website).
 
 - More [common verification problems](#common-verification-errors) are listed below.
 :::
@@ -394,11 +400,11 @@ In addition to any method-specific verification errors, the following verificati
 
 - The connection to your server timed out.
   
-  The uns.network **URL_Checker** service provider was unable to verify your file because he received a server timeout.
+  The unikname.network **URL_Checker** service provider was unable to verify your file because he received a server timeout.
   This could be because your server is down or is busy and responding slowly.
   Make sure that your server is responding and try again.
 
-- The uns.network **URL_Checker** service provider encountered an error looking up your site's domain name.
+- The unikname.network **URL_Checker** service provider encountered an error looking up your site's domain name.
 
   He tried to access your verification file, but was unable to access your domain due to a DNS error.
   This could be because your server is down, or there is an issue with the DNS routing to your domain.
@@ -412,7 +418,7 @@ In addition to any method-specific verification errors, the following verificati
 
   This can happen if your site is requires password authentication, or if we cannot access it for other reasons.
 
-- The uns.network **URL_Checker** service provider was unable to connect to your server.
+- The unikname.network **URL_Checker** service provider was unable to connect to your server.
 
   Make sure that your server is not down, and that your domain is resolving correctly, and try again.
 
@@ -428,7 +434,7 @@ In addition to any method-specific verification errors, the following verificati
 
 - Could not find your domain.
 
-  The uns.network **URL_Checker** service provider tried to resolve the site URL that you gave us, but it is unknown to the DNS service.
+  The unikname.network **URL_Checker** service provider tried to resolve the site URL that you gave us, but it is unknown to the DNS service.
   Check that you are providing the correct URL for your property.
   If this problem persists, open a topic on our <forumurl/>.
 
@@ -436,22 +442,22 @@ In addition to any method-specific verification errors, the following verificati
 
 :::tip About the User-Agent used by URL_Checker
 
-The user agent of the uns.network **URL_Checker** service provider that performs HTML tag or file verification has the user agent token `UNS-URL-Checker-Verification` and the full user agent string is `Mozilla/5.0 (compatible; UNS-URL-Checker-Verification/1.0; <DID>)` where `DID` is the ID of the URL_Checker service provider that performs the verification (such as this official URL_Checkers service provider [`did:unik:unid:fbfbe7d9e8c005f1a9937d9fd17c4ef7da2ff8037a71e6cb7847b302eda4d08a`](https://explorer.uns.network/uniks/08bf335ede1818e222ecd529e0e892190aab62a39ec40492395b825a4f640731)).
+The user agent of the unikname.network **URL_Checker** service provider that performs HTML tag or file verification has the user agent token `UNS-URL-Checker-Verification` and the full user agent string is `Mozilla/5.0 (compatible; UNS-URL-Checker-Verification/1.0; <DID>)` where `DID` is the ID of the URL_Checker service provider that performs the verification (such as this official URL_Checkers service provider [`did:unik:unid:fbfbe7d9e8c005f1a9937d9fd17c4ef7da2ff8037a71e6cb7847b302eda4d08a`](https://explorer.unikname.network/uniks/08bf335ede1818e222ecd529e0e892190aab62a39ec40492395b825a4f640731)).
 :::
 
 ### Customizing the Unikname Connect screen with your website logo
 
-While verifying your website URL, the uns.network **URL_Checker** service provider will try to crawl and store your website main logo to display it to your users when they connect with Unikname Connect.
+While verifying your website URL, the unikname.network **URL_Checker** service provider will try to crawl and store your website main logo to display it to your users when they connect with Unikname Connect.
 
 ## Step 5. Check your setup
 
-Finally check your setup in the uns.network blockchain explorer.
+Finally check your setup in the unikname.network blockchain explorer.
 
 In the <brand name="uns"/> blockchain explorer you can find all the information related to any @unikname Identifier.
 
 To check that your organization @unikname identifier has been created correctly:
 
-Open the [UNS Network explorer](https://explorer.uns.network/) and enter `@organization:my-saas-platform-101` in the search.
+Open the [unikname.network explorer](https://explorer.unikname.network/) and enter `@organization:my-saas-platform-101` in the search.
 
 <hpicture>![explorer-search-@organization_mycompany](./images/chechunexplorer.png)</hpicture>
 

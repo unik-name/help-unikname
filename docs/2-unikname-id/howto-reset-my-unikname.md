@@ -26,7 +26,7 @@ You will lose:
 
 👉 Your @unikname
 
-👉 UNS credits
+👉 UNIK credits
 
 👉 Therefore the accounts on the websites where you logged in with your @unikname
 

@@ -31,5 +31,5 @@ If you discover a security vulnerability within this package, please send an e-m
 
 ## License
 
-[MIT](LICENSE) © by [Unikname](https://www.unikname.com) secured by [uns.network](https://www.uns.network) blockchain.
+[MIT](LICENSE) © by [Unikname](https://www.unikname.com) secured by [unikname.network](https://www.unikname.network) blockchain.
 

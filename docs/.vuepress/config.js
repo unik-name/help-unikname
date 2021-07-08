@@ -45,7 +45,7 @@ module.exports = {
       author: (_, $site) => {
         return {
           name: $site.themeConfig.author,
-          twitter: "@Unikname_UNS",
+          twitter: "@UniknameNews",
         };
       },
       image: ($page, $site) =>
@@ -288,7 +288,7 @@ module.exports = {
       {
         title: "Security",
         children: [
-          ["/5-security/securing-the-uns-network", "Securing the UNS.network"],
+          ["/5-security/securing-the-uns-network", "Securing the unikname.network"],
           ["/5-security/security-hack-protections", "Hack Protections"],
           ["/5-security/security-vulnerabilities", "Vulnerabilities"],
         ],

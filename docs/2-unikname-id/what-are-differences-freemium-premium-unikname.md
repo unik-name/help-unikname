@@ -29,7 +29,7 @@ PREMIUM @Unikname IDs can have a public registry with up to 100 properties.
 
 PREMIUM @Unikname IDs They must be activated within 4 weeks of their acquisition. Once activated, the retention period is 18 months after its last proof of activity.
 
-PREMIUM @Unikname IDs receive a welcome reward of 100 UNS tokens at activation time.
+PREMIUM @Unikname IDs receive a welcome reward of 100 UNIK tokens at activation time.
 
 ## Summary 
 
@@ -40,7 +40,7 @@ PREMIUM @Unikname IDs receive a welcome reward of 100 UNS tokens at activation t
 | Retention period for activation | 1 week | 3 months |
 | Retention period once activated | 3 months after last Proof Of Activity | 18 months after its last Proof Of Activity |
 | Everlasting retention period | Option | Option |
-| Welcome Reward | none | 100 UNS |
+| Welcome Reward | none | 100 UNIK |
 
 <hseparator/>
 

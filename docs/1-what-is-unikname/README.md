@@ -49,7 +49,7 @@ Unikname&trade; makes the internet safer and protect user's privacy thanks to Se
 Unikname Connect is a privacy-by-design authentication solution, rewarding users who want to make internet a safer place.
 </p>
 
-Unikname&trade; is an European next-generation authentication solution, passwordless, and working with a @unikname (a pseudo). Private-by-design and secured by the uns.network blockchain, it's a reliable alternate to former social authentication solutions.
+Unikname&trade; is an European next-generation authentication solution, passwordless, and working with a @unikname (a pseudo). Private-by-design and secured by the unikname.network blockchain, it's a reliable alternate to former social authentication solutions.
 
 
 ### Privacy-by-design
@@ -62,9 +62,9 @@ Our technology makes it possible to customized user experience and services with
 
 ### Unikname Rewards its Users
 
-**Thanks to UNS Tokens,** Unikname users are encouraged to maximize use of their @unikname to log in to any websites by rewarding them. Every unikname user who sign-up and login to a website receives rewards. These rewards are digital tokens called _UNS Tokens_. 
+**Thanks to UNIK Tokens,** Unikname users are encouraged to maximize use of their @unikname to log in to any websites by rewarding them. Every unikname user who sign-up and login to a website receives rewards. These rewards are digital tokens called _UNIK Tokens_. 
 
-**Partner platforms using <brand name="UNC"/> offer promotional coupons for Unikname users.** UNS Tokens can be exchanged against vouchers or promotional coupons to be redeemed on any partner platforms.
+**Partner platforms using <brand name="UNC"/> offer promotional coupons for Unikname users.** UNIK Tokens can be exchanged against vouchers or promotional coupons to be redeemed on any partner platforms.
 
 ### Simplest Strong Authentication
 

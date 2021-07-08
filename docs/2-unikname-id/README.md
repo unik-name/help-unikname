@@ -69,5 +69,5 @@ No time to fix it properly ...
 
 :zap: [What is the User Rewarding System?](./../4-key-concepts/what-is-unikname-user-rewarding-system)
 
-:zap: How to earn @unikname UNS tokens? _coming soon..._
+:zap: How to earn @unikname UNIK tokens? _coming soon..._
 

@@ -2,6 +2,13 @@
 home: false
 ---
 
+::: warning
+UNS/uns.network/universal-name-system is the old name of unikname.network blockchain.
+UNIK is the old name of UNIKNAME nft token
+UNS is the old name of UNIK protocol token
+Urls and old documentation are not renamed yet but are still valid. We're updating progressively.
+:::
+
 # How to install the Command Line Interface (CLI)?
 
 The <brand name="uns"/> Command Line Interface (CLI) is a powerful tool allowing you to manage your @uniknames and to interact directly with the <brand name="uns"/> blockchain. This Command Line Interface tool is required to setup a Unikname-Connect Account.
@@ -36,7 +43,7 @@ COMMANDS
 You are now ready for the next step!
 
 :::tip
-You can find more details about installing and using the CLI within the [full CLI documentation](https://docs.uns.network/uns-use-the-network/cli.html#download-and-installation)
+You can find more details about installing and using the CLI within the [full CLI documentation](https://docs.unikname.network/uns-use-the-network/cli.html#download-and-installation)
 
 You can also request inline help with the command `uns --help`
 :::

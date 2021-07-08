@@ -16,11 +16,11 @@ The registry of non-fungible @unikname tokens consists of obfuscated strings. Wi
 
 ### Reverse lookup protection
 
-The registry is protected against reverse lookup. It is not possible to find a @unikname from a value within the registry (e.g. a blockchain public address) because user’s registry does not contain @unik names nor any reference to it, and because the user’s registry is stored off-chain. 
+The registry is protected against reverse lookup. It is not possible to find a @unikname from a value within the registry (e.g. a blockchain public address) because user’s registry does not contain human-readable unikname id nor any reference to it, and because the user’s registry is stored off-chain. 
 
 The key field of the database containing values is composed of obfuscated unik-addresses. This key is also protected against “rainbow-table” attacks. (see Unlisted Protection here above).
 
-In addition, there is a double protection for values attached to a label with restricted permissions (see here above). These values are encrypted and stored off-chain. Only whitelisted @unik names are able to decrypt the value stored into the registry. An attacker who succeed to get access to the off-chain storage will only get encrypted data. 
+In addition, there is a double protection for values attached to a label with restricted permissions (see here above). These values are encrypted and stored off-chain. Only whitelisted uniknames are able to decrypt the value stored into the registry. An attacker who succeed to get access to the off-chain storage will only get encrypted data. 
 
 ### Data Integrity Protection (Proof Of Retrievability - POR)
 
