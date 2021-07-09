@@ -51,7 +51,7 @@ module.exports = {
       image: ($page, $site) =>
         $site.themeConfig.domain +
         "/" +
-        ($page.frontmatter.image || "opengraph-v1.png"),
+        ($page.frontmatter.image || "opengraph-v2.png"),
     },
   },
   head: [
@@ -288,7 +288,10 @@ module.exports = {
       {
         title: "Security",
         children: [
-          ["/5-security/securing-the-uns-network", "Securing the unikname.network"],
+          [
+            "/5-security/securing-the-uns-network",
+            "Securing the unikname.network",
+          ],
           ["/5-security/security-hack-protections", "Hack Protections"],
           ["/5-security/security-vulnerabilities", "Vulnerabilities"],
         ],
