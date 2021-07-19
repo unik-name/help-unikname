@@ -15,28 +15,15 @@ All PREMIUM @Unikname IDs have the following specifications:
 
 The getter of a PREMIUM @unikname ID remains the owner of his identifier for no limit of time, provided that the identifier has been activated within 4 weeks and it used regularly*. So it is recommended to activate it as soon as you get it.
 
-## PREMIUM - Common
+## PREMIUM
 
 | Type | specifications | price |
 | :- | :- | -: |
-| Regular | 10 characters and more | 10 € |
-| Short | 7 characters and more | 50 € |
-| Rare | 4 characters and more | 500 € |
-
-## PREMIUM - Tiny
-
-| Type | specifications | price |
-| :- | :- | -: |
-| Tiny3  | 3 characters | 5 000 € |
-| Tiny2  | 2 characters | 50 000 € |
-
-## PREMIUM - Only Digit
-
-| Type | specifications | price |
-| :- | :- | -: |
-| Digit Long  | 10 characters | 50 € |
-| Digit Standard  | 6 characters | 500 € |
-| Digit Tiny  | 3 characters | 5 000 € |
+| Long | 15 characters and more | $12.5 |
+| Regular | 10-14 characters | $25 |
+| Short | 7-9 characters | $125 |
+| Rare | 4-6 characters | $1250 |
+| Tiny3 | 3 characters | $12500 |
 
 ## *End of life option
 
@@ -44,4 +31,4 @@ Every @unikname ID may have an end of life and can be recycled if its owner die.
 
 | Option | Description | price |
 | :- | :- | -: |
-| Everlasting  | Disable end of life. | 100 € |
+| Everlasting  | Disable end of life. | $100 |
