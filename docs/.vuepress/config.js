@@ -84,6 +84,7 @@ module.exports = {
     activeHeaderLinks: true,
     sidebarDepth: 1,
     nav: [
+      { text: "Join the Whitelist", link: "https://hub.unikname.network" },
       { text: "Go to website", link: "https://www.unikname.com" },
       { text: "Get the App", link: "https://my.unikname.app" },
     ],
