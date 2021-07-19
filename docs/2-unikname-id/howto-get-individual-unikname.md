@@ -33,7 +33,7 @@ Your @unikname ID is unique, persistent, and personal. You can choose a pseudo, 
 
 To get a scarce name, shorter than 15 chars, you can:
 * use a PROMOTIONAL COUPON CODE.
-* bought it with € or crypto
+* bought it with USD or crypto
 * exchange network credits ($UNIK), if you own some
 
 <hpicture>![chooseUnikname](./images/unik-pricelist.png)</hpicture>
@@ -52,7 +52,7 @@ You get it one time for all.
 
 If it's a 14 characters long or more then confirm to go to the last step. If it's a scarce one, a shorter than 15 characters, you can check its price within the price list, then confirm.
 
-<hpicture noshadow caption="Exemple with @Marty.McFly-2015 and @Marty.McFly IDs">![chooseUnikname](./images/gun-freemium-vs-premium.png)</hpicture>
+<hpicture noshadow caption="Exemple with @Marty.McFly-2015 and @Marty.Mc">![chooseUnikname](./images/gun-freemium-vs-premium.png)</hpicture>
 
 ## Create you @unikname ID one time for all
 
