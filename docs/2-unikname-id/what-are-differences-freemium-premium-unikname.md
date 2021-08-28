@@ -40,7 +40,9 @@ PREMIUM UniknameIDs receive a welcome reward of 100 UNIK tokens at activation ti
 | Retention period for activation | 1 week | 3 months |
 | Retention period once activated | 3 months after last Proof Of Activity | 18 months after its last Proof Of Activity |
 | Everlasting retention period | Option | Option |
-| Welcome Reward | none | 100 UNIK |
+| Welcome Reward | none | some UNIK* |
+
+_* Exact amount depends on marketing decisions_
 
 <hseparator/>
 
