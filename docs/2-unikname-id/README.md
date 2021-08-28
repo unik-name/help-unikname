@@ -14,7 +14,7 @@ With your <unid/> and `My.Unikname.App` you can control your digital life:
 * share and get access to public information with your friends, authenticated and quickly
 * earn network credits that you may redeem with a coupon, to be used with Unikname partners
 
-<hpicture caption="Why to use your @unikname ID to connect to websites?">![unikname ID value proposition](./images/uniknameid_value.png)</hpicture>
+<hpicture caption="Why to use your UniknameID to connect to websites?">![unikname ID value proposition](./images/uniknameid_value.png)</hpicture>
 
 To get your own <unid/>, first you need to install the `My Unikname App`, then choose a unique name and root it into the global <brand name="uns"/>. 
 
