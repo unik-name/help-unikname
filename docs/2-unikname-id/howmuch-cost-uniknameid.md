@@ -31,4 +31,4 @@ Every UniknameID may have an end of life and can be recycled if its owner die. F
 
 | Option | Description | price |
 | :- | :- | -: |
-| Everlasting  | Disable end of life. | $100 |
+| Everlasting  | Disable end of life. | $125 |
