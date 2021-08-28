@@ -82,7 +82,7 @@ module.exports = {
     docsDir: "docs",
     lastUpdated: true,
     activeHeaderLinks: true,
-    sidebarDepth: 1,
+    sidebarDepth: 0,
     nav: [
       {
         text: "Join the Whitelist",
@@ -101,26 +101,30 @@ module.exports = {
       },
       // my @unikname
       {
-        title: "@unikname Universal ID",
+        title: "UniknameID",
         //path: "/2-unikname-id/",
         children: [
-          ["/2-unikname-id/", "Getting started with UniknameID"],
+          [
+            "/2-unikname-id/", 
+            "Getting started with UniknameID!"],
           [
             "/2-unikname-id/howto-install-my-unikname-app",
             "How to install my Unikname App?",
           ],
           [
             "/2-unikname-id/howto-get-individual-unikname",
-            "How to get my own @unikname?",
+            "How to get my own UniknameID?",
           ],
-          ["/2-unikname-id/howto-connect", "How to connect to a website?"],
+          [
+            "/2-unikname-id/howto-connect", 
+            "How to connect to a website?"],
           [
             "/2-unikname-id/howto-backup-my-unikname",
-            "How to backup my @unikname?",
+            "How to backup my UuniknameID?",
           ],
           [
             "/2-unikname-id/howto-restore-my-unikname",
-            "How to restore my @unikname?",
+            "How to restore my UniknameID?",
           ],
           // ["/2-unikname-id/howto-become-ambassador", "How to become an ambassador?"],
 
@@ -128,22 +132,28 @@ module.exports = {
             "/2-unikname-id/can-i-get-uniknameid-for-free",
             "Can I get my UniknameID for free?",
           ],
-          ["/2-unikname-id/why-to-pay-short-id", "Why to pay for short ID?"],
+          [
+            "/2-unikname-id/why-to-pay-short-id", 
+            "Why to pay for short UniknameID?"],
           [
             "/2-unikname-id/what-are-differences-freemium-premium-unikname",
             "What are differences between Freemium and Premium?",
           ],
           [
             "/2-unikname-id/howmuch-cost-uniknameid",
-            "How much does a @unikname cost?",
+            "How much does a UniknameID cost?",
           ],
           [
             "/2-unikname-id/howto-get-freemium-unikname",
-            "How to get a freemium @unikname?",
+            "How to get a FREEMIUM UniknameID?",
           ],
           [
             "/2-unikname-id/howto-get-premium-unikname",
-            "How to get a premium @unikname?",
+            "How to get a PREMIUM UniknameID?",
+          ],
+          [
+            "/2-unikname-id/howto-use-voucher-coupon-unikname",
+            "How to use VOUCHER and COUPON?",
           ],
           // ["/2-unikname-id/howto-go-live", "How my @unikname goes live?"],
           // ["/2-unikname-id/howto-manage-unikname-properties", "How to manage my @unikname properties?"],

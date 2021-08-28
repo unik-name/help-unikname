@@ -47,11 +47,15 @@ No time to fix it properly ...
 
 :zap: [What are differences between FREEMIUM and PREMIUM UniknameID?](./what-are-differences-freemium-premium-unikname)
 
-:zap: [How much does it cost to get a PREMIUM ID?](./howmuch-cost-uniknameid)
+:zap: [How much does it cost to get a PREMIUM UniknameID?](./howmuch-cost-uniknameid)
 
-:zap: [How to get a FREEMIUM @unikname?](./howto-get-freemium-unikname)
+:zap: [How to get a FREEMIUM UniknameID?](./howto-get-freemium-unikname)
 
-:zap: [How to get a PREMIUM @unikname?](./howto-get-premium-unikname)
+:zap: [How to get a PREMIUM UniknameID?](./howto-get-premium-unikname)
+
+:zap: [How to use my pre-paid VOUCHER to get my UniknameID?](./howto-use-voucher-coupon-unikname)
+
+:zap: [How to use my promotional COUPON code to get my UniknameID?](./howto-use-voucher-coupon-unikname)
 
 ## Lifecycle
 
