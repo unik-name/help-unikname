@@ -36,9 +36,9 @@ Unikname&trade; makes the internet safer and protect user's privacy thanks to Se
 :::
 
 :::tip Spelling convention
-**`Unikname`&trade;** with an uppercase `U` refers to the product and the brand. <br/>
-**`UniknameID`** beginning with the `@` sign and lowercases refers to the name of the Identifier. <br/>
-**`My Unikname App`** refers to the name of the App
+**`Unikname™`** with an uppercase `U` refers to the product and the brand. <br/>
+**`UniknameID`** refers to the name of the Decentralized Identifier. <br/>
+**`My Unikname App`** refers to the name of the App.
 :::
 
 <hseparator/>
