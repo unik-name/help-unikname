@@ -1,11 +1,11 @@
 ---
 prev: false
 home: false
-title: "Can I get my @unikname ID for free?"
+title: "Can I get my UniknameID for free?"
 ---
 
-# Can I get my @unikname ID for free?
+# Can I get my UniknameID for free?
 
-Yes you can get your @unikname ID for free. 
+Yes you can get your UniknameID for free. 
 
-There's FREEMIUM and PREMIUM @unikname ID. Free ones must be 15 characters long or more.
+There's FREEMIUM and PREMIUM UniknameID. Free ones must be 15 characters long or more.

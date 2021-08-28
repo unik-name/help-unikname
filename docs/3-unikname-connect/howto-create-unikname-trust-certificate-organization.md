@@ -21,9 +21,9 @@ Urls and old documentation are not renamed yet but are still valid. We're updati
 
 ![install-unikname-connect-step](./images/install-unikname-connect-step2.png)
 
-You've already discovered @unikname ID for individual where the main purpose is to allow people to keep full control of their Digital Identity and to keep their web authentications fully private. There's another type of @unikname ID dedicated for organization.
+You've already discovered UniknameID for individual where the main purpose is to allow people to keep full control of their Digital Identity and to keep their web authentications fully private. There's another type of UniknameID dedicated for organization.
 
-**@unikname IDs of type Organization** are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocol. Combined with the domain name of your website it offers a strong cyber-protection for your user account. The @unikname ID of type organization can only be created with a `UNIKNAME-CONNECT COUPON CODE` obtained after human verification and with the Command Line Interface tool (the CLI).
+**UniknameIDs of type Organization** are disclosed publicly and they're used by the <brand name="UNC"/> authentication protocol. Combined with the domain name of your website it offers a strong cyber-protection for your user account. The UniknameID of type organization can only be created with a `UNIKNAME-CONNECT COUPON CODE` obtained after human verification and with the Command Line Interface tool (the CLI).
 
 Here we explain how to create a @unikname of type Organization, how to disclose it publicly, and how to link it with your website domain name and to make it your trust certificate.
 
@@ -42,7 +42,7 @@ Your users see your trust certificate information when they sign-up and login to
 
 <hpicture noshadow caption="Example of Trust Certificate Information on Cryptomaniac Website - Click to see it live">[![Unikname Connect trust certificate example](./images/unc-trust-certificate-example.png)](https://www.cryptomaniac.fr/?OIDCCallback=UniknameConnect)</hpicture>
 
-1. The @unikname ID of type organization. **Usually your brand**.
+1. The UniknameID of type organization. **Usually your brand**.
 1. The verified domain name where Unikname Connect is installed.
 1. The green shield, a button which allows users to check the validity of this information.
 
@@ -98,11 +98,11 @@ Then make an immediate backup of these information in a safe place.
 
 The most important part of them is the `passphrase`, also known as "secret recovery code".
 
-## Step 2. Create the @unikname ID for your organization
+## Step 2. Create the UniknameID for your organization
 
-Okay, now you can create the @unikname ID for your organization, using your UNIKNAME-CONNECT COUPON CODE (see prerequisites here above) and using the information of the just created cryptoaccount.
+Okay, now you can create the UniknameID for your organization, using your UNIKNAME-CONNECT COUPON CODE (see prerequisites here above) and using the information of the just created cryptoaccount.
 
-The @unikname ID for your organization must follow these rules:
+The UniknameID for your organization must follow these rules:
 - containing at least one letter and be longer than 6 characters
 - being very close to your domain name but without the `.com` and without any other extension
 
@@ -110,9 +110,9 @@ Your @unikname is case, accent and separator insensitive like individual ones.
 That means if you choose `my-saas-platform-101` then you're protected against squatting with `mySaaS_platform101` or `mysaasplatform*101`
 
 :::warning
-Choose your organization @unikname identifier wisely.
+Choose your organization UniknameIDentifier wisely.
 
-Keep in mind that once created this @unikname identifier will be permanently associated to your organization and disclosed to the other users. 
+Keep in mind that once created this UniknameIDentifier will be permanently associated to your organization and disclosed to the other users. 
 :::
 
 Enter the following command replacing `my-saas-platform-101` by your own identifier, and replacing `MY-UNIKNAME-CONNECT-COUPON` by the one you've obtained when you sign up.
@@ -154,7 +154,7 @@ Your @unikname is obfuscated within the blockchain so that means **nobody knows 
 👉 You should use a password safe solution like [_Lastpass_, _Keepass_ (or others)](https://alternativeto.net/category/security/password-manager/), so you're encouraged to save your information in it.
 :::
 
-## Step 3. Disclose the @unikname ID of your organization
+## Step 3. Disclose the UniknameID of your organization
 
 Unikname of type Organization must be publicly disclosed in order to be used with <brand name="UNC"/> on your website. By default all @unikname values are obfuscated and publicly hidden. 
 
@@ -453,17 +453,17 @@ While verifying your website URL, the unikname.network **URL_Checker** service p
 
 Finally check your setup in the unikname.network blockchain explorer.
 
-In the <brand name="uns"/> blockchain explorer you can find all the information related to any @unikname Identifier.
+In the <brand name="uns"/> blockchain explorer you can find all the information related to any UniknameIDentifier.
 
-To check that your organization @unikname identifier has been created correctly:
+To check that your organization UniknameIDentifier has been created correctly:
 
 Open the [unikname.network explorer](https://explorer.unikname.network/) and enter `@organization:my-saas-platform-101` in the search.
 
 <hpicture>![explorer-search-@organization_mycompany](./images/chechunexplorer.png)</hpicture>
 
-> Replace `my-saas-platform-101` with your own organization @unikname identifier.
+> Replace `my-saas-platform-101` with your own organization UniknameIDentifier.
 
-Then check the information associated with your organization @unikname identifier:
+Then check the information associated with your organization UniknameIDentifier:
 
 :heavy_check_mark: Your unikname is disclosed. You can read it on the explorer.   
 :heavy_check_mark: Your unikname is of type Organization   

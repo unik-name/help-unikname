@@ -39,7 +39,7 @@ Non-Fungible Token, by opposiiton to a more traditionnal Token. NFT have remarka
 
 ### UNIKNAME (or UNIKNAME Token)
 
-@unikname Identifers are represented by a NFT Token within the unikname.network. These tokens rooted into the blockchain are named the UNIKNAME Tokens.
+UniknameIDentifers are represented by a NFT Token within the unikname.network. These tokens rooted into the blockchain are named the UNIKNAME Tokens.
 
 ## Official Unikname Projects
 

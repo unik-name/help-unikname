@@ -9,7 +9,7 @@ next: false
 
 ## Step 1. Backup your recovery key
 
-Your @unikname identifier and all associated data (PIN code, recovery key) are strictly personal and confidential. We can't help you retrieve or restore it if you lose them or change your device. This is why **you must backup your recovery key immediately**. 
+Your UniknameIDentifier and all associated data (PIN code, recovery key) are strictly personal and confidential. We can't help you retrieve or restore it if you lose them or change your device. This is why **you must backup your recovery key immediately**. 
 
 <hpicture>![RecoveryKeyBackup](./images/RecoveryKeyBackup.jpg)</hpicture>
 

@@ -3,10 +3,10 @@ prev: false
 next: false
 ---
 
-# @Unikname ID: your Universal ID
+# UniknameID: your Universal ID
 
 <p class="focustext">
-@unikname ID is a Self-Sovereign Universal IDentifier, giving its owner total control over its digital life.
+UniknameID is a Self-Sovereign Universal IDentifier, giving its owner total control over its digital life.
 </p>
 
 With your <unid/> and `My.Unikname.App` you can control your digital life: 
@@ -29,23 +29,23 @@ No time to fix it properly ...
 
 :zap: [How to install My Unikname App?](./howto-install-my-unikname-app)
 
-:zap: [How to get my own @unikname ID?](./howto-get-individual-unikname)
+:zap: [How to get my own UniknameID?](./howto-get-individual-unikname)
 
-:zap: [How to connect to a website with my @unikname ID?](./howto-connect)
+:zap: [How to connect to a website with my UniknameID?](./howto-connect)
 
-:zap: [How to backup my @unikname ID?](./howto-backup-my-unikname)
+:zap: [How to backup my UniknameID?](./howto-backup-my-unikname)
 
-:zap: [How to restore my @unikname ID?](./howto-restore-my-unikname)
+:zap: [How to restore my UniknameID?](./howto-restore-my-unikname)
 
 :zap: How to become an ambassador? _coming soon..._
 
 ## Freemium and Premium 
 
-:zap: [Can I get my @unikname ID for free?](./can-i-get-uniknameid-for-free)
+:zap: [Can I get my UniknameID for free?](./can-i-get-uniknameid-for-free)
 
 :zap: [Why do I have to pay for a short ID?](./why-to-pay-short-id)
 
-:zap: [What are differences between FREEMIUM and PREMIUM @unikname ID?](./what-are-differences-freemium-premium-unikname)
+:zap: [What are differences between FREEMIUM and PREMIUM UniknameID?](./what-are-differences-freemium-premium-unikname)
 
 :zap: [How much does it cost to get a PREMIUM ID?](./howmuch-cost-uniknameid)
 

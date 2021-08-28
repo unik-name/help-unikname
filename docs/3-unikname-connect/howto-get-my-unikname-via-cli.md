@@ -76,7 +76,7 @@ It is very important to save your cryptoaccount information at this stage! **The
 👉 You should use a password safe solution like [_Lastpass_, _Keepass_ (or others)](https://alternativeto.net/category/security/password-manager/), so you're encouraged to save your information in it.
 :::
 
-## Step 2. Choose and create your own @unikname identifier
+## Step 2. Choose and create your own UniknameIDentifier
 
 Okay now you can create you own individual @unikname. 
 
@@ -86,7 +86,7 @@ So keep it **simple** and **easy to remember**.
 It could be your pseudo, your real name, or any funny name, it's up to you to decide.
 
 :::tip Information
-@unikname IDs for Individuals and @unikname IDs for Organization are **different in their uses and in their capabilities**.
+UniknameIDs for Individuals and UniknameIDs for Organization are **different in their uses and in their capabilities**.
 Here you need to create your individual one.
 We'll see how to create the one for your organization later on.
 :::
@@ -194,7 +194,7 @@ Follow the process on the forum.
 What you've achieved here:
 
 :heavy_check_mark: Created and backup you crypto account    
-:heavy_check_mark: Chosen and created your own @unikname ID   
+:heavy_check_mark: Chosen and created your own UniknameID   
 :heavy_check_mark: Checked your @unikname with the name resolver     
 :heavy_check_mark: Installed the App enlist your @unikname within it   
 :heavy_check_mark: Sign-up to our forum with your own @unikname    

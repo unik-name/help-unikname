@@ -13,7 +13,7 @@ Your users see your trust certificate information when they sign-up or login to 
 
 <hpicture noshadow caption="Example of Trust Certificate Information on Cryptomaniac Website">![Unikname Connect trust certificate example](./../3-unikname-connect/images/unc-trust-certificate-example.png)</hpicture>
 
-1. The @unikname ID of type organization. Usually your brand.
+1. The UniknameID of type organization. Usually your brand.
 2. The verified domain name where Unikname Connect is installed. 
 3. Clicking on the green shield allows users to check the validity of this information.
 

@@ -7,7 +7,7 @@ title: Unikname Help Center Home
 <card title="Introduction" description="What is Unikname?" url="/1-what-is-unikname"/>
 <!-- card title="User Rewarding System" description="Everything about user rewards, and how to get it and to use it." url="/1-what-is-unikname/what-is-unikname-user-rewarding-system" / -->
 <!-- card title="Key Concepts" description="" url="/4-key-concepts"/ --> 
-<card title="@unikname ID" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
+<card title="UniknameID" description="The best place to start to know how to get and use your universal ID" url="/2-unikname-id"/>
 </cardcontainer>
 
 <!-- card title="Freemium and Premium @unikname" description="" url="/2-unikname-id/#freemium-and-premium-unikname"/ -->

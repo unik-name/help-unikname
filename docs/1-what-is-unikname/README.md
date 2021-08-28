@@ -14,8 +14,8 @@ Unikname&trade; is a European cyber-solution aiming of securing internet platfor
 
 <img src="./what-is-unikname_@2x.png" alt="what-is-unikname" style="width:480px; height:auto; display:block; margin-left:auto; margin-right:auto;">
 
-**Individuals get their own @unikname ID**, a pseudo under their sole control, allowing them to sign-up/login safely and privately to their favorite websites. Because this @unikname ID is a Self-Sovereign ID with remarkable features and properties, it enables exclusive operations for its owner such as authenticating any kind of operations, managing rewarding tokens, or authentic data sharing.  
-_[:arrow_forward: More about @unikname ID](/2-unikname-id)_
+**Individuals get their own UniknameID**, a pseudo under their sole control, allowing them to sign-up/login safely and privately to their favorite websites. Because this UniknameID is a Self-Sovereign ID with remarkable features and properties, it enables exclusive operations for its owner such as authenticating any kind of operations, managing rewarding tokens, or authentic data sharing.  
+_[:arrow_forward: More about UniknameID](/2-unikname-id)_
 
 **Organizations implement Unikname Connect to their website** to provide a really simple but strong authentication to their users. User's connections stay fully private and untraceable. Organizations may take benefits from the Unikname community, responsive to the respect of the privacy, by highlighting their solution. For this kind of organizations, Unikname Connect is also a new customer acquisition channel.  
 _[:arrow_forward: More about Unikname Connect](#unikname-connect-the-next-generation-authentication-solution)_
@@ -37,7 +37,7 @@ Unikname&trade; makes the internet safer and protect user's privacy thanks to Se
 
 :::tip Spelling convention
 **`Unikname`&trade;** with an uppercase `U` refers to the product and the brand. <br/>
-**`@unikname ID`** beginning with the `@` sign and lowercases refers to the name of the Identifier. <br/>
+**`UniknameID`** beginning with the `@` sign and lowercases refers to the name of the Identifier. <br/>
 **`My Unikname App`** refers to the name of the App
 :::
 
@@ -54,7 +54,7 @@ Unikname&trade; is an European next-generation authentication solution, password
 
 ### Privacy-by-design
 
-**User privacy comes first.** <brand name="UNC"/> is entirely built with the idea to keep user's connections private. Unikname does not collect any personal data (name, phone number, address, connection history...) at any time. The system will never use your @unikname identifier to trace your habits and behaviors on the Internet. 
+**User privacy comes first.** <brand name="UNC"/> is entirely built with the idea to keep user's connections private. Unikname does not collect any personal data (name, phone number, address, connection history...) at any time. The system will never use your UniknameIDentifier to trace your habits and behaviors on the Internet. 
 
 Our technology makes it possible to customized user experience and services without collecting user data. Most of data are stored on user's smartphone and fully controlled by the user himself, and no one else. 
 

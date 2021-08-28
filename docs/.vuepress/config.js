@@ -104,7 +104,7 @@ module.exports = {
         title: "@unikname Universal ID",
         //path: "/2-unikname-id/",
         children: [
-          ["/2-unikname-id/", "Getting started with @unikname ID"],
+          ["/2-unikname-id/", "Getting started with UniknameID"],
           [
             "/2-unikname-id/howto-install-my-unikname-app",
             "How to install my Unikname App?",
@@ -126,7 +126,7 @@ module.exports = {
 
           [
             "/2-unikname-id/can-i-get-uniknameid-for-free",
-            "Can I get my @unikname ID for free?",
+            "Can I get my UniknameID for free?",
           ],
           ["/2-unikname-id/why-to-pay-short-id", "Why to pay for short ID?"],
           [

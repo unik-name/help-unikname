@@ -14,6 +14,6 @@ next: false
 
 <hpicture caption="Your @unikname properties">![unikname-properties](./images/unikname-properties.png)</hpicture>
 
-You can see your @unikname identifiers status, the number of UNIK you earned and your @unikname identifier's properties.
+You can see your UniknameIDentifiers status, the number of UNIK you earned and your UniknameIDentifier's properties.
 
 
