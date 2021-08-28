@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-# How to get your own UniknameIDentifier?
+# How to get your own Unikname IDentifier?
 
 :::warning Prerequisite
 :heavy_check_mark: You've already installed My Unikname App on your smartphone.
@@ -32,13 +32,15 @@ Your UniknameID is unique, persistent, and personal. You can choose a pseudo, yo
 :::
 
 To get a scarce name, shorter than 15 chars, you can:
-* use a PROMOTIONAL COUPON CODE.
-* bought it with USD or crypto
+* use a PROMOTIONAL COUPON CODE or a Pre-paid VOUCHER.
+* bought it with USDC or crypto
 * exchange network credits ($UNIK), if you own some
 
 <hpicture>![chooseUnikname](./images/unik-pricelist.png)</hpicture>
 
-:::danger For readers of this help center we offer a PREMIUM 8 char length with the coupon code `UNIK8DOC2020`
+:::tip Look for a coupon code?
+
+If you're looking for a PREMIUM Coupon code, you can ask if there's some promotionnal offer on our [Discord server](https://join-discord.unikname.network/).
 :::
 
 Choose your UniknameID on the following screen:
@@ -50,17 +52,17 @@ Once your UniknameID has been created you won't be able to change it.
 You get it one time for all.
 :::
 
-If it's a 14 characters long or more then confirm to go to the last step. If it's a scarce one, a shorter than 15 characters, you can check its price within the price list, then confirm.
+If it's a 15 characters long or more then confirm to go to the last step. If it's a scarce one, a shorter than 15 characters, you can check its price within the price list, then confirm.
 
 <hpicture noshadow caption="Exemple with @Marty.McFly-2015 and @Marty.Mc">![chooseUnikname](./images/gun-freemium-vs-premium.png)</hpicture>
 
 ## Create you UniknameID one time for all
 
-Once done you still have to create definitively your ID by rooting it in the global <brand name="uns"/>. It takes less than 10s.
+Once done you still have to create definitively your Decentralized ID by rooting it in the global <brand name="uns"/>. It takes less than 10s.
 
-<hpicture>![get ready](./images/gunprocess2.gif)</hpicture>
+<hpicture>![get ready](./images/gunprocess-build.png)</hpicture>
 
-:::tip privacy-by-design
+:::tip Privacy-by-design
 
 Nobody else than you and the people with who you've decided to share it knows the <unid/> you've chosen. You may decide to disclose it publicly latter, but it will be your choice and under your sole control.
 :::
