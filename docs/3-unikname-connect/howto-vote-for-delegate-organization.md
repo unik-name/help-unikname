@@ -52,7 +52,7 @@ uns delegate:vote "@organization:SpaceElephant"
 ```
 > NOTA: replace `SpaceElephant` by the delegate you've chosen.
 
-The CLI ask you for your passphrase. Then enter the passphrase of the cryptoaccount of your @unikname ID of type Organization, not your individual one.
+The CLI ask you for your passphrase. Then enter the passphrase of the cryptoaccount of your UniknameID of type Organization, not your individual one.
 
 The CLI outcome confirms your transaction.
 

@@ -1,6 +1,6 @@
 <template>
   <span>
-    <span v-if="label">@unikname ID: </span>
+    <span v-if="label">UniknameID: </span>
     <span class="unikname"><a :href="href()">{{ id }}&nbsp;&nbsp;<img src="/chainlink.svg" /></a></span>
   </span>
 </template>

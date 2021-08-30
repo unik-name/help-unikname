@@ -1,8 +1,8 @@
 ---
 home: false
-title: "How to get a freemium @unikname ID?"
+title: "How to get a freemium UniknameID?"
 ---
 
-# How to get a freemium @unikname ID?
+# How to get a freemium UniknameID?
 
 _coming soon_

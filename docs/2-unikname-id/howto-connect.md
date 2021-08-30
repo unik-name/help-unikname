@@ -8,7 +8,7 @@ next: false
 :::warning Prerequisite
 :heavy_check_mark: You've already installed My Unikname App on your smartphone.
 <hbox>_See [How to install my Unikname App?](./howto-install-my-unikname-app)_</hbox>
-:heavy_check_mark: You've got your own @unikname Identifier.
+:heavy_check_mark: You've got your own UniknameIDentifier.
 <hbox>_See [How to get your @unikname?](./howto-get-individual-unikname)_</hbox>
 :::
 
@@ -30,7 +30,7 @@ If you already have an account on the website you want to login:
 
 <hpicture noshadow>![ConnectWebsite](./images/forumheader-signuplogin.png)</hpicture>
 1. click on the login button
-1. enter your @unikname ID
+1. enter your UniknameID
 1. open `my unikname App` on your smartphone
 1. unlock the app with your PIN code or your fingerprint
 1. click on validate the connection request

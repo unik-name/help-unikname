@@ -131,7 +131,7 @@ You can also fine-tune the style options of the Unikname Connect buttons:
 
 **All done!**
 
-New users are now able to use their @unikname ID to sign-up to your Wordpress website.
+New users are now able to use their UniknameID to sign-up to your Wordpress website.
 
 <hseparator/>
 

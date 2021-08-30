@@ -92,7 +92,7 @@ App settings are limited, you're invited to enable notifications and to subscrib
 :::tip Privacy-by-design
 The stay tuned email is stored in a self-hosted, dedicated, and highly secure private server. This eMail is only required for private communication between you and the Unikname team. It is not shared with a third-party. 
 
-Your eMail is not linked with your @unikname ID nor any other information.
+Your eMail is not linked with your UniknameID nor any other information.
 :::
 
 **All done!** 

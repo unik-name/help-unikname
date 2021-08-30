@@ -1,5 +1,5 @@
 <template>
-    <span class="uniknameid">@unikname ID</span>
+    <span class="uniknameid">UniknameID</span>
 </template>
 
 <script>

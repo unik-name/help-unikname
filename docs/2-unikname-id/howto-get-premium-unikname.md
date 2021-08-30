@@ -1,9 +1,9 @@
 ---
 next: false
 home: false
-title: "How to get a premium @unikname ID?"
+title: "How to get a premium UniknameID?"
 ---
 
-# How to get a premium @unikname ID?
+# How to get a premium UniknameID?
 
 _coming soon_
