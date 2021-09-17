@@ -1,5 +1,10 @@
 ---
 home: false
+tags:
+  - CLI
+  - Command line interface
+  - Command line interface CLI
+  - installation
 ---
 
 ::: warning
