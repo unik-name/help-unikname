@@ -84,11 +84,11 @@ module.exports = {
     activeHeaderLinks: true,
     sidebarDepth: 0,
     nav: [
-      {
-        text: "Join the Whitelist",
-        link:
-          "https://hub.unikname.network/whitelist?mtm_campaign=Whitelist&mtm_source=helpcenter",
-      },
+      // {
+      //   text: "Join the Whitelist",
+      //   link:
+      //     "https://hub.unikname.network/whitelist?mtm_campaign=Whitelist&mtm_source=helpcenter",
+      // },
       { text: "Go to website", link: "https://www.unikname.com" },
       { text: "Get the App", link: "https://my.unikname.app" },
     ],
